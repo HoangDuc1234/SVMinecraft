@@ -1,0 +1,7 @@
+MummyRandomSpawn:
+  
+  MobType: Mummy
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE

@@ -1,0 +1,60 @@
+Mummy:
+  Type: Husk
+  Display: 'Mummy'
+  Health: 62
+  Damage: 24
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAzMDdmNDkzZmRkYTc2ODU4ZTVkYWE1MTFlM2ZkYjRiN2VkMjQxZjdkM2E3YTIyNjU2ZWQ1YzZiYWNiZjUyIn19fQ==} HEAD
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 10
+    KnockbackResistance: 0.9
+    MaxCombatDistance: 25
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventOtherDrops: false
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 3 lookatplayers
+  - 4 randomstroll
+  DamageModifiers:
+  - LAVA 1
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 1
+  - ENTITY_ATTACK 1
+  - FREEZE 1
+  - FALL 1
+  - THORNS 1
+  - WITHER 1
+  - DRAGON_BREATH 1
+  - POISON 1
+  - LIGHTNING 1
+  - ENTITY_EXPLOSION 1
+  - BLOCK_EXPLOSION 1
+  - DROWNING 1
+  - PROJECTILE 1
+  - MAGIC 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Drops:
+  - exp 3 0.4
+  - exp 3 0.4
+  - exp 3 0.4
+  - exp 3 0.2
+  - exp 3 0.1
+  Skills:
+  - skill{s=SmashAttack} @self ~onTimer:300 0.16
+  - throw{velocity=15;velocityY=0} @target ~onAttack 1
+  - sound{s=entity.husk.ambient;p=0.7} @self ~onTimer:120 0.7
+  - sound{s=entity.husk.hurt;p=0.7} @self ~onDamaged
+  - sound{s=entity.husk.ambient;p=0.7} @self ~onDeath

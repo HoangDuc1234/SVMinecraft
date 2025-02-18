@@ -1,0 +1,23 @@
+NightWraithRandomSpawn:
+  
+  MobType: NightWraith
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE
+
+NoonWraithRandomSpawn:
+  
+  MobType: NoonWraith
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE
+
+IceWraithRandomSpawn:
+  
+  MobType: IceWraith
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE

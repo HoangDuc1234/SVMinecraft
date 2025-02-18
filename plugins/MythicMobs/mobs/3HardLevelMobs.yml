@@ -1,0 +1,325 @@
+Foglet:
+  Type: Husk
+  Display: '&7&lFoglet'
+  Health: 70
+  Damage: 16
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 35
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.5
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Disguise: player &3Foglet setSkin Pewils setNameVisible false
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 1 meleeattack
+  - 3 lookatplayers
+  AITargetSelectors:
+  - players
+  DamageModifiers:
+  - LAVA 1.4
+  - FIRE_TICK 1.3
+  - FIRE 1.3
+  - HOT_FLOOR 1.2
+  - ENTITY_ATTACK 1.4
+  - FREEZE 1
+  - FALL 1
+  - THORNS 1
+  - WITHER 1
+  - DRAGON_BREATH 1
+  - POISON 1
+  - LIGHTNING 1
+  - ENTITY_EXPLOSION 1
+  - BLOCK_EXPLOSION 1
+  - DROWNING 1
+  - PROJECTILE 1
+  - MAGIC 1 
+  Drops:
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.2
+  - exp 6 0.1
+  Skills:
+  - skill{s=FogletInvisible} @Self ~onDamaged 0.07
+  - sound{s=entity.phantom.ambient;p=0} @self ~onTimer:120 0.7
+  - sound{s=item.honey_bottle.drink;p=0} @self ~onTimer:120 0.7
+  - sound{s=entity.guardian.hurt;p=2} @self ~onDamaged
+  - sound{s=entity.guardian.death;p=0.7} @self ~onDeath
+  - sound{s=entity.guardian.death;p=0} @self ~onDeath
+  - sound{s=entity.blaze.death;p=2} @self ~onDeath
+  
+Displacer:
+  Type: WITHER_SKELETON
+  Display: '&5Displacer'
+  Health: 100
+  Damage: 26
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFiNjRiYjRkYTA2MjA4MWYwNmY2ODFmYTE5ZGJmMzZkNWI4OWQ2OTVmZmMyYThhNmNkNzAyOWQyZjZiYzI4NyJ9fX0=} HEAD
+  - Netherite_Chestplate CHEST
+  - Netherite_Leggings LEGS
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 60
+    KnockbackResistance: 0.7
+    MaxCombatDistance: 10
+    MovementSpeed: 0.37
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 villagers
+  DamageModifiers:
+  - LAVA -0.4
+  - FIRE_TICK 0.1
+  - FIRE -0.1
+  - HOT_FLOOR 1
+  - ENTITY_ATTACK 0.4
+  - FREEZE 1
+  - FALL 1
+  - THORNS 1
+  - WITHER 1
+  - DRAGON_BREATH 1
+  - POISON 1
+  - LIGHTNING 1
+  - ENTITY_EXPLOSION 1
+  - BLOCK_EXPLOSION 1
+  - DROWNING 1
+  - PROJECTILE 0.8
+  - MAGIC 1.4
+  Drops:
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.2
+  - exp 6 0.1
+  - Ender_Pearl 0-15 0.9
+  Skills:
+  - skill{s=DisplacerTeleport} @Self ~onDamaged
+  - skill{s=DisplacerTargetShift} @Self ~onTimer:120 0.8
+  - potion{type=CONFUSION;duration=100;level=0} @PIR{r=30} ~onTimer:140
+  - sound{s=entity.piglin_brute.ambient;p=0.3;v=1} @self ~onTimer:180 0.6
+  - sound{s=entity.piglin.jealous;p=0;v=1} @self ~onTimer:270 0.33
+  - sound{s=entity.player.breath;p=0.8;v=1} @self ~onDamaged 0.4
+  - sound{s=entity.zombie_horse.hurt;p=0;v=1} @self ~onDamaged
+  - sound{s=entity.zoglin.step;p=1;v=1} @self ~onDamaged 0.96
+  - sound{s=entity.glow_squid.hurt;p=0;v=1} @self ~onDamaged
+  - sound{s=entity.guardian.death;p=1;v=1} @self ~onDeath
+  - sound{s=entity.zombie.infect;p=0;v=1} @self ~onDeath
+  - sound{s=entity.glow_squid.death;p=0.3;v=1} @self ~onDeath
+  - sound{s=entity.endermite.death;p=0;v=1} @self ~onDeath
+  - effect:particles{particle=SMOKE;amount=30;hS=2;vS=2;speed=0.03} @self ~onDamaged 0.93
+
+Leecher:
+  Type: Wither_Skeleton
+  Modules:
+    ThreatTable: true
+  Display: 'Leecher'
+  Health: 62
+  Damage: 16
+  Skills:
+  - potion{type=REGENERATION;duration=200;level=0} @self ~onTimer:1200
+  - skill{s=LifeSuck} @Self ~onAttack 0.8
+  - sound{s=ui.cartography_table.take_result;p=1.5} @Self ~onEnterCombat
+  - sound{s=block.beehive.work;p=1.5} @Self ~onEnterCombat
+  - sound{s=block.beehive.work;p=0} @Self ~onEnterCombat 0.3
+  Options:
+    MovementSpeed: 0.33
+    FollowRange: 25
+    MaxCombatDistance: 4
+    Invisible: false
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: false
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 3 lookatplayers
+  - 4 randomstroll
+  Drops:
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.2
+  - exp 6 0.1
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  DamageModifiers:
+  - LAVA 1
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 1
+  - ENTITY_ATTACK 0.8
+  - FREEZE 1
+  - FALL 1
+  - THORNS 1
+  - WITHER 1
+  - DRAGON_BREATH 1
+  - POISON 1
+  - LIGHTNING 1
+  - ENTITY_EXPLOSION 1
+  - BLOCK_EXPLOSION 1
+  - DROWNING 1
+  - PROJECTILE 1
+  - MAGIC 1.3
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI0YzljZTVjYmYwODVhYTc0NWY5MjA4NGMwN2NhMWVlYjRmODMwNGMzNDI0MGMwZTViMzRjM2Y1MTZhY2E2MiJ9fX0=} HEAD
+  - Netherite_Chestplate CHEST
+
+JungleShaman(TribesmanGroupSpawn):
+  Type: Husk
+  Display: 'Shaman'
+  Health: 20
+  Damage: 10
+  Equipment:
+  - BAMBOO HAND
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJhOTFmZGUxMjlhOGYxMzI3NDdmYzA1MTg4OWQ0MTg5YTFkMDUxMWU3MjY2ZDNhZWQ1Nzg4MjAxN2VjMDkzZCJ9fX0=} HEAD
+  - Leather_Chestplate{color=BROWN} CHEST
+  - Leather_Leggings{color=BROWN} LEGS
+  - Leather_Boots{color=BLACK} FEET
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 35
+    KnockbackResistance: 0.5
+    MaxCombatDistance: 25
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Drops:
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.4
+  - exp 6 0.2
+  - exp 6 0.1
+  Skills:
+  - arrowvolley{a=25;s=250;v=25;f=100;rd=100} @PIR{r=10} ~onTimer:100 0.48
+  - arrowvolley{a=3;s=30;v=15;f=0;rd=60} @PIR{r=10} ~onTimer:40 0.73
+  - summon{type=Tribesman;amount=3-5;r=7} @Self ~onSpawn
+  - skill{s=SmashAttack} @self ~onTimer:300 0.16
+  - skill{s=BUG_DP_Orc-Knight_Attack} @self ~onDamaged 0.34
+  - skill{s=BUG_DP_Orc-Knight_Attack-Heavy-Hit} @self ~onAttack 1
+  - sound{s=entity.illusioner.ambient;p=1.2} @self ~onTimer:120 0.7
+  - sound{s=entity.illusioner.hurt;p=1.2} @self ~onDamaged
+  - sound{s=entity.illusioner.death;p=1.2} @self ~onDeath
+
+Tribesman:
+  Type: Husk
+  Display: 'Tribesman'
+  Health: 20
+  Damage: 10
+  Equipment:
+  - IRON_SWORD HAND
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJhOTFmZGUxMjlhOGYxMzI3NDdmYzA1MTg4OWQ0MTg5YTFkMDUxMWU3MjY2ZDNhZWQ1Nzg4MjAxN2VjMDkzZCJ9fX0=} HEAD
+  - Leather_Chestplate{color=BROWN} CHEST
+  - Leather_Leggings{color=BROWN} LEGS
+  - Leather_Boots{color=BROWN} FEET
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 35
+    KnockbackResistance: 0.5
+    MaxCombatDistance: 25
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - skill{s=SwirlSwordAttack} @self ~onDamaged 0.43
+  - skill{s=SmashAttack} @self ~onTimer:300 0.16
+  - skill{s=BUG_DP_Orc-Knight_Attack} @self ~onDamaged 0.34
+  - skill{s=BUG_DP_Orc-Knight_Attack-Heavy-Hit} @self ~onAttack 1
+  - sound{s=entity.vindicator.ambient;p=1.3} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=1.3} @self ~onDeath
+  Drops:
+  - exp 5 0.4
+  - exp 5 0.4
+  - exp 5 0.4
+  - exp 5 0.2
+  - exp 5 0.1
+Bogwalker:
+  Type: Zombie
+  Display: 'Bogwalker'
+  Health: 20
+  Damage: 10
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5MzcyNDFjYzJlZDk2MDczOWY0NzcxYjcyNTNhMTI2MTQ2YTY5ODcwNGRjMzgzYzY2MDFhMTc1ZDVkYzVkYiJ9fX0=} HEAD
+  Options:
+    LockPitch: true
+    AgeLock: true
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 10
+    KnockbackResistance: 0.5
+    MaxCombatDistance: 25
+    MovementSpeed: 0.25
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Skills:
+  - skill{s=SwirlSwordAttack} @self ~onDamaged 0.43
+  - skill{s=SmashAttack} @self ~onTimer:300 0.16
+  - skill{s=BUG_DP_Orc-Knight_Attack} @self ~onDamaged 0.34
+  - skill{s=BUG_DP_Orc-Knight_Attack-Heavy-Hit} @self ~onAttack 1
+  - sound{s=entity.vindicator.ambient;p=1.3} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=1.3} @self ~onDeath
+  Drops:
+  - exp 5 0.4
+  - exp 5 0.4
+  - exp 5 0.4
+  - exp 5 0.2
+  - exp 5 0.1

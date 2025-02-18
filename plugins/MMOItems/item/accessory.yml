@@ -1,0 +1,6 @@
+IG1:
+  base:
+    material: STONE
+    enchants:
+      mending: 1.0
+    name: '&a&lĐổi ĐỒ &c&lLv10'

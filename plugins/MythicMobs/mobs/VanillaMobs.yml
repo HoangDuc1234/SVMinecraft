@@ -1,0 +1,12 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+WITHER_SKELETON:
+  Health: 200
+  Damage: 5
+GIANT:
+  Health: 1000
+  Damage: 20
+  Skills:
+  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack

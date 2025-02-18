@@ -1,0 +1,39 @@
+TrollHordeRandomSpawn:
+  
+  Type: TrollHordeSpawn
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE
+   
+TrollRandomSpawn:
+  
+  Type: Troll
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE
+    
+PixieRandomSpawn:
+  
+  Type: Pixie
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE
+    
+LichRandomSpawn:
+  
+  Type: Lich
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE
+  
+SandSpiritRandomSpawn:
+  
+  Type: SandSpirit
+  Worlds: world
+  Chance: 0.008
+  Priority: 1
+  Action: REPLACE

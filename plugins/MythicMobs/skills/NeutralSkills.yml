@@ -1,0 +1,46 @@
+TorchBug_Day:
+ Conditions:
+  - dawn true
+ Skills:
+  - remove @self ~onTimer:1
+DeathOnNight:
+ Conditions:
+  - night true
+ Skills:
+  - remove @self ~onTimer:1
+PuffOfMatter:
+   Skills:
+    - delay 5
+    - sound{s=block.beacon.activate;p=0;v=1} @Self
+    - effect:particles{particle=glow_squid_ink;amount=60;hS=.1;vS=0.1;speed=0.5} @self
+    - effect:particles{particle=squid_ink;amount=60;hS=.1;vS=0.1;speed=0.5} @self
+    - damage{amount=5;ignorearmor=true} @LivingEntitiesInRadius{r=5}
+    - throw{velocity=12;velocityY=7} @LivingEntitiesInRadius{r=5}
+FlufferRoll:
+   Skills:
+    - delay 5
+    - sound{s=entity.ender_dragon.flap;p=1.5;v=1} @Self
+    - delay 10
+    - effect:particle{particle=ELECTRIC_SPARK;amount=1;hS=0.30;vS=0.2;speed=0;repeat=50;repeatInterval=2} @Rectangle
+    - throw{velocity=15;velocityY=8;;repeat=50;repeatInterval=2} @LivingEntitiesInRadius{r=3}
+    - delay 2
+    - potion{type=INVISIBILITY;duration=100;level=20;p=false} @Self
+    - potion{type=SPEED;duration=100;level=4;p=false} @Self
+SpiritWeakDeath:
+ Skills:
+  - delay 600
+  - damagepercent{percent=1} @self
+LightSkill:
+ Conditions:
+ - blocktype{type=air} true
+ Skills:
+  - effect:blockmask{m=LIGHT;r=0;d=10;onlyair=true} @Forward{f=0;y=2}
+  - effect:blockmask{m=LIGHT;r=0;d=10;onlyair=true} @Forward{f=0;y=1}
+VinelithHeal:
+ Skills:
+  - heal{amount=1} @Trigger
+  - damage{amount=2;ignoreArmor=true} @Self
+  - playanimation{a=4} @Self
+  - sound{s=entity.player.hurt_sweet_berry_bush;p=0.8;v=1} @self
+  - effect:particle{particle=HEART;amount=5;hS=0.6;vS=2;speed=0} @Trigger
+  

@@ -1,0 +1,92 @@
+CursedStatue:
+  Type: Zombie
+  Display: 'Cursed Statue'
+  Health: 30
+  Damage: 100
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMwZWVjMGUwY2JiNDQ1MTE0MDcxYzlmZTAyMzdjMTZmY2MzMGU4OWFkOGU3OTQ1ZWVmMTcxZDc5NTJiMTMyZSJ9fX0=} HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
+  Disguise: armorstand
+  Options:
+    Collidable: false
+    Despawn: false
+    AlwaysShowName: false
+    FollowRange: 20
+    Invincible: true
+    KnockbackResistance: 0
+    MaxCombatDistance: 2
+    LockPitch: true
+    MovementSpeed: 0
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - HOT_FLOOR 0
+  - ENTITY_ATTACK 0
+  - FREEZE 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE 0
+  - MAGIC 0
+  Skills:
+  - sudoskill{s=StatueMoveTriggerAt;cat=true} @PIR{r=30} ~onTimer:1
+  - sudoskill{s=StatueMoveTriggerAway;cat=true} @PIR{r=30} ~onTimer:1
+
+SculkTracker:
+  Type: Zombie
+  Display: '&3Harbinger'
+  Health: 7
+  Damage: 0
+  Equipment:
+  Disguise: player &3Tracker setSkin oriondisease setNameVisible false
+  Options:
+    Collidable: false
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 4
+    Invincible: false
+    KnockbackResistance: 1
+    MaxCombatDistance: 20
+    LockPitch: true
+    MovementSpeed: 0.01
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - lookatplayers{r=2}
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - sound{s=block.sculk_shrieker.break;p=1.5} @Self ~onDamaged
+  - sound{s=block.sculk_shrieker.shriek;p=0.5} @Self ~onEnterCombat
+  - look{headOnly=false;immediately=false} @Target ~onTimer:20
+  - skill{s=SculkAlert} @Self ~onEnterCombat

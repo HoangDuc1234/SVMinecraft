@@ -1,0 +1,55 @@
+SpiritWeak:
+  Type: PIGLIN
+  Display: '&3Weak Spirit'
+  Health: 15
+  Damage: 10
+  Options:
+    Collidable: true
+    Despawn: true
+    FollowRange: 15
+    MaxCombatDistance: 50
+    MovementSpeed: 0.50
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: false
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFiMjM4ZWNlOGIwYjcwYjhhNDExZGY0Njk3ZWJlZGYzNDBkNTEwMDBkN2JhNWQ0ZTMwZmZmNDg3NDJmNmYxNiJ9fX0=} HEAD
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 avoidcreepers
+  - 3 gotoowner 7
+  AITargetSelectors:
+  - 0 clear
+  - 2 monsters
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL -12
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Skills:
+  - skill{s=SpiritWeakDeath} @self ~onSpawn
+  - effect:particles{p=firework;amount=100;hS=0.4;vS=1;speed=0.05} @self ~onSpawn
+  - effect:particles{p=firework;amount=500;hS=0.4;vS=1;speed=0} @self ~onDeath
+  - potion{type=INVISIBILITY;duration=240;level=20;p=false} @Self ~onTimer:5
+  - effect:particle{particle=cloud;amount=2;hS=0.15;vS=0.15} @SelfLocation{y=1} ~onTimer:40 0.2
+  - effect:particle{particle=warped_spore;amount=1;hS=0.2;vS=0.2} @SelfLocation{y=1} ~onTimer:1 0.9
+  - effect:particle{particle=effect;amount=7;hS=0.3;vS=0.5} @SelfLocation{y=0.5} ~onTimer:1
+  - sound{s=entity.vex.ambient;p=0.8} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.8} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.8} @self ~onDeath

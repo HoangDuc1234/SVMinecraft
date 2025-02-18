@@ -1,0 +1,134 @@
+FrostLifesteal:
+    Skills:
+    - freeze{ticks=60} @Self
+    - summon{type=FrostFlameDefault;amount=1-2;radius=5}
+    - delay 5
+    - summon{type=FrostFlameDefault;amount=0-1;radius=5} 0.2 
+    - delay 5
+    - summon{type=FrostFlameDefault;amount=1-2;radius=5} 0.04
+    - delay 5
+    - summon{type=FrostFlameDefault;amount=0-1;radius=5} 0.3
+    - delay 5
+    - summon{type=FrostFlameDefault;amount=0-1;radius=5} 0.4
+    - delay 5
+    - summon{type=FrostFlameDefault;amount=0-1;radius=5} 0.2
+    - delay 40
+    - jump{velocity=2}
+    - delay 30
+    - freeze{ticks=640} @Self
+    - setAI{ai=false} @self
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=5} @MobsInRadius{type=FrostFlameDefault;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=30;h=5} @MobsInRadius{type=FrostFlameDefault;r=300}
+    - setAI{ai=true} @self
+
+FrostFlameSkillDefault:
+    Skills:
+    - delay 95
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=8}
+    - consume{d=2;h=4} @NearestPlayer{r=8}
+    - damage{a=120} @Self
+FrostFlameSkillNaturalSpawn:
+    Conditions:
+    Skills:
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=9}
+    - effect:particleline{particle=cloud;amount=5;fromOrigin=false} @NearestPlayer{r=9}
+    - effect:particleline{particle=glow_squid_ink;amount=5;fromOrigin=false} @NearestPlayer{r=9}
+    - consume{d=4;h=4} @NearestPlayer{r=9}
+SnowShower:
+  Cooldown: 1
+  Skills:
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=20}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}
+  - delay 10
+  - shoot{type=SNOWBALL;velocity=3;md=100} @PlayersInRadius{r=30}

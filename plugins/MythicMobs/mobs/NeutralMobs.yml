@@ -1,0 +1,235 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+TorchBug_Swarm:
+ Display: Torchbug Swarm
+ Type: BEE
+ Health: 5
+ Damage: 10
+ Skills:
+  - potion{type=INVISIBILITY;duration=40;level=20;p=false} @Self ~onTimer:1
+  - effect:particle{particle=ELECTRIC_SPARK;amount=15;hS=0.2;vS=0.2} @self ~onTimer:2
+  - summon{type=TorchBug;amount=0-3;radius=0;itt=true} @PIR{r=20} @Self ~onDamaged
+  - effect:particle{particle=Firework;amount=20;hS=0.2;vS=0.2} @self ~onDeath
+  - summon{type=TorchBug;amount=0-2;radius=0;itt=true} @PIR{r=20} @Self ~onDeath
+  - skill{s=TorchBug_Day} @Self ~onTimer:1
+ KillMessages:
+  - '<target.name> Was bitten to death by a swarm of torchbugs'
+  - '<target.name> Was killed by a torchbug swarm'
+  - '<target.name> Messed with a torchbug swarm'
+ Options:
+  PreventRandomEquipment: true
+  PreventOtherDrops: true
+  Silent: false
+  Invisible: true
+ Modules:
+    ThreatTable: true
+ AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 2 meleeattack
+ Drops:
+ - exp 1 0.4
+ - exp 1 0.2
+ - exp 1 0.1
+  
+TorchBug:
+ Display: Torchbug
+ Type: BEE
+ Health: 3
+ Damage: 2
+ Skills:
+  - potion{type=INVISIBILITY;duration=40;level=20;p=false} @Self ~onTimer:1
+  - effect:particle{particle=ELECTRIC_SPARK;amount=1;hS=0;vS=0} @self ~onTimer:1
+  - effect:particle{particle=Firework;amount=1;hS=0;vS=0} @self ~onDeath
+  - skill{s=TorchBug_Day} @Self ~onTimer:1
+ KillMessages:
+  - '<target.name> Was bitten by an torchbug'
+ Options:
+  PreventRandomEquipment: true
+  PreventOtherDrops: true
+  Silent: false
+  Invisible: true
+ Modules:
+    ThreatTable: true
+ AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 2 meleeattack
+ Drops:
+ - exp 1 0.1
+
+Massive_TorchBug_Swarm:
+ Display: Massive Torchbug Swarm
+ Type: Ravager
+ Health: 20
+ Damage: 10
+ Skills:
+  - potion{type=INVISIBILITY;duration=40;level=20;p=false} @Self ~onTimer:1
+  - sound{s=minecraft:entity.bee.loop} @Self ~onTimer:280
+  - sound{s=minecraft:entity.bee.death} @Self ~onDeath
+  - sound{s=minecraft:entity.bee.hurt} @Self ~onDamaged
+  - effect:particle{particle=ELECTRIC_SPARK;amount=300;hS=1;vS=1} @SelfLocation{y=1.0} ~onTimer:2
+  - summon{type=TorchBug;amount=3-12;radius=0.3;itt=true} @PIR{r=20} @Self ~onDamaged
+  - effect:particle{particle=Firework;amount=100;hS=1;vS=1} @SelfLocation{y=1.0} ~onDeath
+  - summon{type=TorchBug_Swarm;amount=1-3;radius=0;itt=true} @PIR{r=20} @Self ~onDeath
+  - skill{s=TorchBug_Day} @Self ~onTimer:1
+ KillMessages:
+  - '<target.name> Was mauled by a Massive TorchBug Swarm'
+  - '<target.name> Found out why messing with a torchbug is a bad idea'
+  - '<target.name> Thought TorchBugs give honey'
+ Options:
+  PreventRandomEquipment: true
+  PreventOtherDrops: true
+  MovementSpeed: 0.02
+  Silent: True
+  Invisible: true
+ Modules:
+    ThreatTable: true
+ Drops:
+  - exp 6 0.8
+  - exp 5 0.7
+  - exp 5 0.6
+  - exp 3 0.3
+  - exp 3 0.1 
+  
+Wisp:
+  Type: Silverfish
+  Display: 'Wisp'
+  Health: 20
+  Damage: 10
+  Options:
+    Collidable: true
+    Despawn: true
+    FollowRange: 30
+    KnockbackResistance: 0.2
+    MaxCombatDistance: 50
+    MovementSpeed: 0.5
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    Invisible: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 4 randomstroll
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 monsters
+  Drops:
+  - exp 2 0.4
+  - exp 2 0.4
+  - exp 2 0.4
+  - exp 2 0.2
+  - exp 2 0.1
+  Skills:
+  - skill{s=PuffOfMatter} @Self ~onDamaged 0.34
+  - potion{type=INVISIBILITY;duration=40;level=20;p=false} @Self ~onTimer:1
+  - effect:particle{particle=glow;amount=5;hS=0.1;vS=0.1;speed=0} @Self ~onTimer:1
+  - effect:particle{particle=totem_of_undying;amount=1;hS=0.1;vS=0.1;speed=0} @Self ~onTimer:5
+  - effect:particle{particle=glow;amount=15;hS=3;vS=3;speed=0} @Target ~onAttack
+  - effect:particle{particle=end_rod;amount=6;hS=0.1;vS=0.1} @self ~onDeath
+  - sound{s=block.amethyst_block.chime;p=0.2;v=1} @self ~onTimer:140 0.73
+  - sound{s=block.amethyst_block.hit;p=2;v=1} @self ~onDamaged
+  - sound{s=block.amethyst_block.fall;p=0.1;v=1} @self ~onDamaged
+  - sound{s=block.beacon.deactivate;p=5;v=1} @self ~onDeath
+
+Fluffernox:
+  Type: Sheep
+  Display: 'Fluffernox'
+  Health: 22
+  Damage: 10
+  Options:
+    AlwaysShowName: false
+    Despawn: true
+    FollowRange: 30
+    KnockbackResistance: 0.2
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: false
+    Invisible: false
+  Modules:
+    ThreatTable: false
+  Drops:
+  - exp 2 0.4
+  - exp 2 0.2
+  - exp 2 0.1
+  Skills:
+  - skill{s=FlufferRoll} @self ~onDamaged 0.68 >10%
+  - effect:particle{particle=wax_off;amount=1;hS=0.22;vS=0.22;speed=0} @SelfLocation{y=0.9} ~onTimer:7
+
+Luminafox:
+  Type: FOX
+  Display: '&3Luminafox'
+  Health: 20
+  Damage: 8
+  Options:
+    Collidable: true
+    AlwaysShowName: false
+    Baby: true
+    AgeLock: true
+    Tameable: true
+    Despawn: true
+    FoxType: SNOW
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: false
+    Invisible: false
+  Drops:
+  - exp 2 1
+  - exp 5 0.4
+  - exp 6 0.2
+  - exp 2 0.1
+  Skills:
+  - skill{s=LightSkill} @self ~onTimer:2
+  - effect:particle{particle=firework;amount=1;hS=0.05;vS=0.05;speed=0} @Self ~onTimer:7
+
+Vinelith:
+  Type: PIGLIN
+  Display: '&2&lVinelith'
+  Health: 10
+  Damage: 0
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: false
+    FollowRange: 13
+    Invisible: true
+    KnockbackResistance: 0.85
+    MaxCombatDistance: 2
+    MovementSpeed: 0.15
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+  Equipment:
+  - Vinelith_EquipmentDropTable
+  - Leather_Chestplate{color=GREEN} CHEST
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Drops:
+  - exp 2 0.4
+  - exp 2 0.2
+  - exp 2 0.1
+  Skills:
+  - effect:particle{particle=spore_blossom_air;amount=500;hS=0.6;vS=0.6;speed=0} @SelfLocation{y=1} ~onDeath
+  - effect:particle{particle=falling_spore_blossom;amount=3;hS=0.09;vS=0.04;speed=0} @SelfLocation{y=0.75} ~onTimer:1
+  - effect:particle{particle=spore_blossom_air;amount=1;hS=0;vS=0.5;speed=0} @SelfLocation{y=0.9} ~onTimer:5
+  - skill{s=EquipmentRandom_Vinelith} @Self ~onSpawn
+  - skill{s=VinelithHeal} @Trigger ~onAttack 0.93
+  - sound{s=entity.allay.item_given;p=0.6;v=1} @self ~onTimer:140 0.63
+  - sound{s=block.azalea_leaves.step;p=0.6;v=1} @self ~onTimer:100 0.60
+  - sound{s=entity.allay.death;p=0.6} @self ~onDeath
+  - sound{s=block.azalea_leaves.break;p=0} @self ~onDeath

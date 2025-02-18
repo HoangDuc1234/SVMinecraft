@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 59.153.220.58
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739886540058
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739886573082
+  login: 1739884813681
+money: '0'
+last-account-name: HDuc
+logoutlocation:
+  world: f1dfaac1-0030-4702-b227-e3a04c5306b4
+  world-name: world
+  x: 381.6231265487579
+  y: 93.0
+  z: 16.009194218382255
+  yaw: 161.60877990722656
+  pitch: 13.447942733764648
+lastlocation:
+  world: f1dfaac1-0030-4702-b227-e3a04c5306b4
+  world-name: world
+  x: 383.55776047285684
+  y: 93.0
+  z: 14.487678325450691
+  yaw: -74.07171630859375
+  pitch: 46.32018280029297

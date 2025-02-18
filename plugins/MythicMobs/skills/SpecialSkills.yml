@@ -1,0 +1,969 @@
+SculkAlert:
+  Skills:
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+  - delay 40
+  - skill{s=SculkAlertJump} @Self
+SculkAlertJump:
+  Skills:
+  - delay 40
+  - jump{velocity=1}
+StatueMoveTriggerAway:
+  TriggerConditions:
+  - (fieldofview{angle=165} false || lineofsight false)
+  Skills:
+  - setAI{ai=true} @Trigger
+  - skill{s=StatueMove} @Trigger
+  - posearmorstand{head=7,2,9;leftarm=5,8,1;rightarm=4,3,6;leftleg=2,9,7;rightleg=1,5,8} @trigger 0.1
+  - posearmorstand{head=4,6,3;leftarm=9,1,5;rightarm=8,7,2;leftleg=3,4,6;rightleg=1,8,9} @trigger 0.1
+  - posearmorstand{head=1,8,3;leftarm=6,4,7;rightarm=5,2,9;leftleg=3,1,8;rightleg=7,6,4} @trigger 0.1
+  - posearmorstand{head=8,2,5;leftarm=3,9,4;rightarm=7,6,1;leftleg=2,8,5;rightleg=4,3,9} @trigger 0.1
+  - posearmorstand{head=6,4,2;leftarm=8,3,1;rightarm=9,5,7;leftleg=2,6,4;rightleg=1,8,3} @trigger 0.1
+  - posearmorstand{head=3,7,9;leftarm=2,4,5;rightarm=8,1,6;leftleg=9,3,7;rightleg=4,2,5} @trigger 0.1
+  - posearmorstand{head=5,2,1;leftarm=6,8,9;rightarm=4,7,3;leftleg=2,1,5;rightleg=8,6,9} @trigger 0.1
+  - posearmorstand{head=7,1,3;leftarm=2,4,9;rightarm=8,6,5;leftleg=3,7,1;rightleg=5,2,4} @trigger 0.1
+  - posearmorstand{head=9,3,6;leftarm=7,5,1;rightarm=4,2,8;leftleg=6,9,3;rightleg=1,7,5} @trigger 0.1
+  - posearmorstand{head=2,5,8;leftarm=6,3,4;rightarm=7,1,9;leftleg=8,2,5;rightleg=4,6,3} @trigger 0.1
+StatueMove:
+  Skills:
+  - setspeed{speed=4;type=walking} @Trigger
+StatueMoveTriggerAt:
+  TriggerConditions:
+  - fieldofview{angle=165} true
+  Skills:
+  - skill{s=StatueStill} @Trigger
+StatueStill:
+  Skills:
+  - setAI{ai=false} @Trigger
+  - setspeed{speed=0;type=walking} @Trigger
+
+SwirlSwordAttack:
+  Conditions:
+  - health{a=>0} true
+  Skills:
+  - sound{s=entity.player.attack.weak;p=1;v=1.5} @self
+  - delay 10
+  - effect:particles{p=cloud;amount=7;hS=0.9;vS=0.9;speed=0;yOffset=1;repeat=1;repeatInterval=5}
+  - effect:spin{duration=10;velocity=60} @self
+  - delay 10
+  - effect:particles{p=cloud;amount=7;hS=0.9;vS=0.9;speed=0;yOffset=1;repeat=1;repeatInterval=5}
+  - effect:particles{particle=sweep_attack;amount=6;hS=0.5;vS=0.2;speed=0;y=1} @Ring{r=1;points=5}
+  - damagepercent{percent=0.43} @PIR{r=2}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=2}
+DisplacerTeleport:
+  Cooldown: 3
+  Skills:
+  - sound{s=entity.evoker.prepare_attack;p=2} @self
+  - sound{s=block.bell.use;p=2} @self
+  - delay 10
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @self
+  - delay 5
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @self
+  - delay 3
+  - sound{s=block.end_gateway.spawn;p=0} @self
+  - sound{s=item.trident.return;p=0} @self
+  - delay 2
+  - sound{s=entity.shulker.teleport;p=0} @self
+  - sound{s=item.trident.riptide_3;p=2} @self
+  - effect:particles{p=SQUID_INK;amount=300;hS=1.5;vS=1.5;speed=0.01} @self
+  - teleport{spreadh=6;spreadv=0} @target
+  - delay 2
+  - effect:particles{p=SQUID_INK;amount=200;hS=1.3;vS=1.3;speed=0} @self
+  - delay 3
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @self
+DisplacerTargetShift:
+  Cooldown: 7
+  Conditions:
+  - playersinradius{r=16}
+  Skills:
+  - sound{s=entity.evoker.prepare_attack;p=2} @self
+  - sound{s=block.bell.use;p=0} @self
+  - delay 10
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @PIR{r=12}
+  - delay 5
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @PIR{r=12}
+  - delay 3
+  - sound{s=block.end_gateway.spawn;p=0} @PIR{r=12}
+  - sound{s=item.trident.return;p=0} @PIR{r=12}
+  - delay 2
+  - sound{s=entity.shulker.teleport;p=0} @PIR{r=12}
+  - sound{s=item.trident.riptide_3;p=2} @PIR{r=12}
+  - effect:particles{p=SQUID_INK;amount=500;hS=1.5;vS=1.5;speed=0.01} @PIR{r=12}
+  - teleportin{vector=2,0,1} @PIR{r=12} 0.3
+  - delay 1
+  - teleportin{vector=-2,0,4} @PIR{r=12} 0.3
+  - delay 1
+  - teleportin{vector=0,0,-5} @PIR{r=12} 0.3
+  - effect:particles{p=SQUID_INK;amount=200;hS=1.3;vS=1.3;speed=0} @PIR{r=12}
+  - delay 1
+  - teleportin{vector=8,0,4} @PIR{r=12} 0.3
+  - delay 1
+  - teleportin{vector=-5,0,-5} @PIR{r=12} 0.3
+  - effect:particles{p=SQUID_INK;amount=200;hS=1.3;vS=1.3;speed=0} @PIR{r=12}
+  - delay 1
+  - teleportin{vector=0,0,2} @PIR{r=12} 0.3
+  - delay 1
+  - teleportin{vector=-2,0,-7} @PIR{r=12} 0.3
+  - delay 1
+  - effect:particles{p=SQUID_INK;amount=200;hS=1.3;vS=1.3;speed=0} @PIR{r=12}
+  - delay 3
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @PIR{r=12}
+  - potion{type=CONFUSION;duration=200;level=20} @PIR{r=12}
+PenitentLifesteal:
+    Skills:
+    - freeze{ticks=60} @Self
+    - summon{type=PenitentLifeSteal;amount=1-2;radius=5}
+    - delay 5
+    - summon{type=PenitentLifeSteal;amount=0-1;radius=5} 0.2 
+    - delay 5
+    - summon{type=PenitentLifeSteal;amount=1-2;radius=5} 0.04
+    - delay 5
+    - summon{type=PenitentLifeSteal;amount=0-1;radius=5} 0.3
+    - delay 5
+    - summon{type=PenitentLifeSteal;amount=0-1;radius=5} 0.4
+    - delay 5
+    - summon{type=PenitentLifeSteal;amount=0-1;radius=5} 0.2
+    - delay 40
+    - jump{velocity=2}
+    - delay 30
+    - freeze{ticks=640} @Self
+    - setAI{ai=false} @self
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=3;h=10} @MobsInRadius{type=PenitentLifeSteal;r=225}
+    - effect:particles{p=Soul;amount=100;hS=2;vS=2;speed=0.1} @Self
+    - delay 60
+    - consume{d=30;h=5} @MobsInRadius{type=PenitentLifeSteal;r=300}
+    - setAI{ai=true} @self
+PenitentLifeStealSkill:
+    Skills:
+    - delay 95
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - delay 60
+    - effect:particleline{particle=spell;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @NearestPlayer{r=12}
+    - consume{d=10;h=4} @NearestPlayer{r=12}
+    - damage{a=120} @Self
+WraithTeleporting:
+  Cooldown: 15
+  Skills:
+  - sound{s=entity.evoker.prepare_attack;p=2} @self
+  - sound{s=block.bell.use;p=2} @self
+  - delay 10
+  - effect:particlesphere{p=reddust;color=#BE2000;amount=400;speed=0.1;hS=4;vS=4} @self
+  - delay 15
+  - effect:particles{p=SQUID_INK;amount=100;hS=1.3;vS=1.3;speed=0} @self
+  - delay 5
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @self
+  - delay 5
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @self
+  - delay 3
+  - sound{s=block.end_gateway.spawn;p=0} @self
+  - sound{s=item.trident.return;p=0} @self
+  - delay 2
+  - sound{s=entity.shulker.teleport;p=0} @self
+  - sound{s=item.trident.riptide_3;p=2} @self
+  - effect:particles{p=SQUID_INK;amount=300;hS=1.5;vS=1.5;speed=0.01} @self
+  - teleport{spreadh=5;spreadv=0} @target
+  - delay 2
+  - effect:particles{p=SQUID_INK;amount=200;hS=1.3;vS=1.3;speed=0} @self
+  - delay 3
+  - effect:particles{p=SQUID_INK;amount=150;hS=1.3;vS=1.3;speed=0} @self
+PenitentSphereAttack:
+  Skills:
+  - delay 20
+  - sound{s=entity.evoker.prepare_attack;p=2} @self
+  - effect:particles{p=reddust;color=#FFFFFF;amount=150;hS=0.4;vS=0.4}
+  - delay 40
+  - effect:particlesphere{p=reddust;color=#BE2000;amount=300;radius=3} @self
+  - sound{s=entity.iron_golem.repair;p=1} @self
+  - delay 7
+  - effect:particlesphere{p=reddust;color=#BE2000;amount=250;radius=2} @self
+  - sound{s=entity.iron_golem.repair;p=1.4} @self
+  - sound{s=entity.illusioner.prepare_blindness;p=2} @self
+  - delay 7
+  - effect:particlesphere{p=reddust;color=#BE2000;amount=225;radius=1.5} @self
+  - sound{s=entity.iron_golem.repair;p=1.6} @self
+  - delay 7
+  - effect:particlesphere{p=reddust;color=#BE2000;amount=225;radius=1.5} @self
+  - sound{s=block.end_gateway.spawn;p=1.5} @self
+  - sound{s=block.bell.use;p=1.4} @self
+  - effect:particles{p=reddust;color=#5c0f00;amount=200;hS=0.4;vS=0.4} @self
+  - sound{s=entity.iron_golem.repair;p=2} @self
+  - damage{amount=29;ignoreArmor=false} @PIR{r=2.7}
+  - delay 5
+  - throw{velocity=10;velocityY=4} @PIR{r=3}
+  - delay 40
+  - damage{amount=550;ignoreArmor=true} @Self
+PenitentHeavyAttack:
+  Cooldown: 10
+  Skills:
+  - leap{velocity=100} @target
+  - delay 40
+  - teleport{spreadh=2;spreadv=0.5} @target
+  - effect:particles{particle=smoke_normal;amount=8;hS=0.5;vS=0.5;speed=0;y=1;repeatInterval=15;repeat=2} @self
+  - sound{s=entity.elder_guardian.curse;p=0;v=2.0} @self
+  - sound{s=entity.evoker.prepare_attack;p=2} @self
+  - potion{type=SLOW;duration=50;level=9;force=true;hasParticles=false} @self
+  - delay 35
+  - sound{s=entity.enderman.teleport;p=0.6} @self
+  - sound{s=entity.shulker.teleport;p=0} @self
+  - sound{s=entity.player.attack.sweep;p=0} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - delay 5
+  - teleport{spreadh=1;spreadv=0} @target
+  - delay 2
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - delay 5
+  - skill{s=Penitent_Teleport_Hit;repeat=3;repeatInterval=10}
+
+Penitent_Teleport_Hit:
+  Conditions:
+  - health{a=>0} true
+  - targetwithin{d=4}
+  Skills:
+  - effect:particles{particle=sweep_attack;amount=2;hS=0.5;vS=0.2;speed=0;y=1.2} @self
+  - sound{s=entity.player.attack.weak;p=0.8;v=2} @self
+  - damage{amount=10} @target
+  - sound{s=entity.player.attack.crit;p=1;v=1} @target
+  - sound{s=entity.player.big_fall;p=0;v=1} @target
+  - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+
+FogletInvisible:
+  Cooldown: 10
+  Skills:
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - effect:particles{particle=cloud;amount=500;speed=0;hS=1;vS=1} @Self
+  - potion{type=INVISIBILITY;duration=400;level=5}
+  - delay 5
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 10
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - effect:particles{particle=cloud;amount=400;speed=0.3;hS=4;vS=4} @Self
+  - delay 20
+  - effect:particles{particle=cloud;amount=500;speed=0;hS=1;vS=1} @Self
+  
+FiendLeapAttack:
+  Skills:
+  - look{headOnly=false;immediately=true} @Target
+  - lunge{velocity=5;velocityY=0.2} @Target
+  - delay 10
+  - damage{amount=5} @PIR{r=5}
+  - delay 5
+  - throw{velocity=20;velocityY=4} @PlayersInRadius{r=5}
+
+RootStab:
+   Skills:
+    - effect:particles{p=reddust;color=#FFFFFF;amount=100;hS=0.5;vS=0.2;speed=0.04}
+    - delay 10
+    - effect:particles{p=reddust;color=#FFFFFF;amount=100;hS=0.5;vS=0.2;speed=0.04}
+    - delay 10
+    - effect:particles{p=reddust;color=#FFFFFF;amount=100;hS=0.5;vS=0.2;speed=0.04}
+    - effect:particles{p=reddust;color=#FF0000;amount=50;hS=0.2;vS=0.2;speed=0.04}
+    - delay 10
+    - effect:particles{p=reddust;color=#3E2809;amount=50;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#487C16;amount=5;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#7F4B0A;amount=70;hS=0.1;vS=0.2}
+    - sound{s=block.hanging_roots.break;p=0}
+    - delay 1
+    - effect:particles{p=reddust;color=#3E2809;amount=50;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#487C16;amount=5;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#7F4B0A;amount=50;hS=0.1;vS=0.4}
+    - delay 1
+    - effect:particles{p=reddust;color=#7F4B0A;amount=60;hS=0.1;vS=0.6}
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 1
+    - effect:particles{p=reddust;color=#7F4B0A;amount=65;hS=0.1;vS=0.8}
+    - delay 1
+    - effect:particles{p=reddust;color=#3E2809;amount=50;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#487C16;amount=5;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#7F4B0A;amount=70;hS=0.1;vS=1.0}
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 1
+    - effect:particles{p=reddust;color=#7F4B0A;amount=75;hS=0.1;vS=1.2}
+    - delay 1
+    - effect:particles{p=reddust;color=#7F4B0A;amount=80;hS=0.1;vS=1.4}
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 1
+    - effect:particles{p=reddust;color=#3E2809;amount=50;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#487C16;amount=5;hS=0.2;vS=0.1;speed=0}
+    - effect:particles{p=reddust;color=#7F4B0A;amount=85;hS=0.1;vS=1.6}
+    - delay 1
+    - effect:particles{p=reddust;color=#7F4B0A;amount=90;hS=0.1;vS=1.8}
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 1
+    - effect:particles{p=reddust;color=#7F4B0A;amount=95;hS=0.1;vS=2.0}
+    - delay 5
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 5
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 5
+    - damage{amount=18;ignoreArmor=false} @PIR{r=1.5}
+    - delay 20
+    - damage{amount=550;ignoreArmor=true} @Self
+LavaLeap:
+   Skills:
+    - freeze{ticks=300} @Self
+    - setAI{ai=false} @self
+    - effect:geyser{type=LAVA;height=5;speed=5} @Ring{radius=10;points=50}
+PuffOfAir:
+   Skills:
+    - effect:particles{particle=cloud;amount=500;hS=0;vS=1;speed=1} @self
+    - delay 5
+    - throw{velocity=20;velocityY=15} @PlayersInRadius{r=4}
+    - delay 5
+    - throw{velocity=10;velocityY=10} @PlayersInRadius{r=6}
+    - delay 5
+    - throw{velocity=6;velocityY=5} @PlayersInRadius{r=8}
+# A Skill for a mildy hard boss #
+LifeStealBeam:
+ Skills:
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @target
+    - heal{amount=2} @Self
+    - damage{amount=2;ignoreArmor=true} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @target
+    - heal{amount=2} @Self
+    - damage{amount=2;ignoreArmor=true} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @target
+    - heal{amount=2} @Self
+    - damage{amount=2;ignoreArmor=true} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @target
+    - heal{amount=2} @Self
+    - damage{amount=2;ignoreArmor=true} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - effect:particleline{particle=Squid_Ink;amount=5;fromOrigin=false} @target
+    - heal{amount=2} @Self
+    - damage{amount=2;ignoreArmor=true} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=5;fromOrigin=false} @target
+    - delay 5
+    - effect:particleline{particle=glow;amount=30;fromOrigin=true} @target
+RingOfFire:
+ Skills:
+    - jump{velocity=2}
+    - stun{d=240;f=true;ai=true} @Self
+    - delay 5
+    - effect:spin{duration=150;velocity=500} @Self
+    - delay 5
+    - effect:particlesphere{particle=dripping_lava;radius=1;points=32;amount=500;hS=0;vS=0} @Self
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=2;points=32;amount=500;hS=0;vS=0} @Self
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=3;points=32;amount=500;hS=0;vS=0} @Self
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=4;points=32;amount=500;hS=0;vS=0} @Self
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=5;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=1}
+    - damage{amount=30} @PIR{r=1}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=6;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=2}
+    - damage{amount=25} @PIR{r=2}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=7;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=3}
+    - damage{amount=20} @PIR{r=3}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=8;points=32;amount=520;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=4}
+    - damage{amount=15} @PIR{r=4}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=9;points=32;amount=540;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=5}
+    - damage{amount=10} @PIR{r=5}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=10;points=32;amount=560;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=6}
+    - damage{amount=5} @PIR{r=6}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=10;points=32;amount=560;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=7}
+    - damage{amount=5} @PIR{r=7}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=10;points=32;amount=560;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=8}
+    - damage{amount=5} @PIR{r=8}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=9;points=32;amount=540;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=9}
+    - damage{amount=5} @PIR{r=9}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=8;points=32;amount=520;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=10}
+    - damage{amount=5} @PIR{r=10}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=7;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=9}
+    - damage{amount=5} @PIR{r=9}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=6;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=8}
+    - damage{amount=5} @PIR{r=8}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=5;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=7}
+    - damage{amount=5} @PIR{r=7}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=4;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=6}
+    - damage{amount=5} @PIR{r=6}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=3;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=5}
+    - damage{amount=7} @PIR{r=5}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=2;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=4}
+    - damage{amount=10} @PIR{r=4}
+    - delay 10
+    - effect:particlesphere{particle=dripping_lava;radius=1;points=32;amount=500;hS=0;vS=0} @Self
+    - ignite{ticks=600} @PIR{r=3}
+    - damage{amount=12} @PIR{r=3}
+    - delay 10
+    - ignite{ticks=600} @PIR{r=2}
+    - delay 10
+    - ignite{ticks=600} @PIR{r=1}
+    - delay 10
+# A Skill for a mildy hard boss #
+# P.S.: Should be put on an ~onTimer trigger#
+EarthquakeSmash:
+ Conditions:
+ - playersinradius{r=40}
+ Skills:
+    - jump{velocity=1}
+    - delay 20
+    - potion{type=SLOW_FALLING;duration=10;level=4} @Self
+    - delay 5
+    - sound{s=block.bamboo.fall;p=0}
+    - sound{s=entity.ender_dragon.flap;p=0}
+    - effect:particlering{particle=CLOUD;radius=2;points=32;amount=30;hS=1;vS=0} @Self
+    - delay 2.5
+    - effect:particlering{particle=FIREWORK;radius=1;points=32;amount=1;hS=0;vS=0.5} @Self
+    - effect:particlering{particle=FIREWORK;radius=1.5;points=32;amount=1;hS=0;vS=0.5} @Self
+    - effect:particlering{particle=FIREWORK;radius=2;points=32;amount=1;hS=0;vS=0.5} @Self
+    - delay 2.5
+    - effect:particlering{particle=FIREWORK;radius=1;points=32;amount=1;hS=0;vS=1} @Self
+    - effect:particlering{particle=FIREWORK;radius=1.5;points=32;amount=1;hS=0;vS=1} @Self
+    - effect:particlering{particle=FIREWORK;radius=2;points=32;amount=1;hS=0;vS=1} @Self
+    - delay 2.5
+    - effect:particlering{particle=FIREWORK;radius=1;points=32;amount=1;hS=0;vS=1.5} @Self
+    - effect:particlering{particle=FIREWORK;radius=1.5;points=32;amount=1;hS=0;vS=1.5} @Self
+    - effect:particlering{particle=FIREWORK;radius=2;points=32;amount=1;hS=0;vS=1.5} @Self
+    - delay 1
+    - potion{type=LEVITATION;duration=10;level=25} @PlayersInRadius{r=4.5}
+# A Skill for The Leshen#
+# P.S.: Should be put on an ~onTimer trigger#
+EarthquakeSmashLeshen:
+ Skills:
+    - jump{velocity=1}
+    - delay 20
+    - potion{type=SLOW_FALLING;duration=10;level=4} @Self
+    - delay 5
+    - sound{s=block.bamboo.fall;p=0}
+    - sound{s=block.bell.use;p=0}
+    - effect:particlering{particle=SQUID_INK;radius=2;points=32;amount=50;hS=1;vS=0} @Self
+    - delay 2.5
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=1;points=32;amount=1;hS=0;vS=0.5} @Self
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=1.5;points=32;amount=1;hS=0;vS=0.5} @Self
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=2;points=32;amount=1;hS=0;vS=0.5} @Self
+    - delay 2.5
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=1;points=32;amount=1;hS=0;vS=1} @Self
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=1.5;points=32;amount=1;hS=0;vS=1} @Self
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=2;points=32;amount=1;hS=0;vS=1} @Self
+    - delay 2.5
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=1;points=32;amount=1;hS=0;vS=1.5} @Self
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=1.5;points=32;amount=1;hS=0;vS=1.5} @Self
+    - effect:particlering{particle=GLOW_SQUID_INK;radius=2;points=32;amount=1;hS=0;vS=1.5} @Self
+    - delay 1
+    - potion{type=LEVITATION;duration=10;level=5} @PlayersInRadius{r=4.5}
+    - potion{type=POISON;duration=10;level=25} @PlayersInRadius{r=4.5}
+# A Skill for a hard boss #
+# P.S.: Should be put on an ~onTimer trigger with the timer 300 for it to be hard#
+SafetyBox:
+  Skills:
+    - potion{type=DAMAGE_RESISTANCE;duration=140;level=20}
+    - potion{type=SPEED;duration=140;level=1}
+    - lightning{d=0} @Self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=10;radius=1;hS=0;vS=0;points=10} @Self
+    - damage{amount=1;ignoreArmor=true} @PlayersInRadius{r=1}
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=20;radius=2;hS=0;vS=0;points=20} @Self
+    - damage{amount=2;ignoreArmor=true} @PlayersInRadius{r=2}
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=30;radius=3;hS=0;vS=0;points=30} @Self
+    - damage{amount=3;ignoreArmor=true} @PlayersInRadius{r=3}
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=40;radius=4;hS=0;vS=0;points=40} @Self
+    - damage{amount=4;ignoreArmor=true} @PlayersInRadius{r=4}
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+    - delay 10
+    - effect:particlebox{particle=ELECTRIC_SPARK;amount=50;radius=5;hS=0;vS=0;points=50} @Self
+    - damage{amount=5;ignoreArmor=true} @PlayersInRadius{r=5}
+    - heal{amount=1} @self
+# A Skill for a hard boss #
+# P.S.: Should be put on an ~onTimer trigger with the timer 300 for it to be hard#
+LightningBarrage:
+ Skills:
+    - summon{type=Fade;amount=3;radius=0}
+    - jump{velocity=8}
+    - stun{d=400;f=true;ai=true} @Self
+    - potion{type=SLOW;duration=400;level=100} @Self
+    - potion{type=FIRE_RESISTANCE;duration=400;level=100} @Self
+    - potion{type=DAMAGE_RESISTANCE;duration=400;level=100} @Self
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=5;y=0;sideOffset=1.0}
+    - delay 20
+    - lightning @Forward{f=5;y=0;sideOffset=1.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=3;y=0;sideOffset=1.0}
+    - delay 20
+    - lightning @Forward{f=3;y=0;sideOffset=1.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=3;y=0;sideOffset=6.0}
+    - delay 20
+    - lightning @Forward{f=3;y=0;sideOffset=6.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=1;y=0;sideOffset=-5.0}
+    - delay 20
+    - lightning @Forward{f=1;y=0;sideOffset=-5.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=0;y=0;sideOffset=6.0}
+    - delay 20
+    - lightning @Forward{f=0;y=0;sideOffset=6.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=4;y=0;sideOffset=0.0}
+    - delay 20
+    - lightning @Forward{f=4;y=0;sideOffset=0.0}
+    - delay 5
+    - summon{type=Fade;amount=1;radius=6} @Self
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=0;y=0;sideOffset=8.0}
+    - delay 20
+    - lightning @Forward{f=0;y=0;sideOffset=8.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=-4;y=0;sideOffset=-12.0}
+    - delay 20
+    - lightning @Forward{f=-4;y=0;sideOffset=-12.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=-13;y=0;sideOffset=5.0}
+    - delay 20
+    - summon{type=Fade;amount=1;radius=6} @Self
+    - lightning @Forward{f=-13;y=0;sideOffset=5.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=-3;y=0;sideOffset=-6.0}
+    - delay 20
+    - lightning @Forward{f=-3;y=0;sideOffset=-6.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=14;y=0;sideOffset=-13.0}
+    - delay 20
+    - lightning @Forward{f=14;y=0;sideOffset=-13.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=12;y=0;sideOffset=3.0}
+    - delay 20
+    - lightning @Forward{f=12;y=0;sideOffset=3.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=6;y=0;sideOffset=7.0}
+    - delay 20
+    - lightning @Forward{f=6;y=0;sideOffset=7.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=-4;y=0;sideOffset=5.0}
+    - delay 20
+    - lightning @Forward{f=-4;y=0;sideOffset=5.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=11;y=0;sideOffset=-3.0}
+    - delay 20
+    - lightning @Forward{f=11;y=0;sideOffset=-3.0}
+    - delay 5
+    - effect:particlering{particle=glow_squid_ink;radius=1;points=32;amount=30;hS=0.7;vS=0.3} @Forward{f=-14;y=0;sideOffset=14.0}
+    - delay 20
+    - summon{type=Fade;amount=1;radius=6} @Self
+    - lightning @Forward{f=-14;y=0;sideOffset=14.0}
+# A Skill for a hard boss #
+ExplosiveBatBarrage:
+  Skills:
+    - effect:particles{particle=cloud;amount=500;hS=0;vS=1;speed=1} @self
+    - summon{type=ExplosiveBat;amount=20;radius=10} @Self
+    - command{c="/kill @e[type=minecraft:wandering_trader,distance=..100]";asOp=True} @Self
+    - delay 120
+    - potion{type=DAMAGE_RESISTANCE;duration=80;level=100} @Self
+# A Skill for a hard boss #
+LifeSuck:
+ Skills:
+    - teleport{spreadh=0;spreadv=0} @Target ~onTimer:1
+    - delay 5
+    - leap{velocity=100} @target
+    - delay 20
+    - potion{type=WEAKNESS;duration=100;level=20} @Self
+    - potion{type=SLOW_FALLING;duration=100;level=20} @Self
+    - teleport{spreadh=0;spreadv=0} @target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - effect:bloodyScreen{d=20} @Target
+    - sound{s=entity.endermite.step;p=1.3} @Target 0.5
+    - sound{s=entity.endermite.step;p=0.6} @Target 0.5
+    - sound{s=entity.bee.sting;p=1} @Target 0.3
+    - effect:particles{particle=block;m=redstone_block;amount=100;hS=0.5;vS=1} @Target
+    - consume{d=4;h=5} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - effect:bloodyScreen{d=20} @Target
+    - sound{s=entity.bee.sting;p=1} @Target 0.3
+    - sound{s=entity.endermite.step;p=0.7} @Target
+    - effect:particles{particle=block;m=redstone_block;amount=100;hS=0.5;vS=1} @Target
+    - consume{d=4;h=5} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - effect:bloodyScreen{d=20} @Target
+    - sound{s=entity.bee.sting;p=1} @Target 0.3
+    - sound{s=entity.endermite.step;p=0.5} @Target
+    - effect:particles{particle=block;m=redstone_block;amount=100;hS=0.5;vS=1} @Target
+    - consume{d=4;h=5} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - effect:bloodyScreen{d=20} @Target
+    - sound{s=entity.bee.sting;p=1} @Target 0.3
+    - sound{s=entity.endermite.step;p=1} @Target
+    - effect:particles{particle=block;m=redstone_block;amount=100;hS=0.5;vS=1} @Target
+    - consume{d=4;h=5} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+    - delay 2
+    - teleport{spreadh=0;spreadv=0} @Target
+# A Skill for a hard boss #
+GlowingShield:
+  Skills:
+    - orbital{onTick=GlowingShield-Tick;onHit=GlowingShield-Hit;points=20;interval=1;duration=200;charges=1}
+GlowingShield-Tick:
+  Skills:
+    - effect:particles{p=glow_squid_ink;amount=5;speed=0;hS=0.2;vS=0.2} @Origin{xoffset=0;yoffset=1;zoffset=0}
+    - effect:particles{p=squid_ink;amount=25;speed=0;hS=0.2;vS=0.2} @Origin{xoffset=0;yoffset=1;zoffset=0}
+GlowingShield-Hit:
+  Skills:
+    - damage{a=10}
+    - potion{type=SLOW;duration=100;lvl=2}
+TeleportCombo:
+ Skills:
+    - effect:particles{particle=CLOUD;amount=500;hS=1;vS=1;speed=0.1} @self
+    - delay 10
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=30}
+    - effect:particles{particle=cloud;amount=500;hS=0;vS=1;speed=1} @self
+    - delay 5
+    - throw{velocity=10;velocityY=4} @PlayersInRadius{r=8}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=20}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=20}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=20}
+    - effect:particles{particle=cloud;amount=500;hS=0;vS=1;speed=1} @self
+    - delay 5
+    - throw{velocity=50;velocityY=4} @PlayersInRadius{r=7}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=20}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=20}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=20}
+    - effect:particles{particle=cloud;amount=500;hS=0;vS=1;speed=1} @self
+    - delay 5
+    - throw{velocity=10;velocityY=4} @PlayersInRadius{r=8}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=15}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=15}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=15}
+    - effect:particles{particle=cloud;amount=500;hS=0;vS=1;speed=1} @self
+    - delay 5
+    - throw{velocity=10;velocityY=4} @PlayersInRadius{r=8}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=10}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=10}
+    - delay 5
+    - teleport{spreadh=2;spreadv=5} @NearestPlayer{r=10}
+    - effect:particles{particle=cloud;amount=500;hS=3;vS=3;speed=0} @self
+    - delay 5
+    - effect:particles{particle=cloud;amount=500;hS=1;vS=1;speed=1} @self
+    - delay 5
+    - throw{velocity=15;velocityY=15} @PlayersInRadius{r=15}
+TheBlindness:
+ Skills:
+    - effect:particles{particle=LARGE_SMOKE;amount=5000;hS=3;vS=3;speed=0} @self
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
+    - effect:particles{particle=LARGE_SMOKE;amount=2000;hS=1;vS=1;speed=0} @PlayersInRadius{r=20}
+    - delay 10
