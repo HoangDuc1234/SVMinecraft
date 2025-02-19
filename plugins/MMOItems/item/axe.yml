@@ -6,8 +6,8 @@ EXECUTIONER_AXE:
     disable-repairing: true
     disable-interaction: true
     lore:
-      - §7An axe that only serves for
-      - §7fighting, and it can't be §cenchanted§7.
+    - §7An axe that only serves for
+    - §7fighting, and it can't be §cenchanted§7.
     attack-damage:
       base: 17.0
       scale: 0.1
@@ -27,12 +27,12 @@ EXECUTIONER_AXE:
       shaped:
         '1':
           input:
-            - v AIR 0 1..|v iron_block - 1.0..|v diamond - 1.0..
-            - v AIR 0 1..|v stick - 1.0..|v iron_ingot - 1.0..
-            - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v iron_block - 1.0..|v diamond - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v iron_ingot - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
     max-durability: 3150.0
     required-class:
-      - Warrior
+    - Warrior
     ability:
       ability1:
         type: EARTHQUAKE
@@ -59,13 +59,13 @@ UNDEAD_SLAYER:
     element:
       darkness:
         damage: 25.0
-    upgrade: { }
+    upgrade: {}
     gem-sockets:
-      - Red
-      - Red
+    - Red
+    - Red
     lore:
-      - §cFor those who aren't afraid of
-      - §cdealing with the underworld.
+    - §cFor those who aren't afraid of
+    - §cdealing with the underworld.
     ability:
       ability1:
         type: CURSED_BEAM
@@ -99,17 +99,17 @@ BUTCHER_AXE:
       ice:
         damage: 3.2
     gem-sockets:
-      - Uncolored
+    - Uncolored
     crafting:
       shaped:
         '2':
-          - AIR IRON_BLOCK IRON_BLOCK
-          - AIR STICK IRON_BLOCK
-          - AIR STICK AIR
+        - AIR IRON_BLOCK IRON_BLOCK
+        - AIR STICK IRON_BLOCK
+        - AIR STICK AIR
         '1':
-          - IRON_BLOCK IRON_BLOCK AIR
-          - IRON_BLOCK STICK AIR
-          - AIR STICK AIR
+        - IRON_BLOCK IRON_BLOCK AIR
+        - IRON_BLOCK STICK AIR
+        - AIR STICK AIR
 BONE_CRACKER:
   base:
     material: STONE_AXE
@@ -120,7 +120,7 @@ BONE_CRACKER:
     tier: COMMON
     armor-toughness: 2.0
     gem-sockets:
-      - Uncolored
+    - Uncolored
     name: '&fBone Cracker'
     attack-damage:
       base: 11.0
@@ -151,12 +151,12 @@ SKULL_BREAKER:
     two-handed: true
     movement-speed: -0.02
     lore:
-      - '&7Its large blade &cslow&7 its targets'
-      - '&7when smashing it on their skull.'
+    - '&7Its large blade &cslow&7 its targets'
+    - '&7when smashing it on their skull.'
     required-level: 9.0
     required-class:
-      - Brute
-      - Warrior
+    - Brute
+    - Warrior
 SILVER_AXE:
   base:
     material: IRON_AXE
@@ -181,20 +181,20 @@ SILVER_AXE:
         cooldown: 20.0
         mode: SHIFT_RIGHT_CLICK
     lore:
-      - '&7Every &c20 &7seconds, shift and'
-      - '&7right-click to perform a devastating'
-      - '&7circular slash, dealing &c6 &7damage'
-      - '&7and knocking back nearby targets.'
+    - '&7Every &c20 &7seconds, shift and'
+    - '&7right-click to perform a devastating'
+    - '&7circular slash, dealing &c6 &7damage'
+    - '&7and knocking back nearby targets.'
     crafting:
       shaped:
         '2':
-          - AIR MATERIAL.SILVER_INGOT MATERIAL.SILVER_INGOT
-          - AIR STICK MATERIAL.SILVER_INGOT
-          - AIR STICK AIR
+        - AIR MATERIAL.SILVER_INGOT MATERIAL.SILVER_INGOT
+        - AIR STICK MATERIAL.SILVER_INGOT
+        - AIR STICK AIR
         '1':
-          - MATERIAL.SILVER_INGOT MATERIAL.SILVER_INGOT AIR
-          - MATERIAL.SILVER_INGOT STICK AIR
-          - AIR STICK AIR
+        - MATERIAL.SILVER_INGOT MATERIAL.SILVER_INGOT AIR
+        - MATERIAL.SILVER_INGOT STICK AIR
+        - AIR STICK AIR
 THE_UNBREAKABLE:
   base:
     material: IRON_AXE
@@ -202,7 +202,7 @@ THE_UNBREAKABLE:
     unbreakable: true
     attack-damage: 12.0
     lore:
-      - '&7&oCannot be enchanted nor reforged'
+    - '&7&oCannot be enchanted nor reforged'
     attack-speed: 0.9
     two-handed: true
     disable-repairing: true
@@ -210,3 +210,89 @@ THE_UNBREAKABLE:
     disable-smithing: true
     tier: RARE
     stamina-cost: 3.0
+R1:
+  base:
+    material: WOODEN_AXE
+    enchants:
+      mending: 1.0
+    name: '&aRìu Gỗ'
+    attack-damage: 6.0
+    required-class:
+    - Paladin
+    damage-reduction: 10.0
+    scale: 1.0
+    skill-damage: 20.0
+    stamina-regeneration: 3.0
+R2:
+  base:
+    material: WOODEN_AXE
+    enchants:
+      mending: 1.0
+    attack-damage: 7.0
+    required-class:
+    - Paladin
+    damage-reduction: 20.0
+    skill-damage: 30.0
+    scale: 1.0
+    stamina-regeneration: 3.0
+    name: '&aRìu Chặt Cây'
+    lifesteal: 10.0
+R3:
+  base:
+    material: STONE_AXE
+    enchants:
+      mending: 1.0
+    name: '&bRìu Hoàn Chỉnh'
+    attack-damage: 8.0
+    required-class:
+    - Paladin
+    damage-reduction: 30.0
+    skill-damage: 40.0
+    lifesteal: 10.0
+    scale: 1.0
+    stamina-regeneration: 4.0
+R4:
+  base:
+    material: STONE_AXE
+    enchants:
+      mending: 1.0
+    name: '&bRìu Tiều Phu'
+    attack-damage: 10.0
+    required-class:
+    - Paladin
+    skill-damage: 50.0
+    damage-reduction: 40.0
+    lifesteal: 10.0
+    scale: 1.0
+    stamina-regeneration: 4.0
+R5:
+  base:
+    material: IRON_AXE
+    enchants:
+      mending: 1.0
+    name: '&bRìu Tạo Tác'
+    attack-damage: 12.0
+    required-class:
+    - Paladin
+    skill-damage: 60.0
+    damage-reduction: 50.0
+    lifesteal: 10.0
+    unbreakable: true
+    scale: 1.0
+    stamina-regeneration: 6.0
+D6:
+  base:
+    material: DIAMOND_AXE
+    name: '&bRìu Ánh Sáng'
+    enchants:
+      mending: 1.0
+    required-class:
+    - Paladin
+    attack-damage: 17.0
+    skill-damage: 100.0
+    damage-reduction: 60.0
+    lifesteal: 10.0
+    spell-vampirism: 10.0
+    scale: 1.0
+    stamina-regeneration: 10.0
+    additional-experience: 50.0

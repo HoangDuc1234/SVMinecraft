@@ -8,12 +8,12 @@ players:
   - 43f59985-74e9-3264-a600-e9e49c0843c2
   fahrenheit-mode: []
 worlds:
-  world: SPRING
+  world: WINTER
 dates:
   world:
     day: 1
-    month: 2
-    year: 13
+    month: 12
+    year: 19
 temperature:
   world: true
 time-paused: []
@@ -22,11 +22,9 @@ placedpresents:
 placedeggs:
   world:
   - 344,194,-25,world
-  - 353,154,-38,world
-  - 344,173,-25,world
   - 344,166,-25,world
-  - 368,63,-51,world
+  - 353,154,-38,world
   - 344,115,-25,world
+  - 344,173,-25,world
   - 353,-50,-38,world
   - 344,151,-25,world
-  - 368,-47,-51,world

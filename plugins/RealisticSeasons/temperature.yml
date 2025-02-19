@@ -4,14 +4,14 @@ temperature-change-rate: 0.2
 modifiers:
   season-base-temperature:
     winter:
-      min-temp: -30
+      min-temp: -25
       max-temp: -5
     spring:
       min-temp: 0
       max-temp: 20
     summer:
-      min-temp: 50
-      max-temp: 70
+      min-temp: 25
+      max-temp: 60
     fall:
       min-temp: 5
       max-temp: 20

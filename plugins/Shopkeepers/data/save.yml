@@ -1203,7 +1203,7 @@ data-version: 3|2|3953
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: LAPIS_LAZULI
+        type: COPPER_INGOT
         amount: 64
       item2:
         ==: org.bukkit.inventory.ItemStack
@@ -1235,7 +1235,7 @@ data-version: 3|2|3953
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: COPPER_INGOT
+        type: IRON_INGOT
         amount: 64
       item2:
         ==: org.bukkit.inventory.ItemStack
@@ -1267,7 +1267,7 @@ data-version: 3|2|3953
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: IRON_INGOT
+        type: GOLD_INGOT
         amount: 64
       item2:
         ==: org.bukkit.inventory.ItemStack
@@ -1299,8 +1299,8 @@ data-version: 3|2|3953
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: GOLD_INGOT
-        amount: 64
+        type: ENDER_PEARL
+        amount: 16
       item2:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2339,7 +2339,7 @@ data-version: 3|2|3953
   z: 12
   yaw: 353.89084
   type: admin
-  name: ''
+  name: Rogue
   object:
     type: villager
     baby: false
@@ -2890,4 +2890,564 @@ data-version: 3|2|3953
           - HIDE_UNBREAKABLE
           Unbreakable: true
           custom: H4sIAAAAAAAA/32QT4vTQBjGp4KhrKz4b0UQIQ7qZT1s1Sr21CEztsPmT8lkdyndEqbNtBuaJksaWWTZD+AX8Ch769mb4K37SfSTOG1I0trWOQzM+/7mfZ/n2QFAAY8Nw6IOMZiLHAdphy5GBmqQ+guwOArYywF2SHU965tpvwzu5f357VIMbuFqGezmZRMZBDx81cM8UpvRzXWoame/f30NzxTwpJjdInL2MTJa1KbMyNaXwf0cIabWRKbDwG4HjkXo+eFQrcCuAp7nCLZwg7iaZenYOjFdm+AjzaGWWf+YjdtpMsdup5roJWQJT2ANzp/wNbQaLIniL7DWuYQr8t2bH5MkluAGF/Cqe6WApzm/Yfu7LMtnhV8HGdREEmoQk9howT3KVD5YzdRptwi4zU4sG5fAnaOwFws+4r1AlJQlVKefCHMI0ovw7qZu8+SM3HFW2uY66+fOO6dF6Kewm7re+yf5uQ+zUafZ/qV+W+ZINVe3bFLqdeBsOphN++wiij0pQb7SezZ9q86mH/58/6miJOH9kYr5mA9FTVYHlYNV6Nu1ykZ+ECwz++8PXq5ROPKGQrV5ItWnVHUrpUVR4EUXoWoL73M/8aMw/fGmuv5DZjn2Qy7RoQhFzAu6usbq/kBMEsGDOdDfr2wQwM6FNHPMx+d+7E/G/wEXrrcqlT+64C+mm6vf3QMAAA==
+  snapshots: []
+'10':
+  uniqueId: 487db535-f1a3-4477-9b30-5b8f234695ba
+  world: world
+  x: 379
+  y: 93
+  z: 12
+  yaw: 18.666012
+  type: admin
+  name: Paladin
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: WOODEN_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Gỗ","italic":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"6","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WSzUrDQBSFLwo1KC0q+LcQwqBudGFVFLqxQzK0oUlaMxEstYShpiW0TaGmoJa+hu7EXTdu3Anu2ifRJ9A3cNqYpEXNYkju+ebOPWcyDyDAiqblFZNo1JKLOtYUyVLzBoGvEhr0q4N+Bd/YaG/07q+D/qE46J8UWINdOa6oeHbzD/nj8VXEnscqdVFmTVazU7xaPZ5m7p9EWncajUlk92B/+xfl66JhX3UqntNyfTL5B0k91nRcxtGa7dptFtGHv1nnzg468Vbl2EQUNKeoqiVjDWdI+gjGjwCLoT5aLUWGGSMpQDws8/wILOwwY/jcETPvbw8CLIUi0aUs1k0K8RJq2i5PryYmUVmA+Sw1jaK/GXcR9+ChFBp98pnzGeq12rcoVeqiqXOs4cu11+bgxHGoV+7FYCO60bEByyDyuWQqeT29FVhZCxmDnJ0rnLAkFVMKcz83G4PNKA2T/xc65miG6MTA41ZC0Gp5OhWzWCAwiy+IAAnfWGhcC80Fpf8MBnposnQZZXaJyr7RRDShhFVy+umPFIPVUMCmiaVccJPrPgDfQfQ0D/kCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv1","italic":false,"color":"red","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzKgSj6P4JCgyHhXP2cPR7+QYAbfaqXgksQSJSslmJCSjpK/e3AJyEVW0dVKcJNh8vGHNxaXFAE1RMco5abmpWTmpSsYxijFKtXG1nIwCGKoZ+CNRqgDeZIL4gSwS/3g1oO4uKwGycGtxeU3kP0MABGNgWRzAQAA
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: WOODEN_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Chặt Cây","italic":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"7","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+30%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WSz0sbQRTHXytsF0FR6Q8KLQyD9qIHNQUhhzbD7jRZ3N3ozggNMSxDnKSLyQpxBK34b/Qo4iUXLz219Jj8Je1f0D+hk6y7m5B0D8PO+37mvXnfeYsAJrzwvKrDqcdCu+YTz7FCtxrQJ8/reNBvDfpNcinx1ug/WQf9Ahr09w5ER5xEMXKU7M6R/9z+REQp0TxFtuiKtizqaGtvmvl2h9hp1OlMIpuF7Y0ZKtFRIE8umio6ixNydw7JlOhGsdBoW8ayJ3K6MMtGXx9r7mzPSeVGLXmupOiMmKZmNnDDmHCL7TuuG9rEI2Va+gDjz4SVTB+toWPD02DXhKUsrC2msPZOBMOHC2R9+f3rh0LW8P7KhNWMob5VIT5nsFTHXRlrn9toBzdMWKwwHtSSHJVrrLtVuIhHW339apmps94VLtav8VS5cPj9XPU0OFsV3zRuDHidj8C4nTCg9pHFnapfep829ipjAnp45GgitFzCGDx7HAUD3ubecD1IPtFomfo0IONUZppqbdojXjugsEA+U2NCcZ1PlHFK3NJ6emw5aT4zx8sMSEP/MyHVMyPqx7mvx7iRuLCcX98iLv34NylswMtMIJwTaz999DcJAP8A6uc3OUcDAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv2","italic":false,"color":"red","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzIjDgY+j+CQoMh4Vz9nD0e/kGAG32ql4JLEEiUrJZiQko6Sv3twCchFVtHVSnCTYfLxhzcWlxQBNUTHKOWm5qVk5qUrGMYoxSrVxtZyMAhiqGfgjUaoA3mSC+IEsEv94NaDuLisBsnBrcXlN5D9DADeVZhRcwEAAA==
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: WOODEN_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Gỗ","italic":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"6","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WRy0rDQBSGDwo1VCwqeFsIYVA3urBWFLrRIRnaYJLWTARLW8LQpiW0iVAjeMHX0J2468aNO8FdfRJ9An0Dp8ZMLGoWQ3L+L+fkO0kDpGDeMEqaTQzqYNvGyoGjYgMXyP4ifF0pmBMAPdB0Pc63o1yCaZEPT0dTYczKSjAlyiY2CEyuMevl4UwuvD7fSjAjQmIqRWzaFKaqyHeDphe05SyqS5AuUtuqRC/jK0RDFqI8Gj6iDVQq0PCkd4Hy1Ss0Msd5eTwNexz8MQ5d169TsCS4SMCxiHqk2FrJ3F+JVZcTVRsbmok5VCAmsfAXJ8XKC4KzyOGRxjs5io4phYky6zLuIMHs6FbsSpnAOD4mEmQiMSFuCLm49J9gnAvJai3ZWQ3VI9FMIqFgney9x1+d/Ei1wnelKY5esgh8VNGg3xr0G/jc5ZP5fXQO+jl50N/9NpK10PX/iN/unmQchqzRkVXms7ab59XWzihzcy/Tjtft/kTWtzZXf1FRLltu86wReidBRGb/IPnKfC9gHG27gdtjCZ37zXqXbtyJt6rDJ/JbaZf5AgAA
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Hoàn Chỉnh","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"8","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+40%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+30%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+4","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WSwU7bQBCGhyK5FhKIVrSIA9JqVXppD6AgtcoBsrK3iYvtUO8iNQqRtYRNsEgcKSxSW8QD9AV6rLjl0gs3JG7Jk7RP0EfoJsZ2IlIfVvb8n2f8/54lABNeeF7V4dRjoV3ziedYoVsN6MJaHQ8HreGgSb5I/HZ8n5zDQQENB+8ORUecRjFylOzOkf/8vENEKdE8R7boirYs6mrr/Szz4wax86jTmUbe7G5vPaISHQXy9LKpol6ckIU5JFOiG8VCo20Zy77I6d3HbPTtYebO9pxWbtSSF0qKzphpamYLN4yptNiB47qhTTxSpiUbJpcJq5k+PkPHhidBwYTlrKwjprD2+iQY/bpEld7oJkbW2e/77/GZCc8yivpWhficwXIdd2Wsk26jHdwwYanCeFBLuny8wtqvwkU8ftQGqmWmev2vuFi/wjMDw9HtheprcN5cfN24NmAjX4OJpTCg9pHFnapf2kvNrWdMQD8dOZoILZcwBk8f1sGAzTwfrpfJJxotU58GZNJqNW31fDYnXjuksEg+U2NKcZ0PlHFK3NKr9LWVxH4Wj5dFkJb+F0OqZ1HUj/Nkj3EjSWEl/3yLuHT/bzLYgJeZQDgn1kH641ECwD/3lr2qSwMAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv3","italic":false,"color":"red","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzJjDgY+j+CQoMh4Vz9nD0e/kGAG32ql4JLEEiUrJZiQko6Sv3twCchFVtHVSnCTYfLxhzcWlxQBNUTHKOWm5qVk5qUrGMYoxSrVxtZyMAhiqGfgjUaoA3mSC+IEsEv94NaDuLisBsnBrcXlN5D9DACkH0D0cwEAAA==
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: WOODEN_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Chặt Cây","italic":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"7","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+30%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WRT2sTQRiHXxXWpdCixT8ICsNgveihbYRCDpphd0yG7m7qzhQMaViGdBKXJltIp2At/RoeRbzk4sWT4jH5JPoJ/AhOut3ZhsQ9DLvv75n3nXl2BcCBB2HYZIKGPCFCEG838UlI6rT2GC4fB+5bgO+yICjyV3nuwh2bz9aE+XAz3nZh1ZYjElJYfybj6bdT5L3//euHRt7065kLdy1DI69BIsFhtY2HKjtMsz7awh0XVhpcxK28R+Mccy01ruLZJ36Bm3Wuj0dnuNo+x3Pjkun3Ez0y4OJUfNG5cOCRxfPrJDH19z3BmlHtZXGxh5aJ6dt9ZojECwjncHtPDqQ5ogNPSjeChCwiBq3TiMbkspVbtFqfdyRaexRukXfUuZYE7A3lgpKg9rTYtpZf3soJrYCi9D8JRW5FtA9Krwe4k1tYK4/vkYC+/lsMLv+53zI+mZcEzZjeuNfGk3FvMu6SD8pMNu/5OhlX0GS8c6UFMa2GS+I/n38iorXsHiFfDmVfVU21tzPPfPqC+FE6GFxHnlc2NxaoPEexOjzt6vQ4y8ntJaRRNkwzadC+ytRIlnRlkU0/Xs3c2lzSKkh76kQrOZgxXcNs4A78A8jD56lHAwAA
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Tiều Phu","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"10","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+40%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+4","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WST2vbMBjG323gmkJLW+jGDgUh1l3aQ8I6BrkswlZTUdvJLBUW0mC0VMlMExdSBdqVHvYldhy75bLLboPd0k+yfYJ9hClx7CQk80HY7/PT++fxuw5gw67vV5mgPo/cekB85kReNaSPdht4NGyPhi1yo/Dh+D09R8NXaDR8U5NdeREniGnVWyH/+foTEa1l6xK5sic7qmSi7WJhEfryDfHLuNudZw5eF/aXqFRHoboYtHR8laTk0QqSa9mLE2nQjkpUX87Ry2z8aVqzWFiRyovb6lor2R0zLcPs46Y1Zxc/ZZ4XucQnFVpmMHls2Mr18RkxFx6HRzZs5GHjMYXtlx/Ch+8DJOLfvz4PUO3jwIbtHKGBc0ICwWGjgXsqMT53UBE3bVg/4SKspykqd9gMq3EJjz9N99UK11f9W1xq3OGFatHDj2vdN+BSUXzfvLfg+WwDJsNEIXXPHMGqQdnNxnqWMyF9d8YMETke4RzWpptgwd7MGWH2KCAGrdCAhmSSaitLtbPokKjXKDwh76k1p3jsmHJBiVd+kV3bTGfPvfHz+bPQ/zzI9NyHxvnM1nPcTF3YnLXvEI++/ZsWtuBpLhAhiHOa/fJpZ/AP1H9xvEYDAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv4","italic":false,"color":"red","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzITDgY+j+CQoMh4Vz9nD0e/kGAG32ql4JLEEiUrJZiQko6Sv3twCchFVtHVSnCTYfLxhzcWlxQBNUTHKOWm5qVk5qUrGMYoxSrVxtZyMAhiqGfgjUaoA3mSC+IEsEv94NaDuLisBsnBrcXlN5D9DABA5Ks7cwEAAA==
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Hoàn Chỉnh","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"8","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+40%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+30%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+4","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WRwW7TMBjHP0AK1aRNAw2mHZAsi3GBw6ZOAvUAtRLTmiXpiD2Jqqsir3O7aG0qdZ4ETHsAXoAj2q0XLtyQuLVPAk/AI+Aui7NqJQcr+f4/f5/9yxKAA4+DoMEEDXhMhCDubuyRgNRoFcHV48AjC/Bd5vt57mV5CVZtPltj5sHdqFyCZVsOSUBh7dlhNP1+hurD6WWK3OPfv76kxyV4YCkaunUSCg7LLTxQ6VGS9tA2bpdgqc5F1My6vDvHXEuNK3j2iV/gRo3r4egTrrTO8dzAePrjVI8MuGguvmhfOLBhN2RXiiPq7buCNcLq6/xy65aJ6Pt9ZojY9QnncH9P9qU5pANPCj+CBCwkBq3RkEbkqtVq3urhvCfR3KNwj3ygzo3EZ28pF5T41af5tpXs+lZPYBXkpf9pyHOronVQmD3A7czCSnF8l/j0zd98cPHfvaYxytzYb0T0zloLT8bdybhDPioz2bxn62RcRpPxy2stiGk1WBD/+fYTEa1l5wR5ciB7qmKq3VfzzNdLxE+Sfv8m8nxna/MWleUoUkdnHZ0M04wsLyCNskGSSoP2VKpGsqB3brPJ5+uZ21sLWvlJV51qJfszpmOYTdyGf1vQRMhLAwAA
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Tạo Tác","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"12","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+60%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/3WSQWsTQRSAJwrrUmmxQrUehGGwIuihUVohl2bYHdOhu5u6MwFDGpbJdhKWbDaQTkEt/RsexZ5y8eJNPCa/RH+BP8FJtrubkDiHYfa9j/f2fbwNAEyw47p1yonLArvpYZdagVP3SWmnhSbj7mQc4o8SvZq903syfgMn47enIhbnUQKpkoM16T9ff0KslAj70BYD0ZMVHe2WXy9DX75B1o/ieJF5ebi/t0KleejL88tQRcMkJQ/WkEyJQZQIjfZkIkeioA9X2ejzbc/y/ppSTtSVF0qKeMaEmtlDbWNBFzuhjhPY2MU1UvXA/JjgQZ6f3QG1wR3/wASbeVg7JmD7eceffr+E/PevmyHk05vQBNs5QjzrGHucgc0WGshEe+7BMmqbYOOYcb+ZlqhdIT2sQhU0+9R/X68xNRx9QpXWFVrqFkx/XKiRBleaouv2tQGeFBswHybwid2wOK17VZqN9ThnfPK+QTURWA5mDNy73QQDPC3McL1HHtZojXjEx/NSu1mph8uGePOUgLv4AymB+42kM5KiLzqxLBkLoEPfEcYJdqrPsipbqYpclZvryEL/U5Llcy2ts8LyGWqnUraKaSzskKO/aWMDPMoTmHNsnWQb8CIFwD/3ltkwVQMAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv5","italic":false,"color":"red","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzJTDgY+j+CQoMh4Vz9nD0e/kGAG32ql4JLEEiUrJZiQko6Sv3twCchFVtHVSnCTYfLxhzcWlxQBNUTHKOWm5qVk5qUrGMYoxSrVxtZyMAhiqGfgjUaoA3mSC+IEsEv94NaDuLisBsnBrcXlN5D9DAA6rnOecwEAAA==
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Tiều Phu","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"10","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+40%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+4","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WRQWsTQRTHnxbWpdDSClU8CMNgveghwYqQix12p+nQ3U3cmYIhDcuYTuLSZAvpBGxLD/0SPYq3XLx4E7yln0Q/gR/BSbc7SUjcw7D7/j/em/fbVQAHnoRhjQka8oQIQbyDxCchqdLdF3D3OLBlAX7AgqDIWZ67sGHzyZkwHx7GOy6s2XJEQgqbLz/Ft9+HSKS/f10PUf3z0IVNi9DI2yeR4LDWxH2VHadZF5Vxy4XVfS7iRt6ieom5lhpX8OQTv8a1Kteng3NcaV7iuWnJ7Y8zPTDgwlB81bpy4Jml82WSmPqHnmC1aNcv1npqmZh+OGSGSLyAcA6P6rInzQ0deD41I0jIImLQKo1oTO5abRStHs8bEo06hRXykTozScD2KBeUBIV4F9bz3a2b0O5flP7noMith+bRVOsRbuUW1qfX90hA3/8tBk//uN8wOpmXBLWYPthq4vGoMx61yRdlJpv3/ByP3qDx6N29FsS06i+J/3z9iYjWsn2CfNmXXVUx1U65NA/dfEP8JO31ZplXb0vbC1Seo1gdD9s6Pc1ycmcJaZz100watKsyNZAz9CKbXtzPLJeWtArSjjrTSvYmTNsw27gF/wCG26UcRgMAAA==
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Ánh Sáng","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"17","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+60%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+10","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Spell Vampirism: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Additional Experience: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/32SwW7TQBCGF5BMVKkVRQLaA2i1KlzgkAjRSrmQlb2kq9qO8bpVozSyFmcTrNpO5LhSoeqBl+CI4JQLF26ckzfhCXgE1nFtJ0qKDyt75vPMv//MBgAV8MgwWtQhBnO1tokNqrp6yyZ3hh00nfSnEw9fCvQqfc/O6eQ1nE4OLB7wnh9BmohwTfrPt98QJwn3zqHGQz4QdRnt1w6Woa/fITv3g2CReVmrVp+vYBkAbdG78BJ/GGXo/hqSJTz0Iy7RgYhEzEu6Vl2F/c//66r7fTFOBA9SxpPMmnYjIfWf8HDkx/44vB3EvZ6fauEBJJcjEfsi8m56v5F4V1kYBDuiuu5q2MBN0miD+VMBD4p8erpUA3e1/QrYLMJyegRsv/hgz35ewNmX6CNksx/RQAE7ZWWLyMon2LCoTZnR2MuKK+BZgWBNow5tmVh3yalFbEpMlTRormK7AGX8EJsOA5sdFIpIbsMA1lC3AjYOmWO3MznNKyQnkqA6Sj+lK60mS4bxJ1TvXKEl5e7s1ziJJbhyAXTdvVbAbrmnc2Ncm2jHaqq0YebinhSMTd4fU0m4qo4ZA/dv9lUBT0svHLntJpZok5jExvNSe3mph8tuO22LgHv4lCgLGZ2+I8whWC9/28ruXnhjFPfPQ7d5kOcLHzpnpa1nqJu5sFXKV7FO3v7NB/i4HKDjYPUoX59aBoB/oYx6uuwDAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv6","italic":false,"color":"red","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzIzDgY+j+CQoMh4Vz9nD0e/kGAG32ql4JLEEiUrJZiQko6Sv3twCchFVtHVSnCTYfLxhzcWlxQBNUTHKOWm5qVk5qUrGMYoxSrVxtZyMAhiqGfgjUaoA3mSC+IEsEv94NaDuLisBsnBrcXlN5D9DAD1dmqrcwEAAA==
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rìu Tạo Tác","italic":false,"color":"aqua"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Axe","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Paladin
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"12","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+60%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Size: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/3WSQWsTQRTHJwprqLRYoVoPwjBYEfTQKK2QSzPsjunQ3U3dmYAhDctkOwlLNhtIp6CWfg2PYk+5ePEmHpNPop/Aj+Ck251tSNzDsPP+P97b92PXALDAI89rUE48FmLOsX0UOtjDdVJ7Aa4fC2wZgB1R181zP8vL4IHJ52dIHXAn2CuDdVP2sUfA5vNuMPt+DvnvX1cjyGdXURlsGoT49iH2OQPrbTSU6Wmc9mEFdcpg7ZDxoJW1qF8gpoRCVTS/oleoUWdqNP6Equ0LtDAtnP04U2MNLg1Fl51LCzwxdLZMGBCnaXPa8Gs0X+uxYQLyvkk1EdouZgzcOxaJ0F9ogaeFGY496mON1olPAnzdajtv9XDREG8dE3AXfyAlcL+ZdsdSDEQ3kSXrFujSd4Rxgt3as7zLRqbCqPKMjrz0PyV5brS0TwrLJ6iTSdkotrGxSw7+5oOLH8BpabvUDt1GQEpbbTSd9KaTCH+UerJ+z87p5A2cTt7eWIJUyeGK+M/XnxArJaIBdMRQ9GVVV3uV14vQl2+QDeIkuc283N/dWaKyHAby9DxS8SjNyL0VpHY2jFOh0b5M5VgU9P4yG3++mVnZXdHKjXvyTEmRzJlIMzuoA/4B3f+XoVUDAAA=
   snapshots: []

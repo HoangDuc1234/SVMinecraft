@@ -1035,9 +1035,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_potato": "2025-02-18 13:48:21 +0000"
+      "has_item_frame": "2025-02-18 13:21:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-02-18 13:47:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-02-18 13:47:19 +0000"
     },
     "done": true
   },
@@ -1047,9 +1059,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+  "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
-      "has_golden_sword": "2025-02-18 13:47:19 +0000"
+      "has_rabbit": "2025-02-18 13:47:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-02-18 13:47:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-02-18 13:47:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-02-18 13:48:21 +0000"
     },
     "done": true
   },
@@ -1065,33 +1095,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+  "minecraft:recipes/misc/blue_dye": {
     "criteria": {
-      "has_golden_sword": "2025-02-18 13:47:19 +0000"
+      "has_lapis_lazuli": "2025-02-19 02:31:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_rabbit": {
+  "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
-      "has_rabbit": "2025-02-18 13:47:38 +0000"
+      "has_lapis_lazuli": "2025-02-19 02:31:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_item_frame": "2025-02-18 13:21:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
-    "criteria": {
-      "has_rabbit": "2025-02-18 13:47:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit": "2025-02-18 13:47:38 +0000"
+      "consumed_item": "2025-02-19 03:39:01 +0000"
     },
     "done": true
   },

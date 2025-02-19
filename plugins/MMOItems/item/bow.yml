@@ -190,3 +190,14 @@ PRECISION_BOW:
         mode: LEFT_CLICK
     required-class:
     - Mage
+B1:
+  base:
+    material: BOW
+    name: '&aCung Tân Thủ'
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    required-class:
+    - Marksman
+    projectile-damage: 100.0
+    skill-damage: 20.0
