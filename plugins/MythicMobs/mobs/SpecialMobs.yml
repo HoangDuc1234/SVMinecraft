@@ -69,6 +69,7 @@ Leshen:
   - PROJECTILE 0.9
   - MAGIC 1.1
   Drops:
+  - emerald 1
 
 Fiend:
   Type: Ravager
@@ -98,6 +99,7 @@ Fiend:
     Despawn: true
     FollowRange: 100
   Drops:
+  - emerald 1
 
 Penitent:
   Type: WITHER_SKELETON
@@ -157,13 +159,13 @@ Penitent:
   - PROJECTILE 1
   - MAGIC 1.3
   Drops:
+  - emerald 1
 
 Penitent_Soul:
   Display: Penitent Soul
   Type: BEE
   Health: 20
   Damage: 10
-  Disguise: Vex
   Skills:
   - potion{type=INVISIBILITY;duration=40;level=20;p=false} @Self ~onTimer:1
   - effect:particlesphere{p=reddust;color=#d62c00;amount=50;speed=0.04;radius=0.2} @self ~onTimer:1
@@ -190,9 +192,18 @@ Penitent_Soul:
   - 0 clear
   - 1 randomstroll
   - 2 fleeplayers
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   Drops:
+  - emerald 1
 
 Heinous:
   Type: Husk
@@ -219,6 +230,14 @@ Heinous:
   - 2 float
   - 3 lookatplayers
   - 4 fleesun
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 threatholder

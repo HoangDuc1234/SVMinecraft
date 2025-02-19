@@ -28,7 +28,16 @@ TorchBug_Swarm:
   - 0 clear
   - 1 randomstroll
   - 2 meleeattack
+ SpawnConditions:
+  Biomes: ALL
+  LightLevel: 0-7
+  AllowedBlocks: ALL
+  Height: 5-256
+ Spawner:
+  Worlds: world, world_nether, world_the_end 
+  Chance: 0.5
  Drops:
+ - emerald 1
  - exp 1 0.4
  - exp 1 0.2
  - exp 1 0.1
@@ -56,7 +65,16 @@ TorchBug:
   - 0 clear
   - 1 randomstroll
   - 2 meleeattack
+ SpawnConditions:
+  Biomes: ALL
+  LightLevel: 0-7
+  AllowedBlocks: ALL
+  Height: 5-256
+ Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
  Drops:
+ - emerald 1
  - exp 1 0.1
 
 Massive_TorchBug_Swarm:
@@ -87,6 +105,7 @@ Massive_TorchBug_Swarm:
  Modules:
     ThreatTable: true
  Drops:
+  - emerald 1
   - exp 6 0.8
   - exp 5 0.7
   - exp 5 0.6
@@ -115,10 +134,19 @@ Wisp:
   - 0 clear
   - 4 randomstroll
   - 1 meleeattack
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 monsters
   Drops:
+  - emerald 1
   - exp 2 0.4
   - exp 2 0.4
   - exp 2 0.4
@@ -154,6 +182,7 @@ Fluffernox:
   Modules:
     ThreatTable: false
   Drops:
+  - emerald 1
   - exp 2 0.4
   - exp 2 0.2
   - exp 2 0.1
@@ -179,6 +208,7 @@ Luminafox:
     Silent: false
     Invisible: false
   Drops:
+  - emerald 1
   - exp 2 1
   - exp 5 0.4
   - exp 6 0.2
@@ -216,10 +246,19 @@ Vinelith:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
   Drops:
+  - emerald 1
   - exp 2 0.4
   - exp 2 0.2
   - exp 2 0.1

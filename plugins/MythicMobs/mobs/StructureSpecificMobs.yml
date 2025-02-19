@@ -8,7 +8,6 @@ CursedStatue:
   - iron_chestplate CHEST
   - iron_leggings LEGS
   - iron_boots FEET
-  Disguise: armorstand
   Options:
     Collidable: false
     Despawn: false
@@ -29,6 +28,14 @@ CursedStatue:
   AIGoalSelectors:
   - 0 clear
   - 1 meleeattack
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -53,6 +60,8 @@ CursedStatue:
   Skills:
   - sudoskill{s=StatueMoveTriggerAt;cat=true} @PIR{r=30} ~onTimer:1
   - sudoskill{s=StatueMoveTriggerAway;cat=true} @PIR{r=30} ~onTimer:1
+  Drops:
+  - emerald 1
 
 SculkTracker:
   Type: Zombie
@@ -60,7 +69,6 @@ SculkTracker:
   Health: 7
   Damage: 0
   Equipment:
-  Disguise: player &3Tracker setSkin oriondisease setNameVisible false
   Options:
     Collidable: false
     Despawn: true
@@ -82,6 +90,14 @@ SculkTracker:
   - 0 clear
   - 1 randomstroll
   - lookatplayers{r=2}
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -90,3 +106,5 @@ SculkTracker:
   - sound{s=block.sculk_shrieker.shriek;p=0.5} @Self ~onEnterCombat
   - look{headOnly=false;immediately=false} @Target ~onTimer:20
   - skill{s=SculkAlert} @Self ~onEnterCombat
+  Drops:
+  - emerald 1

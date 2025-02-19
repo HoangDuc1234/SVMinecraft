@@ -15,12 +15,19 @@ Foglet:
     PreventRandomEquipment: true
     PreventSunburn: true
     Silent: true
-  Disguise: player &3Foglet setSkin Pewils setNameVisible false
   Modules:
     ThreatTable: true
   AIGoalSelectors:
   - 1 meleeattack
   - 3 lookatplayers
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - players
   DamageModifiers:
@@ -42,6 +49,7 @@ Foglet:
   - PROJECTILE 1
   - MAGIC 1 
   Drops:
+  - emerald 1
   - exp 6 0.4
   - exp 6 0.4
   - exp 6 0.4
@@ -89,6 +97,14 @@ Displacer:
   - 0 clear
   - 1 players
   - 2 villagers
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   DamageModifiers:
   - LAVA -0.4
   - FIRE_TICK 0.1
@@ -108,6 +124,7 @@ Displacer:
   - PROJECTILE 0.8
   - MAGIC 1.4
   Drops:
+  - emerald 1
   - exp 6 0.4
   - exp 6 0.4
   - exp 6 0.4
@@ -156,7 +173,16 @@ Leecher:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   Drops:
+  - emerald 1
   - exp 6 0.4
   - exp 6 0.4
   - exp 6 0.4
@@ -219,10 +245,19 @@ JungleShaman(TribesmanGroupSpawn):
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
   Drops:
+  - emerald 1
   - exp 6 0.4
   - exp 6 0.4
   - exp 6 0.4
@@ -270,6 +305,14 @@ Tribesman:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -282,6 +325,7 @@ Tribesman:
   - sound{s=entity.vindicator.hurt;p=1.3} @self ~onDamaged
   - sound{s=entity.vindicator.death;p=1.3} @self ~onDeath
   Drops:
+  - emerald 1
   - exp 5 0.4
   - exp 5 0.4
   - exp 5 0.4
@@ -309,6 +353,14 @@ Bogwalker:
     PreventRandomEquipment: true
     PreventSunburn: true
     Silent: true
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   Skills:
   - skill{s=SwirlSwordAttack} @self ~onDamaged 0.43
   - skill{s=SmashAttack} @self ~onTimer:300 0.16
@@ -318,6 +370,7 @@ Bogwalker:
   - sound{s=entity.vindicator.hurt;p=1.3} @self ~onDamaged
   - sound{s=entity.vindicator.death;p=1.3} @self ~onDeath
   Drops:
+  - emerald 1
   - exp 5 0.4
   - exp 5 0.4
   - exp 5 0.4

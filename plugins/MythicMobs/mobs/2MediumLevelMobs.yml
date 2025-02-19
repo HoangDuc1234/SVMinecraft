@@ -4,7 +4,6 @@ Pixie:
  Type: BEE
  Health: 15
  Damage: 20
- Disguise: Vex
  Skills:
   - potion{type=INVISIBILITY;duration=40;level=20;p=false} @Self ~onTimer:1
   - effect:particlesphere{p=reddust;color=#ffd947;amount=50;speed=0.04;radius=0.4} @self ~onTimer:1
@@ -25,9 +24,15 @@ Pixie:
     ThreatTable: true
  AIGoalSelectors:
   - 0 clear
-  - 1 randomstroll
-  - 2 meleeattack
-  - 3 lookatplayers
+  - 1 meleeattack
+ SpawnConditions:
+  Biomes: ALL
+  LightLevel: 0-7
+  AllowedBlocks: ALL
+  Height: 5-256
+ Spawner:
+  Worlds: world
+  Chance: 0.5
  AITargetSelectors:
   - 0 clear
   - 1 players
@@ -50,6 +55,7 @@ Pixie:
   - PROJECTILE 1
   - MAGIC 1 
  Drops:
+  - emerald 1
   - exp 5 0.4
   - exp 5 0.4
   - exp 5 0.2
@@ -82,6 +88,14 @@ TrollHordeSpawn:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -104,6 +118,7 @@ TrollHordeSpawn:
   - PROJECTILE 0.7
   - MAGIC 1.5
   Drops:
+  - emerald 1
   - exp 5 0.4
   - exp 5 0.4
   - exp 5 0.4
@@ -146,6 +161,14 @@ Troll:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 players
@@ -168,6 +191,7 @@ Troll:
   - PROJECTILE 0.7
   - MAGIC 1.5
   Drops:
+  - emerald 1
   - exp 5 0.4
   - exp 5 0.4
   - exp 5 0.4
@@ -208,6 +232,14 @@ Lich:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 hurtbytarget
@@ -247,6 +279,14 @@ SandSpirit:
   - 1 meleeattack
   - 3 lookatplayers
   - 4 randomstroll
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 hurtbytarget
@@ -257,6 +297,7 @@ SandSpirit:
   - Leather_Leggings{color=ORANGE} LEGS
   - Leather_Boots{color=ORANGE} FEET
   Drops:
+  - emerald 1
   - SAND 4-10 0.4
   - exp 5 0.4
   - exp 5 0.4

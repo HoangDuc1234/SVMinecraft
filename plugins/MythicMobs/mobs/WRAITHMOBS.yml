@@ -25,6 +25,14 @@ NoonWraith:
   - 1 meleeattack
   - 2 float
   - 3 lookatplayers
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 threatholder
@@ -49,6 +57,7 @@ NoonWraith:
   - PROJECTILE 0.2
   - MAGIC 1.7
   Drops:
+  - emerald 1
 
   Skills:
   - skill{s=DeathOnNight} @Self ~onTimer:1
@@ -90,6 +99,14 @@ NightWraith:
   - 2 float
   - 3 lookatplayers
   - 4 fleesun
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 threatholder
@@ -114,6 +131,7 @@ NightWraith:
   - PROJECTILE 0.2
   - MAGIC 1.7
   Drops:
+  - emerald 1
   Skills:
   - skill{s=BUG_DP_Random-Equipment_Wraith-Warrior} @self ~onSpawn
   - skill{s=BUG_DP_Wraith-Warrior_Attack-Teleport} @target ~onDamaged 0.35
@@ -152,6 +170,14 @@ IceWraith:
   - 1 meleeattack
   - 2 float
   - 3 lookatplayers
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 1 threatholder
@@ -176,6 +202,7 @@ IceWraith:
   - PROJECTILE 0.2
   - MAGIC 1.7
   Drops:
+  - emerald 1
   - exp 15 1
   Skills:
   - skill{s=SnowShower} @Self ~onTimer:300 0.3

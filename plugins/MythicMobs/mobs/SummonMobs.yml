@@ -23,6 +23,14 @@ SpiritWeak:
   - 1 meleeattack
   - 2 avoidcreepers
   - 3 gotoowner 7
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world, world_nether, world_the_end 
+    Chance: 0.5
   AITargetSelectors:
   - 0 clear
   - 2 monsters
@@ -53,3 +61,5 @@ SpiritWeak:
   - sound{s=entity.vex.ambient;p=0.8} @self ~onTimer:120 0.7
   - sound{s=entity.vex.hurt;p=0.8} @self ~onDamaged
   - sound{s=entity.vex.death;p=0.8} @self ~onDeath
+  Drops:
+  - emerald 1

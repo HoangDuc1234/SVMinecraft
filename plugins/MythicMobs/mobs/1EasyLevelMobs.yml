@@ -21,10 +21,16 @@ Mummy:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
-  - 0 clear
-  - 1 meleeattack
-  - 3 lookatplayers
-  - 4 randomstroll
+    - 0 clear
+    - 1 meleeattack
+  SpawnConditions:
+    Biomes: ALL
+    LightLevel: 0-7
+    AllowedBlocks: ALL
+    Height: 5-256
+  Spawner:
+    Worlds: world
+    Chance: 0.5
   DamageModifiers:
   - LAVA 1
   - FIRE_TICK 1
@@ -47,6 +53,7 @@ Mummy:
   - 0 clear
   - 1 players
   Drops:
+  - emerald 1
   - exp 3 0.4
   - exp 3 0.4
   - exp 3 0.4
