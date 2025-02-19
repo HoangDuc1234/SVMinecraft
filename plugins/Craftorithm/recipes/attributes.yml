@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+- minecraft:emerald_block
+unlock: true
+result: items:gui_items:2ccaf1d2-05af-4489-b446-2cbe1236cebb

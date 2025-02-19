@@ -13,7 +13,7 @@ dates:
   world:
     day: 1
     month: 9
-    year: 21
+    year: 23
 temperature:
   world: true
 time-paused: []
@@ -22,9 +22,15 @@ placedpresents:
 placedeggs:
   world:
   - 344,194,-25,world
-  - 344,166,-25,world
   - 353,154,-38,world
-  - 344,115,-25,world
+  - 650,66,-61,world
+  - 399,63,-20,world
   - 344,173,-25,world
+  - 650,11,-61,world
+  - 321,81,108,world
+  - 397,64,-35,world
+  - 344,166,-25,world
+  - 344,115,-25,world
+  - 457,74,83,world
   - 353,-50,-38,world
   - 344,151,-25,world

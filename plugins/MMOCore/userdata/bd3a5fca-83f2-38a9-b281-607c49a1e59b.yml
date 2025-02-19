@@ -1,17 +1,17 @@
-class-points: 0
-skill-points: 3
+class-points: 99
+skill-points: 0
 skill-reallocation-points: 0
-attribute-points: 75
+attribute-points: 0
 attribute-realloc-points: 0
-level: 11
-experience: 598.0782254692531
-class: PALADIN
+level: 8
+experience: 178.4098177248945
+class: WARRIOR
 waypoints: []
 friends: []
-last-login: 1739953522567
+last-login: 1739962720324
 skill-tree-reallocation-points: 0
-health: 75.0
-mana: 20.0
+health: 38.0
+mana: 27.0
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -140,296 +140,54 @@ skill-tree-level:
   mage-arcane-mage_d2: 0
   mage-arcane-mage_d1: 0
 times-claimed:
-  class_PALADIN:
-    class_exp_table:
-      skill_point: 10
-  class_MAGE:
-    class_exp_table:
-      skill_point: 8
   class_WARRIOR:
     class_exp_table:
-      skill_point: 1
+      skill_point: 7
 attribute:
-  dexterity: 20
-  strength: 5
-  intelligence: 100
+  dexterity: 0
+  strength: 0
+  intelligence: 0
 profession:
+  enchanting:
+    exp: 0.0
+    level: 0
+  smithing:
+    exp: 0.0
+    level: 0
+  woodcutting:
+    exp: 0.0
+    level: 0
   fishing:
     exp: 0.0
-    level: 2
+    level: 0
+  farming:
+    exp: 0.0
+    level: 0
+  alchemy:
+    exp: 0.0
+    level: 0
+  mining:
+    exp: 0.0
+    level: 0
+  smelting:
+    exp: 0.0
+    level: 0
 quest: {}
 class-info:
-  MARKSMAN:
+  HUMAN:
     level: 1
-    experience: 0.0
+    experience: 66.2339196035586
     skill-points: 0
-    attribute-points: 0
+    attribute-points: 2
     attribute-realloc-points: 0
     skill-tree-reallocation-points: 0
     skill-reallocation-points: 0
-    health: 18.0
+    health: 20.0
     mana: 20.0
     stamina: 20.0
-    stellium: 8.029999999999873
-    attribute:
-      dexterity: 0
-      strength: 0
-      intelligence: 0
-    node-levels:
-      general_j1: 0
-      rogue-marksman_d2: 0
-      general_e2: 0
-      general_c1: 0
-      rogue-marksman_b1: 0
-      rogue-marksman_d3: 0
-      general_e3: 0
-      rogue-marksman_f2: 0
-      general_c2: 0
-      rogue-marksman_f3: 0
-      general_c3: 0
-      general_a1: 0
-      rogue-marksman_d1: 0
-      rogue-marksman_f1: 0
-      general_g1: 0
-      general_e1: 0
-      general_a2: 0
-      general_a3: 0
-      rogue-marksman_b2: 0
-      rogue-marksman_b3: 0
-      general_d1: 0
-      rogue-marksman_c1: 0
-      general_f3: 0
-      rogue-marksman_e3: 0
-      general_d2: 0
-      rogue-marksman_c2: 0
-      general_d3: 0
-      rogue-marksman_g3: 0
-      general_b1: 0
-      rogue-marksman_e1: 0
-      general_b2: 0
-      rogue-marksman_e2: 0
-      rogue-marksman_g1: 0
-      general_h1: 0
-      rogue-marksman_g2: 0
-      general_f1: 0
-      general_f2: 0
-      general_b3: 0
-      rogue-marksman_a3: 0
-      rogue-marksman_a1: 0
-      rogue-marksman_c3: 0
-      rogue-marksman_a2: 0
-    unlocked-items: []
-  MAGE:
-    level: 9
-    experience: 369.0
-    skill-points: 0
-    attribute-points: 0
-    attribute-realloc-points: 0
-    skill-tree-reallocation-points: 0
-    skill-reallocation-points: 0
-    health: 19.39999771118164
-    mana: 70.0
-    stamina: 20.0
     stellium: 20.0
     attribute:
       dexterity: 0
       strength: 0
       intelligence: 0
-    node-levels:
-      mage-arcane-mage_a1: 0
-      mage-arcane-mage_c3: 0
-      mage-arcane-mage_c2: 0
-      mage-arcane-mage_a3: 0
-      mage-arcane-mage_a2: 0
-      general_j1: 0
-      general_e2: 0
-      general_c1: 0
-      general_e3: 0
-      general_c2: 0
-      general_c3: 0
-      general_a1: 0
-      general_g1: 0
-      general_e1: 0
-      mage-arcane-mage_g1: 0
-      mage-arcane-mage_g3: 0
-      general_a2: 0
-      mage-arcane-mage_e1: 0
-      mage-arcane-mage_g2: 0
-      general_a3: 0
-      mage-arcane-mage_e3: 0
-      mage-arcane-mage_c1: 0
-      mage-arcane-mage_e2: 0
-      mage-arcane-mage_b2: 0
-      mage-arcane-mage_d3: 0
-      mage-arcane-mage_b1: 0
-      mage-arcane-mage_b3: 0
-      general_d1: 0
-      general_f3: 0
-      general_d2: 0
-      general_d3: 0
-      general_b1: 0
-      general_b2: 0
-      general_h1: 0
-      general_f1: 0
-      general_f2: 0
-      general_b3: 0
-      mage-arcane-mage_f2: 0
-      mage-arcane-mage_f1: 0
-      mage-arcane-mage_d2: 0
-      mage-arcane-mage_f3: 0
-      mage-arcane-mage_d1: 0
-    bound-skills:
-      '1': FIRE_STORM
-      '2': POWER_MARK
-      '3': FIREBALL
-      '4': AMBERS
-    unlocked-items: []
-  WARRIOR:
-    level: 2
-    experience: 37.0
-    skill-points: 4
-    attribute-points: 0
-    attribute-realloc-points: 0
-    skill-tree-reallocation-points: 0
-    skill-reallocation-points: 0
-    health: 26.0
-    mana: 21.0
-    stamina: 20.0
-    stellium: 20.0
-    attribute:
-      dexterity: 0
-      strength: 0
-      intelligence: 1
-    node-levels:
-      general_j1: 0
-      warrior-paladin_d1: 0
-      warrior-paladin_d2: 0
-      warrior-paladin_d3: 0
-      general_e2: 0
-      combat_d1: 0
-      general_e3: 0
-      combat_d2: 0
-      combat_d3: 0
-      general_a1: 0
-      general_e1: 0
-      general_a2: 0
-      combat_h1: 0
-      general_a3: 0
-      combat_h2: 0
-      combat_h3: 0
-      warrior-paladin_a2: 0
-      warrior-paladin_a3: 0
-      warrior-paladin_e1: 0
-      warrior-paladin_e2: 0
-      warrior-paladin_e3: 0
-      warrior-paladin_a1: 0
-      general_d1: 0
-      general_d2: 0
-      combat_c1: 0
-      general_d3: 0
-      combat_c2: 0
-      combat_c3: 0
-      general_h1: 0
-      combat_g1: 0
-      combat_g2: 0
-      combat_g3: 0
-      warrior-paladin_b3: 0
-      warrior-paladin_f1: 0
-      warrior-paladin_f2: 0
-      warrior-paladin_f3: 0
-      warrior-paladin_b1: 0
-      warrior-paladin_b2: 0
-      combat_f3: 0
-      general_c1: 0
-      general_c2: 0
-      combat_b1: 0
-      general_c3: 0
-      combat_b2: 0
-      combat_b3: 0
-      general_g1: 0
-      combat_j1: 0
-      combat_j2: 0
-      combat_j3: 0
-      combat_f1: 0
-      combat_f2: 0
-      warrior-paladin_g1: 0
-      warrior-paladin_g2: 0
-      warrior-paladin_g3: 0
-      warrior-paladin_c1: 0
-      warrior-paladin_c2: 0
-      warrior-paladin_c3: 0
-      general_f3: 0
-      combat_e2: 0
-      combat_e3: 0
-      general_b1: 0
-      general_b2: 0
-      combat_a1: 0
-      combat_a2: 0
-      combat_a3: 0
-      general_f1: 0
-      general_f2: 0
-      general_b3: 0
-      combat_e1: 0
-    bound-skills:
-      '1': DEEP_WOUND
-    unlocked-items: []
-  ROGUE:
-    level: 1
-    experience: 0.0
-    skill-points: 0
-    attribute-points: 0
-    attribute-realloc-points: 0
-    skill-tree-reallocation-points: 0
-    skill-reallocation-points: 0
-    health: 18.0
-    mana: 0.664
-    stamina: 0.664
-    stellium: 0.04
-    attribute:
-      dexterity: 0
-      strength: 0
-      intelligence: 0
-    node-levels:
-      general_j1: 0
-      rogue-marksman_d2: 0
-      general_e2: 0
-      general_c1: 0
-      rogue-marksman_b1: 0
-      rogue-marksman_d3: 0
-      general_e3: 0
-      rogue-marksman_f2: 0
-      general_c2: 0
-      rogue-marksman_f3: 0
-      general_c3: 0
-      general_a1: 0
-      rogue-marksman_d1: 0
-      rogue-marksman_f1: 0
-      general_g1: 0
-      general_e1: 0
-      general_a2: 0
-      general_a3: 0
-      rogue-marksman_b2: 0
-      rogue-marksman_b3: 0
-      general_d1: 0
-      rogue-marksman_c1: 0
-      general_f3: 0
-      rogue-marksman_e3: 0
-      general_d2: 0
-      rogue-marksman_c2: 0
-      general_d3: 0
-      rogue-marksman_g3: 0
-      general_b1: 0
-      rogue-marksman_e1: 0
-      general_b2: 0
-      rogue-marksman_e2: 0
-      rogue-marksman_g1: 0
-      general_h1: 0
-      rogue-marksman_g2: 0
-      general_f1: 0
-      general_f2: 0
-      general_b3: 0
-      rogue-marksman_a3: 0
-      rogue-marksman_a1: 0
-      rogue-marksman_c3: 0
-      rogue-marksman_a2: 0
     unlocked-items: []

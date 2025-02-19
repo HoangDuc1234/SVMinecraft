@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+- minecraft:snow_block
+unlock: true
+result: items:gui_items:3e0a589f-935c-4530-b787-0d9de34f1a24

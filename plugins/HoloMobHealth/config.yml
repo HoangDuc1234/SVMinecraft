@@ -115,7 +115,7 @@ Options:
       - "Type:ENDERMITE:1"
 DamageIndicator:
   # Whether the damage indicator module should be used
-  Enabled: true
+  Enabled: false
   # Should the damage indicator only be triggered by player actions
   OnlyPlayerTriggered: false
   # Visible range of the indicator

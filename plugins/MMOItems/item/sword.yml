@@ -664,5 +664,280 @@ TEST:
   base:
     material: IRON_SWORD
     attack-damage: 999.0
+SW1:
+  base:
+    material: WOODEN_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm gỗ'
+    lifesteal: 10.0
+    element:
+      fire: {}
+      wind:
+        damage: 5.0
+SW2:
+  base:
+    material: WOODEN_SWORD
+    enchants:
+      mending: 1.0
+    attack-damage: 5.0
+    dodge-rating: 50.0
+    lifesteal: 10.0
+    name: '&aKiếm Rogue &f[&cLv1&f]'
+    required-class:
+    - Rogue
+SW3:
+  base:
+    material: WOODEN_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv2&f]'
+    attack-damage: 6.0
+    dodge-rating: 50.0
+    lifesteal: 10.0
+    required-class:
+    - Rogue
+SW4:
+  base:
+    material: STONE_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv3&f]'
+    attack-damage: 7.0
+    dodge-rating: 50.0
+    lifesteal: 10.0
+    required-class:
+    - Rogue
+SW5:
+  base:
+    material: STONE_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv4&f]'
+    required-class:
+    - Rogue
+    dodge-rating: 50.0
+    attack-damage: 8.0
+    lifesteal: 10.0
+SW6:
+  base:
+    material: IRON_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv5&f]'
+    attack-damage: 10.0
+    dodge-rating: 50.0
+    lifesteal: 10.0
+    required-class:
+    - Rogue
+SW7:
+  base:
+    material: IRON_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv6&f]'
+    required-class:
+    - Rogue
+    dodge-rating: 50.0
+    attack-damage: 12.0
+    lifesteal: 10.0
+SW8:
+  base:
+    material: DIAMOND_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv7&f]'
+    required-class:
+    - Rogue
+    attack-damage: 15.0
+    dodge-rating: 50.0
+    lifesteal: 10.0
+SW9:
+  base:
+    material: DIAMOND_SWORD
+    name: '&aKiếm Rogue &f[&cLv8&f]'
+    enchants:
+      mending: 1.0
+    required-class:
+    - Rogue
+    attack-damage: 18.0
+    dodge-rating: 50.0
+    lifesteal: 10.0
+SWP1:
+  base:
+    material: WOODEN_SWORD
+    name: '&aKiếm Paladin &f[&cLv1&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 5.0
+    damage-reduction: 50.0
+    lifesteal: 10.0
+    required-class:
+    - Paladin
+SWP2:
+  base:
+    material: WOODEN_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv2&f]'
+    attack-damage: 6.0
+    damage-reduction: 50.0
+    lifesteal: 10.0
+    required-class:
+    - Paladin
+SWP3:
+  base:
+    material: STONE_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv3&f]'
+    required-class:
+    - Paladin
+    attack-damage: 7.0
+    damage-reduction: 50.0
+    lifesteal: 10.0
+SWP4:
+  base:
+    material: STONE_SWORD
+    enchants:
+      mending: 1.0
+    attack-damage: 8.0
+    damage-reduction: 50.0
+    lifesteal: 10.0
+    required-class:
+    - Paladin
+    name: '&aKiếm Paladin &f[&cLv4&f]'
+SWP5:
+  base:
+    material: IRON_SWORD
+    enchants:
+      mending: 1.0
+    required-class:
+    - Paladin
+    attack-damage: 10.0
+    damage-reduction: 50.0
+    lifesteal: 10.0
+    name: '&aKiếm Paladin &f[&cLv5&f]'
+SWP6:
+  base:
+    material: IRON_SWORD
+    name: '&aKiếm Paladin &f[&cLv6&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 12.0
+    required-class:
+    - Paladin
+    damage-reduction: 50.0
+    lifesteal: 10.0
+SWP7:
+  base:
+    material: DIAMOND_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv7&f]'
+    attack-damage: 15.0
+    required-class:
+    - Paladin
+    damage-reduction: 50.0
+    lifesteal: 10.0
+SWP8:
+  base:
+    material: DIAMOND_SWORD
+    name: '&aKiếm Paladin &f[&cLv8&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 18.0
+    required-class:
+    - Paladin
+    damage-reduction: 50.0
+    lifesteal: 10.0
+SWW1:
+  base:
+    material: WOODEN_SWORD
+    name: '&aKiếm Warrior &f[&cLv1&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 5.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW2:
+  base:
+    material: WOODEN_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv2&f]'
+    attack-damage: 6.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW3:
+  base:
+    material: STONE_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv3&f]'
+    attack-damage: 7.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW4:
+  base:
+    material: STONE_SWORD
+    name: '&aKiếm Paladin &f[&cLv4&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 8.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW5:
+  base:
+    material: IRON_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv5&f]'
+    attack-damage: 10.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW6:
+  base:
+    material: IRON_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Paladin &f[&cLv6&f]'
+    attack-damage: 12.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW7:
+  base:
+    material: DIAMOND_SWORD
+    name: '&aKiếm Paladin &f[&cLv7&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 15.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
+SWW8:
+  base:
+    material: DIAMOND_SWORD
+    name: '&aKiếm Paladin &f[&cLv8&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 18.0
+    required-class:
+    - Warrior
+    parry-rating: 50.0
+    lifesteal: 10.0
 
 # U2QutmdspnM1UFeMB1VBlnSrxmT5VleOhXRE1EejRUTwcmeOJ3cQFGaRB1NVp2aXZHaz8GO

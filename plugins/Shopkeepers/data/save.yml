@@ -1540,7 +1540,7 @@ data-version: 3|2|3953
           - HIDE_UNBREAKABLE
           Unbreakable: true
           Damage: 5
-          custom: H4sIAAAAAAAA/32ST2/TMBjG34AI0RASfwUXwIqgl3FYQWhaxaGRYzYL5w9xuqqqqijLXBYta4SbtULTvgZnbjnzFcI34ZOQLG22ihYfLNnPz34fP6+3ADR4alkO9YnFA3NgGxbFAXM8onwc6kU+LvKIz1N5rL+tVvVc5O9Rke/OQynjVCKaibOlIDzx7TyWYorYLEHtNaf+/PiJsIwzxDMZnwqET8JJJDqlNN5+9+HNf1k3nQtZo+2dnX9Zd0aQGZ6FX8USWse4CwZ54vg8yuJ0splm8VhMMxEmFRJtL/2tcH5cm9ot8gQ7ZZi2PlLhRZOqe+gGpmEZ+yTwiNnDPnXs7mu4Gho8aLhqDqgJSluD+81u2RECz1thK+nXeV+1A7WiVsJmbRUe36hDFnWub3/YqMTGB4btc7g1HGmwdcB9b1Bfbl/oPAszvaNXy/Jpzj7PUvld7wwv9BUfwe9f00yW4CY7+uXoUoWXzSHsUZ9igwVlNfqZBK7TJ153ULu7Dc8a0CNferRMJ2DkkLBSVLR1KmYG53B38fM0eLQanj9wCdzhfcczFbjXmxxJEZ6GR4lQ1Bsoo58I94nBuk9qIyq82ui4Cg2T7t4y0OvG+JR4oNYNh7/LmKYtSQMAAA==
+          custom: H4sIAAAAAAAA/32SzW7TQBDHJyCMVYTEp+ACrCzIpRyaIlQRcYhlL+2K9Qe7TqMoiizX3YBVNxYbNxGq+hqcufnMK5g34Umw69ghImEPI+3Ob2f++5/dAVDhsWU5xMMW982hrVvE8KnDcOv9SMuzSZ6FfJHIU+11uatinr1BeXawCKSMEolIKs7rhGDi60UkxQzReYw6G279/v4DGTJKEU9ldCaQ8SWYhqJbpCa7+29f/Zd1k4WQFdrZ2/uXdecYmcF58FnU0CbGXTKIidOLMI2S6XaaRhMxS0UQl0i4W+tb47yoEnWQZ7HhFGba2liBZ42r7rHrm7qlH2KfYbNveMSxey/heqlwr+HK6BMTWh0V7janxUQwPG0H7XhQ+X09DtQO2zGddxR4+FcfvOyzqn6/yWLbONJtj8ON0ViFnSPusWFV3L7UeBqkWlcrt8XTnEOeJvKb1h1dams6/F8/Z6kswG1ytKvx1U140lxi+FOfFI/2KT7GtFDUUuB5kzUY8YihU7/QQj5i33UGmPWGtfYNZQyqcw63lz9PhQfr5nlDF8MtPnCY2YI7/emJFMFZcBKLou0KpeQD5h7Wae9R1UqBF1s1laYZuPeuFrUajEcwA6UaOPwB9turKUkDAAA=
     '3':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -1593,7 +1593,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/4WSXWvTUBjHzxRrmUymoF44IR7Um43R6sqkIDYmsTk0LzPnjK50JZw1aReaNpKeMUrXD+GNl6JXvfZOvBE6v4h+Aj+CJ82SteumvQg9z//3vD/LAGTAfV03EVF0bIuEiFLFlkVdLCulNTD9ZcC9FMAVpGmJLsd6FqymevS1kQyu4XwWrKRmQ9QVsPKMVrxf3390hZ8fTr9kwZ1UVgxJFQ2CwUoddt2e4/XaQh42smBZxcSqxe7SEGJGGSzC6Ak3oFnGLAgHsFgfwrlM9unXPgs5OJcQjhqj2VZ2RIuHtkSCjHIJJa0+THXJNDXZrBq2pci7EkGmUdpMGn6QUpbybhdxwpY0EWNws0rD0AvCDHh0PjMi6sgQOVpWDCVKyEOtLoaazo5XRZCkKRi8GsIdGjKv6bu8lbJmVnnPZPA+eqmKhvb4Uw8cr+W5YR8WhzCkjnfE/z3fzI1GWXB3PjCp7SjgBq6alpwBa6mmKqJG1LnaXv+Ja1sCt3Z7B6FLO/TAd5cyMxE19FbBhLuWniR93I5Xla5ST9eVmK5aWaKna6vvn1/BPmxEi5u9MfEN0hCpgT0eBDmcx5WajXURqzyDRPuMTyUakoXKKuF7QVLl4qgc2qVtzuRzm7kN2AwC3wmOe7BYiEbXyIDHF67kX7dwflFyjV8fkmzNtJRr1+twMm5Nxk18HIQOL4C/4u9k/EKYjLfPLkVAzO1eIv/+9E0QGaPNjiBPqy1ya2t7nvn4WcAdz/dnkfWt3NMFil9SOBAsyvhQY6pwJSWdjUOwXOeoybygF3vkC4seqkt9dsjJtttzQzoDLxbKaNfr0UvYrQVW81pun/HYEdBcz19Sa9z3f2tN/F6eRI6W1z5kguR7fKqRbTJ2TxJtMvZxZyDgLu0fxl4Rwq2c2I6AeMbcNk2Rz12Qk1ISoAAb4C+9N+sGXwUAAA==
+          custom: H4sIAAAAAAAA/4WSzW7TQBDHt0WEqKioIAEHimRWwKVVlUCjoEiIGNvEq/ijeLdKozSytrGTWnFi5GxVRWkfggtHBKecuSEuSCkvAk/AI7COazdpWuHDyjvzm9mZ/8wKABnwQNdNRBQd2yIholS1ZVEXK0p5HUy/DLifAriKNC3xy7E/C9ZSf3TaSAbLOJ8Fq6nZEHUFrD6nVe/3j5894dfHs69ZcDd1K4akigbBYLUBe27f8fodIQ+bWbCiYmLV43BpBDGjDJZgdIWb0KxgFoRDWGqM4NxL9tm3AQs5OPcgPG2ezrayI1o8tSUSZFTKKGn1UeqXTFOTzZphW4q8KxFkGuWthHp8IQgRdWSIHKoohhJl49xaIszDlLOU97uIZ7IlTcQY3KrRMPSCMAvuzWtH6jsKuIlrpiXPhk99vGKCJE3B4PUI7tCQeS3f5W1WNLPG9SDDD9FNVTS0x6964Hhtzw0HsDSCIXW8I/73Yit3ylVYTxOriqgRda78N3/j8pfA7d3+QejSLj3w3aXMTKkaeqdgwkPLT5NW78SjSkepp+NKTNeNLPGnY2vsX2zBPmxGg5vdMfEt0hCpgz2eBDmcx9W6jXURq/wFiQ4Y7zwSwkIVlXC9kVS9LIdDe7TDmXxuK7cJW0HgO8FxH5YKkTzNDHhyaUuu34XszEbJdb59SLI101KWbzTgZNyejFv4OAgdXgC/xedk/FKYjIvnGyAg5vaucP/5/F0QGaOtriBPqy1xa7s4z3z6IuCu5/uzyMZ27tkCxbclHAoWZVzUmCpcS0nncgiW6xy1mBf044h8YTFCdanPDjnZcftuSGfgxUIZ7Xl9egW7vcBqXtsdMJ47Alob+Stqjfv+b61J3KuTKNDyOodMkHyPqxrZJmP3JPFNxj7uDgXco4PDOCpCuJUTxQiINea26RP53CV3UkoCFGAT/APshGnlXwUAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -1704,7 +1704,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/4WSy27TQBSGp5UwUVFRAXGRAMmMKJtWVVMatYqEqHFMPIovweM2jdLImsZOasWXynFVojRPwIoNSwSrrNkhWCClvEh5Ah6BcVI7SRMgCytzzndu/zkLADDgniyrSBdkbHC6zvEFI8fJXF7YYcHgx4C7CYALSJJiPxr6U2Ap8UdfA+XAPE6nwGJiVjhZAHeeHRbsi28/XPbn+/PP7NuL7+88BjwY5S4KNPceJxeRhrC88zROfytBBIUXOUXHYLECXcszba/BpmE1BRZErGvlYR3UgTgkIczC6AlXoZrHoR+0YbbSgRMtGedfWmFAwRmdwW61Oz55kdNoAY3TkZKPJ2fAw8TPq6qUU0uKoQm5XV5HqrKzFg9wP6E04c0uooTBSxzG4HqJBIHtBwx4PJJB52SkcBTNC4oQFaSplqZTDaSmXemIlwQMXnRgkQShXXMsOlBeUkt0cr19HL1EQUL79Cn7pl23raAFsx0YENM+of821ta73RS4PZlYLxcFcA2XVC3HgEeJTxQ4SRcnenv5e9jbHLix6x0GFmmSQ8eaY8YySui1gHUaOtrpzeHCkoXKydJi098WF/uT5VUORrdwAKvR4sZPknuFJKSXwT5NgkzK40LZwDKHRVqBJ62QqhKJpKG8qNO9IL5wVSqTuKRBmTTVahXWfN8x/VMPZjORdFUGPLlyJTNuYTMefHRRuTK9QcQbkqoJ86sV2O/V+70aPvUDkzZAX8Nvv/ec7fe2Li+FRaHlznD/+viV5cKQ1JpsbtBtllrr25PMh08sbtqOM46sZNaXpyh6SUGb1UhIRf0fxV/KwWqWeVILbd8bRmzMiBAt4oRHlGxYnhWQEZyebjQkru2RGezmFCvZdasV0twRUFtJz6iMjy069x5xj+3Abrn/AAcC/W2odGZ5UvztsyhQsxtHIcs7NpU/svV71lns6/cc3Gyz2CWto2FUhFArJbYiYLgMahuUSG9cccetxEAGVsEf/qowKLcFAAA=
+          custom: H4sIAAAAAAAA/4WSS2sTURTHbwvGUKlUxQeoMF6sm5bS1IaWgNjrZMxcMo84d9o0pCHcJpN0yGPKZEoNaT+BKzcuRVdZuxNdCKlfpH4CP4JnMp1J0kbNYsg953de/3PmEIqhe6qqU1NSWZmYJhGz5TRRSUbaEtDwF0N3I4BlqaKEfhr442gh8vvfMk2jWZaIo/nIrBFVQnee7Wft828/WsLP92efhbfn39+1Y+jBKHdOgtw7RM1RgzJ162mY/laESJooE81kaL6IW1a7arfrQgKX4mhOZqZRCOrQHmYe93AK+0+8jPUM8xy3i1PFHp5oqXz2peO5AE7pDJ+WTscnzxEDChjEpFomnDyGHkZ+UdeVtJ7XyoaU3hZNqmtbKyH1eDSjSVSqEYAykib52YBbCAe9H3GG9GabQqayqBDG0PU8d13bcePo9qTUZiEnoWssrxvp8fChDzo2qahIDL3o4Rx3PbvStGDYjKLnQRWze+i/ZEmhu/BUnapdsy23g1M97PKqfQT/1lZWT0GFR1FiWSKKKU+0//J30P4MurHd3nct3uD7TWsmNtaqQl9LzITQ0U5vBguLFqpGSwtNf1tc6I+WV9wb3cIeLvmLGz9J8ooq1CygXUhCq8CzbKHMVMJkqCDyjgeT+0IYNCOboDcVs5flqPIWrwOTAD2WccVxmlXnuI1TSV+eUgw9uXQlU25hPRx8dFHpAtwgFcuKbkizy0U86NcG/Qo7dtwqNACv4DvoPxcG/Y2LCxCoZ7WmuH99/CoQz+OVhpAedpsCa21zkvnwSWANu9kcR5aSq4tXKLgWtysY3ANR/0eJF3IIhlU9qni20w4i1qZEyBZvegdA1q225fIRnLjaqMdbdptPYdevsIpdszoe5PaBylJiSmV2aMHcO7x1aLt2p/UPcCjQ34ZKJBcnxd888QMNu37gCWLTBvl926BvnYS+Qb/JGl2BtXjnIIjyEbACseEDwTLANiyRWLvkDlsJgSQuoT/elsk8twUAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -1777,7 +1777,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/4WSXWvTUBjHzxRrmUymoF44IR7Um43R6sqkIDYmsTk0LzPnjK50JZw1aReaNpKeMUrXD+GNl6JXvfZOvBE6v4h+Aj+CJ82SteumvQg9z//3vD/LAGTAfV03EVF0bIuEiFLFlkVdLCulNTD9ZcC9FMAVpGmJLsd6FqymevS1kQyu4XwWrKRmQ9QVsPKMVrxf3390hZ8fTr9kwZ1UVgxJFQ2CwUoddt2e4/XaQh42smBZxcSqxe7SEGJGGSzC6Ak3oFnGLAgHsFgfwrlM9unXPgs5OJcQjhqj2VZ2RIuHtkSCjHIJJa0+THXJNDXZrBq2pci7EkGmUdpMGn6QUpbybhdxwpY0EWNws0rD0AvCDHh0PjMi6sgQOVpWDCVKyEOtLoaazo5XRZCkKRi8GsIdGjKv6bu8lbJmVnnPZPA+eqmKhvb4Uw8cr+W5YR8WhzCkjnfE/z3fzI1GWXB3PjCp7SjgBq6alpwBa6mmKqJG1LnaXv+Ja1sCt3Z7B6FLO/TAd5cyMxE19FbBhLuWniR93I5Xla5ST9eVmK5aWaKna6vvn1/BPmxEi5u9MfEN0hCpgT0eBDmcx5WajXURqzyDRPuMTyUakoXKKuF7QVLl4qgc2qVtzuRzm7kN2AwC3wmOe7BYiEbXyIDHF67kX7dwflFyjV8fkmzNtJRr1+twMm5Nxk18HIQOL4C/4u9k/EKYjLfPLkVAzO1eIv/+9E0QGaPNjiBPqy1ya2t7nvn4WcAdz/dnkfWt3NMFil9SOBAsyvhQY6pwJSWdjUOwXOeoybygF3vkC4seqkt9dsjJtttzQzoDLxbKaNfr0UvYrQVW81pun/HYEdBcz19Sa9z3f2tN/F6eRI6W1z5kguR7fKqRbTJ2TxJtMvZxZyDgLu0fxl4Rwq2c2I6AeMbcNk2Rz12Qk1ISoAAb4C+9N+sGXwUAAA==
+          custom: H4sIAAAAAAAA/4WSzW7TQBDHt0WEqKioIAEHimRWwKVVlUCjoEiIGNvEq/ijeLdKozSytrGTWnFi5GxVRWkfggtHBKecuSEuSCkvAk/AI7COazdpWuHDyjvzm9mZ/8wKABnwQNdNRBQd2yIholS1ZVEXK0p5HUy/DLifAriKNC3xy7E/C9ZSf3TaSAbLOJ8Fq6nZEHUFrD6nVe/3j5894dfHs69ZcDd1K4akigbBYLUBe27f8fodIQ+bWbCiYmLV43BpBDGjDJZgdIWb0KxgFoRDWGqM4NxL9tm3AQs5OPcgPG2ezrayI1o8tSUSZFTKKGn1UeqXTFOTzZphW4q8KxFkGuWthHp8IQgRdWSIHKoohhJl49xaIszDlLOU97uIZ7IlTcQY3KrRMPSCMAvuzWtH6jsKuIlrpiXPhk99vGKCJE3B4PUI7tCQeS3f5W1WNLPG9SDDD9FNVTS0x6964Hhtzw0HsDSCIXW8I/73Yit3ylVYTxOriqgRda78N3/j8pfA7d3+QejSLj3w3aXMTKkaeqdgwkPLT5NW78SjSkepp+NKTNeNLPGnY2vsX2zBPmxGg5vdMfEt0hCpgz2eBDmcx9W6jXURq/wFiQ4Y7zwSwkIVlXC9kVS9LIdDe7TDmXxuK7cJW0HgO8FxH5YKkTzNDHhyaUuu34XszEbJdb59SLI101KWbzTgZNyejFv4OAgdXgC/xedk/FKYjIvnGyAg5vaucP/5/F0QGaOtriBPqy1xa7s4z3z6IuCu5/uzyMZ27tkCxbclHAoWZVzUmCpcS0nncgiW6xy1mBf044h8YTFCdanPDjnZcftuSGfgxUIZ7Xl9egW7vcBqXtsdMJ47Alob+Stqjfv+b61J3KuTKNDyOodMkHyPqxrZJmP3JPFNxj7uDgXco4PDOCpCuJUTxQiINea26RP53CV3UkoCFGAT/APshGnlXwUAAA==
     '5':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -1832,7 +1832,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/32TzW7TQBDHt0iEqFURIL4kQDIr4NKqSlqFVpFAcZ0lWdUfwXYbojSytrGTWnXsynFVqjSvwRFxy5kbRxTehCdhto6dpE3JwcrO/HZ2Zv4zywhl0RNF0ahJFMMqN1RRoZIlazq5s9nE41FnPGob50Fo43V+ir/j0ZYwHm3XWRi6QSjQyOktcP/9/ksQo4i1T4Qy67GuUwRrJ5+bh779EIwT1/NmmbXtwtsbVA1euxB0Frl+N6be526jpCDw7ODcF3THPmtHbuDHN7YW3Kg6zIuOgew6vhOyKbx5M9GI9VyfLWALN1jZ7Tj9CGJzoL2WX/CycepA3Qesd+qGbr/3H/CqQbcVlU+aldzbueQXdbd7HAmS50L/uW08ci4T33jkydztQy+FXYdN5OMcuADb5lSsCNhi4XauuZN8EqCAW5mZWTL2qCxbZVERK6Sk/0b8l0UPUj//WrSM7hj5LFpNzTCABK28c8jXNvPco7Mwg55PY9YIxDwQlRrVqaGU3qBJ2IcpQlSpKqqmgVabuOf4Nq8wj1tZtFw1TL0RxxcHGLSMcBHzIxSvVYwoCC9wsTnAc6lYf372oxDAmYzwsDWcrbQm6hBYF02qVkpqnFIGvUj9kqbJZa2uWjop70sm1dTSRkK9mtZmwuqpIkAVohIeDbjHSYHPUk4nn/cpRLIkWTQMdG+yhbPIVWshK5NKMjHQhwGGtYjctudAIRVZq0PF5sUpP1WJTL/AUQlst+M6YR8XBzhktnsG/zY3csNhFj2aD2w2agTdNeqaXs7M+GT6iRgmEeVElSW0su8fhQ47YUees5RBL1O2CphZnS8VJaXej4VKhVRSsRLTbYIl/lS05uF0Bg5xiws3O4LiLpWp2UAtCEJt4GVaqZoqyGjtElGBZyTWj6A1vFM690HTqbR3vV/21aLgYn5nI7eO25O9wMUC7x8sxetro7JgID4mA/F0mp1pitJeskGTpqJ/3HakaLIFAAA=
+          custom: H4sIAAAAAAAA/32Ty27TQBSGp0iEqlURIG4SIJkRsGlVJa1Cq0iguM6QjOpLsN2GKI2iaTxJrTp25bgqVdrXYInYZc2OJQpvwpNwpo6dpE3JwsrM+ebc/nOWEFpETzTNoDbRrFaprssaVVqqYZI7Gw08GnZGw7Z1FoQOXhOn+Dsabkqj4VaNhaEbhBKNeG+O+e/3X5IcRax9LJVYj3V5AW47uews9O2HZB27njfNrG7l396gqhDtXDJZ5PrdmHqfvY1SgsBzgjNfMrlz2o7cwI9fbM55UeHMi46A7HKfh2wCb9xMNGI912dz2PwNVnU7vB+BbwG0V3NzIlsnHOreZ70TN3T7vf+AVw26rahc0qzk3faFeGi63aNIUjwX+i/uRkN+kdhGQ08VZh96Ke1wNpZPcGACbEtQsSJwFwu3fc2c5JMAedzMTM2StUtVtVWSNblMiuZvJH6L6EFqF98WLaE7Vm4RraTXMIAELb/j5Gubee7haZhBzyc+qwR87stalZrU0opv0NjtwxQhulKRddtCKw3c474jKszh5iJaqli2WY/9ywMMWka4gMURijfKVhSE57jQGOCZVFp/fvajEMCpjPBl83K60qpsgmNTtqleLupxShn0IrUrhqGWjJreMklpT7GpoRfXk8SfpZRJPu9RIFqKKlsWujfergx6NSnfhu3UZUDLRCciILh6nLh6NNtau14l6K5VM8zSdJgrG2RsU0UlFvowwLAykdv2OBRZVo0adMM+PxGnClHpFzhqgeN2XB72cWGAQ+a4p/BvYz17CV2YBFXpJ2LZRFYTVRbQ8p5/GHJ2zA49vpBBL1O2Aphdma0DJXXcj4VKhdRSsZKr2wRL7KlojYPJDBzgphBuegTlHapSu46a4IQ6wKu0XLF1kLG1Q2QNwiisH0H5ohumsIE4VNm93hPnalFwIbe9nl3D7fFe4EJe9AiW4vW1UZkzEB+TsXk6yc62ZWU32aBxU9E/HGq4S7IFAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -1907,139 +1907,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/4WSy27TQBSGp5UwUVFRAXGRAMmMKJtWVVMatYqEqHFMPIovweM2jdLImsZOasWXynFVojRPwIoNSwSrrNkhWCClvEh5Ah6BcVI7SRMgCytzzndu/zkLADDgniyrSBdkbHC6zvEFI8fJXF7YYcHgx4C7CYALSJJiPxr6U2Ap8UdfA+XAPE6nwGJiVjhZAHeeHRbsi28/XPbn+/PP7NuL7+88BjwY5S4KNPceJxeRhrC88zROfytBBIUXOUXHYLECXcszba/BpmE1BRZErGvlYR3UgTgkIczC6AlXoZrHoR+0YbbSgRMtGedfWmFAwRmdwW61Oz55kdNoAY3TkZKPJ2fAw8TPq6qUU0uKoQm5XV5HqrKzFg9wP6E04c0uooTBSxzG4HqJBIHtBwx4PJJB52SkcBTNC4oQFaSplqZTDaSmXemIlwQMXnRgkQShXXMsOlBeUkt0cr19HL1EQUL79Cn7pl23raAFsx0YENM+of821ta73RS4PZlYLxcFcA2XVC3HgEeJTxQ4SRcnenv5e9jbHLix6x0GFmmSQ8eaY8YySui1gHUaOtrpzeHCkoXKydJi098WF/uT5VUORrdwAKvR4sZPknuFJKSXwT5NgkzK40LZwDKHRVqBJ62QqhKJpKG8qNO9IL5wVSqTuKRBmTTVahXWfN8x/VMPZjORdFUGPLlyJTNuYTMefHRRuTK9QcQbkqoJ86sV2O/V+70aPvUDkzZAX8Nvv/ec7fe2Li+FRaHlznD/+viV5cKQ1JpsbtBtllrr25PMh08sbtqOM46sZNaXpyh6SUGb1UhIRf0fxV/KwWqWeVILbd8bRmzMiBAt4oRHlGxYnhWQEZyebjQkru2RGezmFCvZdasV0twRUFtJz6iMjy069x5xj+3Abrn/AAcC/W2odGZ5UvztsyhQsxtHIcs7NpU/svV71lns6/cc3Gyz2CWto2FUhFArJbYiYLgMahuUSG9cccetxEAGVsEf/qowKLcFAAA=
-    '6':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: DIAMOND_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Thần kiếm Manamune","italic":false,"color":"aqua"}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Warrior
-            Item","italic":false,"color":"gray"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
-            Attack Damage: ","italic":false,"color":"gray"},{"text":"15","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Skill Damage: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Rating: ","italic":false,"color":"gray"},{"text":"+60%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Health Regeneration: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+10","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Spell Vampirism: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Additional Experience: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Skill Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+15%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
-            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
-            ","italic":false,"color":"dark_gray"},{"text":"Freezing Curse","italic":false,"color":"gray","bold":true}]}'
-          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
-            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
-            ","italic":false,"color":"dark_gray"},{"text":"50 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
-            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
-            ","italic":false,"color":"dark_gray"},{"text":"10","italic":false,"color":"white"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          - HIDE_UNBREAKABLE
-          Unbreakable: true
-          custom: H4sIAAAAAAAA/3WSW28bRRTHp5UwVlERFxUqcdEyankhiuwiUxQJKcPuxB5lL2Zn09SkZjXxTpJV9mKtJyrBzdfgEfHmZ95QX5DMJymfhDPe7jqOYz+sPHN+58z5n/+5h1ADfeI4Hguow0MSBMTcDy3ikC7d3UaLXwM9qAG+z2y7ig/KeBN9UMf1N2QWusvbTXS/vnaJQ9HDr4+DszevZ5lxHr95/U9qOCIT6UUmm+jjmuxCPg88l3JkTDFNx+qSJ7ma4J2j4RbuynSi8kwujlcN9HDZWJ9CY8+I02c+487uo6r3L5fiLIsFzHOJHdLnfeoz6pp0l1UiPqxBuO8RN+Do/hFOZRbF2anRxsMmutfjgT8o1bhTzJVQeAfrI97CXpervLiEzqZ4RXj4718TVQC4ST++0lqWQ+4TH17xScDc7q5bCfmsjpueZ1veoRv61DowtaTKqib6tKZ8+tMBAyI0bcI5evdQFEWcFw30xXJoAXGYSwDtUpfqB6HUo/VSC1ehq4CZNhjzwxT3RaHiUSJBVdf2DkF+cDnWpx612XM4OnkUn8SyAKemuBBRfAH/nmy3rq6a6KPVwsGgT9E7/NDzrQb6vI71KLGD3mpvZWvoDnrvIDsupDgXx4m807hW0WZ7lAeQutTxfula7apTO1ddbXKvitcOHr1YLsQLPNTGXd9+8iOzWTBAv0ARFgG/51P6M7gYmgc+10tiiomC0ehJ+azbC8AcZu7fnFckUnEKTKe13drCozxPovxlhnfaLT3AYQN9dWNXbtmIeq+Xe2UNYB2ZGdqeT+9GR3g+O5nPRvxlXkTQAZzK73z2rTGfPX27LwZTMr0l/N8ffxtEKTE6N6xFuztwe9LurEK//2nw8zhJrjPftFutx2sYbFRxafhCwXBL7LuNlPl2IoYvo4uRivOszOjcktGTIlFnQJ7KTBZiCT9Z71SJNM7ELWy7tQbb8YmcKCiuiREQ60/zsQTlz0Q6jot4km4GSRTF+jGRGPTXsSximY3kZknlRDcNod15vGrX9690oh+fninDTGIwTN/NZ/JVFZvPkr1Cyt/0XpsXxUSWqZqDEGBPNVVaCHeLdzqtG+GqnwqAmQ3R/1NR4zNgBgAA
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: STONE
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv6","italic":false,"color":"red","bold":true}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKGWqJZzZMLD3VMzFUDUJAW1ZLUcnzIzDgY+j+CQoMh4Vz9nD0e/kGAG32ql4JLEEiUrJZiQko6Sv3twCchFVtHVSnCTYfLxhzcWlxQBNUTHKOWm5qVk5qUrGMYoxSrVxtZyMAhiqGfgjUaoA3mSC+IEsEv94NaDuLisBsnBrcXlN5D9DAD1dmqrcwEAAA==
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: IRON_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Excalibur","italic":false,"color":"yellow"}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Warrior
-            Item","italic":false,"color":"gray"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
-            Attack Damage: ","italic":false,"color":"gray"},{"text":"10","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Skill Damage: ","italic":false,"color":"gray"},{"text":"+75%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Rating: ","italic":false,"color":"gray"},{"text":"+60%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+30%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Health Regeneration: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Lifesteal: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Spell Vampirism: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Skill Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+15%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
-            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
-            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
-          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
-            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
-            ","italic":false,"color":"dark_gray"},{"text":"18 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
-            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
-            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          - HIDE_UNBREAKABLE
-          Unbreakable: true
-          custom: H4sIAAAAAAAA/32Ty27TQBSGp0iEqlURIG4SIJkRsGlVJa1Cq0iguM6QjOpLsN2GKI2iaTxJrTp25bgqVdrXYInYZc2OJQpvwpNwpo6dpE3JwsrM+ebc/nOWEFpETzTNoDbRrFaprssaVVqqYZI7Gw08GnZGw7Z1FoQOXhOn+Dsabkqj4VaNhaEbhBKNeG+O+e/3X5IcRax9LJVYj3V5AW47uews9O2HZB27njfNrG7l396gqhDtXDJZ5PrdmHqfvY1SgsBzgjNfMrlz2o7cwI9fbM55UeHMi46A7HKfh2wCb9xMNGI912dz2PwNVnU7vB+BbwG0V3NzIlsnHOreZ70TN3T7vf+AVw26rahc0qzk3faFeGi63aNIUjwX+i/uRkN+kdhGQ08VZh96Ke1wNpZPcGACbEtQsSJwFwu3fc2c5JMAedzMTM2StUtVtVWSNblMiuZvJH6L6EFqF98WLaE7Vm4RraTXMIAELb/j5Gubee7haZhBzyc+qwR87stalZrU0opv0NjtwxQhulKRddtCKw3c474jKszh5iJaqli2WY/9ywMMWka4gMURijfKVhSE57jQGOCZVFp/fvajEMCpjPBl83K60qpsgmNTtqleLupxShn0IrUrhqGWjJreMklpT7GpoRfXk8SfpZRJPu9RIFqKKlsWujfergx6NSnfhu3UZUDLRCciILh6nLh6NNtau14l6K5VM8zSdJgrG2RsU0UlFvowwLAykdv2OBRZVo0adMM+PxGnClHpFzhqgeN2XB72cWGAQ+a4p/BvYz17CV2YBFXpJ2LZRFYTVRbQ8p5/GHJ2zA49vpBBL1O2Aphdma0DJXXcj4VKhdRSsZKr2wRL7KlojYPJDBzgphBuegTlHapSu46a4IQ6wKu0XLF1kLG1Q2QNwiisH0H5ohumsIE4VNm93hPnalFwIbe9nl3D7fFe4EJe9AiW4vW1UZkzEB+TsXk6yc62ZWU32aBxU9E/HGq4S7IFAAA=
+          custom: H4sIAAAAAAAA/4WSS2sTURTHbwvGUKlUxQeoMF6sm5bS1IaWgNjrZMxcMo84d9o0pCHcJpN0yGPKZEoNaT+BKzcuRVdZuxNdCKlfpH4CP4JnMp1J0kbNYsg953de/3PmEIqhe6qqU1NSWZmYJhGz5TRRSUbaEtDwF0N3I4BlqaKEfhr442gh8vvfMk2jWZaIo/nIrBFVQnee7Wft828/WsLP92efhbfn39+1Y+jBKHdOgtw7RM1RgzJ162mY/laESJooE81kaL6IW1a7arfrQgKX4mhOZqZRCOrQHmYe93AK+0+8jPUM8xy3i1PFHp5oqXz2peO5AE7pDJ+WTscnzxEDChjEpFomnDyGHkZ+UdeVtJ7XyoaU3hZNqmtbKyH1eDSjSVSqEYAykib52YBbCAe9H3GG9GabQqayqBDG0PU8d13bcePo9qTUZiEnoWssrxvp8fChDzo2qahIDL3o4Rx3PbvStGDYjKLnQRWze+i/ZEmhu/BUnapdsy23g1M97PKqfQT/1lZWT0GFR1FiWSKKKU+0//J30P4MurHd3nct3uD7TWsmNtaqQl9LzITQ0U5vBguLFqpGSwtNf1tc6I+WV9wb3cIeLvmLGz9J8ooq1CygXUhCq8CzbKHMVMJkqCDyjgeT+0IYNCOboDcVs5flqPIWrwOTAD2WccVxmlXnuI1TSV+eUgw9uXQlU25hPRx8dFHpAtwgFcuKbkizy0U86NcG/Qo7dtwqNACv4DvoPxcG/Y2LCxCoZ7WmuH99/CoQz+OVhpAedpsCa21zkvnwSWANu9kcR5aSq4tXKLgWtysY3ANR/0eJF3IIhlU9qni20w4i1qZEyBZvegdA1q225fIRnLjaqMdbdptPYdevsIpdszoe5PaBylJiSmV2aMHcO7x1aLt2p/UPcCjQ34ZKJBcnxd888QMNu37gCWLTBvl926BvnYS+Qb/JGl2BtXjnIIjyEbACseEDwTLANiyRWLvkDlsJgSQuoT/elsk8twUAAA==
   snapshots: []
 '7':
   uniqueId: d3300ff9-573c-44d2-9976-646e4e24e202
@@ -2061,94 +1929,77 @@ data-version: 3|2|3953
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: NETHER_STAR
+        type: WOODEN_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Attribute Point","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          display-name: '{"text":"","extra":[{"text":"Kiếm gỗ","italic":false,"color":"green"}]}'
           lore:
-          - '{"text":"","extra":[{"text":"- ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"Cộng
-            1 Attribute Point","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Warrior
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Parry Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Parry Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WSTUvjQBjHHwW7Qeiisu6ehHFw97IefEXoqUMy1NC81JlIKbWEoY0l2CSQnUVE/Bq7N/HWs7dl9yDUT6KfZKfGpK0vOQzM8/89L/9nsgigwaptu6ZHbe4bLYfYpu5bLqNz8208Gp6Ohl1+nqQ9vDm+ZedouItGw4OmSNMwSZEpg+gN+fH6DyJSiu4ZMkQk+kFFRU/3Z5lfN4ifhYPBNPJ9Z+vrK6qhml0gJmQY9zNq/11KT5JBLzmPEQt6P7syTOIsY/uNDC5FFMZCof0gDlIxoXdxpzS1G143Lcs3iE1qtLoHT58GS4U+Pn3TgHm+o0G5CKuFUih/E/Xw4e9dhPoP/35rsFzI1NEPieNxKLdxFMQ95Q5t444Gi4fcY60sXb/EakyJK3h8VRbcGpdJeoEr7Us808m/v/0hUwXONMRXnatpKw3CVGlGPNOpVc3cypdCZ/To2GTU8HWLcA4fnh+6BGuTbXjqR3GIQmvUoeNSrlPV8lIrs1vxWg0KC7zpMkODj5mxwrhdmMtD7xnM9cJk+2SysxPcyWyuv7Cpu65luE1HjWoc609zbmRzluBzwRLPI3o9f95PGQD/AcZOhZMfAwAA
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: EMERALD
-        amount: 64
+        type: WOODEN_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm gỗ","italic":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Warrior
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Parry Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Parry Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3WSTUvjQBjHHwW7Qeiisu6ehHFw97IefEXoqUMy1NC81JlIKbWEoY0l2CSQnUVE/Bq7N/HWs7dl9yDUT6KfZKfGpK0vOQzM8/89L/9nsgigwaptu6ZHbe4bLYfYpu5bLqNz8208Gp6Ohl1+nqQ9vDm+ZedouItGw4OmSNMwSZEpg+gN+fH6DyJSiu4ZMkQk+kFFRU/3Z5lfN4ifhYPBNPJ9Z+vrK6qhml0gJmQY9zNq/11KT5JBLzmPEQt6P7syTOIsY/uNDC5FFMZCof0gDlIxoXdxpzS1G143Lcs3iE1qtLoHT58GS4U+Pn3TgHm+o0G5CKuFUih/E/Xw4e9dhPoP/35rsFzI1NEPieNxKLdxFMQ95Q5t444Gi4fcY60sXb/EakyJK3h8VRbcGpdJeoEr7Us808m/v/0hUwXONMRXnatpKw3CVGlGPNOpVc3cypdCZ/To2GTU8HWLcA4fnh+6BGuTbXjqR3GIQmvUoeNSrlPV8lIrs1vxWg0KC7zpMkODj5mxwrhdmMtD7xnM9cJk+2SysxPcyWyuv7Cpu65luE1HjWoc609zbmRzluBzwRLPI3o9f95PGQD/AcZOhZMfAwAA
     '2':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: WOODEN_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Kiếm gỗ","italic":false,"color":"green"}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Warrior
-            Item","italic":false,"color":"gray"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
-            Attack Damage: ","italic":false,"color":"gray"},{"text":"5","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Skill Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WSTUvjQBjHHwW7Qeiisu6ehHFw97IefEXoqUMy1NC81JlIKbWEoY0l2CSQnUVE/Bq7N/HWs7dl9yDUT6KfZKfGpK0vOQzM8/89L/9nsgigwaptu6ZHbe4bLYfYpu5bLqNz8208Gp6Ohl1+nqQ9vDm+ZedouItGw4OmSNMwSZEpg+gN+fH6DyJSiu4ZMkQk+kFFRU/3Z5lfN4ifhYPBNPJ9Z+vrK6qhml0gJmQY9zNq/11KT5JBLzmPEQt6P7syTOIsY/uNDC5FFMZCof0gDlIxoXdxpzS1G143Lcs3iE1qtLoHT58GS4U+Pn3TgHm+o0G5CKuFUih/E/Xw4e9dhPoP/35rsFzI1NEPieNxKLdxFMQ95Q5t444Gi4fcY60sXb/EakyJK3h8VRbcGpdJeoEr7Us808m/v/0hUwXONMRXnatpKw3CVGlGPNOpVc3cypdCZ/To2GTU8HWLcA4fnh+6BGuTbXjqR3GIQmvUoeNSrlPV8lIrs1vxWg0KC7zpMkODj5mxwrhdmMtD7xnM9cJk+2SysxPcyWyuv7Cpu65luE1HjWoc609zbmRzluBzwRLPI3o9f95PGQD/AcZOhZMfAwAA
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: WOODEN_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Kiếm gỗ","italic":false,"color":"green"}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Warrior
-            Item","italic":false,"color":"gray"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
-            Attack Damage: ","italic":false,"color":"gray"},{"text":"5","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Skill Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Parry Cooldown Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Stamina Regeneration: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WSTUvjQBjHHwW7Qeiisu6ehHFw97IefEXoqUMy1NC81JlIKbWEoY0l2CSQnUVE/Bq7N/HWs7dl9yDUT6KfZKfGpK0vOQzM8/89L/9nsgigwaptu6ZHbe4bLYfYpu5bLqNz8208Gp6Ohl1+nqQ9vDm+ZedouItGw4OmSNMwSZEpg+gN+fH6DyJSiu4ZMkQk+kFFRU/3Z5lfN4ifhYPBNPJ9Z+vrK6qhml0gJmQY9zNq/11KT5JBLzmPEQt6P7syTOIsY/uNDC5FFMZCof0gDlIxoXdxpzS1G143Lcs3iE1qtLoHT58GS4U+Pn3TgHm+o0G5CKuFUih/E/Xw4e9dhPoP/35rsFzI1NEPieNxKLdxFMQ95Q5t444Gi4fcY60sXb/EakyJK3h8VRbcGpdJeoEr7Us808m/v/0hUwXONMRXnatpKw3CVGlGPNOpVc3cypdCZ/To2GTU8HWLcA4fnh+6BGuTbXjqR3GIQmvUoeNSrlPV8lIrs1vxWg0KC7zpMkODj5mxwrhdmMtD7xnM9cJk+2SysxPcyWyuv7Cpu65luE1HjWoc609zbmRzluBzwRLPI3o9f95PGQD/AcZOhZMfAwAA
-    '3':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
         type: DIAMOND_SWORD
         meta:
           ==: ItemMeta
@@ -2201,7 +2052,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/3WSW28bRRTHp5UwVlERFxUqcdEyankhiuwiUxQJKcPuxB5lL2Zn09SkZjXxTpJV9mKtJyrBzdfgEfHmZ95QX5DMJymfhDPe7jqOYz+sPHN+58z5n/+5h1ADfeI4Hguow0MSBMTcDy3ikC7d3UaLXwM9qAG+z2y7ig/KeBN9UMf1N2QWusvbTXS/vnaJQ9HDr4+DszevZ5lxHr95/U9qOCIT6UUmm+jjmuxCPg88l3JkTDFNx+qSJ7ma4J2j4RbuynSi8kwujlcN9HDZWJ9CY8+I02c+487uo6r3L5fiLIsFzHOJHdLnfeoz6pp0l1UiPqxBuO8RN+Do/hFOZRbF2anRxsMmutfjgT8o1bhTzJVQeAfrI97CXpervLiEzqZ4RXj4718TVQC4ST++0lqWQ+4TH17xScDc7q5bCfmsjpueZ1veoRv61DowtaTKqib6tKZ8+tMBAyI0bcI5evdQFEWcFw30xXJoAXGYSwDtUpfqB6HUo/VSC1ehq4CZNhjzwxT3RaHiUSJBVdf2DkF+cDnWpx612XM4OnkUn8SyAKemuBBRfAH/nmy3rq6a6KPVwsGgT9E7/NDzrQb6vI71KLGD3mpvZWvoDnrvIDsupDgXx4m807hW0WZ7lAeQutTxfula7apTO1ddbXKvitcOHr1YLsQLPNTGXd9+8iOzWTBAv0ARFgG/51P6M7gYmgc+10tiiomC0ehJ+azbC8AcZu7fnFckUnEKTKe13drCozxPovxlhnfaLT3AYQN9dWNXbtmIeq+Xe2UNYB2ZGdqeT+9GR3g+O5nPRvxlXkTQAZzK73z2rTGfPX27LwZTMr0l/N8ffxtEKTE6N6xFuztwe9LurEK//2nw8zhJrjPftFutx2sYbFRxafhCwXBL7LuNlPl2IoYvo4uRivOszOjcktGTIlFnQJ7KTBZiCT9Z71SJNM7ELWy7tQbb8YmcKCiuiREQ60/zsQTlz0Q6jot4km4GSRTF+jGRGPTXsSximY3kZknlRDcNod15vGrX9690oh+fninDTGIwTN/NZ/JVFZvPkr1Cyt/0XpsXxUSWqZqDEGBPNVVaCHeLdzqtG+GqnwqAmQ3R/1NR4zNgBgAA
+          custom: H4sIAAAAAAAA/3WSTW/bRhCGNwGqGilS9ANpA7QJ2EXSSw1DSqGmMFDAG3ItLcwPlbuOozoqsRbXNmF+CNQaiav4b/RY9KZzb0UuBdRfkv6SDsWQkmxLB0I788zuvPPOHYQa6AvH8ZigDg+IEMTcCyzikA7d2ULzXwPdqwG+x2y7yvfL/Ab6pM4X34BZ6DZvbaDP63AHolx4LuXImGCajPQFjzM9xtuHg03cUclYZ6maHy830N26ziUORfe/PRKn795OU+Msevf2n8RwZCqT81Q10P1FYz0KjT0nTo/5jDs7j6reHy7EWRYTzHOJHdAXPeoz6pp0h1UiPq1BiHeJKzi6e4gTlYZRemK08GAD3ely4ffLrtwJ5lpqvI2LI97EXofrLL8ADRO8IiD496+xzgFcpwNfDi6Xh9wjPrziE8Hczo5bCfmqzpueZ1vegRv41No3C0kLqx4sJiKIw1wCUIe6tLgNuEeV2i9rzqc/7zO4KTBtwjn68EDmeZTly8jcVehKMNMGC3+a4J7MdTSMFajq2N4ByBcXo+LUpTZ7AUcnC6PjSOXg6QTnMozO4d+TreYl+PvZ6sWi36PoA37g+VYDfV3nupTYorvaftk9uoU+2k+PciXP5FGsbjWWbrTZLuUCShdSPy5dq111aueq0Dr3qnzt4OHLxUK8xIPCuOXtJ8+YzUQf/QqXsBD4XZ/SX8DFwNz3ebEkphxrGE0xKZ91ugKGzsy9q/MKZSJPgGk3t5qbeJhlcZi9SvF2q1kMcNBA31zZlRs2ot7rxV5ZfVhHZga259Pb4SGeTY9n0yF/leUhdACn8jubfm/Mpk/f74HBtEpuSP/3x98G0VoOzwxr3u42RI9b7VXo9z8NfhbF8TLzXavZfHwNg43KLwxfahhuif2wljLfT8TwVXg+1FGWlhXtGyq6Ssb6FMgTlapcLuAn1zvVMolSeQPbal6D7ehYjTVcXhBDIK4/zUcKlD+XySjKo3GyHiRhGBWPydigr0cqj1Q6VOsllRNdN4RW+/GqXT++KQr96ORUG2YcgWFFbDZVb6rcbBrv5kr9Vuy1eZ6PVVlacJAC7GlBlRZCbP5Ou3klXfVTATCzAfofkRXOFWAGAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2257,7 +2108,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/3WSW28bRRTHp5UwVlERFxUqcdEyankhiuwiUxQJKcPuxB5lL2Zn09SkZjXxTpJV9mKtJyrBzdfgEfHmZ95QX5DMJymfhDPe7jqOYz+sPHN+58z5n/+5h1ADfeI4Hguow0MSBMTcDy3ikC7d3UaLXwM9qAG+z2y7ig/KeBN9UMf1N2QWusvbTXS/vnaJQ9HDr4+DszevZ5lxHr95/U9qOCIT6UUmm+jjmuxCPg88l3JkTDFNx+qSJ7ma4J2j4RbuynSi8kwujlcN9HDZWJ9CY8+I02c+487uo6r3L5fiLIsFzHOJHdLnfeoz6pp0l1UiPqxBuO8RN+Do/hFOZRbF2anRxsMmutfjgT8o1bhTzJVQeAfrI97CXpervLiEzqZ4RXj4718TVQC4ST++0lqWQ+4TH17xScDc7q5bCfmsjpueZ1veoRv61DowtaTKqib6tKZ8+tMBAyI0bcI5evdQFEWcFw30xXJoAXGYSwDtUpfqB6HUo/VSC1ehq4CZNhjzwxT3RaHiUSJBVdf2DkF+cDnWpx612XM4OnkUn8SyAKemuBBRfAH/nmy3rq6a6KPVwsGgT9E7/NDzrQb6vI71KLGD3mpvZWvoDnrvIDsupDgXx4m807hW0WZ7lAeQutTxfula7apTO1ddbXKvitcOHr1YLsQLPNTGXd9+8iOzWTBAv0ARFgG/51P6M7gYmgc+10tiiomC0ehJ+azbC8AcZu7fnFckUnEKTKe13drCozxPovxlhnfaLT3AYQN9dWNXbtmIeq+Xe2UNYB2ZGdqeT+9GR3g+O5nPRvxlXkTQAZzK73z2rTGfPX27LwZTMr0l/N8ffxtEKTE6N6xFuztwe9LurEK//2nw8zhJrjPftFutx2sYbFRxafhCwXBL7LuNlPl2IoYvo4uRivOszOjcktGTIlFnQJ7KTBZiCT9Z71SJNM7ELWy7tQbb8YmcKCiuiREQ60/zsQTlz0Q6jot4km4GSRTF+jGRGPTXsSximY3kZknlRDcNod15vGrX9690oh+fninDTGIwTN/NZ/JVFZvPkr1Cyt/0XpsXxUSWqZqDEGBPNVVaCHeLdzqtG+GqnwqAmQ3R/1NR4zNgBgAA
+          custom: H4sIAAAAAAAA/3WSTW/bRhCGNwGqGilS9ANpA7QJ2EXSSw1DSqGmMFDAG3ItLcwPlbuOozoqsRbXNmF+CNQaiav4b/RY9KZzb0UuBdRfkv6SDsWQkmxLB0I788zuvPPOHYQa6AvH8ZigDg+IEMTcCyzikA7d2ULzXwPdqwG+x2y7yvfL/Ab6pM4X34BZ6DZvbaDP63AHolx4LuXImGCajPQFjzM9xtuHg03cUclYZ6maHy830N26ziUORfe/PRKn795OU+Msevf2n8RwZCqT81Q10P1FYz0KjT0nTo/5jDs7j6reHy7EWRYTzHOJHdAXPeoz6pp0h1UiPq1BiHeJKzi6e4gTlYZRemK08GAD3ely4ffLrtwJ5lpqvI2LI97EXofrLL8ADRO8IiD496+xzgFcpwNfDi6Xh9wjPrziE8Hczo5bCfmqzpueZ1vegRv41No3C0kLqx4sJiKIw1wCUIe6tLgNuEeV2i9rzqc/7zO4KTBtwjn68EDmeZTly8jcVehKMNMGC3+a4J7MdTSMFajq2N4ByBcXo+LUpTZ7AUcnC6PjSOXg6QTnMozO4d+TreYl+PvZ6sWi36PoA37g+VYDfV3nupTYorvaftk9uoU+2k+PciXP5FGsbjWWbrTZLuUCShdSPy5dq111aueq0Dr3qnzt4OHLxUK8xIPCuOXtJ8+YzUQf/QqXsBD4XZ/SX8DFwNz3ebEkphxrGE0xKZ91ugKGzsy9q/MKZSJPgGk3t5qbeJhlcZi9SvF2q1kMcNBA31zZlRs2ot7rxV5ZfVhHZga259Pb4SGeTY9n0yF/leUhdACn8jubfm/Mpk/f74HBtEpuSP/3x98G0VoOzwxr3u42RI9b7VXo9z8NfhbF8TLzXavZfHwNg43KLwxfahhuif2wljLfT8TwVXg+1FGWlhXtGyq6Ssb6FMgTlapcLuAn1zvVMolSeQPbal6D7ehYjTVcXhBDIK4/zUcKlD+XySjKo3GyHiRhGBWPydigr0cqj1Q6VOsllRNdN4RW+/GqXT++KQr96ORUG2YcgWFFbDZVb6rcbBrv5kr9Vuy1eZ6PVVlacJAC7GlBlRZCbP5Ou3klXfVTATCzAfofkRXOFWAGAAA=
   snapshots: []
 '8':
   uniqueId: 4647e8c1-a283-4b29-9f9b-00ac09fb8a06
@@ -2311,8 +2162,35 @@ data-version: 3|2|3953
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
-        type: REDSTONE_BLOCK
-        amount: 64
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Huyết kiếm","italic":false,"color":"red"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"10","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Skill Damage: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Spell Vampirism: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"red"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/3VRwU7CQBAdDtZGg0ETjcdmo170APFgwskNXaChBcJWDCmkWaCQhhZIqTGE8BsejbcejTfjxQS/RL/EVtJSRPcwm5l5M++9zA4AD4eKUpFUolBdbJSxIuV0uVIj8KyhhddbeB16P3K66CLIlnHhXQoL7+rr8VXArss6A0FkNusbWb/ay6TXQQ9PAh2YlhXHnGfS6dMNmGz2jIlrMCvAdP7G0LHhr6oze2w65sSOIVtczAgtSbKsi1jBBXLdgJ/Hw16RqrWGTsq5Ii6rFJQZoi5zURaFJZ+vUqDuyJmirDZD0b6wr3+8TFzHH9CayDaGXXPYFzJN1ELz1jwBuzfDtmOwAWtbRoKDg2hclvKEqgTLoRYOjldaq8TXWsdKVapJVFnJ3d+gh6S2okUtHnaWjvyrEchHboL0PydBL3Jx1ineTT/f3l1hYPqfHdjgY7qDqKuNKoEtelupiTyk1nuSCNtL5YSH5BoJpH5v5+AoQmBVxblSeKGTpWX4Bq7Z1iaPAgAA
   snapshots: []
 '9':
   uniqueId: 9990275c-539b-4964-9582-9149782acab9
@@ -2511,7 +2389,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/32SQWvbMBSAtcGCKXR0Y92lHWhi26VjLLSlI6cIS3O92tawPEpIgxG245kmdkk1yig97x/sOHrLudBDYbf0l2y/ZHKFnWRp64NA732S3vv8lgAwwKrrMjugLg9Jx8OubYYO8+mDD100Gfcn44ifFKMYvS13ep2MN+FkvPP31xXEUoroEBIxFGnSUtH+zjzz8xzyw2wwmEU2tt6/XqBIEacJ9IXM8lRT23dSZlEM4uIkh34Sf4tkVuT6RHN78QSXYpjlQqFpkicjMaW3Flgn6yfHMhGDEog2mrcUoJu5r4BeY8Yo37MdJyTYxRZtE3DzGWClzpdraBPwkGwaYLkOq99AwbM3gogCRteXeQrz9Gv25/ePIwM8qSnqmbvYCzhY7qJhksfKHGyingGWdnngd/Qtn06RUiBRC5Vb1Q+zuCxG31Gre4rmHgyvL47lSIG3vYvOemcN8HI6KoxYNDQZcwjb90Kfki9mYDOv/U432QBrNXsf9WKqKlCz52EFWdSjPr7hViplT+eVBZ3PFDzi+8wnjZmcY3+kPKDYab+qDj7WLmpXbu2jCt3lpMrXXroHU80HqKeVrP6npCzcs9p21eDzOo+DAJt71TCsawD8A9vr3KODAwAA
+          custom: H4sIAAAAAAAA/32SQWvbMBiGtcFCKHR0Y91lK2ii3aVlLLSlI6cIS3O92tawNEpIgxG245kmdkk1yig97x/sOHbLebDDoLf0l7S/pHKNnWRpqoNA+p6P731faQmAOlh1HGYJ6nCftF3sWIZvM48++tBB41FvPAr4WTYM0VZ+KvbxaBuOR3s3v/5BrJQMjiGRAxlHTX3b25tlfv6G/Djp96eRzZ33G3MUycI4gp5USRoX1O5CysiyfpidpdCLwm+BSrK06GjszndwJQdJKjUaR2k0lBN6Z461k150qiLZz4Fgs3GPgMLMQwK6talE+YFl2z7BDjZpi4C7VQcrVT3ffYuAx2S7Dpara/0MFLx4K4nMYHD1N41hGn9Nri9/nNTBs4qirrGPXcHBcgcNojTUycFGPv/N5EUZMalvMGYTduj6HiVfDGExt/Wu1LK0z4XXLiZ+Okc6LoWaKD9q78zkKht+R83OOZoR51/9OVVDDd6nEV10L2rgVdWweHwNrE2iEvrvuVhDJnWph++4lVLm89nIRPszBU/4IfNIbapmWx8pFxTbrfWy8Wnhr8rKqTyWV4t8lvXKa+doEvMR6hY2V//LOhfumi2rNPiyqmMhsHFQfobXBQBuATykbf2DAwAA
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2663,7 +2541,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/32QQUvcQBTHx0KXRbBoqb1oIR20F0vpomLZ0w6ZaYwmmZKZIsu6hCHJpsHdRNYpUsRzv0GPxdueBQ+Ct/WT6CfprCGzu101h4F5/9+b9/KbB6AC3routTlxWYA4R+Z+gJGLLNJYBQ9fBSxrgO3bjlPmuMirYFHnozOwMXiBN6tgQZc95BLw5oPAIjfC26ssMbLkR3p38/u4CpY0RTxzF3mcgYUW7MVZlCquBttVML/LuN8sXtk7g0wKCetwdIUfIbWYzPu/YL11BqcGBreXJ7KvwMfmwvP2eQW81w2YYosEJqUOpgde4BP83eQ29RqfSgkrmn2OejdWxZFre0hBFvGIjx64xVLZ62llvPmNgJfsgPq4MpE59lfCOEFOY61sfFW40K5c7aMsPeWkzLWX1uFY8yFsF0qW/1MyWtyzGnY5fyJvKsu2GTjUJ3NfWnA46AwHITvN+5FaQd2KczjYNIaDnfu/1waSUoRHBhY9kcR1Ve3sTDN/Lgx2lHa7k8jG1uf1GQrnURIbvpBq+YLafpIy87wb5aeZ4cfRz1CmeVZ01LZnO5TKXpoJhSZxFvfFmN6aYZ20E5/IWHRHQLhRe2SB4meeW6AN/gFfssexgwMAAA==
+          custom: H4sIAAAAAAAA/32QQWvbMBzFtUFNKLR0Y91lK3hi26VlLLSlI6cIS3O92tawNEpIgxG245kmdklVSik97xvsOHbLebDDYLf0k6yfpEqNlWRpqoNAer8///feMgAGeO551OHEYyHiHFkHIUYesknzJbg7BljXADtwXLfScanXwJrWx3foYPAYb9fAiv72kUfAs7cCi8KMrn/nqZmnX7N/f7+d1MATTRHf2kc+Z2ClDftJHmeKq8OOAV5pBFNsk9Ci1MX00A8Dgr9Y3KF+813lZXmf8aBVbvx0CZkUEjbg+Am3ILWZLAYXsNG+hDPmwutfp3KgwPs8wqvOlQFe6IHF6w2wMamKI8/xkYJs4pMA3XFrlc2ns5Xx1mcCltghDbAxpbnOR8I4QW7zdTW4WubTXXk6Y/W1KGel66zto0nNR7BTxlz/r+uxcd9uOtX+Kb2lmnOs0KUBefShDUfD7mgYsfNiECsL6lXeo+G2ORru3fz4YyIpRXRsYtEXadJQv929Web7T5MdZ73eNLK58/7NHIWLOE3MQEhlvqR2F1JWUfTi4jw3gyQ+i2RW5OVEfXd+QlXZz3Kh0DTJk4GY0DtzrJt1k1OZiN4YiDbr9xgowzxkoANuAe8vbuGDAwAA
     '5':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2704,7 +2582,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/32SzW7TQBDHN0hYUVERX0VICMmsgEs5NJRQNaesvItj1R+R120VpZG1STapldiuHKMKVX0AXoAj6i1nbkjc0ieBJ2EdYzshCT6stDO/Gc//v7MFQBnsGIalOcSgLm6ZyNAUV7dsUuq24Ww6mE179DKM+vBtckvP2XRfnk0Pfn/7IaM4Zr2RjJnPhrwmooPK3jL09UamI288XmR2P+y9XqFw2B9y2WaxFwxTqrqRUsJw3A8vA9nm/U+92AuDtOJddbWCxsz3AibQIQ94xAq6usLq3oBPYs7GCdDbrawZgF5wIeaE+Rde5E38/4Bz1RsnFRUdacF7eqTpuouRgVRSN8H8K4MHeT45XQ2DO7haBtt5WDwYAY/fdDEL5UZ4exPIyvmvn1+Ccwk8K3o3ieh9goymZmvUqL/K2j/MEWIqDWQ6FGy3oc+DvngEuQI7ZbDVoI7dSv+jXUHhZgxrMLkKxZZK4zD6DGvtK7g0knv7fRJHAlwzGbzuXEvgZbF1FlaJq1iWjq1T07UJPlYczTLrh+mYEnies2uo9xn1otDriDU2kYBUYhIbzbknmehHy546rSYBd+mpZeMSuHccdCPORqw75iVpAdW1j4Q6BOmFefdTZ3LnjNydLLTJoSyfu9Q+K0w/g53UoZ1/HEp0mGpdy/Q+zfPIcZBylC3P3wHBH/Wjuh7dAwAA
+          custom: H4sIAAAAAAAA/32STW/TMBzGXSSiamiItyEkhBQi4DIOK6NM66lWbNJoeanibFPVVZHbuF3UvExp0ISmfQC+AEe0W8/ckLh1nwQ+CU5Dkpa2+GDJf//89/M89hYAVbCj66ZqY504qGNAXZUdzbRwpd+VZtPhbDogl1HsSm/TVTbPpvvibHrw+9sPESYJHYxFRAM6Yg1eHdb2lqGvNyIZe76/yOx+2Hu9QqHIHTHRookXjjKqvpGSo8h3o8tQtJj7aZB4UZideFdfPUESGngh5eiIhSymJV1fYTVvyCYJo34KDHZrawSQC8bNnNDgwou9SfAfcO56o1J+oicsZE+OVE1zENShgpsGmI8qeFDsp7OjInAH1atguyjzB8Pg8Zs+opHYim5vQlE+//XzS3gugGdl7zbmvU+g3lYtlejNV3n7hwWCDbkFDZuA7a4UsNDljyDWUoUvy99hIgU7smlqyDw1HAujY9lWTaN5mLfbahHb6mSa1CuJJ59IDSld8nRMhSRR/FlqdK+kJfnO7fdJEnNwjQvpunctgOcFv+b299ntAnhR+rX5NzYghxRsYAvOuSe5ykfLmdqdNgZ3yalpoQq4dxz2Y0bHtO+zirCAaupHTGwMtTK8+5nbIjm9cJyXNrnO9wvn3bMy9DOpl7ne+Sf51IehNNXc79NiH9o2lI/yz/NXIPgDcxYJYN0DAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2811,7 +2689,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/42TT2/TMBTAXaRV1dDQQBogEChEjAsIrZoKUk+1Yq+zlj8lTjeqrorcxK2itkmVZhpo2tfgiNipZ26IY/ctuMEnwWlJ0q6LRA6W8vyz33s/25sAlMCOphnEwhq1UUuHGlFs1TBx4Vdbnk17s6lDz4PQld/Ef4txNt2XZtP3ZtA/4xKJ+OiWyT9ff0gwipgzkBAbsT6vimivXFmFvnyT6MAbDpeZ1+W9vd01DAVun0smizy/v8AquZQSBEM3OPclk7tnTuQFfv4KjflMcH3u85BlaHlvvdCIjbz/hVWvxycRZ8OYcASxnpmOuWj8mI3GXuhNRvkgdF0vTsaGEv405qHHfYfnd7QQmuegXNmVO8WlM6dHRFVtBDVYx7UWmH8lsJ3Ox6NNELiD3hXBkzSsQR3aJq5jHZvQIoZee5ms3UohcZsw2H7VRSyQrN8/r8R4feUUweMsewOL7MdQaxCTUC3ZpAiepwhEiMQJoGrjjw1sEqwruEaSbPdTUMQPoW5RsNWWR9x3xU2RynKnBDYPqWW2FtUcXMjiICO5Kse/Qp5Rp1EQfpar7Qt5pXD7+vskCgV4s375snNZBC+yV2OgOrYVw1CRcaILKaipzI2QpJmnKXsL9TahnmVWLPEMc/0+SjkTf2gSsZOtqJBSsDF/kSXwYPXwrFYDgw16YpioAO42/W7I2YB1h7xQXEJVcoCphaGaJbq38JZ61VJ3SSjPXzKfOmyfZkdyKncWCnduKIwb1euZtofZHbAsqBwlt/SfMfAXLxVSxL4EAAA=
+          custom: H4sIAAAAAAAA/42Tz2/TMBTHXaRF09DQQBogEChEjAsItZoKUk+1Yq+zlh8lTjeqrorcxq2itkmVZhpo2r/BEbFTz9wQx+6/4AZ/CU5LknZdJHKw5OeP/X3v+162ANgEu7puEhvr1EFNA+pEdTTTwoVfLWU27c2mXXoehK7yJt4t1tl0X55N31tB/4zLJOKjWw7/fP0hwyhi3YGM2Ij1eUVEe6XyKvTlm0wH3nC4zLwuFYt7axgK3D6XLRZ5fn+BlXMpNQiGbnDuyxZ3z7qRF/j5N3TmM8H1uc9DlqGl4nqiERt5/wtrXo9PIs6GMdEVxLoyHXNR+DEbjb3Qm4zyQei6XizGhjL+NOahx/0uz69oYWieB6XyntKWlnpOj4imOQjqsIarTTD/NsFOeh6vDkHgDnongSdpWIcGdCxcwwa2oE1Mo/oyubudQmKaMNh51UEskO3fP6/Een3VlcDjTL2Ohfox1OvEIlRPHpHA8xSBCJFYAGoO/ljHFsGGiqskUbufgiJ+CA2bgu2WMuK+KyZFLsXFvsgG3EQ17KimqSHzxBD5o4Y6Tz59buuQ2lZzkfnBhSKaHikVJd4Ko80ajYLws1JpXSgrRTrX3ydRKMCbtSqX7UsJPE3hW6TfJtKPUsrCHxpEEI6qQUrBxvxPk8CzzDZb/Ke5DXiw2jy7Wcdgg56YFiqAuw2/E3I2YJ0hL0hLqEYOMLUx1LJ37i28SH3VUz+SUJ4nyXnqS+s0a8mp0l7YsnujL3EdRi3phQQeZjNg21A9Sqb0n2PgL0Tzyuq+BAAA
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2872,7 +2750,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/32QT4vTQBTAp4KhrKz4b0UQIQ7qZT1s1Sr21CEzpsPmT8lkdyndEqbttBuaJksaWWTZD+AX8Ch769mb4K37SfSTOG1I0trWOQzMe783773fDgAKeGyaNnWJyTzkukg79DAykU7qL8DiKGAvB9ghNYwsb6X5MriX5+e3RzG4hatlsJuHLWQS8PBVF/NIbUQ316Gqnf3+9TU8U8CT4u8mkX8fI7NJHcrMrH0Z3M8RYmkNZLkM7LbhWIR9PxyqFdgpg50Gc51W2odeQpbwBNbg/AlfQ1tnSRR/gbX2JVwZybv5MUliCW6YDF51rhTwPOexjXXiabZtYPvE8hyCjzSX2lb9Y2bpac5uoN5l1LNiXxeZ1EIS0olFHLTgHmVLP1h16raaBNxmJ7aDS+DOUdiNBR/xbiBKyhJq0E+EuQQZhby7qZncnJnbyULbDGX53FL7tJB+Cjupob1/DM33sPQ6zfov5VvSOdU8w3ZIqduGs+lgNu2xiyjuyxHkK71n07fqbPrhz/efKkoS3hupmI/5UNRkdFA5WIW+Xats5AfBMrP//uDlGoWj/lCoDk/k9ClV3UppURT0o4tQdUT/cy/xozCteFNdr5Aux37IJToUoYh5QVfXWMMfiEkieDAHevuVDQOwcyGXOebjcz/2J+P/gIutt04qKzrgL1BAxUbdAwAA
+          custom: H4sIAAAAAAAA/32QT4vTQBjGp4KhrKz4b0UQIQ7qZT1s1Sr21CEztsPmT8lkdyndEqbNtBuaJksaWWTZD+AX8Ch769mb4K37SfSTOG1I0trWOQzM+/7mfZ/n2QFAAY8Nw6IOMZiLHAdphy5GBmqQ+guwOArYywF2SHU965tpvwzu5f357VIMbuFqGezmZRMZBDx81cM8UpvRzXWoame/f30NzxTwpJjdInL2MTJa1KbMyNaXwf0cIabWRKbDwG4HjkXo+eFQrcCuAp7nCLZwg7iaZenYOjFdm+AjzaGWWf+YjdtpMsdup5roJWQJT2ANzp/wNbQaLIniL7DWuYQr8t2bH5MkluAGF/Cqe6WApzm/Yfu7LMtnhV8HGdREEmoQk9howT3KVD5YzdRptwi4zU4sG5fAnaOwFws+4r1AlJQlVKefCHMI0ovw7qZu8+SM3HFW2uY66+fOO6dF6Kewm7re+yf5uQ+zUafZ/qV+W+ZINVe3bFLqdeBsOphN++wiij0pQb7SezZ9q86mH/58/6miJOH9kYr5mA9FTVYHlYNV6Nu1ykZ+ECwz++8PXq5ROPKGQrV5ItWnVHUrpUVR4EUXoWoL73M/8aMw/fGmuv5DZjn2Qy7RoQhFzAu6usbq/kBMEsGDOdDfr2wQwM6FNHPMx+d+7E/G/wEXrrcqlT+64C+mm6vf3QMAAA==
   snapshots: []
 '10':
   uniqueId: 487db535-f1a3-4477-9b30-5b8f234695ba
@@ -2984,7 +2862,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WSQUsbQRTHnxbSRVCsaEuhhWFQL+1BTUHIoc2wO00Wdzd2ZwRDDMsQJ+liskIcoVb8Gj2W4iUXLz1VPCafRD+BH8FJ1t1NSLqHYef9f7y3//++BQAD1ly3YnPqssCqesS1zcCp+HRutYb7vWa/1yA/JP44fI/Pfi+P+r3dfdEWx2GEbCU7M+SH37eIKCUaJ8gSHdGSBV1t7k4yv/4gdhK22+PIh/zWxhQV68iXx+cNFZ5GMbkzg2RKdMJIaLQlI9kVGZ2fZsOfzzO3t2a0csKmPFNStIdMQzMbuJ4bS4vt2Y4TWMQlJVr8DKPHgOVUH56BbcG8v2PAYlrWEVNY2RT+4OYcmd/v7/4pZA6uLwx4lTLUM8vE4wwWa7gjI51zC23jugELZcb9atyjfIm1W4ULeHjVn18pMXXavcCF2iWeGBcM/p6prganp+Kr+lUO3mYrMLIT+NQ6MLld8YqfYmM5eJ8Z53pLPKKhEvWoT0ackQTwJuV8+u3A1p0C0yGMwcvnlTFgZTIjXt2n8IIc0tyY4thfKeOUOMX1pPNSbD4Nx00DSEr/CyHR0yBqR1muR7gep7CUOTSJQ788JtZfpwLhnJh7yU9/FwPwBPF6EUlHAwAA
+          custom: H4sIAAAAAAAA/3WSz0sbQRTHXytsF0FR6Q8KLQyD9qIHNQUhhzbD7jRZ3N3ozggNMSxDnKSLyQpxBK34b/Qo4iUXLz219Jj8Je1f0D+hk6y7m5B0D8PO+37mvXnfeYsAJrzwvKrDqcdCu+YTz7FCtxrQJ8/reNBvDfpNcinx1ug/WQf9Ahr09w5ER5xEMXKU7M6R/9z+REQp0TxFtuiKtizqaGtvmvl2h9hp1OlMIpuF7Y0ZKtFRIE8umio6ixNydw7JlOhGsdBoW8ayJ3K6MMtGXx9r7mzPSeVGLXmupOiMmKZmNnDDmHCL7TuuG9rEI2Va+gDjz4SVTB+toWPD02DXhKUsrC2msPZOBMOHC2R9+f3rh0LW8P7KhNWMob5VIT5nsFTHXRlrn9toBzdMWKwwHtSSHJVrrLtVuIhHW339apmps94VLtav8VS5cPj9XPU0OFsV3zRuDHidj8C4nTCg9pHFnapfep829ipjAnp45GgitFzCGDx7HAUD3ubecD1IPtFomfo0IONUZppqbdojXjugsEA+U2NCcZ1PlHFK3NJ6emw5aT4zx8sMSEP/MyHVMyPqx7mvx7iRuLCcX98iLv34NylswMtMIJwTaz999DcJAP8A6uc3OUcDAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3078,7 +2956,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WSQUsbQRTHny2ki6BosYqHwjDUXtqDEqGSQ5thd5ps3d3ozggNMSxjnMTFZANxBK34AfwCHou3XHrxJnhLPkn7CfoROsm6uwmmexh23v/He/z/8+YBDHjjuhWbU5cFVtUjrm0GTsWncys1POg3B/0GuZD44+g/Pgf9PBr0P+2JtjgOI2Qr2Zkh//n5gIhSonGKLNERLVnQ1ebONHN7h9hp2G5PIh+2NzeeUbGOfHl83lBhN4rJ/AySKdEJI6HRloxkT2T09nM2/PE0c2tzRisnbMozJUV7xDQ0s4HruYm02K7tOIFFXFKiRQvGnwFLqT46A9uCF37egIW0rCOmsPL+yB/+Okfl7vAuQubJ78eb6MSA5ZSinlkmHmewUMMdGemkW2gL1w2YLzPuV+Mu366w9qtwAY+u2kClxFS3d4kLtSs8NTAY3p+pngZnzcXX9escrGdrMLYU+NQ6MLld8YqfY3M5eJuZ53pTPKKhEvWoT8bcUhLCWsr5dP/A1p0C0yGMwauntTHg9XROvLpH4SX5TnMTimN/pYxT4hTfJZ0XY/tpPG4aQVL6XwyJnkZRO8ySPcT1OIXFzKFJHPrlb2J9NRUI58TcTR4exQD8Azzy1dpLAwAA
+          custom: H4sIAAAAAAAA/3WSwU7bQBCGhyK5FhKIVrSIA9JqVXppD6AgtcoBsrK3iYvtUO8iNQqRtYRNsEgcKSxSW8QD9AV6rLjl0gs3JG7Jk7RP0EfoJsZ2IlIfVvb8n2f8/54lABNeeF7V4dRjoV3ziedYoVsN6MJaHQ8HreGgSb5I/HZ8n5zDQQENB+8ORUecRjFylOzOkf/8vENEKdE8R7boirYs6mrr/Szz4wax86jTmUbe7G5vPaISHQXy9LKpol6ckIU5JFOiG8VCo20Zy77I6d3HbPTtYebO9pxWbtSSF0qKzphpamYLN4yptNiB47qhTTxSpiUbJpcJq5k+PkPHhidBwYTlrKwjprD2+iQY/bpEld7oJkbW2e/77/GZCc8yivpWhficwXIdd2Wsk26jHdwwYanCeFBLuny8wtqvwkU8ftQGqmWmev2vuFi/wjMDw9HtheprcN5cfN24NmAjX4OJpTCg9pHFnapf2kvNrWdMQD8dOZoILZcwBk8f1sGAzTwfrpfJJxotU58GZNJqNW31fDYnXjuksEg+U2NKcZ0PlHFK3NKr9LWVxH4Wj5dFkJb+F0OqZ1HUj/Nkj3EjSWEl/3yLuHT/bzLYgJeZQDgn1kH641ECwD/3lr2qSwMAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3136,7 +3014,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WRT2sTQRjGXy3EpdCixT8ICsNgveihbYRCDpphd0yG7m7qzhQMaViGdBKXJltIp9Ba+jU8luIlFy+eFI/JJ9FP4Edw0u3ONiTuYdh5nx/vw/PMMkAJHgdBgwka8JgIQdyd2CMBqdHqM7j+SvDIAnyH+X6uv810B+5bfXrGzIO70ZYDK3YckoDC2ksZTb6dIPfT718/NHInX88ceGAZGrp1EgoOKy08UOlBkvbQJm47sFznImpmO+rnmGupcQVPr/g1btS4Phqe4UrrHM/YxZPvx3powHlXfNG+KMFTi2dx4oh6e65gjbD6Jg/+vAguSMBCYqAaDWlErjknL+CJ5SL6YY+ZTbHrE87h3q7sSxPFgbXZjkRzl8IS+UhLtxSfvadcUOJXX+SbV7PwtpzAFpCP/ldCrtsiWvtFr/u4nbWwWiR0iU/f/c2Nizf3mqZP5sZ+I6J3HrbweNQdjzrkVBln85+d41EZjUfbN3ER02qwQP5z+RMRrWXnEHlyIHuqYqbd7VnmyxXih0m/fxt5Vd5Yn6MyHUXq4KSjk6M0I7cWkKayQZJKg/ZUqoayoMvzbPL5xnNzY8EqP+mqY61kf8p0DLOO2/APCbzhnkcDAAA=
+          custom: H4sIAAAAAAAA/3WRT2sTQRiHXxXWpdCixT8ICsNgveihbYRCDpphd0yG7m7qzhQMaViGdBKXJltIp2At/RoeRbzk4sWT4jH5JPoJ/AhOut3ZhsQ9DLvv75n3nXl2BcCBB2HYZIKGPCFCEG838UlI6rT2GC4fB+5bgO+yICjyV3nuwh2bz9aE+XAz3nZh1ZYjElJYfybj6bdT5L3//euHRt7065kLdy1DI69BIsFhtY2HKjtMsz7awh0XVhpcxK28R+Mccy01ruLZJ36Bm3Wuj0dnuNo+x3Pjkun3Ez0y4OJUfNG5cOCRxfPrJDH19z3BmlHtZXGxh5aJ6dt9ZojECwjncHtPDqQ5ogNPSjeChCwiBq3TiMbkspVbtFqfdyRaexRukXfUuZYE7A3lgpKg9rTYtpZf3soJrYCi9D8JRW5FtA9Krwe4k1tYK4/vkYC+/lsMLv+53zI+mZcEzZjeuNfGk3FvMu6SD8pMNu/5OhlX0GS8c6UFMa2GS+I/n38iorXsHiFfDmVfVU21tzPPfPqC+FE6GFxHnlc2NxaoPEexOjzt6vQ4y8ntJaRRNkwzadC+ytRIlnRlkU0/Xs3c2lzSKkh76kQrOZgxXcNs4A78A8jD56lHAwAA
     '4':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -3174,7 +3052,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WSQUsbQRTHny2ki6BowZYeCsOgXtpDQi2FXJphdxoHdzfpzgiGGJZpnKSLyQpxAm3Fg1/CY+ktFy+9FbzFT6KfwI/QSTa7SUjcw7D7/j/em/9/3yqABVueV2GCejx0aj7xmB26lYCubNXxcNAaDprkh8LvR+/JORx8QMPBp6rsyJMoRkyr7hL54fc/RLSWzVPkyK5sq6Kptgr5eej6D+KnUaczy7z7mN9ZoBIdBeqk39TRWZyQe0tIrmU3iqVB2ypWPTlDL7LRr8nMQn5JKzdqqXOtZGfENA2zgxu5mbj4AXPd0CEeKdMSg/FjwUamj86QOfAs2LNgLSubjCls7n4L7m76SET3t1d9VP3et2AzQ6hv7xNfcFir466KTc5tVMANC1b3uQhqSYvyBTZmNS7i0ae5faXM9VnvJy7WL/DctPDu77nuGXBhKL5sXObgzXQDxmbCgDqHtmAVv+QktnLwdmpbmCXxiYHK1KcBGXMbqf3XGRfQr4fMdAptl3AOLyYbY8HL+YRErUrhOTmiuRnFZV8oF5S4pe2083riPcvGy/ynpacySPUsh/rxNNZj3EhSWJ86tIlLPz+m1l9lAhGC2AfpL5/cDP4DHxsZzEYDAAA=
+          custom: H4sIAAAAAAAA/3WST2vbMBjG323gmkJLW+jGDgUh1l3aQ8I6BrkswlZTUdvJLBUW0mC0VMlMExdSBdqVHvYldhy75bLLboPd0k+yfYJ9hClx7CQk80HY7/PT++fxuw5gw67vV5mgPo/cekB85kReNaSPdht4NGyPhi1yo/Dh+D09R8NXaDR8U5NdeREniGnVWyH/+foTEa1l6xK5sic7qmSi7WJhEfryDfHLuNudZw5eF/aXqFRHoboYtHR8laTk0QqSa9mLE2nQjkpUX87Ry2z8aVqzWFiRyovb6lor2R0zLcPs46Y1Zxc/ZZ4XucQnFVpmMHls2Mr18RkxFx6HRzZs5GHjMYXtlx/Ch+8DJOLfvz4PUO3jwIbtHKGBc0ICwWGjgXsqMT53UBE3bVg/4SKspykqd9gMq3EJjz9N99UK11f9W1xq3OGFatHDj2vdN+BSUXzfvLfg+WwDJsNEIXXPHMGqQdnNxnqWMyF9d8YMETke4RzWpptgwd7MGWH2KCAGrdCAhmSSaitLtbPokKjXKDwh76k1p3jsmHJBiVd+kV3bTGfPvfHz+bPQ/zzI9NyHxvnM1nPcTF3YnLXvEI++/ZsWtuBpLhAhiHOa/fJpZ/AP1H9xvEYDAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3232,7 +3110,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WRwWoTQRzG/yrEpdBSpVp6EIbBetFDSwpKDpphd0zG7m7qzhQMaVim6SRdmmwgnYJa+gC+gEfpLRcv3gRvyZPoE/gITrrd2YbGPQy7/+83/4/v2yWAEjwOggYTNOAxEYK4u7FHAlKjVQRXTwkeWYDvMt/PdS/THVi1+uyMmQd3o7IDy3YckoDC2rPDaPr9DNWH08sUuce/f31Jjx14YCkaunUSCg7LLTxQ6VGS9tA2bjuwVOciamZb3p1jrqXGFTz7xC9wo8b1cPQJV1rneM4wnv441SMDLvLFF+2LEmzYC1mkOKLevitYI6y+zsM/KcILErCQGKhGQxqRK241L2HdchF9v8/Mptj1Cedwf0/2pQnjwMP5nkRzj8I98oGWbig+e0u5oMSvPs03r2TxbT2BrSAf/a+GXLdVtA6KZg9wO2thpUjoEp+++ZsbF//da5pGmRv7jYjeWWvhybg7GXfIR2WczXt2TsZlNBm/vI6LmFaDBfKfbz8R0Vp2TpAnB7KnKmbafTXPfL1E/CTp928iz3e2Nm9RmY4idXTW0ckwzcjyAtJUNkhSadCeStVIFvTObTb5fO25vbVglZ901alWsj9jOobZxG34B4apsP9LAwAA
+          custom: H4sIAAAAAAAA/3WRwW7TMBjHP0AK1aRNAw2mHZAsi3GBw6ZOAvUAtRLTmiXpiD2Jqqsir3O7aG0qdZ4ETHsAXoAj2q0XLtyQuLVPAk/AI+Aui7NqJQcr+f4/f5/9yxKAA4+DoMEEDXhMhCDubuyRgNRoFcHV48AjC/Bd5vt57mV5CVZtPltj5sHdqFyCZVsOSUBh7dlhNP1+hurD6WWK3OPfv76kxyV4YCkaunUSCg7LLTxQ6VGS9tA2bpdgqc5F1My6vDvHXEuNK3j2iV/gRo3r4egTrrTO8dzAePrjVI8MuGguvmhfOLBhN2RXiiPq7buCNcLq6/xy65aJ6Pt9ZojY9QnncH9P9qU5pANPCj+CBCwkBq3RkEbkqtVq3urhvCfR3KNwj3ygzo3EZ28pF5T41af5tpXs+lZPYBXkpf9pyHOronVQmD3A7czCSnF8l/j0zd98cPHfvaYxytzYb0T0zloLT8bdybhDPioz2bxn62RcRpPxy2stiGk1WBD/+fYTEa1l5wR5ciB7qmKq3VfzzNdLxE+Sfv8m8nxna/MWleUoUkdnHZ0M04wsLyCNskGSSoP2VKpGsqB3brPJ5+uZ21sLWvlJV51qJfszpmOYTdyGf1vQRMhLAwAA
     '5':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -3272,7 +3150,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/3WSQWvbMBTHlQ0y09GyDrp1h4EQ6xhsh2ajHeTSCFtNRW2nsxRYSINRXCWYOA6kKmwr/Ro7lvaUSy+7jR2TT7J9gn2EKXFtJyTzQdh6P97z/8dbA8AAW45To5w4zLcaLnao6ds1jxS2mmg86oxHAf4i0bvpe3KORx/gePTxRETiLIwhVbK/ovzn+ifESomgBy3RF11Z1red0vtF6PsNZL0wiuaZt/u7O0tUUoeePLsIVDiIE3JvBcmU6Iex0GhXxnIocnp/mQ2/3c8s7a5oZYcdea6kiKZMoJkd1CrO6WLH1LZ9Czu4SioumD0GeJLVp6dPLfDA2zPAenatHROw+brtTe4uIP/963YA+eQ2MMBmhhDXPMIuZ2C9ifoy1p67sIRaBlg7YtxrJC2ql0iHVaiMpp/672tVpgbDr6jcvEQL0/zJj3M11ODSUHTVuiqCF/kGzML4HrHqJqc1t0KTWEXwMo/N9ZK4WENV4hIPz7jtNP7zjPPIpzrVnXzTxoyBR/cbY4Cni4Z444SAh/gzKYDH9bg9lKIn2pEsFOdAmx4Sxgm2K6/SQRuJikyVk+lIr/6nJK1nWpqnueVT1EqkbOSBTWyTg7+piWdZAXOOzeN0A94kAPgH1iigBlUDAAA=
+          custom: H4sIAAAAAAAA/3WSQWsTQRSAJwrrUmmxQrUehGGwIuihUVohl2bYHdOhu5u6MwFDGpbJdhKWbDaQTkEt/RsexZ5y8eJNPCa/RH+BP8FJtrubkDiHYfa9j/f2fbwNAEyw47p1yonLArvpYZdagVP3SWmnhSbj7mQc4o8SvZq903syfgMn47enIhbnUQKpkoM16T9ff0KslAj70BYD0ZMVHe2WXy9DX75B1o/ieJF5ebi/t0KleejL88tQRcMkJQ/WkEyJQZQIjfZkIkeioA9X2ejzbc/y/ppSTtSVF0qKeMaEmtlDbWNBFzuhjhPY2MU1UvXA/JjgQZ6f3QG1wR3/wASbeVg7JmD7eceffr+E/PevmyHk05vQBNs5QjzrGHucgc0WGshEe+7BMmqbYOOYcb+ZlqhdIT2sQhU0+9R/X68xNRx9QpXWFVrqFkx/XKiRBleaouv2tQGeFBswHybwid2wOK17VZqN9ThnfPK+QTURWA5mDNy73QQDPC3McL1HHtZojXjEx/NSu1mph8uGePOUgLv4AymB+42kM5KiLzqxLBkLoEPfEcYJdqrPsipbqYpclZvryEL/U5Llcy2ts8LyGWqnUraKaSzskKO/aWMDPMoTmHNsnWQb8CIFwD/3ltkwVQMAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3330,7 +3208,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3WRQUsbQRiGv7aQLoKiBVt6KAxD7UUPCVoKueiwO8bB3U3cGaEhhmWMk7iYrBAnUCse+id6LL3l0ktvhd7iL2l/QX+CE9edJCTdw7DzvQ/fy/vOEkABXgZBlQka8JgIQdzD2CMBqdC9t/DwFWDdAvyQ+X6us0x3YNXq4zNmHjyNdhxYtuOQBBTW3p1Gdz8GSCR/fn8ZoNr5wIE1i9DQPSCh4LDcwD2VniVpB5Vw04GlAy6ieraicoO5lhqX8fiKt3C1wvVl/xqXGzd4xi2++3ml+wacM8W3zdsCvLZ0FiaOqHfsClYN97w89ptJbEECFhIDVWhII/LArebxX1kuokfHzGyKXZ9wDs9rsitNEgdezDYk6jUKz8hHWphSfLZPuaDEz4t3YCXLbrsJbP589L8Oct320DiZ1HqCm1kLK5OELvHp7r/cePLiXt3UydzYr0b0yXoDj4bt0bBFPinjbP6zczTcRqPhh8e4iGnVWyD//fYLEa1l6wJ5sic7qmym7VJxFvr6HfGLpNudZjbfFzfmqExHkTobtHRymWbkzgLSdNZLUmnQjkpVX07R82zy+dGzVFywyk/a6kor2R0zLcNs4CbcA5aB8ORGAwAA
+          custom: H4sIAAAAAAAA/3WRQWsTQRTHnxbWpdDSClU8CMNgveghwYqQix12p+nQ3U3cmYIhDcuYTuLSZAvpBGxLD/0SPYq3XLx4E7yln0Q/gR/BSbc7SUjcw7D7/j/em/fbVQAHnoRhjQka8oQIQbyDxCchqdLdF3D3OLBlAX7AgqDIWZ67sGHzyZkwHx7GOy6s2XJEQgqbLz/Ft9+HSKS/f10PUf3z0IVNi9DI2yeR4LDWxH2VHadZF5Vxy4XVfS7iRt6ieom5lhpX8OQTv8a1Kteng3NcaV7iuWnJ7Y8zPTDgwlB81bpy4Jml82WSmPqHnmC1aNcv1npqmZh+OGSGSLyAcA6P6rInzQ0deD41I0jIImLQKo1oTO5abRStHs8bEo06hRXykTozScD2KBeUBIV4F9bz3a2b0O5flP7noMith+bRVOsRbuUW1qfX90hA3/8tBk//uN8wOpmXBLWYPthq4vGoMx61yRdlJpv3/ByP3qDx6N29FsS06i+J/3z9iYjWsn2CfNmXXVUx1U65NA/dfEP8JO31ZplXb0vbC1Seo1gdD9s6Pc1ycmcJaZz100watKsyNZAz9CKbXtzPLJeWtArSjjrTSvYmTNsw27gF/wCG26UcRgMAAA==
     '6':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -3372,7 +3250,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/32SwW7TQBCGF5CMVakVRQLaA8haFS5wiIVopVzIyl7SVW3HeN2qURpZi7MJVm0nclypUPXAS3BEcMqFCzfOyZvwBDwC67i2EyXFh5V35tPs/P/MBgAyeGSaLeJik3p620Im0Tyj5eA7ww6cTvrTiY8uOXyV/efndPJamU4ObBayXhArJOXRmvSfb78VlKbMP1d0FrEBr4toXz1Yhr5+V+h5EIaLzEu1Vnu+guWA4vDehZ8GwzhH99eQNGVREDOBDnjME1bRam0VDj7/71Uj6PNxylmYMb5g1jw34qL/ExaNgiQYR7eDqNcLsl5YqODLEU8CHvs3b78ReFdaGAQ9Iobh6chETdxog/kngwdlPjs9ooO7+r4MNsuwmB4G2y8+OLOfF8rsS/xRobMf8UACO1VlG4vKJ8i0iUOo2djLi0vgWYkgXScuaVnI8PCpjR2CLQ03SNHFdgmK+CGyXAo2OzDisdiGgaLCrgw2DqnrtPN2mldQTCSFdZhdhSutJk2HySdY71zBpc692a9xmghwRQC87l5LYLfa07kxnoP1Yy3rtGEVKp5WQl2xyhYSUBNb2EFzbq8Q8aTkHPz+mIhKnmYgSsH9m72WwcNlt922jcE9dIqlhYxB3mHqYmRUlbdy7aU3Zqm/CN3mQZEvfeicVbaewW7uwlalUEMGfvu3kP64GqDrIu2oWB81B8A/rc1CfOwDAAA=
+          custom: H4sIAAAAAAAA/32SwW7TQBCGF5BMVKkVRQLaA2i1KlzgkAjRSrmQlb2kq9qO8bpVozSyFmcTrNpO5LhSoeqBl+CI4JQLF26ckzfhCXgE1nFtJ0qKDyt75vPMv//MBgAV8MgwWtQhBnO1tokNqrp6yyZ3hh00nfSnEw9fCvQqfc/O6eQ1nE4OLB7wnh9BmohwTfrPt98QJwn3zqHGQz4QdRnt1w6Woa/fITv3g2CReVmrVp+vYBkAbdG78BJ/GGXo/hqSJTz0Iy7RgYhEzEu6Vl2F/c//66r7fTFOBA9SxpPMmnYjIfWf8HDkx/44vB3EvZ6fauEBJJcjEfsi8m56v5F4V1kYBDuiuu5q2MBN0miD+VMBD4p8erpUA3e1/QrYLMJyegRsv/hgz35ewNmX6CNksx/RQAE7ZWWLyMon2LCoTZnR2MuKK+BZgWBNow5tmVh3yalFbEpMlTRormK7AGX8EJsOA5sdFIpIbsMA1lC3AjYOmWO3MznNKyQnkqA6Sj+lK60mS4bxJ1TvXKEl5e7s1ziJJbhyAXTdvVbAbrmnc2Ncm2jHaqq0YebinhSMTd4fU0m4qo4ZA/dv9lUBT0svHLntJpZok5jExvNSe3mph8tuO22LgHv4lCgLGZ2+I8whWC9/28ruXnhjFPfPQ7d5kOcLHzpnpa1nqJu5sFXKV7FO3v7NB/i4HKDjYPUoX59aBoB/oYx6uuwDAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3432,5 +3310,5 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/3WSwWoTQRzGJwpxqbRYoVoPwjBYEfTQKK2QSzPsjunQ3U3dmYAhDctkOwlLNhtIp6CWvoZHsadcvHgTj8mT6BP4CE663dmGxD0MO//vx//j+5g1AMrgkec1KCceCzHn2D4KHezhOqm9ANdfGWwZgB1R1811P9Mt8MDo8zOkDrgT7Flg3Yx97BGw+bwbzL6fQ/7719UI8tlVZIFNgxDfPsQ+Z2C9jYYyPY3TPqygjgXWDhkPWtmK+gViSihURfMreoUadaZG40+o2r5AC27h7MeZGmtwyRRddi7L4ImhszBhQJymzWnDr9E89tMiNsce9bGG6sQnAb7mtvP4jw0XkPdNqjeFtosZA/eORSJ0Egs8XGyIt44JuIs/kBK430y7YykGopvIUvkW6NJ3hHGC3dqz3Ggjq8JU5Zk68tH/Ksl1U0v7pGj5BHWyUjaKwDZ2ycHf3Lh4AE5Lt0vt0G0EpLTVRtNJbzqJ8EepnfV/dk4nb+B08vYmPaRKDlfIf77+hFgpEQ2gI4aiL6t62qu8XoS+fINsECfJbebl/u7OEpXpMJCn55GKR2lG7q0gdWfDOBUa7ctUjkVB7y+z8ecbz8ruilVu3JNnSopkzkSa2UEd8A+GDZYfVQMAAA==
+          custom: H4sIAAAAAAAA/3WSQWsTQRTHJwprqLRYoVoPwjBYEfTQKK2QSzPsjunQ3U3dmYAhDctkOwlLNhtIp6CWfg2PYk+5ePEmHpNPop/Aj+Ck251tSNzDsPP+P97b92PXALDAI89rUE48FmLOsX0UOtjDdVJ7Aa4fC2wZgB1R181zP8vL4IHJ52dIHXAn2CuDdVP2sUfA5vNuMPt+DvnvX1cjyGdXURlsGoT49iH2OQPrbTSU6Wmc9mEFdcpg7ZDxoJW1qF8gpoRCVTS/oleoUWdqNP6Equ0LtDAtnP04U2MNLg1Fl51LCzwxdLZMGBCnaXPa8Gs0X+uxYQLyvkk1EdouZgzcOxaJ0F9ogaeFGY496mON1olPAnzdajtv9XDREG8dE3AXfyAlcL+ZdsdSDEQ3kSXrFujSd4Rxgt3as7zLRqbCqPKMjrz0PyV5brS0TwrLJ6iTSdkotrGxSw7+5oOLH8BpabvUDt1GQEpbbTSd9KaTCH+UerJ+z87p5A2cTt7eWIJUyeGK+M/XnxArJaIBdMRQ9GVVV3uV14vQl2+QDeIkuc283N/dWaKyHAby9DxS8SjNyL0VpHY2jFOh0b5M5VgU9P4yG3++mVnZXdHKjXvyTEmRzJlIMzuoA/4B3f+XoVUDAAA=
   snapshots: []
