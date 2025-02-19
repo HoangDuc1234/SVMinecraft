@@ -48,7 +48,7 @@ npc:
         z: -201.2437
         yaw: -69.1845
         pitch: 0.0
-    traitnames: scoreboardtrait,location,skintrait,spawned,lookclose,rotationtrait,inventory,owner,type,commandtrait
+    traitnames: lookclose,type,spawned,inventory,location,commandtrait,scoreboardtrait,rotationtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -92,14 +92,14 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: -65.417336
+        bodyYaw: 47.194733
         world: world
-        x: 385.4414
-        y: 93.0
-        z: 14.3639
-        yaw: -65.4173
-        pitch: -13.7941
-    traitnames: scoreboardtrait,location,skintrait,spawned,lookclose,rotationtrait,inventory,owner,type,commandtrait
+        x: 412.5098
+        y: 64.0
+        z: 30.7575
+        yaw: 47.1947
+        pitch: 6.8809
+    traitnames: lookclose,type,spawned,inventory,location,commandtrait,scoreboardtrait,rotationtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -149,7 +149,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,location,skintrait,spawned,lookclose,rotationtrait,inventory,owner,type,commandtrait
+    traitnames: lookclose,type,spawned,inventory,location,commandtrait,scoreboardtrait,rotationtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -200,7 +200,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,location,skintrait,spawned,lookclose,rotationtrait,inventory,owner,type,commandtrait
+    traitnames: lookclose,type,spawned,inventory,location,commandtrait,scoreboardtrait,rotationtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -242,7 +242,7 @@ npc:
         yaw: -61.0181
         pitch: 55.2535
       spawned: true
-    traitnames: scoreboardtrait,location,skintrait,spawned,inventory,owner,type,commandtrait
+    traitnames: type,spawned,inventory,location,commandtrait,scoreboardtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -259,13 +259,13 @@ npc:
         skinName: godgoku
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTg2MDM2ODQ5MSwKICAicHJvZmlsZUlkIiA6ICIzODUzMzcyMzNmZGM0Y2ZiOGNkOTI0MjA1MWUzMDJiMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2RHb2t1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxNGZmMjAyNjc5YTdkM2ZkNWQwOGNjNTc1Y2FhM2MwZTFlY2ZjNzI0MWM4YTYzMTcyZGU4OWE3ZmM5MGUxMmYiCiAgICB9CiAgfQp9
       location:
-        bodyYaw: -57.402924
+        bodyYaw: -117.20284
         world: world
-        x: 381.2699
-        y: 93.0
-        z: 14.2909
-        yaw: -57.4029
-        pitch: -18.0653
+        x: 407.8512
+        y: 66.0
+        z: 75.1864
+        yaw: -117.2028
+        pitch: -18.2869
       type: PLAYER
       spawned: true
       owner:
@@ -293,7 +293,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: scoreboardtrait,location,skintrait,spawned,lookclose,rotationtrait,inventory,owner,type,commandtrait
+    traitnames: lookclose,type,spawned,inventory,location,commandtrait,scoreboardtrait,rotationtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -336,13 +336,13 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: -75.495255
+        bodyYaw: -38.46982
         world: world
-        x: 383.5006
-        y: 93.0
-        z: 16.5255
-        yaw: -75.4953
-        pitch: -12.8611
+        x: 386.3
+        y: 64.0
+        z: 17.1168
+        yaw: -38.4698
+        pitch: 0.2858
       type: PLAYER
       spawned: true
       owner:
@@ -356,7 +356,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,location,skintrait,spawned,lookclose,rotationtrait,inventory,owner,type,commandtrait
+    traitnames: lookclose,type,spawned,inventory,location,commandtrait,scoreboardtrait,rotationtrait,owner,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

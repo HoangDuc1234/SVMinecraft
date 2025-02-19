@@ -22,13 +22,14 @@ regions:
         min: {x: 346, y: 61, z: -23}
         max: {x: 423, y: 97, z: 45}
         members: {}
-        flags: {fall-damage: deny, mob-spawning: deny}
+        flags: {other-explosion: allow, fall-damage: deny, mob-spawning: allow}
         owners: {}
         type: cuboid
         priority: 0
     __global__:
         members: {}
-        flags: {build: allow, pvp: allow}
+        flags: {other-explosion: deny, creeper-explosion: deny, build: allow, mob-damage: allow,
+            pvp: allow, tnt: deny, ghast-fireball: deny, enderdragon-block-damage: deny}
         owners: {}
         type: global
         priority: 0

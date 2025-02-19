@@ -663,6 +663,6 @@ D6:
 TEST:
   base:
     material: IRON_SWORD
-    attack-damage: 10.0
+    attack-damage: 999.0
 
 # U2QutmdspnM1UFeMB1VBlnSrxmT5VleOhXRE1EejRUTwcmeOJ3cQFGaRB1NVp2aXZHaz8GO

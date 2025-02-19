@@ -1,0 +1,230 @@
+world:
+  general:
+    natural_disasters: false
+    min_timer: 1
+    level_six: true
+    event_broadcast: true
+    disaster_offset: 10
+    admin_override: true
+    pet_warning_time: 0
+    difficulty: EXTREME
+    minDistanceRadius: 50
+    custom_mob_spawning: true
+    config: DEFAULT
+  disasters:
+    SINKHOLE: true
+    CAVEIN: true
+    TORNADO: true
+    GEYSER: true
+    PLAGUE: true
+    ACIDSTORM: false
+    EXTREMEWINDS: true
+    SOULSTORM: true
+    BLIZZARD: false
+    SANDSTORM: true
+    EARTHQUAKE: true
+    TSUNAMI: true
+    METEORSHOWERS: true
+    ENDSTORM: true
+    SUPERNOVA: true
+    HURRICANE: true
+    PURGE: true
+    SOLARSTORM: true
+    CUSTOM: true
+  external:
+    region_plugins:
+      region_protection: true
+      ignore_weather_effects_in_regions: true
+      cure_plague_in_regions: true
+  custom_table:
+    level_1: 30
+    level_2: 25
+    level_3: 20
+    level_4: 15
+    level_5: 9
+    level_6: 1
+  whitelist: []
+world_nether:
+  general:
+    natural_disasters: true
+    min_timer: 90
+    level_six: true
+    event_broadcast: true
+    disaster_offset: 10
+    admin_override: true
+    pet_warning_time: 0
+    difficulty: EXTREME
+    minDistanceRadius: 50
+    custom_mob_spawning: true
+    config: DEFAULT
+  disasters:
+    SINKHOLE: true
+    CAVEIN: true
+    TORNADO: false
+    GEYSER: true
+    PLAGUE: true
+    ACIDSTORM: false
+    EXTREMEWINDS: true
+    SOULSTORM: true
+    BLIZZARD: false
+    SANDSTORM: true
+    EARTHQUAKE: true
+    TSUNAMI: true
+    METEORSHOWERS: true
+    ENDSTORM: true
+    SUPERNOVA: true
+    HURRICANE: true
+    PURGE: true
+    SOLARSTORM: true
+    CUSTOM: true
+  external:
+    region_plugins:
+      region_protection: true
+      ignore_weather_effects_in_regions: true
+      cure_plague_in_regions: true
+  custom_table:
+    level_1: 30
+    level_2: 25
+    level_3: 20
+    level_4: 15
+    level_5: 9
+    level_6: 1
+  whitelist: []
+world_the_end:
+  general:
+    natural_disasters: true
+    min_timer: 90
+    level_six: true
+    event_broadcast: true
+    disaster_offset: 10
+    admin_override: true
+    pet_warning_time: 0
+    difficulty: EXTREME
+    minDistanceRadius: 50
+    custom_mob_spawning: true
+    config: DEFAULT
+  disasters:
+    SINKHOLE: true
+    CAVEIN: true
+    TORNADO: true
+    GEYSER: true
+    PLAGUE: true
+    ACIDSTORM: false
+    EXTREMEWINDS: true
+    SOULSTORM: true
+    BLIZZARD: false
+    SANDSTORM: true
+    EARTHQUAKE: true
+    TSUNAMI: true
+    METEORSHOWERS: true
+    ENDSTORM: true
+    SUPERNOVA: true
+    HURRICANE: true
+    PURGE: true
+    SOLARSTORM: true
+    CUSTOM: true
+  external:
+    region_plugins:
+      region_protection: true
+      ignore_weather_effects_in_regions: true
+      cure_plague_in_regions: true
+  custom_table:
+    level_1: 30
+    level_2: 25
+    level_3: 20
+    level_4: 15
+    level_5: 9
+    level_6: 1
+  whitelist: []
+worldDungeon:
+  general:
+    natural_disasters: false
+    min_timer: 90
+    level_six: true
+    event_broadcast: true
+    disaster_offset: 10
+    admin_override: true
+    pet_warning_time: 0
+    difficulty: EXTREME
+    minDistanceRadius: 50
+    custom_mob_spawning: true
+    config: DEFAULT
+  disasters:
+    SINKHOLE: true
+    CAVEIN: true
+    TORNADO: true
+    GEYSER: true
+    PLAGUE: true
+    ACIDSTORM: false
+    EXTREMEWINDS: true
+    SOULSTORM: true
+    BLIZZARD: false
+    SANDSTORM: true
+    EARTHQUAKE: true
+    TSUNAMI: true
+    METEORSHOWERS: true
+    ENDSTORM: true
+    SUPERNOVA: true
+    HURRICANE: true
+    PURGE: true
+    SOLARSTORM: true
+    CUSTOM: true
+  external:
+    region_plugins:
+      region_protection: true
+      ignore_weather_effects_in_regions: true
+      cure_plague_in_regions: true
+  custom_table:
+    level_1: 30
+    level_2: 25
+    level_3: 20
+    level_4: 15
+    level_5: 9
+    level_6: 1
+  whitelist: []
+worldSpawn:
+  general:
+    natural_disasters: true
+    min_timer: 90
+    level_six: true
+    event_broadcast: true
+    disaster_offset: 10
+    admin_override: true
+    pet_warning_time: 0
+    difficulty: EXTREME
+    minDistanceRadius: 50
+    custom_mob_spawning: true
+    config: DEFAULT
+  disasters:
+    SINKHOLE: true
+    CAVEIN: true
+    TORNADO: true
+    GEYSER: true
+    PLAGUE: true
+    ACIDSTORM: false
+    EXTREMEWINDS: true
+    SOULSTORM: true
+    BLIZZARD: false
+    SANDSTORM: true
+    EARTHQUAKE: true
+    TSUNAMI: true
+    METEORSHOWERS: true
+    ENDSTORM: true
+    SUPERNOVA: true
+    HURRICANE: true
+    PURGE: true
+    SOLARSTORM: true
+    CUSTOM: true
+  external:
+    region_plugins:
+      region_protection: true
+      ignore_weather_effects_in_regions: true
+      cure_plague_in_regions: true
+  custom_table:
+    level_1: 30
+    level_2: 25
+    level_3: 20
+    level_4: 15
+    level_5: 9
+    level_6: 1
+  whitelist: []
