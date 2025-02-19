@@ -12,19 +12,90 @@ worlds:
 dates:
   world:
     day: 1
-    month: 12
-    year: 19
+    month: 1
+    year: 21
 temperature:
   world: true
 time-paused: []
 placedpresents:
-  world: []
+  world:
+  - 652,-23,188,world
+  - 656,63,190,world
+  - 650,-13,189,world
+  - 655,27,193,world
+  - 638,-47,176,world
+  - 638,63,175,world
+  - 640,19,175,world
+  - 638,-46,175,world
+  - 644,63,178,world
+  - 650,28,189,world
+  - 640,63,174,world
+  - 642,72,173,world
+  - 640,19,179,world
+  - 650,-23,189,world
+  - 641,18,175,world
+  - 639,63,181,world
+  - 642,63,173,world
+  - 640,-14,174,world
+  - 656,63,189,world
+  - 655,27,192,world
+  - 644,4,178,world
+  - 641,72,174,world
+  - 641,63,174,world
+  - 643,-45,180,world
+  - 640,71,175,world
+  - 640,2,174,world
+  - 640,63,175,world
+  - 651,-23,187,world
+  - 652,63,186,world
+  - 640,-14,175,world
+  - 642,63,178,world
+  - 652,-13,186,world
+  - 649,63,185,world
+  - 639,21,181,world
+  - 653,-24,186,world
+  - 641,63,175,world
+  - 642,-14,174,world
+  - 641,72,175,world
+  - 653,63,186,world
+  - 640,18,174,world
+  - 651,-13,187,world
+  - 644,-47,178,world
+  - 649,-43,185,world
+  - 641,-14,174,world
+  - 640,19,177,world
+  - 641,20,180,world
+  - 642,-47,178,world
+  - 652,28,188,world
+  - 653,-13,186,world
+  - 641,2,175,world
+  - 642,-14,173,world
+  - 640,63,180,world
+  - 638,63,180,world
+  - 638,63,176,world
+  - 652,-25,186,world
+  - 643,63,180,world
+  - 642,72,174,world
+  - 655,41,193,world
+  - 640,63,177,world
+  - 640,-47,177,world
+  - 652,-13,188,world
+  - 641,18,174,world
+  - 640,19,180,world
+  - 642,63,174,world
+  - 641,-14,175,world
 placedeggs:
   world:
   - 344,194,-25,world
-  - 344,166,-25,world
+  - 532,67,14,world
   - 353,154,-38,world
-  - 344,115,-25,world
+  - 532,31,14,world
   - 344,173,-25,world
+  - 465,74,85,world
+  - 465,-14,85,world
+  - 344,166,-25,world
+  - 376,64,106,world
+  - 344,115,-25,world
+  - 539,70,86,world
   - 353,-50,-38,world
   - 344,151,-25,world

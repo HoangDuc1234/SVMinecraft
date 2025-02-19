@@ -87,7 +87,7 @@ items:
 
   attp:
     name: "&cAttribute Point"
-    item: GOLD_NUGGET
+    item: NETHER_STAR
     # (1.14+ ONLY FEATURE) You can add custom model data
     lore:
       - "&f- &aCộng 1 Attribute Point"

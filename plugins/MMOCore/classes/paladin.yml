@@ -61,41 +61,21 @@ exp-table: class_exp_table
 cast-particle:
     particle: VILLAGER_HAPPY
 
-skills:
-    DEEP_WOUND:
-        level: 10
-        max-level: 30
-    WEAKEN:
-        level: 5
-        max-level: 30
-    AMBERS:
-        level: 15
-        max-level: 30
-    GREATER_HEALINGS:
-        level: 7
-        max-level: 30
-    MINOR_HEALINGS:
-        level: 3
-        max-level: 30
-    HUMAN_SHIELD:
-        level: 13
-        max-level: 20
-
 attributes:
     knockback-resistance:
-        base: .3
-        per-level: .01
+        base: 0.3
+        per-level: 0.1
     speed-malus-reduction:
         base: 30
         per-level: 2
     max-health:
-        base: 22
-        per-level: 0.3
+        base: 30
+        per-level: 3
     attack-speed:
         base: 3.7
-        per-level: 0
+        per-level: 0.05
     movement-speed:
-        base: .095
+        base: .1
         per-level: 0
 
 # Experience sources for main class experience.

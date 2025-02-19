@@ -65,51 +65,24 @@ options:
 cast-particle:
     particle: SPELL_WITCH
 
-skills:
-    DEEP_WOUND:
-        level: 1
-        max-level: 30
-    WEAKEN:
-        level: 3
-        max-level: 30
-    EMPOWERED_ATTACK:
-        level: 5
-        max-level: 30
-    COMBO_ATTACK:
-        level: 7
-        max-level: 30
-    EVADE:
-        level: 9
-        max-level: 30
-    FURTIVE_STRIKE:
-        level: 4
-        max-level: 30
-    MINOR_HEALINGS:
-        level: 10
-        max-level: 30
-        upgradable: false # Player cannot upgrade this skill via the skill UI
-    SNEAKY_PICKY:
-        level: 2
-        max-level: 20
-
 attributes:
     attack-speed:
         base: 4.2
-        per-level: 0.05
+        per-level: 0.1
     max-health:
         base: 18
-        per-level: 0
+        per-level: 1
     movement-speed:
-        base: .105
+        base: 0.2
         per-level: 0
     safe-fall-distance: # Can resist higher falls
         base: 5.0
-        per-level: 0
+        per-level: 1
     sneaking-speed: # +66% base sneaking speed
         base: 0.5
         per-level: 0
     JUMP_STRENGTH: # About +20% jump strength (default is 0.42)
-        base: 0.5
+        base: 0.3
         per-level: 0
 
 # Experience sources for main class experience.

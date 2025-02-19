@@ -79,37 +79,22 @@ resource:
         # Only regen when out of combat.
         off-combat: true
 
-skills:
-    WEAKEN:
-        level: 3
-        max-level: 30
-    COMBO_ATTACK:
-        level: 7
-        max-level: 30
-    EVADE:
-        level: 9
-        max-level: 30
-    MINOR_HEALINGS:
-        level: 10
-        max-level: 30
-        upgradable: false # Player cannot upgrade this skill via the skill UI
-
 attributes:
     knockback-resistance:
         base: .15
-        per-level: .01
+        per-level: .02
     speed-malus-reduction:
         base: 10
         per-level: 2
     max-health:
         base: 18
-        per-level: 0
+        per-level: 1
     movement-speed:
-        base: .105
+        base: .2
         per-level: 0
     safe-fall-distance: # Can resist higher falls
-        base: 4.0
-        per-level: 0
+        base: 10
+        per-level: 1 
 
 # Experience sources for main class experience.
 main-exp-sources:

@@ -12,12 +12,12 @@ strength:
     # in this specific attribute.
     buff:
         max_health: 5%
+        weapon_damage: 0
 
 dexterity:
     name: Dexterity
     max-points: 100
     buff:
-        weapon_damage: 5
         physical_damage: 5
         projectile_damage: 5
         attack_speed: 0.5%

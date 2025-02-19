@@ -97,30 +97,10 @@ options:
     off-combat-mana-regen: true
     needs-permission: false
 
-skills:
-    DEEP_WOUND:
-        level: 1
-        max-level: 30
-    WEAKEN:
-        level: 3
-        max-level: 30
-    EMPOWERED_ATTACK:
-        level: 5
-        max-level: 30
-    COMBO_ATTACK:
-        level: 7
-        max-level: 30
-    MINOR_HEALINGS:
-        level: 10
-        max-level: 30
-        upgradable: false # Player cannot upgrade this skill via the skill UI
-    FIRE_BERSERKER:
-        level: 15
-    
 attributes:
     mana-regeneration:
-        base: -0.5
-        per-level: 0
+        base: 1
+        per-level: 1
     speed-malus-reduction:
         base: 50
         per-level: 2
@@ -129,13 +109,10 @@ attributes:
         per-level: 1
     max-health:
         base: 24
-        per-level: 0.5
+        per-level: 2
     movement-speed:
         base: .12
         per-level: 0
-    attack-damage:
-        base: 2
-        per-level: 0.1
     attack-speed:
         base: 4.2
         per-level: 0.05

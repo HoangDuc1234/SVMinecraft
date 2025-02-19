@@ -566,13 +566,11 @@ GOLD:
         type: PRESENT_THROW
         mode: RIGHT_CLICK
         damage: 20.0
-        cooldown: 5.0
+        cooldown: 10.0
     enchants:
       mending: 1.0
     unbreakable: true
-    element:
-      lightness:
-        damage: 20.0
+    magic-damage: 500.0
 R1:
   base:
     material: IRON_SWORD
@@ -662,5 +660,9 @@ D6:
     stamina-regeneration: 10.0
     additional-experience: 50.0
     name: '&bDao Tạo Tác'
+TEST:
+  base:
+    material: IRON_SWORD
+    attack-damage: 10.0
 
 # U2QutmdspnM1UFeMB1VBlnSrxmT5VleOhXRE1EejRUTwcmeOJ3cQFGaRB1NVp2aXZHaz8GO
