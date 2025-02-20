@@ -37,6 +37,7 @@ DrinkingRawWater:
   Style: SEGMENTED_10
   Effects:
     - "SLOW:1"
+    - "WEAKNESS:2"
   Actions:
     - "[message] &cYou are drinking raw water!"
     - "[sound] ENTITY_GENERIC_DRINK"

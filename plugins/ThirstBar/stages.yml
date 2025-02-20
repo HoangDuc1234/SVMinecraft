@@ -24,8 +24,8 @@ Stage2:
   Color: RED
   Style: SEGMENTED_10
   Effects:
-    - "SLOW:3"
-    - "WEAKNESS:2"
+    - "SLOW:2"
+    - "WEAKNESS:3"
   Actions:
     - "[title] &cExhausted from thirst"
     - "[subtitle] &fYou need to drink water to survive"

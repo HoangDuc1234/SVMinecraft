@@ -215,6 +215,8 @@ BB1:
       infinity: 1.0
     attack-damage: 15.0
     name: '&aCung &f[&cLv1&f]'
+    required-class:
+    - Marksman
 BB2:
   base:
     material: BOW
@@ -229,6 +231,8 @@ BB2:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman
 BB3:
   base:
     material: BOW
@@ -243,6 +247,8 @@ BB3:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman
 BB4:
   base:
     material: BOW
@@ -257,6 +263,8 @@ BB4:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman
 BB5:
   base:
     material: BOW
@@ -271,6 +279,8 @@ BB5:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman
 BB6:
   base:
     material: BOW
@@ -285,6 +295,8 @@ BB6:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman
 BB7:
   base:
     material: BOW
@@ -299,6 +311,8 @@ BB7:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman
 BB8:
   base:
     material: BOW
@@ -313,3 +327,5 @@ BB8:
         mode: LEFT_CLICK
         cooldown: 5.0
         range: 4.0
+    required-class:
+    - Marksman

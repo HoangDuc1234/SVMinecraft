@@ -33,7 +33,7 @@ sprinting:
   # If true, the action bar will be hidden when the player is sprinting.
 underwater:
   enable: true
-  multiply: 0.1
+  multiply: -4
   cases:
     1:
       condition: "%rs_temperature_int% > 50"

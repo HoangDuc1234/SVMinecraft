@@ -242,6 +242,8 @@ SS1:
         mode: RIGHT_CLICK
         damage: 5.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS2:
   base:
     material: STICK
@@ -259,6 +261,8 @@ SS2:
         mode: RIGHT_CLICK
         damage: 6.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS3:
   base:
     material: STICK
@@ -276,6 +280,8 @@ SS3:
         mode: RIGHT_CLICK
         damage: 7.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS4:
   base:
     material: STICK
@@ -293,6 +299,8 @@ SS4:
         mode: RIGHT_CLICK
         damage: 8.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS5:
   base:
     material: STICK
@@ -310,6 +318,8 @@ SS5:
         mode: RIGHT_CLICK
         damage: 10.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS6:
   base:
     material: STICK
@@ -327,6 +337,8 @@ SS6:
         mode: RIGHT_CLICK
         damage: 12.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS7:
   base:
     material: STICK
@@ -344,6 +356,8 @@ SS7:
         mode: RIGHT_CLICK
         damage: 15.0
         cooldown: 3.0
+    required-class:
+    - Mage
 SS8:
   base:
     material: STICK
@@ -361,3 +375,5 @@ SS8:
         mode: RIGHT_CLICK
         damage: 18.0
         cooldown: 3.0
+    required-class:
+    - Mage

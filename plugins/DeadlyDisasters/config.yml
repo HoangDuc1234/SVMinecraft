@@ -195,7 +195,7 @@ hurricane:
   volume: 1.0
   name: '&7Hurricane'
 purge:
-  start_delay: 10
+  start_delay: 3
   # How many mobs spawn for each level
   horde_size:
     level 1: 8
@@ -214,7 +214,7 @@ purge:
   spawn_distance: 25
   min_height: 0
   max_level: 6
-  frequency: 0.3
+  frequency: 50
   volume: 1.0
 plague:
   start_delay: 0
@@ -228,7 +228,7 @@ plague:
   # Max number of entities that can be infected
   max_infected_mobs: 200
   max_level: 6
-  frequency: 0.3
+  frequency: 5
   name: '&0Black Plague'
 sandstorm:
   # Delay in seconds for disaster to begin after the event message is broadcast

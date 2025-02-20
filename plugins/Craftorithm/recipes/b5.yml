@@ -1,13 +1,13 @@
 type: shapeless
 source:
-- minecraft:gold_ingot
-- minecraft:gold_ingot
-- minecraft:gold_ingot
-- minecraft:gold_ingot
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
 - mmoitems:BOW:BB4
-- minecraft:gold_ingot
-- minecraft:gold_ingot
-- minecraft:gold_ingot
-- minecraft:gold_ingot
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
 unlock: true
 result: mmoitems:BOW:BB5 1

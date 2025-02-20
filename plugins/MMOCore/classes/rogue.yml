@@ -23,7 +23,7 @@ display:
     - '&7  Max Mana: &920 &7(+&90&7)'
     - '&7  Health Regen: &90.1 &7(+&90&7)'
     - '&7  Mana Regen: &90.166 &7(+&90&7)'
-    item: LEATHER_BOOTS
+    item: DIAMOND_SWORD
 
 # Must match an existing exp curve filename from the 'expcurves' folder
 exp-curve: levels

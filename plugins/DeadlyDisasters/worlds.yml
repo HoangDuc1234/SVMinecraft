@@ -7,7 +7,7 @@ world:
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: EXTREME
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -47,13 +47,13 @@ world:
 world_nether:
   general:
     natural_disasters: true
-    min_timer: 90
+    min_timer: 1
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: EXTREME
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -93,13 +93,13 @@ world_nether:
 world_the_end:
   general:
     natural_disasters: true
-    min_timer: 90
+    min_timer: 1
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: EXTREME
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -139,13 +139,13 @@ world_the_end:
 worldDungeon:
   general:
     natural_disasters: false
-    min_timer: 90
+    min_timer: 1
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: EXTREME
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -185,13 +185,13 @@ worldDungeon:
 worldSpawn:
   general:
     natural_disasters: true
-    min_timer: 90
+    min_timer: 1
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: EXTREME
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT

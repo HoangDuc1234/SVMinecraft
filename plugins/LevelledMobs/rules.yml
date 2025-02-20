@@ -129,7 +129,7 @@ presets:
     name: 'Bronze Challenge'
     settings:
       attribute-modifier:
-        merge: false
+        merge: true
         max-health: 2.5
         attack-damage: 1.0
         ranged-attack-damage: 0.7

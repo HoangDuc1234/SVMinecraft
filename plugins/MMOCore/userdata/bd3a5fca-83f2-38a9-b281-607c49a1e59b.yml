@@ -1,18 +1,18 @@
-class-points: 1
+class-points: 0
 skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 10
-experience: 250.0
-class: WARRIOR
+level: 1
+experience: 0.0
+class: HUMAN
 waypoints: []
 friends: []
-last-login: 1740052181873
+last-login: 1740053694865
 skill-tree-reallocation-points: 0
-health: 42.0
-mana: 29.0
-stellium: 20.0
+health: 20.0
+mana: 20.0
+stellium: 2.6399999999999877
 stamina: 20.0
 unlocked-items: []
 skill-tree-level:
@@ -139,14 +139,10 @@ skill-tree-level:
   general_b3: 0
   mage-arcane-mage_d2: 0
   mage-arcane-mage_d1: 0
-times-claimed:
-  class_WARRIOR:
-    class_exp_table:
-      skill_point: 9
 attribute:
   dexterity: 0
   strength: 0
-  intelligence: 20
+  intelligence: 0
 profession:
   enchanting:
     exp: 0.0
@@ -173,21 +169,3 @@ profession:
     exp: 0.0
     level: 0
 quest: {}
-class-info:
-  HUMAN:
-    level: 1
-    experience: 66.2339196035586
-    skill-points: 0
-    attribute-points: 2
-    attribute-realloc-points: 0
-    skill-tree-reallocation-points: 0
-    skill-reallocation-points: 0
-    health: 20.0
-    mana: 20.0
-    stamina: 20.0
-    stellium: 20.0
-    attribute:
-      dexterity: 0
-      strength: 0
-      intelligence: 0
-    unlocked-items: []
