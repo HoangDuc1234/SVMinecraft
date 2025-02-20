@@ -21,18 +21,6 @@ worlds:
     options: ''
     difficulty: EASY
     autoload: true
-  worldDungeon:
-    seed: -3152641793000657586
-    worldgen: Normal
-    options: ''
-    difficulty: NORMAL
-    autoload: true
-  worldSpawn:
-    seed: -4467867580743589459
-    worldgen: Normal
-    options: ''
-    difficulty: NORMAL
-    autoload: true
   world_nether:
     seed: -5664882875627498520
     worldgen: Nether

@@ -280,12 +280,14 @@ entity-temperature:
     - WANDERING_TRADER
     immune-to-cold:
     - AXOLOTL
+    - VILLAGER
     - COD
     - FROG
     - GLOW_SQUID
     - PUFFERFISH
     - SALMON
     - SQUID
+    - IRON_GOLEM
     - SNOW_GOLEM
     - TADPOLE
     - TROPICAL_FISH
@@ -307,6 +309,8 @@ entity-temperature:
     - ZOMBIFIED_PIGLIN
     immune-to-heat:
     - STRIDER
+    - VILLAGER
+    - IRON_GOLEM
     - PIGLIN
     - BLAZE
     - HOGLIN

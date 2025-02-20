@@ -2,57 +2,6 @@
 
 last-created-npc-id: 30
 npc:
-  '0':
-    metadata:
-      cached-skin-uuid: c9536eaa-c116-41bc-91ce-8c066c755e69
-      cached-skin-uuid-name: ganyu
-    name: '&bSurvival'
-    uuid: 130aa7a3-a551-4359-b900-c190c196f303
-    traits:
-      skintrait:
-        signature: qr4F4PqYI2vjQXvMpgai7NGD9buybDjPrDVJgVrJSB9B3XMgflMrtecScfiu/yO/d6tkd9idmfwqt8ZzlixyVFvrZD06K8IlwM+Am4HX7kMjnid8seI0gTht2MHeGrTvJhkb8E83/q8NH4wwFXSX8BRGLWS4ahdjD2oAkVXAHRg3mmZefnharZdwtunPYu1ZwX9Scklix+e7ni14PiGEl6IGI/Yrx8rf+VU3n7TtTIhEC8bPNwiIpAP+6iGFWVWD8HTQZuosdToYHELwbUVtIoZ04XV8ayG8QNEoTsvtxXmlFZHfCKg4oJMsVBBC5Nz8D8PSD6hU2F3JgNe1GCw8dNc0FuLd/ftrwL6AcCMUwzYb1AC+oxX8foZkdagu79JbTlkqs9IGL3wemLJrN8MXwgj0DZGWZ4sH9N49mX15dVUqPzz7Jisl51J4pTPPzvMLEKsmSMX7nWKX24WodCKn8Unjco0+sq9e9a6jsxrXwE/5rxDQEMYDs+HHfb6+K8CmKujlwSZY0n00yMn/hy2zi4NPWescAuGEZrjVYm5wCJr/cwQd4fvQE5vY51njZmIXbgSq4PB6ETijEvaFa6ut4C5Z2RrtaspndeccSyVeZJklUMm1eWBQQouqyTfpoIE/6coxA1xc9JL1fDPZ55orH4SrA19Nbogq8axZTwPOEMg=
-        skinName: ganyu
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTcwMjgwNDI4NSwKICAicHJvZmlsZUlkIiA6ICJjOTUzNmVhYWMxMTY0MWJjOTFjZThjMDY2Yzc1NWU2OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYW55dSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NmJjNmJmNzJjZDQyYzkyZDRlYmFhNjc3ZTYzODQ0YmFjNmZlMWM3OWJiOTFmM2EzY2IwZDliMjBlOTIzNGQ0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
-      spawned: true
-      lookclose:
-        range: 10.0
-        enabled: true
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-      owner:
-        uuid: bd3a5fca-83f2-38a9-b281-607c49a1e59b
-      commandtrait:
-        commands:
-          '1':
-            command: warp survival %player%
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-      type: PLAYER
-      location:
-        bodyYaw: -69.18453
-        world: worldSpawn
-        x: -1738.4993
-        y: 82.0
-        z: -201.2437
-        yaw: -69.1845
-        pitch: 0.0
-    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false
   '12':
     metadata:
       cached-skin-uuid: 4f34767c-c393-4b50-acd9-056f8defe354
@@ -93,159 +42,16 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: 24.267303
+        bodyYaw: 105.254
         world: world
-        x: 377.8205
-        y: 93.0
-        z: 18.7
-        yaw: 24.2673
-        pitch: 1.5137
+        x: 19304.2435
+        y: 95.0
+        z: 61600.1055
+        yaw: 122.811
+        pitch: 1.066
       gravity:
         enabled: true
-    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose,mounttrait,gravity
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false
-  '14':
-    metadata:
-      cached-skin-uuid: ff97977d-b812-44cb-82cb-8e5688923247
-      cached-skin-uuid-name: wukong
-    name: '&a&lThoatRa'
-    uuid: 78b7d01c-d035-4294-9819-d65b448438fa
-    traits:
-      type: PLAYER
-      owner:
-        uuid: 43f59985-74e9-3264-a600-e9e49c0843c2
-      skintrait:
-        signature: gJcV9BicaqTwoynYnOLUtjCc0eY2N9EEk5hIJeiqa2BUM7Y+CLgcZEyoZ4u0P456pOjhnC3mXpr8QKSLuQZx2qUszfbPJgji85339RY/CyI1DDQudR4NBD8VF5cYJvJDF6GPis7dJT4PIJdFi6cErds4ldtluI94v5wPVesQD9F6EulOyYNm/6QY72xCRmIT5yVtkdKQw9tAmVBZsOFcih9BjCbo8PD01Fpl6sCa3uPdHr7oZjAISKegv7bl88N+/j8HwCmCBmHk6QaCS8/Kscf2xOnDUg+xECGIsxNQpZprxIeZen+3CH5wVj6d0QYtyz/cdgrcUIXfCpV9z4klUrXUEz5AwPQkhNnEPcIpj1GuvVP2QpLBNFI+nlWVRgG5a35eGgBbx2eJKYAl22NNVrF/tdI4ZF8KP9xpyHEnOxVNEpEqdbpin8WC09HaLYZNNHdXn+fGqe1oze36ROlLHgDUNJ9iGI3YyaBkemmBXeEO53Ng1LiBUjhyL5fSIY1zFfKkb1A+Ts2o5M/h3zmXVxDOzkMNkuHJGAcHW8Wvv6Fi3KPZkOJAhLQiU+m2ZsXyXtqS5WOXOWTOPyLFTgVPtHBqcdatY+r5JzGVQM4LfmLjwKSPdew6FVUc3+LJ6ppg7ZMNRQjWlvZ7Pfco2D/vR/6hIU90riTai9saLBxrePA=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTgwNjgwNDI3OSwKICAicHJvZmlsZUlkIiA6ICJmZjk3OTc3ZGI4MTI0NGNiODJjYjhlNTY4ODkyMzI0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJXdWtvbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRjODU3ZmI5OGQxMmMwMzM2ZGRkMzY4YjI1MmI3NzNkMDVkZmRlNzg1YjhkZGFiNzAyNzY4NzZmYjVkMDUwYyIKICAgIH0KICB9Cn0=
-      location:
-        bodyYaw: -176.5613
-        world: worldDungeon
-        x: 5168.2024
-        y: 85.0
-        z: 2251.2254
-        yaw: -176.5613
-        pitch: -8.9042
-      spawned: true
-      commandtrait:
-        commands:
-          '0':
-            command: tp %player% 5168 128 2235
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-      lookclose:
-        range: 10.0
-        enabled: true
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false
-  '13':
-    metadata:
-      cached-skin-uuid: ff97977d-b812-44cb-82cb-8e5688923247
-      cached-skin-uuid-name: wukong
-    name: '&a&lXa Phu'
-    uuid: f87038f2-3014-4166-a5f3-0e759e43ff4c
-    traits:
-      type: PLAYER
-      owner:
-        uuid: 43f59985-74e9-3264-a600-e9e49c0843c2
-      skintrait:
-        signature: gJcV9BicaqTwoynYnOLUtjCc0eY2N9EEk5hIJeiqa2BUM7Y+CLgcZEyoZ4u0P456pOjhnC3mXpr8QKSLuQZx2qUszfbPJgji85339RY/CyI1DDQudR4NBD8VF5cYJvJDF6GPis7dJT4PIJdFi6cErds4ldtluI94v5wPVesQD9F6EulOyYNm/6QY72xCRmIT5yVtkdKQw9tAmVBZsOFcih9BjCbo8PD01Fpl6sCa3uPdHr7oZjAISKegv7bl88N+/j8HwCmCBmHk6QaCS8/Kscf2xOnDUg+xECGIsxNQpZprxIeZen+3CH5wVj6d0QYtyz/cdgrcUIXfCpV9z4klUrXUEz5AwPQkhNnEPcIpj1GuvVP2QpLBNFI+nlWVRgG5a35eGgBbx2eJKYAl22NNVrF/tdI4ZF8KP9xpyHEnOxVNEpEqdbpin8WC09HaLYZNNHdXn+fGqe1oze36ROlLHgDUNJ9iGI3YyaBkemmBXeEO53Ng1LiBUjhyL5fSIY1zFfKkb1A+Ts2o5M/h3zmXVxDOzkMNkuHJGAcHW8Wvv6Fi3KPZkOJAhLQiU+m2ZsXyXtqS5WOXOWTOPyLFTgVPtHBqcdatY+r5JzGVQM4LfmLjwKSPdew6FVUc3+LJ6ppg7ZMNRQjWlvZ7Pfco2D/vR/6hIU90riTai9saLBxrePA=
-        skinName: WuKong
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTgwNjgwNDI3OSwKICAicHJvZmlsZUlkIiA6ICJmZjk3OTc3ZGI4MTI0NGNiODJjYjhlNTY4ODkyMzI0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJXdWtvbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRjODU3ZmI5OGQxMmMwMzM2ZGRkMzY4YjI1MmI3NzNkMDVkZmRlNzg1YjhkZGFiNzAyNzY4NzZmYjVkMDUwYyIKICAgIH0KICB9Cn0=
-      location:
-        bodyYaw: 2.368187
-        world: worldDungeon
-        x: 5169.1372
-        y: 128.0
-        z: 2237.0935
-        yaw: 2.3682
-        pitch: 70.2723
-      spawned: true
-      commandtrait:
-        commands:
-          '2':
-            command: tp %player% 5168 85 2252
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-      lookclose:
-        range: 10.0
-        enabled: true
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false
-  '15':
-    metadata:
-      cached-skin-uuid: 3929e052-bad7-4b74-8177-4d5ba591fbd4
-      cached-skin-uuid-name: goku
-    name: '&aBuff Vision'
-    uuid: 380a7246-b124-429c-b24d-019f269caa43
-    traits:
-      type: PLAYER
-      owner:
-        uuid: 43f59985-74e9-3264-a600-e9e49c0843c2
-      commandtrait:
-        commands:
-          '0':
-            command: effect give %player% night_vision infinite
-            hand: RIGHT
-            player: false
-            npc: false
-            op: false
-            cooldown: 0
-            globalcooldown: 0
-            n: -1
-            delay: 0
-            cost: -1.0
-            experienceCost: -1
-      skintrait:
-        signature: VYQLobONwprbMagpmkANOX1XQNt5Z8Kj7Nc0KnLyhlEG+abLzNhIgdmo8REFmvA+2exK72TEJn0Mzgdi2KTJB1NJCfc4McsxLHu0Kjuua4cXhmj2bIVf1LvwqPZFt57QQLjaS9DpS/0IDeOCGOQgjSi/3hunsPn9WOtT/4QuNkmp9BwGAxda6y6U+J9wVM8Br5sNqa3Jm2zB0nOF0m2LJ2W3XnCGMEjXkVyxj01RTQ10bfLUDa9G8FbhoWwZhPeGsvQV19G0J1wpRga6Zy/XpLqLRDFVt1ljKNxSXvpOGYxhYpwyJ7phpOej9q3TSSzpVs1jiUeeEE3abwdYkqfx706ddh8XwkzwUkANFg8qOG1a2Dt0bzbMlQzJ0Pgd6u5YXIJHqHOoH22dRjNJlZvL2Udud8yt/VGFmg0fRBl/K7+x+Ne6TAonLTuugFjdUZs3tllbprYxmeBRnD3gUyjxR+qbHbGLHazvY6ytL9DTHWJeHAjZSNtmkB83FM9Qtyrn9fEeEul7y+cF0okSAqia3LaLuwFci/+ebo/CgjV23Bvb5uPgWK8/qrHZZdkr34Tt+M5bYjhAwkJP2ZV2U4Tjat8fad8rkuGk209wxmwMr3rnK0A0Z6b6CE6fl94yypl0xwkDCWs/kBZuVXksxxH8P0Bi/W1SMQINc8o46cen10I=
-        skinName: goku
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTgxMjQ5Mzg1OSwKICAicHJvZmlsZUlkIiA6ICIzOTI5ZTA1MmJhZDc0Yjc0ODE3NzRkNWJhNTkxZmJkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2t1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I0M2Y0NWRiYTRlMDk3MzJkNDJlYWYzNGE3ZjUzYTY5MTgyMjgxZmQyNmY3ODUwYzQzODNhNTllYTZlODc1ZjUiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3ZGZlYTE2ZGM4M2M5N2RmMDFhMTJmYWJiZDEyMTYzNTljMGNkMGVhNDJmOTk5OWI2ZTk3YzU4NDk2M2U5ODAiCiAgICB9CiAgfQp9
-      location:
-        bodyYaw: -61.018066
-        world: worldDungeon
-        x: -137.6043
-        y: 12.0
-        z: 90.0826
-        yaw: -61.0181
-        pitch: 55.2535
-      spawned: true
-    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,inventory
+    traitnames: spawned,mounttrait,type,commandtrait,scoreboardtrait,location,lookclose,inventory,skintrait,rotationtrait,owner,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -292,13 +98,13 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: 30.598694
+        bodyYaw: -178.34695
         world: world
-        x: 379.5362
-        y: 93.0
-        z: 18.5964
-        yaw: 30.5987
-        pitch: 1.4167
+        x: 19301.5217
+        y: 94.9375
+        z: 61601.367
+        yaw: 178.1204
+        pitch: 0.0
       gravity:
         enabled: true
       lookclose:
@@ -310,7 +116,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose,gravity
+    traitnames: spawned,type,commandtrait,scoreboardtrait,location,lookclose,inventory,skintrait,rotationtrait,owner,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false

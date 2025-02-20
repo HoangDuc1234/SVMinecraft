@@ -1,11 +1,11 @@
 data:
   version: 12.1
   timerValueMemory: 120
-  entries: 5
+  entries: 14
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 114813
+  catalogFetchCooldown: 111638
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'
@@ -104,3 +104,21 @@ timers:
   a247729e-4e99-4903-9b81-b1d41f85d80c:
     43f59985-74e9-3264-a600-e9e49c0843c2: 170
     bd3a5fca-83f2-38a9-b281-607c49a1e59b: 43
+  18f27a3d-b085-4710-a1e8-64f9875eb176:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 38
+  1ac811fb-4814-45ee-8bc4-337117caf139:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 30
+  26e92f20-1ff8-4366-b011-9c0b4953cdef:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 42
+  b3c99bdb-41da-4c9e-90dc-86eb9c15c3f1:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 36
+  27ad7e53-a737-4133-9c9d-6bed59645845:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 34
+  e8e6dcfd-f279-4567-b946-df1f40855a79:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 38
+  497b62fd-8eab-4474-9d85-784b83f48619:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 40
+  dc823a26-b541-4ea3-93dc-2c3fc965641e:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 33
+  e5e356d2-ea10-4b3c-859a-2450ade1a1ff:
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 35
