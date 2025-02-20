@@ -296,3 +296,6 @@ D6:
     scale: 1.0
     stamina-regeneration: 10.0
     additional-experience: 50.0
+HAT:
+  base:
+    material: STONE_AXE

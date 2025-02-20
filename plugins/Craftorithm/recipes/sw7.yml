@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- mmoitems:SWORD:SW7
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+unlock: true
+result: mmoitems:SWORD:SW8 1

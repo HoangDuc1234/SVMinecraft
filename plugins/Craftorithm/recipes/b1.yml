@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+- minecraft:stick
+unlock: true
+result: mmoitems:BOW:BB1 1

@@ -1,0 +1,8 @@
+type: shapeless
+source:
+- items:gui_items:be59117b-f566-419b-b12f-b1efea832d79
+- items:gui_items:be59117b-f566-419b-b12f-b1efea832d79
+- items:gui_items:be59117b-f566-419b-b12f-b1efea832d79
+- items:gui_items:be59117b-f566-419b-b12f-b1efea832d79
+unlock: true
+result: mmoitems:CONSUMABLE:THIRST 1

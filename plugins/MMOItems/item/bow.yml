@@ -201,3 +201,115 @@ B1:
     - Marksman
     projectile-damage: 100.0
     skill-damage: 20.0
+BB1:
+  base:
+    material: BOW
+    ability:
+      ability1:
+        type: BLINK
+        cooldown: 5.0
+        range: 4.0
+        mode: LEFT_CLICK
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    attack-damage: 15.0
+    name: '&aCung &f[&cLv1&f]'
+BB2:
+  base:
+    material: BOW
+    name: '&aKiếm Rogue &f[&cLv2&f]'
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    attack-damage: 18.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0
+BB3:
+  base:
+    material: BOW
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    name: '&aCung &f[&cLv3&f]'
+    attack-damage: 21.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0
+BB4:
+  base:
+    material: BOW
+    name: '&aCung &f[&cLv4&f]'
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    attack-damage: 24.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0
+BB5:
+  base:
+    material: BOW
+    name: '&aCung &f[&cLv5&f]'
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    attack-damage: 30.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0
+BB6:
+  base:
+    material: BOW
+    name: '&aCung &f[&cLv6&f]'
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    attack-damage: 35.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0
+BB7:
+  base:
+    material: BOW
+    name: '&aCung &f[&cLv7&f]'
+    enchants:
+      infinity: 1.0
+      mending: 1.0
+    attack-damage: 40.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0
+BB8:
+  base:
+    material: BOW
+    name: '&aCung &f[&cLv8&f]'
+    enchants:
+      infinity: 1.0
+      mending: 1.0
+    attack-damage: 45.0
+    ability:
+      ability1:
+        type: BLINK
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        range: 4.0

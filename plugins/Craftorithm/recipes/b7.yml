@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- mmoitems:BOW:BB6
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+unlock: true
+result: mmoitems:BOW:BB7 1

@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- mmoitems:SWORD:SW6
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+unlock: true
+result: mmoitems:SWORD:SW7 1

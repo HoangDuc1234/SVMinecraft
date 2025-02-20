@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- mmoitems:STAFF:SS6
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+- minecraft:diamond
+unlock: true
+result: mmoitems:STAFF:SS7 1

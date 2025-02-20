@@ -7,7 +7,7 @@ world:
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: EXTREME
+    difficulty: NORMAL
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -53,7 +53,7 @@ world_nether:
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: EXTREME
+    difficulty: NORMAL
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -99,7 +99,7 @@ world_the_end:
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: EXTREME
+    difficulty: NORMAL
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -145,7 +145,7 @@ worldDungeon:
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: EXTREME
+    difficulty: NORMAL
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -191,7 +191,7 @@ worldSpawn:
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: EXTREME
+    difficulty: NORMAL
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT

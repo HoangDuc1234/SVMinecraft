@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- mmoitems:SWORD:SW4
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+unlock: true
+result: mmoitems:SWORD:SW5 1

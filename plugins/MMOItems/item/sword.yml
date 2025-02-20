@@ -664,6 +664,11 @@ TEST:
   base:
     material: IRON_SWORD
     attack-damage: 999.0
+    ability:
+      ability1:
+        type: HEAL
+        heal: 4.0
+        mode: RIGHT_CLICK
 SW1:
   base:
     material: WOODEN_SWORD
@@ -686,6 +691,12 @@ SW2:
     name: '&aKiếm Rogue &f[&cLv1&f]'
     required-class:
     - Rogue
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 4.0
 SW3:
   base:
     material: WOODEN_SWORD
@@ -697,6 +708,12 @@ SW3:
     lifesteal: 10.0
     required-class:
     - Rogue
+    ability:
+      ability1:
+        type: HEAL
+        cooldown: 10.0
+        heal: 5.0
+        mode: RIGHT_CLICK
 SW4:
   base:
     material: STONE_SWORD
@@ -708,6 +725,12 @@ SW4:
     lifesteal: 10.0
     required-class:
     - Rogue
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 6.0
 SW5:
   base:
     material: STONE_SWORD
@@ -719,6 +742,12 @@ SW5:
     dodge-rating: 50.0
     attack-damage: 8.0
     lifesteal: 10.0
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 7.0
 SW6:
   base:
     material: IRON_SWORD
@@ -730,6 +759,12 @@ SW6:
     lifesteal: 10.0
     required-class:
     - Rogue
+    ability:
+      ability1:
+        type: HEAL
+        cooldown: 10.0
+        heal: 8.0
+        mode: RIGHT_CLICK
 SW7:
   base:
     material: IRON_SWORD
@@ -741,6 +776,12 @@ SW7:
     dodge-rating: 50.0
     attack-damage: 12.0
     lifesteal: 10.0
+    ability:
+      ability1:
+        type: HEAL
+        cooldown: 10.0
+        heal: 9.0
+        mode: RIGHT_CLICK
 SW8:
   base:
     material: DIAMOND_SWORD
@@ -752,6 +793,12 @@ SW8:
     attack-damage: 15.0
     dodge-rating: 50.0
     lifesteal: 10.0
+    ability:
+      ability1:
+        type: HEAL
+        cooldown: 10.0
+        heal: 10.0
+        mode: RIGHT_CLICK
 SW9:
   base:
     material: DIAMOND_SWORD
@@ -763,6 +810,12 @@ SW9:
     attack-damage: 18.0
     dodge-rating: 50.0
     lifesteal: 10.0
+    ability:
+      ability1:
+        type: HEAL
+        cooldown: 10.0
+        heal: 11.0
+        mode: RIGHT_CLICK
 SWP1:
   base:
     material: WOODEN_SWORD
@@ -862,6 +915,12 @@ SWW1:
     - Warrior
     parry-rating: 50.0
     lifesteal: 10.0
+    ability:
+      ability1:
+        type: VAMPIRISM
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        drain: 20.0
 SWW2:
   base:
     material: WOODEN_SWORD
@@ -939,5 +998,11 @@ SWW8:
     - Warrior
     parry-rating: 50.0
     lifesteal: 10.0
+MAT1:
+  base:
+    material: STONE
+    name: '&bĐá Cường Hóa'
+    enchants:
+      mending: 1.0
 
 # U2QutmdspnM1UFeMB1VBlnSrxmT5VleOhXRE1EejRUTwcmeOJ3cQFGaRB1NVp2aXZHaz8GO

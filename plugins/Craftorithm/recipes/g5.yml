@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- mmoitems:STAFF:SS4
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+unlock: true
+result: mmoitems:STAFF:SS5 1

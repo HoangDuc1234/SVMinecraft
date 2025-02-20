@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+- minecraft:cobblestone
+unlock: true
+result: mmoitems:SWORD:MAT1 1

@@ -1,17 +1,17 @@
-class-points: 99
+class-points: 1
 skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 8
-experience: 178.4098177248945
+level: 10
+experience: 250.0
 class: WARRIOR
 waypoints: []
 friends: []
-last-login: 1739962720324
+last-login: 1740052181873
 skill-tree-reallocation-points: 0
-health: 38.0
-mana: 27.0
+health: 42.0
+mana: 29.0
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -142,11 +142,11 @@ skill-tree-level:
 times-claimed:
   class_WARRIOR:
     class_exp_table:
-      skill_point: 7
+      skill_point: 9
 attribute:
   dexterity: 0
   strength: 0
-  intelligence: 0
+  intelligence: 20
 profession:
   enchanting:
     exp: 0.0

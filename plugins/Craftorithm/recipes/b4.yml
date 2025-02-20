@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- mmoitems:BOW:BB3
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+unlock: true
+result: mmoitems:BOW:BB4 1

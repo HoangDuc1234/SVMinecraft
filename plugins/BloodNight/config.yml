@@ -9,7 +9,7 @@ generalSettings:
   messageMethod: SUBTITLE
   mobTick: 5
   joinWorldWarning: true
-  blindness: true
+  blindness: false
   updateReminder: true
   autoUpdater: false
   beeFix: false

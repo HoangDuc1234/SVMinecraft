@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- mmoitems:STAFF:SS3
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+unlock: true
+result: mmoitems:STAFF:SS4 1

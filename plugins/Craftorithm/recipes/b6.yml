@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- mmoitems:BOW:BB5
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+unlock: true
+result: mmoitems:BOW:BB6 1

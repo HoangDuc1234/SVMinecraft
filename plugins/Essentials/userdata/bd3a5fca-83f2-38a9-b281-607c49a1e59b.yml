@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1739967568804
+  lastteleport: 1740052550546
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1739973056495
-  login: 1739962720641
+  logout: 1740053480283
+  login: 1740052181919
 money: '0'
 last-account-name: HDuc
 logoutlocation:
   world: f1dfaac1-0030-4702-b227-e3a04c5306b4
   world-name: world
-  x: 383.55776047285684
+  x: 377.98601715029713
   y: 93.0
-  z: 14.487678325450691
-  yaw: -52.28527069091797
-  pitch: 23.913122177124023
+  z: 16.81444513493583
+  yaw: 93.4893798828125
+  pitch: 17.17171859741211
 lastlocation:
   world: f1dfaac1-0030-4702-b227-e3a04c5306b4
   world-name: world
-  x: 363.41241145124377
+  x: 404.1131868972101
   y: 64.0
-  z: 12.262553934546688
-  yaw: 61.621673583984375
-  pitch: 14.774821281433105
+  z: 36.69902390775791
+  yaw: -51.62188720703125
+  pitch: 12.270903587341309

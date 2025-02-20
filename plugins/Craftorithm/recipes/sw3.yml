@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- mmoitems:SWORD:SW3
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+unlock: true
+result: mmoitems:SWORD:SW4 1

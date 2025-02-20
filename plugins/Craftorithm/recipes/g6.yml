@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- mmoitems:STAFF:SS5
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+unlock: true
+result: mmoitems:STAFF:SS6 1

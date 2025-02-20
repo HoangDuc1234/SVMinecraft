@@ -87,3 +87,223 @@
 02-19-2025 20:54 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
 02-19-2025 20:54 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
 02-19-2025 21:54 [INFO] [MyPet] Disabling MyPet v3.12
+02-19-2025 23:08 [INFO] [MyPet] Error-Reporter ENABLED
+02-19-2025 23:08 [INFO] [MyPet] Enabling MyPet v3.12
+02-19-2025 23:08 [INFO] [MyPet] No Update available.
+02-19-2025 23:08 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-19-2025 23:08 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-19-2025 23:08 [INFO] [MyPet] Exp calculation mode: MyPet
+02-19-2025 23:08 [INFO] [MyPet] Loading WorldGroups...
+02-19-2025 23:08 [INFO] [MyPet]    added 'world' to 'default'
+02-19-2025 23:08 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-19-2025 23:08 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-19-2025 23:08 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-19-2025 23:08 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-19-2025 23:08 [INFO] [MyPet] Connect to SQLite database...
+02-19-2025 23:08 [INFO] [MyPet] SQLite connection successful.
+02-19-2025 23:08 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-19-2025 23:08 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-19-2025 23:08 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-19-2025 23:08 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-19-2025 23:08 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-19-2025 23:08 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-19-2025 23:08 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 00:00 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 00:01 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 00:01 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 00:01 [INFO] [MyPet] No Update available.
+02-20-2025 00:01 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 00:01 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 00:01 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 00:01 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 00:01 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 00:01 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 00:01 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 00:01 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 00:01 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 00:01 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 00:01 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 00:01 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 00:01 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 00:01 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 00:01 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 00:01 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 00:01 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 00:01 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 00:21 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 09:14 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 09:24 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 09:24 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 09:24 [INFO] [MyPet] No Update available.
+02-20-2025 09:24 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 09:24 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 09:24 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 09:24 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 09:24 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 09:24 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 09:24 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 09:24 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 09:24 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 09:24 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 09:24 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 09:24 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 09:24 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 09:24 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 09:24 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 09:24 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 09:24 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 09:24 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 09:26 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 09:42 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 09:43 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 09:43 [INFO] [MyPet] No Update available.
+02-20-2025 09:43 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 09:43 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 09:43 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 09:43 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 09:43 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 09:43 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 09:43 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 09:43 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 09:43 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 09:43 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 09:43 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 09:43 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 09:43 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 09:43 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 09:43 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 09:43 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 09:43 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 09:43 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 09:47 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 09:51 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 09:52 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 09:52 [INFO] [MyPet] No Update available.
+02-20-2025 09:52 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 09:52 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 09:52 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 09:52 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 09:52 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 09:52 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 09:52 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 09:52 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 09:52 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 09:52 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 09:52 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 09:52 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 09:52 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 09:52 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 09:52 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 09:52 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 09:52 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 09:52 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 09:54 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 09:55 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 09:55 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 09:55 [INFO] [MyPet] No Update available.
+02-20-2025 09:55 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 09:55 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 09:55 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 09:55 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 09:55 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 09:55 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 09:55 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 09:55 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 09:55 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 09:55 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 09:55 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 09:55 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 09:55 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 09:55 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 09:55 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 09:55 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 09:55 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 09:55 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 09:58 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 09:58 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 09:59 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 09:59 [INFO] [MyPet] No Update available.
+02-20-2025 09:59 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 09:59 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 09:59 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 09:59 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 09:59 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 09:59 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 09:59 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 09:59 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 09:59 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 09:59 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 09:59 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 09:59 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 09:59 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 09:59 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 09:59 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 09:59 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 09:59 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 09:59 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 09:59 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 10:02 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 10:03 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 10:03 [INFO] [MyPet] No Update available.
+02-20-2025 10:03 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 10:03 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 10:03 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 10:03 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 10:03 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 10:03 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 10:03 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 10:03 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 10:03 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 10:03 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 10:03 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 10:03 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 10:03 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 10:03 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 10:03 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 10:03 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 10:03 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 10:03 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 10:04 [INFO] [MyPet] Disabling MyPet v3.12
+02-20-2025 10:41 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 10:42 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 10:42 [INFO] [MyPet] No Update available.
+02-20-2025 10:42 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 10:42 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 10:42 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 10:42 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 10:42 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 10:42 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 10:42 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 10:42 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 10:42 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 10:42 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 10:42 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 10:42 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 10:42 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 10:42 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 10:42 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 10:42 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 10:42 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 10:42 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 18:18 [INFO] [MyPet] Error-Reporter ENABLED
+02-20-2025 18:18 [INFO] [MyPet] Enabling MyPet v3.12
+02-20-2025 18:18 [INFO] [MyPet] No Update available.
+02-20-2025 18:18 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_21_R1.util.CustomEntityRegistry
+02-20-2025 18:18 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+02-20-2025 18:18 [INFO] [MyPet] Exp calculation mode: MyPet
+02-20-2025 18:18 [INFO] [MyPet] Loading WorldGroups...
+02-20-2025 18:18 [INFO] [MyPet]    added 'world' to 'default'
+02-20-2025 18:18 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-20-2025 18:18 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-20-2025 18:18 [INFO] [MyPet]    added 'worldDungeon' to 'default'
+02-20-2025 18:18 [INFO] [MyPet]    added 'worldSpawn' to 'default'
+02-20-2025 18:18 [INFO] [MyPet] Connect to SQLite database...
+02-20-2025 18:18 [INFO] [MyPet] SQLite connection successful.
+02-20-2025 18:18 [INFO] [MyPet] Citizens (2.0.35-SNAPSHOT (build 3545)) hook activated.
+02-20-2025 18:18 [INFO] [MyPet] MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}) hook activated.
+02-20-2025 18:18 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+02-20-2025 18:18 [INFO] [MyPet] ProtocolLib (5.4.0-SNAPSHOT-741) hook activated.
+02-20-2025 18:18 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+02-20-2025 18:18 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+02-20-2025 18:18 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1782 ENABLED
+02-20-2025 19:11 [INFO] [MyPet] Disabling MyPet v3.12

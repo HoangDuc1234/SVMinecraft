@@ -48,7 +48,7 @@ npc:
         z: -201.2437
         yaw: -69.1845
         pitch: 0.0
-    traitnames: owner,spawned,rotationtrait,inventory,type,scoreboardtrait,commandtrait,lookclose,location,skintrait
+    traitnames: type,scoreboardtrait,lookclose,rotationtrait,location,commandtrait,inventory,skintrait,spawned,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -93,16 +93,16 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: 69.596954
+        bodyYaw: -174.98334
         world: world
-        x: 385.7412
+        x: 377.8205
         y: 93.0
-        z: 12.2878
-        yaw: 69.597
+        z: 18.7
+        yaw: -174.9833
         pitch: 0.0
       gravity:
         enabled: true
-    traitnames: gravity,owner,mounttrait,spawned,rotationtrait,inventory,type,scoreboardtrait,commandtrait,lookclose,location,skintrait
+    traitnames: type,scoreboardtrait,lookclose,rotationtrait,location,gravity,commandtrait,mounttrait,inventory,skintrait,spawned,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -152,7 +152,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,rotationtrait,inventory,type,scoreboardtrait,commandtrait,lookclose,location,skintrait
+    traitnames: type,scoreboardtrait,lookclose,rotationtrait,location,commandtrait,inventory,skintrait,spawned,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -203,7 +203,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,rotationtrait,inventory,type,scoreboardtrait,commandtrait,lookclose,location,skintrait
+    traitnames: type,scoreboardtrait,lookclose,rotationtrait,location,commandtrait,inventory,skintrait,spawned,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -245,22 +245,22 @@ npc:
         yaw: -61.0181
         pitch: 55.2535
       spawned: true
-    traitnames: owner,spawned,inventory,type,scoreboardtrait,commandtrait,location,skintrait
+    traitnames: type,scoreboardtrait,location,commandtrait,inventory,skintrait,spawned,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
       usedefaultstuckaction: false
   '26':
     metadata:
-      cached-skin-uuid: 1bd86ed2-a010-4fa1-869e-7ef8a5be27b3
-      cached-skin-uuid-name: yasuo
-    name: '&cClass'
+      cached-skin-uuid: c9536eaa-c116-41bc-91ce-8c066c755e69
+      cached-skin-uuid-name: ganyu
+    name: '&bClasses'
     uuid: 8a8e2857-9d41-4ac1-b73b-bb67960e5454
     traits:
       skintrait:
-        signature: X0esPELnxzFTn2LxtpEkmpg9hImrLP+tnfvEGpY4nEiHkLQqqbU1Dnj8gSw+eDF8dOHlBSSwy5mKSG9VfOKXz8ZxLZ4uegdhQrxcbGtU/36H0htz4S8fBZPiD44CYGjp9cEQfKdkhHlNG0/qa5GSK2PMPUyTW6TTKa0PVh7qj0R1TYjJstPPXPiX6zk6N8fuO2aMwUucFHYubSeVZ2JVmiYBljJciAM3mdBMIw5owYQT3NAMEamJT17kIPvvTGrckYnROf3zq2YxXz8STebMqab1pr5KTUCV+g9D4rFRxcstcJDimt3wMM3kb2pWGpjw7wUqgra7UXThumrFnk+y64YRD86InH5czTQzdaIgdd/5xymoj5h03YFROipUHdzUM2jP/+T3gWP5kN9T+YxgjMF8ZgNR6kwMWxxn0iX7Kzo9P5Gi5fvSM7ntuNEVPKA9Va+tXYYa7R+EMr6aKNm6QqJYVnzoJIxYCogA9GvgBhh2YKeDQE3KBBu1De61LJx5VjI9e/SvraUspVg65DcdE4uPF2NSGBHtoNYTYzFnLXAVu/BWE0Z+IvSXxfjH7+zblxvKQ/rb2xvyYPrxyNvUL17cDl2pbITOO9HYslQR8IkWdfht1/olQuOBJAZtKoaGlhpIcR55AIaDdvfL/gJYoZhpecvwJg86R5QnT/K4/Ls=
-        skinName: yasuo
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTg1OTg3ODcyOSwKICAicHJvZmlsZUlkIiA6ICIxYmQ4NmVkMmEwMTA0ZmExODY5ZTdlZjhhNWJlMjdiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZYXN1byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZDkwMzI5Nzg3NGQ3MTcxYTlkMWMzZDljOGZmZDFjODllZWI0N2FlY2FjODJlMjY5OGIzYjNjYjNhNDBiZjVhIgogICAgfQogIH0KfQ==
+        signature: Dyqzp/p6SL3reQMrnadYH7b1wFimWdwNT21DHtSV/3/LteEWJS+HFhAaQDL67BMkShVZVS0GfYPUtYa99c0GUKRvrD9pTJnw03O4iMVYR9zvmOmXl7rSS+yU66Z4oE5+L+Pf8H+YLIuQRy3lLLsKDyQUOQ5ZNcMuurQuPd7JfxxZVrMfxkMItS7bLk8iXaUNOKwSOdLYTQs+E5y91ipGOy6fpoPmYkY6+5cMenzdvbV5VeNNWBvNSLrQHw/azLqrqmVh+xw5ruDbe0oMlzCeK3N63Vq7E66GIAHiGDAUBlI0ONv6Dxr3V2/9w6/hHvtEIOxVVxc4fXncmLS1WL1pq007vnov2zGV99smpUXD3dfqOUGC8d4JEgEntP15/i1lvljincV7cqifnMRlG73RDrEFDzBM1w7mM/CZzhNnC7Ku2kJdeNhwv1ddV6G9aZjJUfRjeXqrzNJ1h5VHbdpoWgl7hX8n/qZSvtVcocouBGFj4nCZgOcPwJFE/XIwuam8nKWzmtpwlQK2liljEPlfMgmb1PrwVWIdram8he9AIEv0YtcB7AsOf+0RKCRS4f21qFWshjyn0Lu1Vz4ITZoacpSWLcmeEjwkLNcc/8pjwmbw+RRPDR3Geyoek+hGTYTNf/EVkSsFaANJT0pyP8re7q1g17sRxPH8NOxvT2zjvtk=
+        skinName: Ganyu
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MDAyMzY3NjY0NSwKICAicHJvZmlsZUlkIiA6ICJjOTUzNmVhYWMxMTY0MWJjOTFjZThjMDY2Yzc1NWU2OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYW55dSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NmJjNmJmNzJjZDQyYzkyZDRlYmFhNjc3ZTYzODQ0YmFjNmZlMWM3OWJiOTFmM2EzY2IwZDliMjBlOTIzNGQ0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       type: PLAYER
       spawned: true
       owner:
@@ -292,12 +292,12 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: 80.29573
+        bodyYaw: 122.002716
         world: world
-        x: 385.3889
+        x: 379.5362
         y: 93.0
-        z: 14.4124
-        yaw: 80.2957
+        z: 18.5964
+        yaw: 138.9789
         pitch: 0.0
       gravity:
         enabled: true
@@ -310,7 +310,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: gravity,owner,spawned,rotationtrait,inventory,type,scoreboardtrait,commandtrait,lookclose,location,skintrait
+    traitnames: type,scoreboardtrait,lookclose,rotationtrait,location,gravity,commandtrait,inventory,skintrait,spawned,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false

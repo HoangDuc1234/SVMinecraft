@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- mmoitems:SWORD:SW5
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+- minecraft:iron_block
+unlock: true
+result: mmoitems:SWORD:SW6 1

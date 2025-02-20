@@ -4,11 +4,11 @@ skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
 level: 1
-experience: 0.0
+experience: 66.45019704059291
 class: ROGUE
 waypoints: []
 friends: []
-last-login: 1739973385816
+last-login: 1740052068781
 skill-tree-reallocation-points: 0
 health: 18.0
 mana: 20.0
@@ -139,6 +139,10 @@ skill-tree-level:
   general_b3: 0
   mage-arcane-mage_d2: 0
   mage-arcane-mage_d1: 0
+times-claimed:
+  class_WARRIOR:
+    class_exp_table:
+      skill_point: 1
 attribute:
   dexterity: 0
   strength: 0
@@ -209,16 +213,76 @@ class-info:
       rogue-marksman_c3: 0
       rogue-marksman_a2: 0
     unlocked-items: []
-  WARRIOR:
+  MAGE:
     level: 1
-    experience: 21.0
+    experience: 0.0
     skill-points: 0
     attribute-points: 0
     attribute-realloc-points: 0
     skill-tree-reallocation-points: 0
     skill-reallocation-points: 0
-    health: 24.0
-    mana: 0.0
+    health: 18.0
+    mana: 18.180000000000003
+    stamina: 2.9879999999999995
+    stellium: 0.18000000000000002
+    attribute:
+      dexterity: 0
+      strength: 0
+      intelligence: 0
+    node-levels:
+      mage-arcane-mage_a1: 0
+      mage-arcane-mage_c3: 0
+      mage-arcane-mage_c2: 0
+      mage-arcane-mage_a3: 0
+      mage-arcane-mage_a2: 0
+      general_j1: 0
+      general_e2: 0
+      general_c1: 0
+      general_e3: 0
+      general_c2: 0
+      general_c3: 0
+      general_a1: 0
+      general_g1: 0
+      general_e1: 0
+      mage-arcane-mage_g1: 0
+      mage-arcane-mage_g3: 0
+      general_a2: 0
+      mage-arcane-mage_e1: 0
+      mage-arcane-mage_g2: 0
+      general_a3: 0
+      mage-arcane-mage_e3: 0
+      mage-arcane-mage_c1: 0
+      mage-arcane-mage_e2: 0
+      mage-arcane-mage_b2: 0
+      mage-arcane-mage_d3: 0
+      mage-arcane-mage_b1: 0
+      mage-arcane-mage_b3: 0
+      general_d1: 0
+      general_f3: 0
+      general_d2: 0
+      general_d3: 0
+      general_b1: 0
+      general_b2: 0
+      general_h1: 0
+      general_f1: 0
+      general_f2: 0
+      general_b3: 0
+      mage-arcane-mage_f2: 0
+      mage-arcane-mage_f1: 0
+      mage-arcane-mage_d2: 0
+      mage-arcane-mage_f3: 0
+      mage-arcane-mage_d1: 0
+    unlocked-items: []
+  WARRIOR:
+    level: 2
+    experience: 6.0
+    skill-points: 0
+    attribute-points: 0
+    attribute-realloc-points: 0
+    skill-tree-reallocation-points: 0
+    skill-reallocation-points: 0
+    health: 23.24884033203125
+    mana: 21.0
     stamina: 20.0
     stellium: 20.0
     attribute:
@@ -351,66 +415,6 @@ class-info:
       mage-arcane-mage_d1: 0
     bound-skills:
       '1': DEEP_WOUND
-    unlocked-items: []
-  MAGE:
-    level: 1
-    experience: 0.0
-    skill-points: 0
-    attribute-points: 0
-    attribute-realloc-points: 0
-    skill-tree-reallocation-points: 0
-    skill-reallocation-points: 0
-    health: 18.0
-    mana: 18.180000000000003
-    stamina: 2.9879999999999995
-    stellium: 0.18000000000000002
-    attribute:
-      dexterity: 0
-      strength: 0
-      intelligence: 0
-    node-levels:
-      mage-arcane-mage_a1: 0
-      mage-arcane-mage_c3: 0
-      mage-arcane-mage_c2: 0
-      mage-arcane-mage_a3: 0
-      mage-arcane-mage_a2: 0
-      general_j1: 0
-      general_e2: 0
-      general_c1: 0
-      general_e3: 0
-      general_c2: 0
-      general_c3: 0
-      general_a1: 0
-      general_g1: 0
-      general_e1: 0
-      mage-arcane-mage_g1: 0
-      mage-arcane-mage_g3: 0
-      general_a2: 0
-      mage-arcane-mage_e1: 0
-      mage-arcane-mage_g2: 0
-      general_a3: 0
-      mage-arcane-mage_e3: 0
-      mage-arcane-mage_c1: 0
-      mage-arcane-mage_e2: 0
-      mage-arcane-mage_b2: 0
-      mage-arcane-mage_d3: 0
-      mage-arcane-mage_b1: 0
-      mage-arcane-mage_b3: 0
-      general_d1: 0
-      general_f3: 0
-      general_d2: 0
-      general_d3: 0
-      general_b1: 0
-      general_b2: 0
-      general_h1: 0
-      general_f1: 0
-      general_f2: 0
-      general_b3: 0
-      mage-arcane-mage_f2: 0
-      mage-arcane-mage_f1: 0
-      mage-arcane-mage_d2: 0
-      mage-arcane-mage_f3: 0
-      mage-arcane-mage_d1: 0
     unlocked-items: []
   HUMAN:
     level: 1

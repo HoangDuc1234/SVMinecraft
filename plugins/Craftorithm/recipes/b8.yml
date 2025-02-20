@@ -1,0 +1,7 @@
+source:
+  copy_nbt: false
+  base: mmoitems:BOW:BB7 1
+  addition: minecraft:netherite_upgrade_smithing_template
+  cost_level: 0
+type: anvil
+result: mmoitems:BOW:BB8 1

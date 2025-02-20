@@ -193,3 +193,171 @@ TANTHU:
     skill-critical-strike-chance: 10.0
     skill-critical-strike-power: 2.0
     tier: COMMON
+S1:
+  base:
+    material: STICK
+    enchants:
+      mending: 1.0
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 5.0
+        cooldown: 3.0
+      ability2:
+        type: FREEZING_CURSE
+        mode: RIGHT_CLICK
+        damage: 5.0
+        cooldown: 6.0
+        radius: 4.0
+    attack-damage: 10.0
+ST1:
+  base:
+    material: STICK
+    name: '&aSách &f[&cLv1&f]'
+    enchants:
+      mending: 1.0
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        cooldown: 1.0
+        damage: 4.0
+      ability2:
+        type: FREEZING_CURSE
+SS1:
+  base:
+    material: STICK
+    name: '&aGậy Phép &f[&cLv1&f]'
+    enchants:
+      mending: 1.0
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 5.0
+        cooldown: 1.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 5.0
+        cooldown: 3.0
+SS2:
+  base:
+    material: STICK
+    enchants:
+      mending: 1.0
+    name: '&aGậy Phép &f[&cLv2&f]'
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        cooldown: 1.0
+        damage: 6.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 6.0
+        cooldown: 3.0
+SS3:
+  base:
+    material: STICK
+    enchants:
+      mending: 1.0
+    name: '&aGậy Phép &f[&cLv3&f]'
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 7.0
+        cooldown: 1.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 7.0
+        cooldown: 3.0
+SS4:
+  base:
+    material: STICK
+    enchants:
+      mending: 1.0
+    name: '&aGậy Phép &f[&cLv4&f]'
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        cooldown: 1.0
+        damage: 8.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 8.0
+        cooldown: 3.0
+SS5:
+  base:
+    material: STICK
+    name: '&aGậy Phép &f[&cLv5&f]'
+    enchants:
+      mending: 1.0
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        cooldown: 1.0
+        damage: 10.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 3.0
+SS6:
+  base:
+    material: STICK
+    enchants:
+      mending: 1.0
+    name: '&aGậy Phép &f[&cLv6&f]'
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 12.0
+        cooldown: 1.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 12.0
+        cooldown: 3.0
+SS7:
+  base:
+    material: STICK
+    enchants:
+      mending: 1.0
+    name: '&aGậy Phép &f[&cLv7&f]'
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 15.0
+        cooldown: 1.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 3.0
+SS8:
+  base:
+    material: STICK
+    name: '&aGậy Phép &f[&cLv8&f]'
+    enchants:
+      mending: 1.0
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 18.0
+        cooldown: 1.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 18.0
+        cooldown: 3.0

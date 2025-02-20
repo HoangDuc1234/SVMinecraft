@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- mmoitems:BOW:BB2
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+unlock: true
+result: mmoitems:BOW:BB3 1

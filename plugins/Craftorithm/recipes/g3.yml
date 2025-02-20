@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- mmoitems:STAFF:SS2
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+- minecraft:coal_block
+unlock: true
+result: mmoitems:STAFF:SS3 1

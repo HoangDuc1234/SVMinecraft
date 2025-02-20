@@ -1,0 +1,13 @@
+type: shapeless
+source:
+- minecraft:coal
+- minecraft:coal
+- minecraft:coal
+- minecraft:coal
+- mmoitems:STAFF:SS1
+- minecraft:coal
+- minecraft:coal
+- minecraft:coal
+- minecraft:coal
+unlock: true
+result: mmoitems:STAFF:SS2 1

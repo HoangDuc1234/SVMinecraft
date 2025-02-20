@@ -959,7 +959,7 @@ chat:
 
   # You can specify a format for each group.
   group-formats:
-  #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
+   default: '<{DISPLAYNAME}> {MESSAGE}'
   #  admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
   # You can also specify a format for each type of chat for each group.
