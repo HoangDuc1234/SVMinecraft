@@ -5,7 +5,7 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 115074
+  catalogFetchCooldown: 114813
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'

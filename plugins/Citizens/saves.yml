@@ -48,7 +48,7 @@ npc:
         z: -201.2437
         yaw: -69.1845
         pitch: 0.0
-    traitnames: lookclose,skintrait,rotationtrait,type,owner,spawned,location,scoreboardtrait,inventory,commandtrait
+    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -93,16 +93,16 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: -91.058
+        bodyYaw: 24.267303
         world: world
         x: 377.8205
         y: 93.0
         z: 18.7
-        yaw: -91.058
-        pitch: 0.0
+        yaw: 24.2673
+        pitch: 1.5137
       gravity:
         enabled: true
-    traitnames: lookclose,gravity,mounttrait,skintrait,rotationtrait,type,owner,spawned,location,scoreboardtrait,inventory,commandtrait
+    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose,mounttrait,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -152,7 +152,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: lookclose,skintrait,rotationtrait,type,owner,spawned,location,scoreboardtrait,inventory,commandtrait
+    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -203,7 +203,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: lookclose,skintrait,rotationtrait,type,owner,spawned,location,scoreboardtrait,inventory,commandtrait
+    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -245,7 +245,7 @@ npc:
         yaw: -61.0181
         pitch: 55.2535
       spawned: true
-    traitnames: skintrait,type,owner,spawned,location,scoreboardtrait,inventory,commandtrait
+    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -292,13 +292,13 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: 85.66257
+        bodyYaw: 30.598694
         world: world
         x: 379.5362
         y: 93.0
         z: 18.5964
-        yaw: 85.6626
-        pitch: 0.0
+        yaw: 30.5987
+        pitch: 1.4167
       gravity:
         enabled: true
       lookclose:
@@ -310,7 +310,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: lookclose,gravity,skintrait,rotationtrait,type,owner,spawned,location,scoreboardtrait,inventory,commandtrait
+    traitnames: skintrait,commandtrait,owner,scoreboardtrait,spawned,type,location,rotationtrait,inventory,lookclose,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false

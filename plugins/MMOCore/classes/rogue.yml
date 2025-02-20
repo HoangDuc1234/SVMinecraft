@@ -5,24 +5,6 @@ display:
     - 'his lack of health forces him to one'
     - 'shot his targets before being taken down.'
     attribute-lore:
-    - '&a+ &7Attack Speed'
-    - '&c- &7Max Health'
-    - '&c- &7Movement Speed'
-    - ''
-    - '&8&lStrength'
-    - '&7  Attack Damage: &c1 &7(+&c0&7)'
-    - '&7  Attack Speed: &c4.2 &7(+&c0.05&7)'
-    - '&7  Max Health: &c18 &7(+&c0&7)'
-    - ''
-    - '&8&lDexterity'
-    - '&7  Knockback Resistance: &a0% &7(+&a0%&7)'
-    - '&7  Movement Speed: &a21 &7(+&a0&7)'
-    - '&7  Speed Malus Reduction: &a0% &7(+&a0%&7)'
-    - ''
-    - '&8&lIntellect'
-    - '&7  Max Mana: &920 &7(+&90&7)'
-    - '&7  Health Regen: &90.1 &7(+&90&7)'
-    - '&7  Mana Regen: &90.166 &7(+&90&7)'
     item: DIAMOND_SWORD
 
 # Must match an existing exp curve filename from the 'expcurves' folder
