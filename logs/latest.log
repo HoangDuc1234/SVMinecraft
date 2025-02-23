@@ -6,3 +6,119 @@
 [01:54:09] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
 [02:24:09] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
 [02:54:09] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
+[03:15:18] [User Authenticator #19/INFO]: UUID of player HDuc is bd3a5fca-83f2-38a9-b281-607c49a1e59b
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b2 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b1 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b4 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b3 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b5 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b7 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b2 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b1 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b4 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b3 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b5 removed now.
+[03:15:20] [Server thread/ERROR]: Tried to load unrecognized recipe: craftorithm:b7 removed now.
+[03:15:20] [Server thread/INFO]: HDuc joined the game
+[03:15:20] [Server thread/INFO]: HDuc[/42.1.77.112:24491] logged in with entity id 177379 at ([world]-1530.130613659511, 117.0, 860.7471963264737)
+[03:15:27] [Server thread/INFO]: HDuc issued server command: /stop
+[03:15:27] [Server thread/INFO]: [HDuc: Stopping the server]
+[03:15:27] [Server thread/INFO]: Stopping server
+[03:15:27] [Server thread/INFO]: [TorchLight] Disabling TorchLight v1.1.1
+[03:15:27] [Server thread/INFO]: [TorchLight] Offhand Torch Light is being disabled, cleaning up light blocks...
+[03:15:27] [Server thread/INFO]: [TorchLight] All light blocks have been cleaned up.
+[03:15:27] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+171-8313d52
+[03:15:27] [Server thread/INFO]: [packetevents] Disabling packetevents v2.7.0
+[03:15:27] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.2 b98
+[03:15:27] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[03:15:27] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[03:15:27] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[03:15:27] [Craft Scheduler Thread - 15 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[03:15:27] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 9ms)
+[03:15:27] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.6.3
+[03:15:27] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
+[03:15:27] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
+[03:15:27] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.14
+[03:15:27] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.3
+[03:15:27] [Server thread/INFO]: [Craftorithm] Disabling Craftorithm v1.10.17-20250121
+[03:15:27] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.8
+[03:15:27] [Server thread/INFO]: [MultiWorld] Disabled.
+[03:15:27] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2.3.12.1
+[03:15:27] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion holomobhealth
+[03:15:27] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin HoloMobHealth was disabled.
+[03:15:27] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
+[03:15:27] [Server thread/INFO]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.10.0
+[03:15:27] [Server thread/INFO]: [ConsoleSpamFix] Messages hidden since the server started: 382
+[03:15:27] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
+[03:15:27] [Server thread/INFO]: [BloodNight] Disabling BloodNight v0.12.0
+[03:15:27] [Server thread/INFO]: [BloodNight] Shutting down night manager.
+[03:15:27] [Server thread/INFO]: [BloodNight] Resolving blood nights.
+[03:15:27] [Server thread/INFO]: [BloodNight] Night manager shutdown successful.
+[03:15:27] [Server thread/INFO]: [BloodNight] Hooks shutting down.
+[03:15:27] [Server thread/INFO]: [BloodNight] Blood Night disabled!
+[03:15:27] [Server thread/INFO]: [ChatInjector] Disabling ChatInjector v1.1
+[03:15:27] [Server thread/INFO]: [DeadlyDisasters] Disabling DeadlyDisasters v12.1
+[03:15:27] [Server thread/INFO]: [TAB] Disabling TAB v5.0.6
+[03:15:27] [Server thread/INFO]: [TAB] Disabled in 2ms
+[03:15:27] [Server thread/INFO]: [CommandToItem] Disabling CommandToItem v${version}
+[03:15:27] [Server thread/INFO]: [TreeCuter] Disabling TreeCuter vv1.8.8
+[03:15:27] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+171-8313d52
+[03:15:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[03:15:27] [Server thread/INFO]: [MMOItems] Disabling MMOItems v6.10
+[03:15:27] [Server thread/INFO]: [MMOItems] Waiting for other threads, please wait...
+[03:15:27] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.3
+[03:15:28] [Server thread/INFO]: [RealisticSeasons] Disabling RealisticSeasons v11.6.7
+[03:15:28] [Server thread/INFO]: [MMOCore] Disabling MMOCore v1.13.1-SNAPSHOT
+[03:15:28] [Server thread/INFO]: [MMOCore] Waiting for other threads, please wait...
+[03:15:28] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.35-SNAPSHOT (build 3545)
+[03:15:28] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.7
+[03:15:28] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-741
+[03:15:28] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[03:15:28] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[03:15:28] [Server thread/INFO]: [MythicMobs] - 
+[03:15:28] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[03:15:28] [Server thread/INFO]: [MythicMobs] - 
+[03:15:28] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[03:15:28] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[03:15:28] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[03:15:28] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:15:28] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:15:28] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[03:15:28] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[03:15:28] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[03:15:28] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[03:15:28] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:15:28] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:15:28] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[03:15:28] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[03:15:28] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[03:15:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
+[03:15:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:15:28] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:15:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.154
+[03:15:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:15:28] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:15:28] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:15:28] [Server thread/INFO]: Saving players
+[03:15:28] [Server thread/INFO]: HDuc lost connection: Server closed
+[03:15:28] [Server thread/INFO]: HDuc left the game
+[03:15:28] [Server thread/INFO]: Saving worlds
+[03:15:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:15:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:15:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:15:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Saved 226 block chunks, 95 entity chunks, 0 poi chunks in world 'world' in 0.36s
+[03:15:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Saved 81 block chunks, 54 entity chunks, 0 poi chunks in world 'world_nether' in 0.16s
+[03:15:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:15:29] [Server thread/INFO]: [ChunkHolderManager] Saved 165 block chunks, 51 entity chunks, 0 poi chunks in world 'world_the_end' in 0.13s
+[03:15:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:15:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:15:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:15:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

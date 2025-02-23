@@ -42,13 +42,13 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: -152.90295
+        bodyYaw: -164.46931
         world: world
         x: -1533.6051
         y: 115.9375
         z: 867.5378
-        yaw: -152.903
-        pitch: -7.9298
+        yaw: -164.4693
+        pitch: -8.0504
       gravity:
         enabled: true
     traitnames: spawned,skintrait,type,commandtrait,rotationtrait,mounttrait,location,owner,inventory,scoreboardtrait,gravity,lookclose

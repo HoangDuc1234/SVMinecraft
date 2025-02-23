@@ -5,7 +5,7 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 74225
+  catalogFetchCooldown: 947
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'
@@ -18,8 +18,8 @@ metrics:
   - 6
   - 0
   - 0
-  - 8
-  - 1
+  - 10
+  - 6
   - 0
   - 7
   - 0
@@ -29,7 +29,7 @@ metrics:
   - 0
   - 1
   - 0
-  - 10
+  - 21
   - 0
   spawned:
   - 1
@@ -37,8 +37,8 @@ metrics:
   - 6
   - 0
   - 0
-  - 8
-  - 1
+  - 10
+  - 6
   - 0
   - 7
   - 0
@@ -48,7 +48,7 @@ metrics:
   - 0
   - 1
   - 0
-  - 10
+  - 21
   - 0
   destroyed:
   - 1
@@ -56,8 +56,8 @@ metrics:
   - 6
   - 0
   - 0
-  - 8
-  - 1
+  - 10
+  - 6
   - 0
   - 7
   - 0
@@ -67,7 +67,7 @@ metrics:
   - 0
   - 1
   - 0
-  - 10
+  - 21
   - 0
   killed:
   - 1
@@ -75,8 +75,8 @@ metrics:
   - 6
   - 0
   - 0
-  - 8
-  - 1
+  - 10
+  - 6
   - 0
   - 7
   - 0
@@ -86,7 +86,7 @@ metrics:
   - 0
   - 1
   - 0
-  - 10
+  - 21
   - 0
 timers:
   5ca001c5-481e-41d3-ae03-66d95f939df1:
@@ -106,4 +106,4 @@ timers:
     43f59985-74e9-3264-a600-e9e49c0843c2: 138
     9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 192
     320f58db-706f-3c41-9d9f-5f96e3c8a2df: 119
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 151
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 144
