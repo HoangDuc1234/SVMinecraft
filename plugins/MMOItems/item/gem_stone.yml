@@ -30,15 +30,13 @@ GEM_OF_ACCURACY:
       base: 12.5
       spread: 0.06
       max-spread: 0.17
-    gem-color: Blue
-    displayed-type: Blue Gem Stone
+    gem-color: red
+    displayed-type: red Gem Stone
 GEM_OF_LIFE:
   base:
     material: RED_DYE
     max-health: 4.0
     name: '&fGem of Life'
-    item-type-restriction:
-    - ARMOR
     gem-color: Red
     displayed-type: Red Armor Gem Stone
     block-power: 3.0
@@ -185,5 +183,29 @@ RAINBOW_GEM:
             iron_leggings - 1.0..|v iron_boots - 1.0..|v diamond_sword - 1.0..
     success-rate: 90.0
 GS1:
+  base:
+    material: EMERALD
+G1:
+  base:
+    material: EMERALD
+    success-rate: 30.0
+    item-type-restriction:
+    - WEAPON
+    displayed-type: red Gem Socket
+    name: '&aGem ATK'
+    weapon-damage: 5.0
+G11:
+  base:
+    material: EMERALD
+    displayed-type: red Gem Socket
+    name: '&aGem Mage'
+    item-type-restriction:
+    - WEAPON
+    magic-damage: 5.0
+    success-rate: 30.0
+G21:
+  base:
+    material: EMERALD
+G14:
   base:
     material: EMERALD

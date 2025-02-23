@@ -3,7 +3,7 @@
 display:
     name: 'Mage'
     lore:
-    - 'Tăng nhẹ khả năng hồi phục và sát thương'
+    - 'Hồi 1 máu 1 giây và tăng 1% damage mỗi cấp '
     attribute-lore:
     item: BLAZE_POWDER:1 # Supports custom model data/texture by durability
 

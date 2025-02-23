@@ -174,7 +174,7 @@ supernova:
   far_particles: true
   # Controls how fast the crystal falls from the sky
   fall_speed_multiplier: 1.0
-  min_height: 55
+  min_height: -60
   max_level: 6
   frequency: 0.3
   volume: 1.0
@@ -198,12 +198,12 @@ purge:
   start_delay: 10
   # How many mobs spawn for each level
   horde_size:
-    level 1: 3
-    level 2: 4
-    level 3: 5
-    level 4: 6
-    level 5: 7
-    level 6: 8
+    level 1: 5
+    level 2: 6
+    level 3: 7
+    level 4: 8
+    level 5: 9
+    level 6: 12
   # Will give the targeted player a progress boss bar and foggy world effects
   boss_bar: true
   # Change the name of the bossbar
@@ -214,7 +214,7 @@ purge:
   spawn_distance: 15
   min_height: -60
   max_level: 6
-  frequency: 1.0
+  frequency: 2.0
   volume: 1.0
 plague:
   start_delay: 0
@@ -318,6 +318,7 @@ acidstorm:
   poison_crops: true
   # Control what effects are given to entities in acid storms (remove and add, potions must be the vanilla name in game and formatted as follows: POTION_NAME: GAME_TICKS)
   effects:
+    blindness: 20
     poison: 200
   # Control what blocks are changed to what in acid rain (remove and add, format is as follows: VANILLA_BLOCK_NAME: NEW_VANILLA_BLOCK_NAME)
   block_changes:
@@ -389,7 +390,7 @@ extremewinds:
   wind_height: 50
   # Controls if entities are pushed by winds or not
   push_entities: true
-  min_height: 30
+  min_height: -30
   max_level: 6
   frequency: 0.6
   volume: 1.0
@@ -427,7 +428,7 @@ endstorm:
   max_tp_range: 10
   # Max number of void mobs that can exist during an end storm
   max_rift_entities: 15
-  min_height: 0
+  min_height: -100
   max_level: 5
   frequency: 1.0
   volume: 1.0
@@ -435,11 +436,11 @@ endstorm:
 solarstorm:
   start_delay: 5
   time:
-    level 1: 60
-    level 2: 90
-    level 3: 120
-    level 4: 150
-    level 5: 200
+    level 1: 10
+    level 2: 20
+    level 3: 30
+    level 4: 40
+    level 5: 50
   # Will change the time to sunset if set to true
   set_sunset: true
   # Chance of catching fire every storm tick for entities near heat sources
@@ -448,7 +449,7 @@ solarstorm:
   fire_spawn_rate: 1.0
   # Control the size of fireball explosions
   fireball_explosion_size: 3.0
-  min_height: 60
+  min_height: -60
   max_level: 5
   frequency: 1.0
   volume: 1.0

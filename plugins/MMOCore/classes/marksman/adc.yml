@@ -3,7 +3,7 @@
 display:
     name: 'Marksman'
     lore:
-    - 'Tăng nhẹ khả năng hồi phục và sát thương'
+    - 'Hồi 1 máu 1 giây và tăng 1.5% damage mỗi cấp '
     attribute-lore:
     item: crossbow:1 # Supports custom model data/texture by durability
 
@@ -57,8 +57,14 @@ attributes:
         base: 1
         per-level: 0 
     projectile_damage:
-        base: 5
-        per-level: 1
+        base: 10
+        per-level: 1.5
+    movement-speed:
+        base: 0.16
+        per-level: 0
+    safe-fall-distance:
+        base: 20
+        per-level: 0
 skills:
     FIRE_STORM:
         level: 1

@@ -5,9 +5,9 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 947
+  catalogFetchCooldown: 116435
   currentConfig: DEFAULT
-  favored: 'null'
+  favored: Acid Storm
   disliked: 'null'
   catalogVersion: 3
 customentities: {}
@@ -25,11 +25,11 @@ metrics:
   - 0
   - 10
   - 0
-  - 0
-  - 0
   - 1
   - 0
-  - 21
+  - 2
+  - 0
+  - 22
   - 0
   spawned:
   - 1
@@ -44,11 +44,11 @@ metrics:
   - 0
   - 10
   - 0
-  - 0
-  - 0
   - 1
   - 0
-  - 21
+  - 2
+  - 0
+  - 22
   - 0
   destroyed:
   - 1
@@ -63,11 +63,11 @@ metrics:
   - 0
   - 10
   - 0
-  - 0
-  - 0
   - 1
   - 0
-  - 21
+  - 2
+  - 0
+  - 22
   - 0
   killed:
   - 1
@@ -82,28 +82,28 @@ metrics:
   - 0
   - 10
   - 0
-  - 0
-  - 0
   - 1
   - 0
-  - 21
+  - 2
+  - 0
+  - 22
   - 0
 timers:
   5ca001c5-481e-41d3-ae03-66d95f939df1:
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 111
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 107
     9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 127
-    43f59985-74e9-3264-a600-e9e49c0843c2: 164
+    43f59985-74e9-3264-a600-e9e49c0843c2: 233
     320f58db-706f-3c41-9d9f-5f96e3c8a2df: 320
   182a85ca-d8ee-4783-acde-2bc1af83f714:
     bd3a5fca-83f2-38a9-b281-607c49a1e59b: 73
     9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 161
   a247729e-4e99-4903-9b81-b1d41f85d80c:
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 176
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 206
-    43f59985-74e9-3264-a600-e9e49c0843c2: 123
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 204
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 264
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 305
+    43f59985-74e9-3264-a600-e9e49c0843c2: 299
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 6
   68c6649e-95ca-449e-845f-9fdd42053586:
-    43f59985-74e9-3264-a600-e9e49c0843c2: 138
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 192
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 119
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 144
+    43f59985-74e9-3264-a600-e9e49c0843c2: 185
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 96
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 130
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 91

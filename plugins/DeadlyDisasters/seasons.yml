@@ -1,6 +1,6 @@
 general:
   # Toggle if realistic seasons should take any affect on the plugin
-  enabled: true
+  enabled: false
   # The minimum temperature players must be at for blizzards to affect them
   min_blizzard_temperature: 0
 disasters:
@@ -21,7 +21,6 @@ disasters:
   PLAGUE:
   - ALL
   ACIDSTORM:
-  - SPRING
   - SUMMER
   - FALL
   BLIZZARD:
@@ -42,5 +41,4 @@ disasters:
   - SUMMER
   - FALL
   PURGE:
-  - FALL
-  - WINTER
+  - ALL

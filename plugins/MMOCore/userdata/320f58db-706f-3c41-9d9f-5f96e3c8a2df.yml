@@ -1,17 +1,17 @@
 class-points: 1
-skill-points: 23
+skill-points: 26
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 24
-experience: 791.823879167587
-class: MARKSMAN
+level: 27
+experience: 140.47138049057958
+class: ADC
 waypoints: []
 friends: []
-last-login: 1740245013178
+last-login: 1740305891523
 skill-tree-reallocation-points: 0
-health: 64.0
-mana: 20.0
+health: 70.0
+mana: 108.0
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -140,22 +140,25 @@ skill-tree-level:
   mage-arcane-mage_d2: 0
   mage-arcane-mage_d1: 0
 times-claimed:
+  class_ADC:
+    class_exp_table:
+      skill_point: 2
   class_MARKSMAN:
     class_exp_table:
-      skill_point: 23
+      skill_point: 24
 attribute:
-  dexterity: 1
+  dexterity: 2
   strength: 0
   intelligence: 0
 profession:
   farming:
-    exp: 92.67271897755333
-    level: 0
+    exp: 38.70232044484863
+    level: 3
   mining:
     exp: 125.0
     level: 2
   smelting:
-    exp: 31.634857257253355
+    exp: 33.030322239453255
     level: 0
 quest: {}
 class-info:

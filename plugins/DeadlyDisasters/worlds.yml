@@ -58,8 +58,8 @@ world_nether:
     custom_mob_spawning: true
     config: DEFAULT
   disasters:
-    SINKHOLE: false
-    CAVEIN: false
+    SINKHOLE: true
+    CAVEIN: true
     TORNADO: true
     GEYSER: true
     PLAGUE: false
@@ -68,7 +68,7 @@ world_nether:
     SOULSTORM: false
     BLIZZARD: false
     SANDSTORM: true
-    EARTHQUAKE: false
+    EARTHQUAKE: true
     TSUNAMI: false
     METEORSHOWERS: true
     ENDSTORM: true
@@ -93,7 +93,7 @@ world_nether:
 world_the_end:
   general:
     natural_disasters: true
-    min_timer: 240
+    min_timer: 180
     level_six: true
     event_broadcast: true
     disaster_offset: 10

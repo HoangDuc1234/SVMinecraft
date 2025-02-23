@@ -1488,4 +1488,108 @@ A44:
 THIS:
   base:
     material: IRON_CHESTPLATE
+A51:
+  base:
+    material: DIAMOND_HELMET
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv5&f]'
+    unbreakable: true
+    damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
+    armor: 3.0
+A52:
+  base:
+    material: DIAMOND_CHESTPLATE
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv5&f]'
+    damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
+    armor: 8.0
+    unbreakable: true
+A53:
+  base:
+    material: DIAMOND_LEGGINGS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv5&f]'
+    damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
+    unbreakable: true
+    armor: 6.0
+A54:
+  base:
+    material: DIAMOND_BOOTS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv5&f]'
+    damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
+    armor: 3.0
+    unbreakable: true
+A61:
+  base:
+    material: NETHERITE_HELMET
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv6&f]'
+    damage-reduction: 7.0
+    pve-damage-reduction: 7.0
+    pvp-damage-reduction: 7.0
+    unbreakable: true
+    armor: 3.0
+    gem-sockets:
+    - blue
+    - blue
+    - blue
+A62:
+  base:
+    material: NETHERITE_CHESTPLATE
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv6&f]'
+    damage-reduction: 7.0
+    pve-damage-reduction: 7.0
+    pvp-damage-reduction: 7.0
+    unbreakable: true
+    armor: 8.0
+    gem-sockets:
+    - blue
+    - blue
+    - blue
+A63:
+  base:
+    material: NETHERITE_LEGGINGS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv6&f]'
+    damage-reduction: 7.0
+    pve-damage-reduction: 7.0
+    pvp-damage-reduction: 7.0
+    unbreakable: true
+    armor: 6.0
+    gem-sockets:
+    - blue
+    - blue
+    - blue
+A64:
+  base:
+    material: NETHERITE_BOOTS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv6&f]'
+    damage-reduction: 7.0
+    pve-damage-reduction: 7.0
+    pvp-damage-reduction: 7.0
+    unbreakable: true
+    armor: 3.0
+    gem-sockets:
+    - blue
+    - blue
+    - blue
 

@@ -49,6 +49,58 @@ prismarine: 1
 prismarine_bricks: 1
 dark_prismarine: 1
 
+oak_log: 1  
+spruce_log: 1  
+birch_log: 1  
+jungle_log: 1  
+acacia_log: 1  
+dark_oak_log: 1  
+mangrove_log: 1  
+cherry_log: 1  
+bamboo_block: 1  
+crimson_stem: 1  
+warped_stem: 1  
+
+oak_leaves: 1  
+spruce_leaves: 1  
+birch_leaves: 1  
+jungle_leaves: 1  
+acacia_leaves: 1  
+dark_oak_leaves: 1  
+mangrove_leaves: 1  
+cherry_leaves: 1  
+
+oak_planks: 1  
+spruce_planks: 1  
+birch_planks: 1  
+jungle_planks: 1  
+acacia_planks: 1  
+dark_oak_planks: 1  
+mangrove_planks: 1  
+cherry_planks: 1  
+bamboo_planks: 1  
+crimson_planks: 1  
+warped_planks: 1  
+
+dirt: 1  
+coarse_dirt: 1  
+podzol: 1  
+rooted_dirt: 1  
+mud: 1  
+grass_block: 1  
+mycelium: 1  
+farmland: 1  
+
+dirt: 1  
+coarse_dirt: 1  
+podzol: 1  
+rooted_dirt: 1  
+mud: 1  
+grass_block: 1  
+mycelium: 1  
+farmland: 1  
+dirt_path: 1  
+
 # Extra
 bone_block: 1
 crafting_table: 1

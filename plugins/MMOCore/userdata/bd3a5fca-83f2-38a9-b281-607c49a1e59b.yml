@@ -1,17 +1,17 @@
 class-points: 1
-skill-points: 13
+skill-points: 18
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 38
-experience: 1238.0
+level: 43
+experience: 1008.0
 class: ADC
 waypoints: []
 friends: []
-last-login: 1740280520761
+last-login: 1740309214107
 skill-tree-reallocation-points: 0
-health: 92.0
-mana: 141.0
+health: 102.0
+mana: 156.0
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -142,7 +142,7 @@ skill-tree-level:
 times-claimed:
   class_ADC:
     class_exp_table:
-      skill_point: 13
+      skill_point: 18
   class_MARKSMAN:
     class_exp_table:
       skill_point: 20

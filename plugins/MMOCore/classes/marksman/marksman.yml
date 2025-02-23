@@ -75,7 +75,7 @@ attributes:
         per-level: 0
     safe-fall-distance: # Can resist higher falls
         base: 10
-        per-level: 1 
+        per-level: 0 
     projectile_damage:
         base: 5
         per-level: 0.5
