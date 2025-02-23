@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 58.186.128.142
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740069237141
+  login: 1740067878637
+money: '0'
+last-account-name: tAQ
+lastlocation:
+  world: e5e356d2-ea10-4b3c-859a-2450ade1a1ff
+  world-name: world
+  x: 19300.5
+  y: 94.0
+  z: 61603.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: e5e356d2-ea10-4b3c-859a-2450ade1a1ff
+  world-name: world
+  x: 19307.743300297112
+  y: 84.0
+  z: 61637.201369225084
+  yaw: 76.9736328125
+  pitch: 50.850093841552734

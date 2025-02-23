@@ -3,9 +3,9 @@ MEDIEVAL_CROSSBOW:
     material: WOODEN_PICKAXE
     name: §6§lMedieval Crossbow
     lore:
-      - §6Like in the old times.
-      - §eFor more realism, it also poisons
-      - §eand makes a different sound!
+    - §6Like in the old times.
+    - §eFor more realism, it also poisons
+    - §eand makes a different sound!
     tier: UNCOMMON
     weapon-damage:
       base: 15.0
@@ -38,10 +38,10 @@ HANDGUN:
     name: §7Hand Gun
     attack-damage: 30.0
     required-biomes:
-      - plains
+    - plains
     lore:
-      - §cFor security reasons, this gun
-      - §cis only usable in §3plains§c.
+    - §cFor security reasons, this gun
+    - §cis only usable in §3plains§c.
     attack-speed: 1.4
     arrow-velocity: 4.0
     required-level: 20.0
@@ -51,7 +51,7 @@ HANDGUN:
       spread: 0.08
       max-spread: 0.15
     gem-sockets:
-      - Red
-      - Red
+    - Red
+    - Red
     max-durability: 2650.0
     tier: RARE

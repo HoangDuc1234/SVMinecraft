@@ -1,0 +1,88 @@
+display:
+    name: 'Marksman'
+    lore:
+    - 'The marksman is a swift and accurate'
+    - 'ranged fighter, never missing any arrow.'
+    attribute-lore:
+    item: BOW
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+# The maximum level players can reach
+max-level: 100
+
+exp-table: class_exp_table
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+        lore: []
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+        lore: []
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+        lore: []
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true
+        lore: []
+
+skill-trees:
+    - 'general'
+    - 'rogue-marksman'
+
+# Particles displayed around the player
+# when he enters the casting mode.
+cast-particle:
+    particle: CRIT
+
+# Special resource regeneration: (when out of combat),
+# players can regen a set % of their stamina mana/missing stamina.
+# This % can scale with the player level.
+# It also works with other player resources: health, stellium and mana!
+resource:
+    stamina:
+    
+        # Regen scales with missing stamina.
+        type: MISSING
+        
+        # Regen from 3 to 10% of missing stamina every second
+        value:
+            base: 5
+            per-level: .2
+            max: 13
+        
+        # Only regen when out of combat.
+        off-combat: true
+
+attributes:
+    knockback-resistance:
+        base: .15
+        per-level: .02
+    speed-malus-reduction:
+        base: 10
+        per-level: 2
+    max-health:
+        base: 18
+        per-level: 2
+    movement-speed:
+        base: 0.16
+        per-level: 0
+    safe-fall-distance: # Can resist higher falls
+        base: 10
+        per-level: 1 
+    projectile_damage:
+        base: 5
+        per-level: 0.5
+subclasses:
+    ADC: 20
+
+# Experience sources for main class experience.
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=1-3}'
+- 'killmob{type=ENDERMAN;amount=6-9}'

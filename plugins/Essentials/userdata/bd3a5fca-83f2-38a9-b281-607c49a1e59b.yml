@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 192.168.1.4
+ip-address: 42.1.77.112
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,37 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1740060759749
+  lastteleport: 1740244788098
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740065098044
-  login: 1740064381070
+  logout: 1740245001986
+  login: 1740233053643
 money: '0'
 last-account-name: HDuc
 logoutlocation:
-  world: e5e356d2-ea10-4b3c-859a-2450ade1a1ff
+  world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: 19301.42057865818
-  y: 94.9375
-  z: 61598.28541672557
-  yaw: -26.076904296875
-  pitch: 4.60923957824707
+  x: -1530.130613659511
+  y: 117.0
+  z: 860.7471963264737
+  yaw: -63.25872802734375
+  pitch: 30.971647262573242
 lastlocation:
-  world: e5e356d2-ea10-4b3c-859a-2450ade1a1ff
+  world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: 35639.5
-  y: 100.0
-  z: 47609.5
-  yaw: -17.068939208984375
-  pitch: 52.63896942138672
+  x: -1531.3928377425445
+  y: 116.0
+  z: 870.6282100290695
+  yaw: -135.95159912109375
+  pitch: 46.962242126464844
+homes:
+  home:
+    world: a247729e-4e99-4903-9b81-b1d41f85d80c
+    world-name: world_nether
+    x: -180.37983068616782
+    y: 15.0
+    z: 234.95452714273617
+    yaw: -9.47650146484375
+    pitch: 12.05726432800293

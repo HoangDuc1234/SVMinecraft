@@ -754,7 +754,7 @@ SW6:
     enchants:
       mending: 1.0
     name: '&aKiếm Rogue &f[&cLv5&f]'
-    attack-damage: 10.0
+    attack-damage: 15.0
     dodge-rating: 50.0
     lifesteal: 10.0
     required-class:
@@ -774,8 +774,8 @@ SW7:
     required-class:
     - Rogue
     dodge-rating: 50.0
-    attack-damage: 12.0
-    lifesteal: 10.0
+    attack-damage: 20.0
+    lifesteal: 100.0
     ability:
       ability1:
         type: HEAL
@@ -790,9 +790,9 @@ SW8:
     name: '&aKiếm Rogue &f[&cLv7&f]'
     required-class:
     - Rogue
-    attack-damage: 15.0
+    attack-damage: 25.0
     dodge-rating: 50.0
-    lifesteal: 10.0
+    lifesteal: 50.0
     ability:
       ability1:
         type: HEAL
@@ -807,9 +807,9 @@ SW9:
       mending: 1.0
     required-class:
     - Rogue
-    attack-damage: 18.0
+    attack-damage: 30.0
     dodge-rating: 50.0
-    lifesteal: 10.0
+    lifesteal: 50.0
     ability:
       ability1:
         type: HEAL
@@ -1004,5 +1004,65 @@ MAT1:
     name: '&bĐá Cường Hóa'
     enchants:
       mending: 1.0
+SW10:
+  base:
+    material: DIAMOND_SWORD
+    name: '&aKiếm Rogue &f[&cLv8&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 35.0
+    required-class:
+    - Rogue
+    dodge-rating: 50.0
+    lifesteal: 50.0
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 12.0
+SW11:
+  base:
+    material: NETHERITE_SWORD
+    enchants:
+      mending: 1.0
+    name: '&aKiếm Rogue &f[&cLv9&f]'
+    attack-damage: 45.0
+    required-class:
+    - Rogue
+    dodge-rating: 50.0
+    lifesteal: 100.0
+    pve-damage: 10.0
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 15.0
+    unbreakable: true
+SW12:
+  base:
+    material: NETHERITE_SWORD
+    name: '&aKiếm Rogue &f[&cLv10&f]'
+    enchants:
+      mending: 1.0
+    attack-damage: 60.0
+    dodge-rating: 50.0
+    unbreakable: true
+    pve-damage: 20.0
+    lifesteal: 100.0
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 18.0
+    gem-sockets:
+    - red
+    - red
+    - red
+    - red
+    required-class:
+    - Rogue
 
 # U2QutmdspnM1UFeMB1VBlnSrxmT5VleOhXRE1EejRUTwcmeOJ3cQFGaRB1NVp2aXZHaz8GO

@@ -3,15 +3,15 @@ MAKESHIFT_MUSKET:
     material: IRON_HORSE_ARMOR
     name: §fMakeshift Musket
     lore:
-      - §7A decent musket that doesn't require ammo.
-      - §eGreat for hunting mobs.
+    - §7A decent musket that doesn't require ammo.
+    - §eGreat for hunting mobs.
     crafting:
       shaped:
         '1':
           input:
-            - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
-            - v iron_ingot - 1.0..|v iron_ingot - 1.0..|v copper_block - 1.0..
-            - v iron_nugget - 1.0..|v AIR 0 1..|v copper_ingot - 1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - v iron_ingot - 1.0..|v iron_ingot - 1.0..|v copper_block - 1.0..
+          - v iron_nugget - 1.0..|v AIR 0 1..|v copper_ingot - 1.0..
     critical-strike-chance:
       base: 15.0
       scale: 0.05
@@ -47,7 +47,7 @@ SNIPER_RIFLE:
     name: §b§lSniper Rifle
     max-durability: 6000.0
     lore:
-      - §bWhen you need a lot of precision.
+    - §bWhen you need a lot of precision.
     disable-interaction: true
     range: 160.0
     attack-damage:
@@ -76,8 +76,8 @@ SNIPER_RIFLE:
       max-spread: 0.2
     tier: EPIC
     gem-sockets:
-      - Cyan
-      - Cyan
+    - Cyan
+    - Cyan
     ability:
       ability1:
         type: STUN

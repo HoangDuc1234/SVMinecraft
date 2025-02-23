@@ -76,7 +76,7 @@ VERY_SHARP_DAGGER:
     displayed-type: §cSharp Dagger
     required-level: 12.0
     required-class:
-      - Assassin
+    - Assassin
     attack-damage:
       base: 10.0
       scale: 0.13
@@ -100,7 +100,7 @@ VERY_SHARP_DAGGER:
       max-spread: 0.3
     movement-speed: 0.02
     gem-sockets:
-      - White
+    - White
     upgrade:
       template: weapon-default
     physical-damage:
@@ -109,14 +109,14 @@ VERY_SHARP_DAGGER:
       spread: 0.3
       max-spread: 0.6
     lore:
-      - §f§oExtremely sharp due to a very long
-      - §f§oprocess of refining.
+    - §f§oExtremely sharp due to a very long
+    - §f§oprocess of refining.
 POISONOUS_DAGGER:
   base:
     material: WOODEN_SWORD
     name: §2§l§oPoisonous Dagger
     lore:
-      - §7Who knows what infected it...
+    - §7Who knows what infected it...
     max-durability: 4500.0
     attack-damage:
       base: 22.0
@@ -145,8 +145,8 @@ POISONOUS_DAGGER:
       max-spread: 0.2
     tier: LEGENDARY
     gem-sockets:
-      - Green
-      - Green
+    - Green
+    - Green
     magic-damage:
       base: 12.0
       spread: 0.1
@@ -175,7 +175,7 @@ SNEAKY_DAGGER:
     material: STONE_SWORD
     name: §8§lSneaky Dagger
     lore:
-      - '&7&oUse it to sneak behind your target''s back!'
+    - '&7&oUse it to sneak behind your target''s back!'
     tier: UNCOMMON
     attack-damage: 11.0
     attack-speed: 0.9

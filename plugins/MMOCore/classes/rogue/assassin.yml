@@ -1,0 +1,111 @@
+
+# Display options
+display:
+    name: 'Rogue'
+    lore:
+    - 'Tăng nhẹ khả năng hồi phục và sát thương'
+    attribute-lore:
+    item: NETHERITE_SWORD:1 # Supports custom model data/texture by durability
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+        lore: []
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+        lore: []
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+        lore: []
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true
+        lore: []
+
+# The maximum level players can reach
+max-level: 100
+
+skill-trees:
+    - 'general'
+    - 'mage-arcane-mage'
+
+# This class must not display in /class
+# because it is a subclass of mage
+options:
+    display: false
+    needs-permission: false
+
+exp-table: class_exp_table
+
+attributes:
+    max-health:
+        base: 18
+        per-level: 3
+    max-mana:
+        base: 30
+        per-level: 3
+    mana-regeneration:
+        base: 1
+        per-level: 0
+    health-regeneration:
+        base: 1
+        per-level: 0 
+    physical_damage:
+        base: 5
+        per-level: 1
+
+skills:
+    FIRE_STORM:
+        level: 1
+        max-level: 30
+        damage:
+            base: 8.0
+            per-level: 4.0
+        ignite:
+            base: 2.0
+            per-level: 0.1
+        mana:
+            base: 15.0
+            per-level: 2.0
+        cooldown:
+            base: 5.0
+            per-level: -0.1
+            max: 5.0
+            min: 1.0
+
+    POWER_MARK:
+        level: 3
+        max-level: 30
+    FIREBALL:
+        level: 5
+        max-level: 30
+    MINOR_HEALINGS:
+        level: 6
+        max-level: 30
+    ICE_SPIKES:
+        level: 8
+        max-level: 30
+    AMBERS:
+        level: 9
+        max-level: 30
+    WEAKEN:
+        level: 10
+        max-level: 30
+    WARP:
+        level: 13
+        max-level: 30
+        upgradable: false # Player cannot upgrade this skill via the skill UI
+    GREATER_HEALINGS:
+        level: 15
+        max-level: 30
+
+# Experience sources for main class experience.
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=1-3}'
+- 'killmob{type=ENDERMAN;amount=6-9}'

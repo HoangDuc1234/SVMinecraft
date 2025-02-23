@@ -377,3 +377,46 @@ SS8:
         cooldown: 3.0
     required-class:
     - Mage
+SS9:
+  base:
+    material: BREEZE_ROD
+    enchants:
+      mending: 1.0
+    name: '&aGậy phép &f[&cLv9&f]'
+    required-class:
+    - Mage
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 23.0
+        cooldown: 1.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 23.0
+        cooldown: 3.0
+SS10:
+  base:
+    material: BREEZE_ROD
+    enchants:
+      mending: 1.0
+    name: '&aGậy phép &f[&cLv10&f]'
+    required-class:
+    - Mage
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        mode: LEFT_CLICK
+        damage: 27.0
+        cooldown: 10.0
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 27.0
+        cooldown: 3.0
+    gem-sockets:
+    - red
+    - red
+    - red
+    - red

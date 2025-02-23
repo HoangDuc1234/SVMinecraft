@@ -18,10 +18,6 @@ kits:
   tools:
     delay: 10
     items:
-      - stonesword 1
-      - stoneshovel 1
-      - stonepickaxe 1
-      - stoneaxe 1
   dtools:
     delay: 600
     items:

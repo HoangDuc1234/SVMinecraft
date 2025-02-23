@@ -21,3 +21,19 @@ items:
         - '{lore}'
         - ''
         - '{attribute-lore}'
+    adc:
+        slots: [13]
+        function: sub-class-adc
+        name: '&a&lThe ADC'
+        lore:
+        - '{lore}'
+        - ''
+        - '{attribute-lore}'
+    marksman:
+        slot: [12]
+        function: sub-class-adc
+        name: '&a&lThe Marksman'
+        lore:
+        - '{lore}'
+        - ''
+        - '{attribute-lore}'

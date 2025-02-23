@@ -204,12 +204,6 @@ B1:
 BB1:
   base:
     material: BOW
-    ability:
-      ability1:
-        type: BLINK
-        cooldown: 5.0
-        range: 4.0
-        mode: LEFT_CLICK
     enchants:
       mending: 1.0
       infinity: 1.0
@@ -217,20 +211,28 @@ BB1:
     name: '&aCung &f[&cLv1&f]'
     required-class:
     - Marksman
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        cooldown: 5.0
+        amplifier: 2.0
+        duration: 3.0
+        mode: LEFT_CLICK
 BB2:
   base:
     material: BOW
-    name: '&aKiếm Rogue &f[&cLv2&f]'
+    name: '&aCung &f[&cLv2&f]'
     enchants:
       mending: 1.0
       infinity: 1.0
     attack-damage: 18.0
     ability:
       ability1:
-        type: BLINK
-        mode: LEFT_CLICK
+        type: ICE_CRYSTAL
         cooldown: 5.0
-        range: 4.0
+        amplifier: 2.0
+        duration: 3.0
+        mode: LEFT_CLICK
     required-class:
     - Marksman
 BB3:
@@ -243,10 +245,11 @@ BB3:
     attack-damage: 21.0
     ability:
       ability1:
-        type: BLINK
-        mode: LEFT_CLICK
+        type: ICE_CRYSTAL
         cooldown: 5.0
-        range: 4.0
+        amplifier: 2.0
+        duration: 3.0
+        mode: LEFT_CLICK
     required-class:
     - Marksman
 BB4:
@@ -259,10 +262,12 @@ BB4:
     attack-damage: 24.0
     ability:
       ability1:
-        type: BLINK
+        type: ICE_CRYSTAL
         mode: LEFT_CLICK
         cooldown: 5.0
-        range: 4.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 11.0
     required-class:
     - Marksman
 BB5:
@@ -275,10 +280,12 @@ BB5:
     attack-damage: 30.0
     ability:
       ability1:
-        type: BLINK
+        type: ICE_CRYSTAL
         mode: LEFT_CLICK
         cooldown: 5.0
-        range: 4.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 15.0
     required-class:
     - Marksman
 BB6:
@@ -289,14 +296,16 @@ BB6:
       mending: 1.0
       infinity: 1.0
     attack-damage: 35.0
-    ability:
-      ability1:
-        type: BLINK
-        mode: LEFT_CLICK
-        cooldown: 5.0
-        range: 4.0
     required-class:
     - Marksman
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 20.0
 BB7:
   base:
     material: BOW
@@ -305,14 +314,16 @@ BB7:
       infinity: 1.0
       mending: 1.0
     attack-damage: 40.0
-    ability:
-      ability1:
-        type: BLINK
-        mode: LEFT_CLICK
-        cooldown: 5.0
-        range: 4.0
     required-class:
     - Marksman
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 25.0
 BB8:
   base:
     material: BOW
@@ -320,12 +331,82 @@ BB8:
     enchants:
       infinity: 1.0
       mending: 1.0
-    attack-damage: 45.0
+    attack-damage: 50.0
     ability:
       ability1:
-        type: BLINK
+        type: ICE_CRYSTAL
         mode: LEFT_CLICK
         cooldown: 5.0
-        range: 4.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 30.0
     required-class:
     - Marksman
+BB9:
+  base:
+    material: BOW
+    name: '&aCung &f[&cLv9&f]'
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    attack-damage: 60.0
+    pve-damage: 10.0
+    required-class:
+    - Marksman
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 35.0
+BB10:
+  base:
+    material: BOW
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    name: '&aCung &f[&cLv10&f]'
+    required-class:
+    - Marksman
+    attack-damage: 70.0
+    pve-damage: 10.0
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: LEFT_CLICK
+        cooldown: 5.0
+        amplifier: 2.0
+        duration: 3.0
+        damage: 40.0
+    gem-sockets:
+    - red
+    - red
+    - red
+    - red
+BBB:
+  base:
+    material: BOW
+    ability:
+      ability1:
+        type: FREEZE
+        mode: LEFT_CLICK
+        duration: 2.0
+        radius: 20.0
+        cooldown: 2.0
+        amplifier: 10.0
+    blunt-power: 100.0
+    arrow-particles:
+      particle: GLOW
+      amount: 10
+TEST:
+  base:
+    material: BOW
+    ability:
+      ability1:
+        type: FREEZE
+        mode: LEFT_CLICK
+        cooldown: 1.0
+    attack-speed: 20.0
+    item-cooldown: 0.1

@@ -4,3 +4,6 @@ IG1:
     enchants:
       mending: 1.0
     name: '&a&lĐổi ĐỒ &c&lLv10'
+PX1:
+  base:
+    material: DIAMOND

@@ -3,8 +3,8 @@ SCOPE:
     material: DIAMOND
     name: ยง7Accuracy Scope
     lore:
-      - ยง3Hold it in the offhand to increase
-      - ยง3ranged damage!
+    - ยง3Hold it in the offhand to increase
+    - ยง3ranged damage!
     critical-strike-power:
       base: 10.0
       scale: 0.05
@@ -32,7 +32,7 @@ QUICKCASTER_CATALYST:
     material: PRISMARINE_CRYSTALS
     name: §b§l§oQuickcaster's Catalyst
     lore:
-      - §dVery useful for beginner mages.
+    - §dVery useful for beginner mages.
     handworn: true
     magic-damage: 10.0
     cooldown-reduction: 25.0
@@ -40,7 +40,7 @@ QUICKCASTER_CATALYST:
     max-mana: 5.0
     mana-regeneration: 1.0
     required-class:
-      - Mage
+    - Mage
     required-level: 5.0
     tier: RARE
 CHARM_OF_LEVITATION:
@@ -52,10 +52,10 @@ CHARM_OF_LEVITATION:
     name: §9Charm of Levitation
     handworn: true
     lore:
-      - §bEveryone needs a quick fly!
-      - §9But you probably took it for the particles!
-      - §cShown as "charm". Needs to be held offhand.
-      - §aAdds +10 Stellium!
+    - §bEveryone needs a quick fly!
+    - §9But you probably took it for the particles!
+    - §cShown as "charm". Needs to be held offhand.
+    - §aAdds +10 Stellium!
     ability:
       ability1:
         type: MAGICAL_PATH

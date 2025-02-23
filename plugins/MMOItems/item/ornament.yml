@@ -3,8 +3,8 @@ BOOK_OF_STRENGTH:
     material: BOOK
     name: §cBook of Strength
     lore:
-      - §7Will give you stats even when
-      - §7in §9inventory§7!
+    - §7Will give you stats even when
+    - §7in §9inventory§7!
     tier: RARE
     projectile-damage: 15.0
     physical-damage: 10.0
@@ -12,5 +12,5 @@ BOOK_OF_STRENGTH:
     weapon-damage: 10.0
     damage-reduction: 5.0
     required-class:
-      - Warrior
+    - Warrior
     required-level: 15.0

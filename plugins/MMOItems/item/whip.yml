@@ -3,8 +3,8 @@ WIND_WHIP:
     material: LEAD
     name: ยง7Wind Whip
     lore:
-      - ยง7Imagine a whip. Make it invisible.
-      - ยง8That's absurd, but here's a wind whip.
+    - ยง7Imagine a whip. Make it invisible.
+    - ยง8That's absurd, but here's a wind whip.
     attack-damage:
       base: 11.0
       scale: 0.1
@@ -31,6 +31,6 @@ WIND_WHIP:
       shaped:
         '1':
           input:
-            - v white_wool - 1.0..|v diamond - 1.0..|v string - 1.0..
-            - v stick - 1.0..|v string - 1.0..|v AIR 0 1..
-            - v AIR 0 1..|v string - 1.0..|v AIR 0 1..
+          - v white_wool - 1.0..|v diamond - 1.0..|v string - 1.0..
+          - v stick - 1.0..|v string - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v string - 1.0..|v AIR 0 1..

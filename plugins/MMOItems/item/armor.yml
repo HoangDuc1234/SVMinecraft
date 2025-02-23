@@ -1299,4 +1299,193 @@ HAT:
     item-particles: {}
     ability: {}
     mining-efficiency: 2.0
+A1:
+  base:
+    material: LEATHER_HELMET
+    enchants:
+      mending: 1.0
+    damage-reduction: 3.0
+    pve-damage-reduction: 3.0
+    pvp-damage-reduction: 3.0
+    name: '&aGiáp &f[&cLv1&f]'
+    unbreakable: true
+    armor: 1.0
+A11:
+  base:
+    material: LEATHER_CHESTPLATE
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv1&f]'
+    damage-reduction: 3.0
+    pve-damage-reduction: 3.0
+    pvp-damage-reduction: 3.0
+    unbreakable: true
+    armor: 3.0
+A12:
+  base:
+    material: LEATHER_LEGGINGS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv1&f]'
+    damage-reduction: 3.0
+    pve-damage-reduction: 3.0
+    pvp-damage-reduction: 3.0
+    unbreakable: true
+    armor: 2.0
+A14:
+  base:
+    material: LEATHER_BOOTS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv1&f]'
+    damage-reduction: 3.0
+    pve-damage-reduction: 3.0
+    pvp-damage-reduction: 3.0
+    unbreakable: true
+    armor: 1.0
+A21:
+  base:
+    material: CHAINMAIL_HELMET
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv2&f]'
+    damage-reduction: 4.0
+    pve-damage-reduction: 4.0
+    pvp-damage-reduction: 4.0
+    unbreakable: true
+    armor: 2.0
+A22:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    enchants:
+      mending: 1.0
+    damage-reduction: 4.0
+    pve-damage-reduction: 4.0
+    pvp-damage-reduction: 4.0
+    name: '&aGiáp &f[&cLv2&f]'
+    unbreakable: true
+    armor: 5.0
+A23:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv3&f]'
+    damage-reduction: 4.0
+    pve-damage-reduction: 4.0
+    pvp-damage-reduction: 4.0
+    unbreakable: true
+    armor: 4.0
+A24:
+  base:
+    material: CHAINMAIL_BOOTS
+    enchants:
+      mending: 1.0
+    damage-reduction: 4.0
+    pve-damage-reduction: 4.0
+    pvp-damage-reduction: 4.0
+    name: '&aGiáp &f[&cLv2&f]'
+    unbreakable: true
+    armor: 1.0
+A31:
+  base:
+    material: GOLDEN_HELMET
+    name: '&aGiáp &f[&cLv3&f]'
+    enchants:
+      mending: 1.0
+    damage-reduction: 4.0
+    pve-damage-reduction: 4.0
+    pvp-damage-reduction: 4.0
+    unbreakable: true
+    armor: 2.0
+A32:
+  base:
+    material: GOLDEN_CHESTPLATE
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv3&f]'
+    damage-reduction: 5.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    unbreakable: true
+    armor: 5.0
+A33:
+  base:
+    material: GOLDEN_LEGGINGS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv3&f]'
+    damage-reduction: 5.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    unbreakable: true
+    armor: 3.0
+A34:
+  base:
+    material: GOLDEN_BOOTS
+    name: '&aGiáp &f[&cLv3&f]'
+    enchants:
+      mending: 1.0
+    damage-reduction: 5.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    unbreakable: true
+    armor: 1.0
+A41:
+  base:
+    material: IRON_HELMET
+    name: '&aGiáp &f[&cLv4&f]'
+    enchants:
+      mending: 1.0
+    damage-reduction: 5.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    armor: 2.0
+    unbreakable: true
+AXIT:
+  base:
+    material: IRON_CHESTPLATE
+    enchants:
+      mending: 1.0
+    unbreakable: true
+A42:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&aGiáp &f[&cLv4&f]'
+    enchants:
+      mending: 1.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    damage-reduction: 5.0
+    armor: 6.0
+    unbreakable: true
+GIAYLONGVU:
+  base:
+    material: IRON_CHESTPLATE
+    armor: 2.0
+A43:
+  base:
+    material: IRON_LEGGINGS
+    enchants:
+      mending: 1.0
+    name: '&aGiáp &f[&cLv4&f]'
+    damage-reduction: 5.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    unbreakable: true
+    armor: 5.0
+A44:
+  base:
+    material: IRON_BOOTS
+    name: '&aGiáp &f[&cLv4&f]'
+    enchants:
+      mending: 1.0
+    pve-damage-reduction: 5.0
+    pvp-damage-reduction: 5.0
+    damage-reduction: 5.0
+    unbreakable: true
+    armor: 1.0
+THIS:
+  base:
+    material: IRON_CHESTPLATE
 

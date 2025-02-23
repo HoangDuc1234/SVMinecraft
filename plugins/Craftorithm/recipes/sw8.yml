@@ -1,7 +1,0 @@
-source:
-  copy_nbt: false
-  base: mmoitems:SWORD:SW8 1
-  addition: minecraft:netherite_upgrade_smithing_template
-  cost_level: 0
-type: anvil
-result: mmoitems:SWORD:SW9 1

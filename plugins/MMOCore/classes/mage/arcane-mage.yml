@@ -1,11 +1,9 @@
 
 # Display options
 display:
-    name: 'Arcane Mage'
+    name: 'Mage'
     lore:
-    - 'The Mage has mastered the power of the'
-    - 'Arcanes, taking down any enemy on his path'
-    - 'using powerful magic & ranged abilities.'
+    - 'Tăng nhẹ khả năng hồi phục và sát thương'
     attribute-lore:
     item: BLAZE_POWDER:1 # Supports custom model data/texture by durability
 
@@ -56,9 +54,11 @@ attributes:
         base: .2
         per-level: .04
     health-regeneration:
-        base: 0.2
-        per-level: 0.01
-
+        base: 1
+        per-level: 0 
+    magic_damage:
+        base: 5
+        per-level: 1
 skills:
     FIRE_STORM:
         level: 1

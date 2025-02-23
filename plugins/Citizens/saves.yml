@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 30
+last-created-npc-id: 32
 npc:
   '12':
     metadata:
@@ -42,16 +42,16 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: 105.254
+        bodyYaw: -152.90295
         world: world
-        x: 19304.2435
-        y: 95.0
-        z: 61600.1055
-        yaw: 122.811
-        pitch: 1.066
+        x: -1533.6051
+        y: 115.9375
+        z: 867.5378
+        yaw: -152.903
+        pitch: -7.9298
       gravity:
         enabled: true
-    traitnames: spawned,mounttrait,type,commandtrait,scoreboardtrait,location,lookclose,inventory,skintrait,rotationtrait,owner,gravity
+    traitnames: spawned,skintrait,type,commandtrait,rotationtrait,mounttrait,location,owner,inventory,scoreboardtrait,gravity,lookclose
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -98,12 +98,12 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: -178.34695
+        bodyYaw: 116.48912
         world: world
-        x: 19301.5217
-        y: 94.9375
-        z: 61601.367
-        yaw: 178.1204
+        x: -1533.8562
+        y: 116.0
+        z: 870.2828
+        yaw: 117.8853
         pitch: 0.0
       gravity:
         enabled: true
@@ -116,7 +116,56 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,type,commandtrait,scoreboardtrait,location,lookclose,inventory,skintrait,rotationtrait,owner,gravity
+    traitnames: spawned,skintrait,type,commandtrait,rotationtrait,location,owner,inventory,scoreboardtrait,gravity,lookclose
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '32':
+    metadata:
+      cached-skin-uuid: 1bd86ed2-a010-4fa1-869e-7ef8a5be27b3
+      cached-skin-uuid-name: yasuo
+      activation-range: 20
+      collidable: true
+      damage-others: true
+    name: '&bYasuo'
+    uuid: 3032d7f3-3935-4fed-9f3e-04f53cb83765
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 38.359283
+        world: world
+        x: -737.5631
+        y: 49.0
+        z: 104.7831
+        yaw: 38.3593
+        pitch: 13.6184
+      equipment:
+        hand:
+          type_key: netherite_sword
+          amount: 1
+      skintrait:
+        signature: R9U6jEvBE2q8yZkFU4egLClEjk494fc+TnB/wDJp+a7wZmWxbNe0FG01ObtbSIz5uUAF9FzoSnxtKgJOSzaclFzM9mEB/HXb92TMZDWYse7VCR8E325cE4apswnndiNs3QhIk/xP5yruadU24zIETLTXW8CUnul/mtnXQTRaq7dftoch4wSBG/1e0T8+AsVxtgvtFgUr6aB6EcYhxC+JOqaVjf8iwAH1k2WDQszFOKxUbwAHP59A5+qIYUBhg2LezV5KhFwKo+hV5Qrk9JlXxi2EiImONy7UcZO8bWpvANnMLtkvulTzdmdP/bYolIrdRqRkGt8dENWh0r2w6tgq31yNL8dLrN8o9OERpEYZyDcmlRoQ1XXwqeC4jmVCZ+ELaBUR7i8N9HRsEeCgkaRdznkSXCLQAU3Er4rfgJDojxEFLcbCGMu6F156cItv9N2Hsi8sdg8h5C4FYTS6zh1c2fNannjsOIpipZDBQjQcXK+RUwAT9J3AYgoU8vhPuZtEQpezAMMgtD/enxrTReZ5nQUoMekWZSFZ2u2PPSMhkhlXnwnRaXx2FMWZBAXR8WCM5IGfCRxLDOn/my3FKm0N9KojZcEZGRDRFWu5yLhYzHpwETO2n8En6M2Yd5l8g4vQpfGjH+kP1U2tpwexFZxsreJvdMDZIDHl4LgYOlmm6Aw=
+        skinName: yasuo
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MDA5ODc0Mjc2MCwKICAicHJvZmlsZUlkIiA6ICIxYmQ4NmVkMmEwMTA0ZmExODY5ZTdlZjhhNWJlMjdiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZYXN1byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZDkwMzI5Nzg3NGQ3MTcxYTlkMWMzZDljOGZmZDFjODllZWI0N2FlY2FjODJlMjY5OGIzYjNjYjNhNDBiZjVhIgogICAgfQogIH0KfQ==
+      owner:
+        uuid: bd3a5fca-83f2-38a9-b281-607c49a1e59b
+      type: PLAYER
+      controllable: {}
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type_key: netherite_sword
+          amount: 1
+    traitnames: spawned,skintrait,type,equipment,rotationtrait,location,owner,controllable,inventory,scoreboardtrait,lookclose
     navigator:
       speedmodifier: 1.0
       avoidwater: false

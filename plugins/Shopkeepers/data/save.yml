@@ -1066,3 +1066,2005 @@ data-version: 3|2|3953
         v: 3953
         type: STRIPPED_CRIMSON_HYPHAE
   snapshots: []
+'5':
+  uniqueId: 82df6cc6-cd40-4af7-8142-b44eedea8dca
+  world: world
+  x: -1537
+  y: 116
+  z: 871
+  yaw: 57.31286
+  type: admin
+  name: Armor
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDkaMjIwB2al1SUmpidmJSTysjBwOcRHBIUGe/q5+zh6BcSzOBbrRRckliiZKUEE1LSUfJ3Dy7JL6pUsoquVoKbCpOPP7yxuKQIqCE6Rik3NS8lMy9dwTBGKVapNraWjYEPrh7sLPsPMKcLYhjEwBuNMEAploOBC+I2P0dfVwZPuLtAXFxuAsnB3aOW6J55eGGBglpatFqyT5mhWhrUTZJw9bhDVhShJhJoqqdzvI9/kCvD1milQ8vTDi1PdizKzS8COgPIg5CHlhsrHFpu/mjaAgWXxNzE9FSFoNSU0uSSzPw8K6BEmraxKobCgDJXUhQHEKl4zgIFsPMgsuCg5EUJIgZhLGGDmupccYYNAwCj3zJ7ogIAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: COPPER_INGOT
+        amount: 64
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGjIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFAtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN21gVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkA5CZsHqMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: COPPER_INGOT
+        amount: 64
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGjEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMUC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bWBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkArwYrNaMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: COPPER_INGOT
+        amount: 64
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGjCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZoVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2sSqGwoAyV1IUBxCpeM4CBbDzILLAoERNUa54vM2LEpQMwljCkAEAE0hF+KMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: COPPER_INGOT
+        amount: 64
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv2","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMSC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bRBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkAaAwVGqMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LAPIS_LAZULI
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDkaMjIwB2al1SUmpidmJSTysjBwOcRHBIUGe/q5+zh6BcSzOBbrRRckliiZKUEE1LSUfJ3Dy7JL6pUsoquVoKbCpOPP7yxuKQIqCE6Rik3NS8lMy9dwTBGKVapNraWjYEPrh7sLPsPMKcLYhjEwBuNMEAploOBC+I2P0dfVwZPuLtAXFxuAsnB3aOW6J55eGGBglpatFqyT5mhWhrUTZJw9bhDVhShJhJoqqdzvI9/kCvD1milQ8vTDi1PdizKzS8COgPIg5CHlhsrHFpu/mjaAgWXxNzE9FSFoNSU0uSSzPw8K6BEmraxKobCgDJXUhQHEKl4zgIFsPMgsuCg5EUJIgZhLGGDmupccYYNAwCj3zJ7ogIAAA==
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv2","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HEZjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMSC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bRBVDYUCZKymKA4hUPGeBAth5EFlTUFDyogQRgzCWsEFNdq44w4YBAGH9AFijAgAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LAPIS_LAZULI
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGjIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFAtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN21gVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkA5CZsHqMCAAA=
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+4","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFgtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN20QVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkAIy5xSaMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LAPIS_LAZULI
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGjEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMUC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bWBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkArwYrNaMCAAA=
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv2","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZkVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2iSqGwoAyV1IUBxCpeM4CBbDzILLgoORFCSIGYSxhg5rsXHGGDQMA4NV3lqMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LAPIS_LAZULI
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv1","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+3%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c+BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGjCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZoVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2sSqGwoAyV1IUBxCpeM4CBbDzILLAoERNUa54vM2LEpQMwljCkAEAE0hF+KMCAAA=
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMWC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bRBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkAHCV8VKMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: REDSTONE
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv2","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMSC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bRBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkAaAwVGqMCAAA=
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBhAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFgtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN21QVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkAnhHhgKMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: REDSTONE
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv2","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HEZjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMSC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bRBVDYUCZKymKA4hUPGeBAth5EFlTUFDyogQRgzCWsEFNdq44w4YBAGH9AFijAgAA
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBhAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HDpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMWC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bVBVDYUCZKymKA4hUPGeBAth5EFljpVjUFOWKx9u8KEHJIIwlDBkAUZIk4aMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: REDSTONE
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+4","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFgtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN20QVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkAIy5xSaMCAAA=
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBhAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZsVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2qSqGwoAyV1IUBxCpeM4CBbDzILLAoERNUa54vM2LEpQMwljCkAEAHzmWTqMCAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: REDSTONE
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: CHAINMAIL_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv2","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGTCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZkVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2iSqGwoAyV1IUBxCpeM4CBbDzILLgoORFCSIGYSxhg5rsXHGGDQMA4NV3lqMCAAA=
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv4","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMgeIWUAPC2J4gIE3GuFwpVgOBi5ImIBN94SHB4iLKyxAcvBwwOIeUFiwMUjC1ePyKweDAGp4ebowMDuaGKKGVQAe/aIIOyKBrvJ0jvfxD3Jl2BqtdGh52qHlyY5FuflFQG8AeRDy0HJjhUPLzR9NW6DgkpibmJ6qEJSaUppckpmfZwWUSNM2VcVQGFDmSoriACIVz1mgAHYeRNZIKZYBAL+NAkijAgAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLD_BLOCK
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+4%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMWC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bRBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkAHCV8VKMCAAA=
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv4","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMgcJiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOJkaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0TVUxFAaUuZKiOIBIxXMWKICdB5E1U4plAADCmEwIowIAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLD_BLOCK
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBhAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFgtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN21QVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkAnhHhgKMCAAA=
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv4","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMphhHAyCGB5g4I1GOFwploOBCxImYNM94eEB4uIKC5AcPBywuAcUFmwMknD1uPzKwSCAGl6eLgzMjibGqGEVgEe/KMKOSKCrPJ3jffyDXBm2RisdWp52aHmyY1FufhHQG0AehDy03Fjh0HLzR9MWKLgk5iampyoEpaaUJpdk5udZASXStE1VMRQGlLmSojiASMVzFiiAnQeVVYplAADl+JpuowIAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLD_BLOCK
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBhAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HDpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMWC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bVBVDYUCZKymKA4hUPGeBAth5EFljpVjUFOWKx9u8KEHJIIwlDBkAUZIk4aMCAAA=
+    '16':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv4","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMvsPEMM4GAQxPMDAG41wuFIsBwMXJEzApnvCwwPExRUWIDl4OGBxDygs2Bgk4epx+ZWDQQA1vDxdGJgdTUxQwyoAj35RhB2RQFd5Osf7+Ae5MmyNVjq0PO3Q8mTHotz8IqA3gDwIeWi5scKh5eaPpi1QcEnMTUxPVQhKTSlNLsnMz7MCSqRpm6piKAwocyVFcQCRiucsUAA7DyILjAoGAGPaEEKjAgAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLD_BLOCK
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv3","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3cxBhAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGzCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZsVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2qSqGwoAyV1IUBxCpeM4CBbDzILLAoERNUa54vM2LEpQMwljCkAEAHzmWTqMCAAA=
+  snapshots: []
+'6':
+  uniqueId: bb58e404-a0c9-4279-9f55-a5fde7a68d4d
+  world: world
+  x: -1539
+  y: 115
+  z: 871
+  yaw: 67.561325
+  type: admin
+  name: Weapon
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm Rogue ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv8","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Rogue
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"30","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Dodge Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Heal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Heal","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"11","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSTWvUQBgekS6hUFFBBb2EAfdiKQlFWnOQxmRMhk02NTNSlnQJYfPR4O4GdkeLbPdveBRvOXsTL0L8JfpLnEncpLU2h4F5Pt6PZ7INgAQeuK6HKXJJaI6GuouN0PF8dOtJAKsyrcoJOS8WMdwVt+asyn25Kg/8InufyJgls/+Qvz9/k3XGosk72YxmUZZoHE33lauiT19ks4izRPYjls+zWvPsufL0msrJ02TJkmgqJJNOshEeXtQT5dkZk41pzrsKrCqTiw1XlVOb+xuDYDnAyQPBGUUxjYvzOUfrEVTlH4FwtqQKxxK434YmzpCOjhHYIieeb0rg7lUOm+A2OXnRu+Rx8GtEKNKdIwzqTwI7LcnfAIHH/WiQ//r+YyY3MffToD9xPhz2U978jk2oPwrR0LD1ISXAXUHCIgY1uIH4mp5FWLH4CLVgBdvaGz78+XXJFtwQnMJZMo95+LJ6CsdwPV73Lv8Rnmmh0NcpHlrdrPeu1QM7QVdH5NNloL/CDqYj4PM5cMxb2nxvPp8RLZlbxAlHfGzZNDQcbAw4wcE8zZPFEmorOPn7NFBTlT1lF56JN9RUdU9Zr3mb7SaJOrLjNgVxvSkBwbXb3xyyCEICj1qbj968xT4y+ZQ6IWCrNvTAw25NSnVjEJq6q1vo6GUTFfgD3sSP3mEDAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BLOCK
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm Rogue ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv7","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Rogue
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"25","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Dodge Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Heal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Heal","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSTWvUQBgekS6hUFFBBb2EAfdikV2lbJtTx2RMhk02NRMpS7qEkK8GdzewO22R7f4Nj+ItZ2/iRYi/RH+JM4mbtNbmMGSej3nf95nZBkACjyzLJi62qK+NR8giqm/aDr7zzINlkZRFSC/yRQR3xa5ey+K1XBYDJ0/PYpmwePYf8vfnbzJiLAg/yFowC9JY4Wjyau+66NMXWcujNJadgGXztNK82Os9v6EysyResjiYCknYSjbC/cuqoyw9ZbI6zXhVgZVFfLnhymJqcH9tECwHODkQnJrn0yi/mHO0aqHf+0cgnC0JJxJ42IQmVt8dH2GwRY9tR5PA/esc0cBderzfueIxyVtMXYzMQwKqTwI7DcnvAIOn3WCY/fr+YybXMXcTrxua54NuwovfM6jrjH08Ug00cimwVpCygEEFbiA+pq1Tli8+QsVbwebsDe///LpkC27wTuAsnkc8fLl/AidwPVl3rr4IW9Ox7yCXjPS21wc3zgM7XnuOyKfNAL0hJnHHwOF9kIiXNPjcvD81WDIrj2KOOEQ3XF81iTrkBAezJIsXS6isYPj3aqDS773s7cJTcYfV/3rNy2zXSVSRHTUpiO1tCQiumf72kEUQEnjS2Bz87j1xsMa7RJSCrcrQAY/bMV0XqUNfQxbS8eFBHRX4A6jWMyZhAwAA
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cung ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv8","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Bow","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Marksman
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"50","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Ice Crystal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Duration","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"30 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"Amplifier","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:infinity: 1
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSzWrbQBDeUigi0NIG0kJPYg8+meDGGBudKq+28RLJbiWVYmwjFksKIvoJ0qapcfwqvercW8/qm/RJOmtFSpO0Oiya72dn9I0OEFLQkWXNmEstxzPmU91ixDNnNn1ytMBVGVblepxd4658r8+q7KtVObR4flEkPFWZCJJ/8L+//1R1Ifj6QjV4ws8DDdBw0LsvHd1IrRmEQiVxBFoJVWVw01BVGbN1oJJ8Uwge1zYpAhw0QykxrnIuoiwFdN+j/5Dft2/Z3gOaZFnsZ9etfdDMNtSTyzgKoyBvqBO8UtBhG5c8PXf+kaKn49kXBb28zzAD8PFIQc9bHOKl6LDDyVV6rnbCRWdtfh11Qrj1xcRx7blHp2SiT10HLbfYEVxgDTcQjDU7dUSWb7C22OL2zob3fv0oRA6GxRJHaRilkdio75a4u8RJkPoRdIRqhXernYJePbKjt4u/bNCsNcmPvvs0fcxM5s7RN5iB+dCOEeoRe+64ugkuwgthZX4AhEk/uB4xGTkDHLB9lAXWtti/3RjW+se9Lvb3C4KiJ6v17T6wNpAlb5aAtZPj3m4HwxzUWe3DnLQ5yfJ/GUmuzedx/HUmb1q5TT99ZjY1YHrdcZDS/OvP0Ou7HFxXJ2eeoVv6KX3PUP38Aahr49ZRAwAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BLOCK
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cung ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv7","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Bow","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Marksman
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"40","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Ice Crystal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Duration","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"25 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"Amplifier","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:infinity: 1
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSS2ucUBS+pVAk0NIG0kJXchezGsI008Hiqs7VZi7RmVYtRZxBLqMGiY+gN49hMn+lW9fddW3/SX9JjxpNk7QuLp7vcc/xO+4hJKADw1hQWzMsT3XmikGJpy9M7cmBi6syrMr1NLvCw/q9PatyLFalZLD8rEhYKlIeJP/gf3//KSqcs/WZqLKEnQYyoOH70X3ph5taqwchF0kcgbaGqjK46aiqjOk6EEm+KTiLW1stAhw0Ui1RL3LGoywFtOkxfsg37Tv2aPKAJlkW+9lVb590s0lKch5HYRTkvRevBLTfx1Wfnu181tDT6eKbgF7eZ6gK+FQS0PMeh3g1tD9g5CI9FQehO1jrl9IghFtfzCzbdDxtTmbK3LbQcostzjiWcQfBWItji2f5BsvuFvd3drz360fBczC4SxylYZRGfCO+W+LhEidB6kfQEaoV3q12Anr1yI7eun/ZoFlvqj/67tOUKdWp7aBrmIH60I4SzSOmY9mKDi7CCm5kfgCErn2yPaJTcgI4YE2UBZa32L/dGJbHh6Mh9psFYfloUlfr231guSlZtwTgD0e7HQyz12bVhDnrc6rL/2VUc30+j+NvM3nTy03ty1dqaipMr1gWErp//Rl6fZeDbSvkxFMVQznWPqqoff4AS2ttQlEDAAA=
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Gậy Phép ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv8","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Staff","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Mage
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"18 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"1","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Firebolt","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"18 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/61Ty2rbQBSd0gZEICUplNKdmIVXJth4EaGdLI/soXokmunCKEao1sgRta1gDy3B8feILrpol10qX9I/6Z3YVnBbLwrdDNx7zj3nPphjhDT02vMCyonH4t7Qtzxqx24QkmetCFdlVpVjJpMsw00Vbd6q7OhVeeElE6FTKWb7mHGvQFdkUren+fijrlJVKe53UFVO3XxyI+f5fKJ3RbKtVzyAgHahWL1kBvqQMyHK2sZvsF0U07T4PK8Jf2siVDaHu3DyhfhQTOX/8O/gkYZe1ZtUb8yHlwQdMW45joZO9zHaQ88ZMzR0Uudh9wS9bST9nz++3umXNw9fbvVGFjXG7iejkYH8ywHj4TAmvj2wfM6Qt8JwG4lNvEvBJEGfyWJxh81ohWvpHR4/fFvKBRRE13gm5qm6QPsaj/B6tNbQ2R98dBI98dSEx5sWHlsNansVHrJWWG17cLhNA087srrUpXyIvoMUTaHSpf0B96nfj7vE8sDMTpbSK1KhMOLw2Hap/Q7ykMuzXCyW2Fzh9PGI2Gwb560mHm9vBvF5a71ubqUdGpJu4PJ90VAZ/ptqR6nCkt7UY4Tk6j2o90DHYgy9UF8G/QKK//frdQMAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BLOCK
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Gậy Phép ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv7","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Staff","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Mage
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"15 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"1","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Firebolt","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"15 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/61Ty2rbQBSd0AZEIKUJlNKdmIVXJtiY4KCdLI/soXqkmunCKEao1sgRta1iDy3B8feILrpol1kqX5I/6Z3YVnBaLwrdDNx7zj3nPpgjhDT0xnV9yonLou7AM11qRY4fkINGiMsiLYsRk3Ga4rqK1m9ZtPSyaLvxWOhUiukudnGrQEekUrcm2eizrlJlIW63UFlMnGx8LWfZbKx3RLypVzyAgNZWrG48BX3IGRClzfNnsJXnkyT/NqsIf2siUDb7u7CzufiUT+T/8G/hoYZOq02qN+KDS4IOGTdtW0OvdzHaRS8Ya2vouMrD7gl6V4t7D3c/bvTL6/vvX/RaGtZGztd2LQX5V33Gg0FEPKtvepwhd4nhNhIbeJuCSfwek/n8BhvhElfSWzy6/7mQcygIr/BUzBJ1geYVHuLVcKWhkz/46Dh84qkJj9YtPLbqV/Yq3GetsMp273DrBp52ZHaoQ/kA/QIpmkClQ3t97lGvF3WI6YKZFS+kmydCYcTmkeVQ6z3kIZelmZgvsLHEyeMRsdE8P2vU8WhzM4jPGqtVfSNt04B0fIfvigbK8N9UW0oVlvS2GiMgHz6Cehd0TMbQS/Vl0G+/6JOfdQMAAA==
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm Rogue ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv9","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Rogue
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"45","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Dodge Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Heal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Heal","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"15","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/3VTT2/TMBx1JVZFm4b4I0DaKbKgF6apEVSDnBoSL7WatCXOmKquirLE6aK1jdSaTairxKfgiLjlzA1xQQqfBD4JTkLSFrYcLPm99/PvvZ+dbQAE8Mg0u9hGJnG0fkcxseoYXQtVmgOYxEESe+QqmvlwP93laxK/EJP40IpG76mIGZ3cQP7+/E1UGHO9C1FzJ+6IyhwNXjY2RZ++iL1LtK54LtWf/afRIn9ERctl4XSUqxo3qIwwoHNG3XEq8fhBhaZQvrrObIejcyaq45BbS7EkptcFl8TjFj8gL0hZDnDyMOXUKBr70dWUo5kHqf6PIK0syQYcCuBeOdl0dbAG7pATSRLAbknwgSOwV3Pb4a/vPyZiPtNaMKh5xuXrWjCsgoeltvcOOZpiKjpqPgXZJ4D7JYs6akvp2ATsDuCETn0+K1FKXWy3iG318069BSTMZVCG6Zbn7OqERbMPUB4s4IYp5+fXOZtx4e3e4HK4FMCTssxCb4+xhTRHNRRCwFZWIIAHm1Ow+z0EtshJ19IqYOd4ejaj7oV7NqaV6prUwEeI2Egxmv0i6t08R5nTLLMU0G15Cr7MNDhdjegUZkGq6/9BV9ORYyk27uhNXPRf3abyBhvY7gOLN8E+P6/FjfLmqjtnZuRTjlhYb9l8EFhtc4KDYRDS2RzKC+j9fUhQluoH9X14nr44WWoc1JdLft+PV21sW1HbxZUffcyN/AGIgKwWtAMAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ANCIENT_DEBRIS
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm Rogue ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv8","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Rogue
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"30","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Dodge Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Heal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Heal","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"11","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSTWvUQBgekS6hUFFBBb2EAfdiKQlFWnOQxmRMhk02NTNSlnQJYfPR4O4GdkeLbPdveBRvOXsTL0L8JfpLnEncpLU2h4F5Pt6PZ7INgAQeuK6HKXJJaI6GuouN0PF8dOtJAKsyrcoJOS8WMdwVt+asyn25Kg/8InufyJgls/+Qvz9/k3XGosk72YxmUZZoHE33lauiT19ks4izRPYjls+zWvPsufL0msrJ02TJkmgqJJNOshEeXtQT5dkZk41pzrsKrCqTiw1XlVOb+xuDYDnAyQPBGUUxjYvzOUfrEVTlH4FwtqQKxxK434YmzpCOjhHYIieeb0rg7lUOm+A2OXnRu+Rx8GtEKNKdIwzqTwI7LcnfAIHH/WiQ//r+YyY3MffToD9xPhz2U978jk2oPwrR0LD1ISXAXUHCIgY1uIH4mp5FWLH4CLVgBdvaGz78+XXJFtwQnMJZMo95+LJ6CsdwPV73Lv8Rnmmh0NcpHlrdrPeu1QM7QVdH5NNloL/CDqYj4PM5cMxb2nxvPp8RLZlbxAlHfGzZNDQcbAw4wcE8zZPFEmorOPn7NFBTlT1lF56JN9RUdU9Zr3mb7SaJOrLjNgVxvSkBwbXb3xyyCEICj1qbj968xT4y+ZQ6IWCrNvTAw25NSnVjEJq6q1vo6GUTFfgD3sSP3mEDAAA=
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cung ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv9","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Bow","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Marksman
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"60","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Ice Crystal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Duration","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"35 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"Amplifier","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:infinity: 1
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSTW/TQBRchFRFlUBQBEicrBXkQlSljUKIT2zWS7OqnYTYgKIkslb+qKwmNnK2LVGav8ERcfOZG2fzT/glPDu127Tgw8pvZt682WfvIrSDnhlGn1vMMG1iWYQe2xoxyBF710P5U0F7pSA7bWs0YOh+p/+5gh5tM1wDvNOuoAcl3iMGQ3tVQc/CE6Xqj6uOft6u+tMKetg1reHIZj3aJT3LRJMVNqWQWMUFhGu4f2TKKF5idbzCpWfB279/LmQMDeMJnnuhG8CIgwmuTXAQ+kEYyGVWTvF6ut5BT8r2wSdWXPFlccXHd8zRi/G1KSS5tsQQfncTPr9dtwyelf8LnXFl4Lv7yELe3CfpcJ1bI/QVPLgLLZwymw5HpkV0GEHFQhqR6wGhs/eWTXVOjwEHLPADL15gdYXds1jIIAqx2tiv17Ar5uIEOhrNrHKiaOZGF0DmpZh/meWdWD3cr6/XcMenZRhtBOk5tfX+kN1rj3Ga+GnidKILmAjvmzNNGkqatAwRny7mIlS49Ob/4P98/6UQKYVzqmh5IBVQ/019W/TthzI4ZzcVrw/qr7bt3l5mUt3zpUJnAfhlUJp4lwWVJjPueAqNlwspZpu2TAQ4aFqZRLtaEaD5lMZtPg9Qss1bNL1aYiFoFtlapNhnQR1mv83zcqVD9uEjHzINvhwxTVQp1ob+AvCpFAWTAwAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ANCIENT_DEBRIS
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cung ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv8","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Bow","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Marksman
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"50","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Ice Crystal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Duration","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"30 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"Amplifier","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:infinity: 1
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSzW6bQBDeqlKFIrVKI6WVekJ78MmKaCzLFqeuFxqvAnYLVBXCFlrxE6HYUMGmieX4VXrl3FvP9E36JB1woE3Sclgx38/ONwMHCD1Dr0xzzhzdtH3iOISe+xoxyZn+jqHmkdBRJ6hP33E/6OjpZP5ZQof3GaYBPhlL6HmHz4ipo6Mep1fphdyLvV5gfB334qWEXkxtx3J9fUanZObYaLHFtuACq7iFcB/Pz2yR5Ruselvc3dny/s/vhcjB4C1wksZJmoiN/HaB+wu8jtIwgY5QLfFuuZPQy0d29Mb7ywbNOhOGeAf7eE3+aRetLv8Xq+a6SI8n3sf4szEyYQZzXHQDd7AQLIzqPrVc2yEGtKC8EGYWRkAY+nvHpwaj54ADlsRJlBdY3eLwKuciyVKsDk6UPg75ml+AY6DUVZBlqzC7BnJYl3z9ZdU4sXp6oux2MONxF0ZzIT2jvjG39CfHHq7KuCqDSXYNHeF9f1blQK7Kkcnzy2LNU5mJaP0P/te3HzIRggeXstYEUgGNh8p96fi21hpRLGS6SkBbQ1UZ3bZUVa5YEMk03xSCr/a2WgQ4aEa1RLsbH9Cmx+Ah37TvWOUBTe8W1AqGbbYRaXfVUqf1L/G6W5elf/zELF2Dr0JsG0ntStBvKLVJKFEDAAA=
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BREEZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Gậy phép ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv9","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Staff","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Mage
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"23 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"1","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Firebolt","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"23 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/61Ty2rbQBSd0hZEIKUplNKdmIVXJtjRIo12sjyyh+rRaKYLoxihWiNH1LaCPbQEx98juuiiXXapfEn+JHdiW8FtvSh0M3DPufec+2AOENLQa88LKCcei7sD3/KoHbtBSJ60IlyVWVWOmEyyDDdVtH6r0tCr8tRLxkKnUkx3uXc3inRFJnV7ko8+6wqqSnGzpapy4ubjSznLZ2O9I5JNvcoDCtJOVVY3mYI+YCZE2YnxG20XxSQtvs62Ce2/NREqm/1dOPlcfCom8n/4G3iooVf1JtUb88EHgp4zbjmOhl7ucrSLnjJ2pqHDGofdE/S2kfTufn2/1q8ub79d6Y0saozcL2eNDORf9BkPBzHx7b7lc4a8JYbbSGziLQSTBD0mi/k1NqMlrqW3fHz7YyHnUBBd4KmYpeoC7Qs8xKvhSkNHf+Sjw+gxT014sG7hodWgtlfhPmvF1bZ7h1s38Lgjq0NdygfoJ0jRFCpd2utzn/q9uEMsD8zsZCG9IhWKIw6PbZfa7wEHLM9yMV9gc4nThyNi88Q4bjXxaHMzbLaPW6tVcyPt0JB0ApfviobK8N9UDaUKS3pTjxGS84+g3gUdizH0TH0ZdA+7Yo4+dQMAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ANCIENT_DEBRIS
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Gậy Phép ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv8","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Staff","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Mage
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"18 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"1","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Firebolt","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"18 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/61TTWvbQBDd0gZEICUplNKb2INPJtj4EKGbLK/spfpItNuDUYxQrZUjalvBXlqC498jeuihPfao/JL+k87GtoLb+lDoZWHmvXkz84Y9RkhDrz0voJx4LO4NfcujduwGIXnWinBVZlU5ZjLJMtxU0eatyo5elRdeMhE6lWK2jxn3CnRFJnV7mo8/6ipVleJ+B1Xl1M0nN3Kezyd6VyTbesUDCGgXitVLZqAPOROirG38BttFMU2Lz/Oa8LchQtXm8BROvhAfiqn8H/07eKShV7WT6o358JKgI8Ytx9HQ6T5Ge+g5Y4aGTuo8eE/Q20bS//nj651+efPw5VZvZFFj7H4yGhnIvxwwHg5j4tsDy+cMeSsMt5HYxLsUbBL0mSwWd9iMVriW3uHxw7elXEBBdI1nYp6qC7Sv8QivR2sNnf3BRyfRE09t+LSF1aUu5UP0HfrQFCRd2h9wn/r9uEssDyaxk6X0ilQojDg8tl1qv4M85PIsF4slNlc4fbQZm23jvNXE462rEJ+31uvmVtqhIekGLt8XDVXDf1PtKFVY43jj5KPjQe2iCg85qLDavYM32vj4pq4KydV7mL0HU1qMoRfqy6BfN4A1WHUDAAA=
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BREEZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Gậy phép ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv10","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Staff","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Mage
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"27 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Firebolt","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"27 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/71Uy2rbQBSdQgomkNIHpdDVMAuvTJDjhYt3sjyWh0pyqlEXxjFCtUaOiC0Ze0gxjrf9hX6C6KKL0l27U76k/ZLe8UPBab0olG4G5p5zzzlzddExQiX03La7zKM291s9R7eZ4Vtdlz743id5FuXZkMsgikhF3TZnntVwntXtYCQwk2Kyj726UaAlIomNcTy8wqqUZ+JmB+XZ2IpHlzKJkxFuimDbr3gAAa2uWK1gAvpQa8AtOqvfg400HYfp+2RHqGp/SuEqn8Mx2vFMvEvH8l8EqO37Bz8/fsB0MpULPBMhNsUE83R4JeT/IAxK6GnxUdXpe71zih5yT2+3S+jxPsZa6IjzqlZCJwUAe0DRy3Jg/vj2eYGnl7efprgc9ctD67qqlSMweFZwTdDgXtehHNWXZB2Ij1M5J40+gWAQ9/45qBBIO5dpIhRrsCqhRx3uuT2fOkZHdzyO7CWBvZOkQXYl6O2aXKazBbQsSWG/w/3bL3M5g4b+BZmIJFTbVb0gA7JS+k9+46OT/h1Pjex4E2H99PPCXl0PWSussD08rE2Cu6nrTWYxr4e+ghYLodViZsdzmGP6Tarb4GYEc2mnoVAYbXu+YTHjNdShFkexmMHUliRcLyhpnNVPtQoZbveRNKraqbZaVbbabebSZtfy9lVd5fh3sjWlCmN6UbzDpW/egnoLdHTO0ZH6IaBf31sUllMEAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_BLOCK
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BREEZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Gậy phép ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv9","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Staff","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Mage
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Lightning Beam","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"23 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"1","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Firebolt","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"23 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/61TTWvbQBDd0hZEIKUplNKb2INPJtjRIY1usryyl+qj0W4PRjFCtVaOqG0Fe2kJjn+P6KGH9tij8kvyTzIb2wpu60Ohl4WZ9+bNzBv2ACENvfa8gHLisbg78C2P2rEbhORJK8JVmVXliMkky3BTReu3Kg29Kk+9ZCx0KsV0F3t3o0BXZFK3J/nos65SVSlutlBVTtx8fCln+Wysd0SyqVc8gIB2qljdZAr6kDMhyk6M32C7KCZp8XW2JbT/NkSo2uyfwsnn4lMxkf+jv4GHGnpVO6nemA8+EPSccctxNPRyF6Nd9JSxMw0d1nnwnqC3jaR39+v7tX51efvtSm9kUWPkfjlrZCD/os94OIiJb/ctnzPkLTHcRmITb1OwSdBjsphfYzNa4lp6i8e3PxZyDgXRBZ6KWaou0L7AQ7warjR09AcfHUaPPLXh4xZWh7qUD9BP6ENTkHRpr8996vfiDrE8mMROFtIrUqEw4vDYdqn9HvKQy7NczBfYXOL0wWZsnhjHrSYebVzFZvu4tVo1N9IODUkncPmuaKga/puqoVRhjYO1kw+OB7WLKtznoMJq9/beaO3jm7oqJOcfYfYuTGkxhp6pL4PuAUNlXnp1AwAA
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm Rogue ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv10","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Rogue
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"60","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+20%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Dodge Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Heal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Heal","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"18","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/71TTW/TQBTcSjSKior4EHDgslqJXFpVdoG2yqnGXpxV7CT1ulRRGlluvEmtJjFKllZVmis/AW6IW87cEBekcONf0F/Cc4zdpBSO+LCS38y+mdm3u4JQHj207Spzqc09o17RbKZ7VtWhSz8aZDppTyctfhYNArIe/yXrdPIMTyfbTtR5KzCToncDePnxC9ak9Fsn2PB7fkcUodreUhZJ7z/h2imdZ6xtKk//4BhR0BHY8WXY7ySsFzewrLAthlL43ZjSWlOVlJMydy5mtsPOscR6NwRrcW06ERcpNp10S9Ag2RCjUABwO8b0KOoG0VkfqjMPqnKNEO/MwJ1Faf/ywztMe2/kOR6IAJuih3nUOhHyfxCaeXQ3m3G8esxAt/iBuplHqxkAo6foScEvhz+/fuvhZLqFdqPQsk5VpdCGLg8ysglNuFutUI62R2SmyruRHJJig4A6eLq+NtcJWBrKqC9iVnOcm2tXe009Q7M1k+4+R7Mvj+5lKK3oJa3icrTaID3RD+AWYDVOtVLirlNPnO+NCJe+JEUS/4Jo1eQyGpyD1ogshPS+fx7KARD/kZWMm+M8epztc+jePnOo4emWxjlanu3Io/uLx+rWaxQt84OqYyyh2/v9o4HwT/yjrljKzVEt9opyl2rWbj3NeicJkgW1szBp6W+BUjwL1Ti8OqNDMguSm3/iVcOknqO5rGLuslT/6npoL5nF3DpyQIQF0K8ERkFc94fSjgIBFYeZJRcOgullAKAYtkMxgKGOSOv3GyFFVdlQ1slx/JiK6s6GMh43c+jRlYzrano5nXkl8YF+ATIfXVaPBAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_BLOCK
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Kiếm Rogue ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv9","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Sword","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Rogue
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"45","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Dodge Rating: ","italic":false,"color":"gray"},{"text":"+50%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Lifesteal: ","italic":false,"color":"gray"},{"text":"+100%","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Heal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"10 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Heal","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"15","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/3VTT2/TMBx1JVZFm4b4I0DaKbKgF6apEVSDnBoSL7WatCXOmKquirLE6aK1jdSaTairxKfgiLjlzA1xQQqfBD4JTkLSFrYcLPm99/PvvZ+dbQAE8Mg0u9hGJnG0fkcxseoYXQtVmgOYxEESe+QqmvlwP93laxK/EJP40IpG76mIGZ3cQP7+/E1UGHO9C1FzJ+6IyhwNXjY2RZ++iL1LtK54LtWf/afRIn9ERctl4XSUqxo3qIwwoHNG3XEq8fhBhaZQvrrObIejcyaq45BbS7EkptcFl8TjFj8gL0hZDnDyMOXUKBr70dWUo5kHqf6PIK0syQYcCuBeOdl0dbAG7pATSRLAbknwgSOwV3Pb4a/vPyZiPtNaMKh5xuXrWjCsgoeltvcOOZpiKjpqPgXZJ4D7JYs6akvp2ATsDuCETn0+K1FKXWy3iG318069BSTMZVCG6Zbn7OqERbMPUB4s4IYp5+fXOZtx4e3e4HK4FMCTssxCb4+xhTRHNRRCwFZWIIAHm1Ow+z0EtshJ19IqYOd4ejaj7oV7NqaV6prUwEeI2Egxmv0i6t08R5nTLLMU0G15Cr7MNDhdjegUZkGq6/9BV9ORYyk27uhNXPRf3abyBhvY7gOLN8E+P6/FjfLmqjtnZuRTjlhYb9l8EFhtc4KDYRDS2RzKC+j9fUhQluoH9X14nr44WWoc1JdLft+PV21sW1HbxZUffcyN/AGIgKwWtAMAAA==
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cung ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv10","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Bow","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Marksman
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"70","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Ice Crystal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Duration","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"40 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"Amplifier","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"2","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          - '{"text":"","extra":[{"text":"◆ Empty red Gem Socket","italic":false,"color":"green"}]}'
+          enchants:
+            minecraft:infinity: 1
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/71TTW/TQBBdBKqiSiCgAiRO1gpyIaqcfihVTjj2klq1kzQ2oCiJLMsflRV/VPa2JUojceInwA1x85kbZ/ef9Jcw68Ru0pYrPqw8897MPL/xbiK0gV6qalfWiaoZgq4L4pEhCarQJu+PvyL2VNDzksBOQx/0CHrY6n6uoKfriCyhR61Wna+gxyXQEVSCtqqmeBaecFV3WLWU8zpfdccVtFWS2lCs6d0O0VBjhklwSqeaH9EEN4c4dmxcu3OOa7jtBAmNQoexxvMKenKo6f2BQTriodDRNTSaYY2aFDdxkYLablujUTyFkhkuxxe4cfU7oTEUDEc4cELbA8n1Ea6NsBe6XujRKQvHeD6eb6yo730ihWdv0NKzZ3eao9fDm6ag5KYlBi82F+Jzt+RSOAv/JZphpeB7/GUqVzcktGRF1gfoCzSRbaiRRWKI/YGmCwrMEM2EqpHtAKCQD7ohKrJ4BHnIea7nxODyDNtnsUm9KMTN3W2+hm0zME+gYo9nkRVFvh1dALjPQjM49fNK3NzZ5udz+MgXpRhpAPJl0VC6ffLgaoiz1M1SqxVdwER4X5xZustlaUM140kSmCEnUye4B7/++YcTKDWtCSflgpqQdRv8Oun7L653TlYZ7+r82/V2B5eMqjgu5UTfg34slaXOZQFlqS9bDifG04Sa/qKMkSAPnAajSEuLIJtP2b2N5wIKdI+/BYtLEwvCfqGtIRR+FtDOunjz+sc3Lr86HFwQDm4Hp0XWxKH/gwDLfVUut0+OP8p9IsE/JGgaqhQLRH8BApZuuW8EAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_BLOCK
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cung ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv9","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Bow","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"Marksman
+            Item","italic":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"➸
+            Attack Damage: ","italic":false,"color":"gray"},{"text":"60","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Left
+            Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
+            ","italic":false,"color":"dark_gray"},{"text":"Ice Crystal","italic":false,"color":"gray","bold":true}]}'
+          - '{"text":"","extra":[{"text":" ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Duration","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"3 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"35 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
+            ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"5","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":"Amplifier","italic":false,"color":"gray"},{"text":":
+            ","italic":false,"color":"dark_gray"},{"text":"2","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:infinity: 1
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          custom: H4sIAAAAAAAA/3VSTW/TQBRchFRFlUBQBEicrBXkQlSljUKIT2zWS7OqnYTYgKIkslb+qKwmNnK2LVGav8ERcfOZG2fzT/glPDu127Tgw8pvZt682WfvIrSDnhlGn1vMMG1iWYQe2xoxyBF710P5U0F7pSA7bWs0YOh+p/+5gh5tM1wDvNOuoAcl3iMGQ3tVQc/CE6Xqj6uOft6u+tMKetg1reHIZj3aJT3LRJMVNqWQWMUFhGu4f2TKKF5idbzCpWfB279/LmQMDeMJnnuhG8CIgwmuTXAQ+kEYyGVWTvF6ut5BT8r2wSdWXPFlccXHd8zRi/G1KSS5tsQQfncTPr9dtwyelf8LnXFl4Lv7yELe3CfpcJ1bI/QVPLgLLZwymw5HpkV0GEHFQhqR6wGhs/eWTXVOjwEHLPADL15gdYXds1jIIAqx2tiv17Ar5uIEOhrNrHKiaOZGF0DmpZh/meWdWD3cr6/XcMenZRhtBOk5tfX+kN1rj3Ga+GnidKILmAjvmzNNGkqatAwRny7mIlS49Ob/4P98/6UQKYVzqmh5IBVQ/019W/TthzI4ZzcVrw/qr7bt3l5mUt3zpUJnAfhlUJp4lwWVJjPueAqNlwspZpu2TAQ4aFqZRLtaEaD5lMZtPg9Qss1bNL1aYiFoFtlapNhnQR1mv83zcqVD9uEjHzINvhwxTVQp1ob+AvCpFAWTAwAA
+  snapshots: []
+'7':
+  uniqueId: da891421-6b96-4dd9-ba15-94b340fee9af
+  world: world
+  x: -1541
+  y: 115
+  z: 872
+  yaw: 223.85713
+  type: admin
+  name: Tool
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Cúp vip","italic":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"mending","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Mining Speed: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Mining Efficiency: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:fortune: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/3WQzUrDQBCApygaKhUVRfAU9uBFL1VE6Klpsm2X5o9uBEMalrRNJKhpiFEopa/h2VvOXj2mb+KTmBibKtI9DMzMt8M3UwXYghNF0YiBFcpasib2WKuPhR6jOsZSE4rHwUEJ5ZEZpo5h09A0mYO9vy0iwYZ+W6/Azk0wjFzn3hk+uBUOaiWmCgqG6qkjLj5C/sUPOdjtUqNvMqyKXUE1KCgzRGMnRg20LKFzpHVoPImmqGHNUDlr2WeL96c4yj5YA+RNovg5cPn6ANlobs852P/HQ81accjm4LhEJEJ1WTCxVGy5/egGYz+446BaWH7rN0vDPF1nl/dKs9XCudTvuytEJWqH4XabiCQzNJuHy7sfrbTMbBoRmaz1MYwtlCZemox+5DKBLC9imlzyaXL9+frGK36QNXkauu64kRW9s4t1DPY8f+S7wWhagFfIhi+tS4PYHwIAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_PICKAXE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: EMERALD
+        amount: 64
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - '{"text":"","extra":[{"text":"Tool","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Mining Speed: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Mining Efficiency: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+            minecraft:silk_touch: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPL19fcMcfUNjnfy8Xf2jncKcnX0jg8OcHV1cWCAAA4GIbgiEBkfEhngysAS4u/vw8EggCrl6cLA7BhhxMjAHZqXVJSamJ2YlJPKyMHAC1fm5+jrCjKTzyM4JCgy3tXP2cPRLySYIa5aKbgksUTJSgkmpKSj5O8eXJJfVKlkFV2tBDcBJh9/eGNxSRFQQ3SMUnFmTnZ8SX5pcoaCYYySToxSbmpeSmZeOogXq1QbW8vBIIhhAINMNIpGoIVwbUqxyGHj6+nn6ece7+rm5unsCdQe6SACCxtRuCKXSKDfPJ3jffyDXBkSo5UOLU87tDw5JD8/B2gwkAMhDy03Vji03PzRtAUKvpl5ILuCC1JTU6yAgmnaRrjUuKalZSZnpuYlV0IUmirFMgAA5qp9iMABAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_PICKAXE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: EMERALD
+        amount: 64
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Santa Hat","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Santa''s hat imbued with the","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"Christmas spirit. Obtained from","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"defeating Santa in the","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"DeadlyDisasters Christmas event.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"-Summons Christmas elves to protect","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"you","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          custom-model-data: 100021
+          enchants:
+            minecraft:mending: 1
+            minecraft:unbreaking: 3
+          attribute-modifiers:
+            minecraft:generic.armor:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 5.0
+              slot: head
+              operation: 0
+              key: minecraft:34a2bbdb-b947-44d9-8343-4c4297d2c6a2
+          PublicBukkitValues: |-
+            {
+                "deadlydisasters:dd-santahat": 0
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Santa Hat","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Santa''s hat imbued with the","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"Christmas spirit. Obtained from","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"defeating Santa in the","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"DeadlyDisasters Christmas event.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"yellow","bold":false}]}'
+          - '{"text":"","extra":[{"text":"-Summons Christmas elves to protect","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"you","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          custom-model-data: 100021
+          attribute-modifiers:
+            minecraft:generic.armor:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 5.0
+              slot: head
+              operation: 0
+              key: minecraft:34a2bbdb-b947-44d9-8343-4c4297d2c6a2
+          PublicBukkitValues: |-
+            {
+                "deadlydisasters:dd-santahat": 1
+            }
+  snapshots: []

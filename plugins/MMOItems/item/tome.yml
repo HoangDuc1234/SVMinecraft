@@ -66,9 +66,9 @@ CELESTIAL_TOME:
       luck_of_the_sea: 1.0
     disable-interaction: true
     lore:
-      - §f§oFrom the angels themselves!
-      - §bThe gods shall not let others take
-      - §bthis from you. It can't drop on death.
+    - §f§oFrom the angels themselves!
+    - §bThe gods shall not let others take
+    - §bthis from you. It can't drop on death.
     name: §b§lCelestial Tome
     tier: EPIC
     ability:
@@ -100,7 +100,7 @@ OMNIELEMENTAL_TOME:
       water:
         damage: 25.0
     lore:
-      - §7Chaos is the source of all creation.
+    - §7Chaos is the source of all creation.
     ability:
       ability1:
         type: SWIFTNESS

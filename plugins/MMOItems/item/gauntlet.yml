@@ -2,9 +2,9 @@ FIGHTING_GAUNTLETS:
   base:
     material: IRON_SHOVEL
     lore:
-      - §7Tired of breaking your bones when
-      - §7doing hand-to-hand combat?
-      - §eThis is your solution!
+    - §7Tired of breaking your bones when
+    - §7doing hand-to-hand combat?
+    - §eThis is your solution!
     name: §eFighting gauntlets
     attack-damage:
       base: 3.0

@@ -44,8 +44,8 @@ BRAVE_HALBERD:
     material: IRON_AXE
     name: §eBrave's Halberd
     lore:
-      - §7§oNo one knows his true name...
-      - §7§oBut he was so §e§obrave§7§o!
+    - §7§oNo one knows his true name...
+    - §7§oBut he was so §e§obrave§7§o!
     attack-damage:
       base: 14.0
       scale: 0.1
@@ -65,7 +65,7 @@ BRAVE_HALBERD:
     pvp-damage: 25.0
     max-durability: 6540.0
     gem-sockets:
-      - Cyan
+    - Cyan
     ability:
       ability1:
         type: HEAVY_CHARGE
@@ -78,7 +78,7 @@ BRAVE_HALBERD:
       shaped:
         '1':
           input:
-            - m material steel_ingot 1.0..|v iron_block - 1.0..|m material steel_ingot
-              1.0..
-            - m material steel_ingot 1.0..|v stick - 1.0..|m material steel_ingot 1.0..
-            - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - m material steel_ingot 1.0..|v iron_block - 1.0..|m material steel_ingot
+            1.0..
+          - m material steel_ingot 1.0..|v stick - 1.0..|m material steel_ingot 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..

@@ -16,5 +16,11 @@
     "name": "HDuc1",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a987d5f3-7e0f-3001-8c02-7620100f0015",
+    "name": "mi",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
