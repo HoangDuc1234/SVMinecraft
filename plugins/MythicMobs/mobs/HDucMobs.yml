@@ -1,0 +1,33 @@
+Testt:
+  Mobtype: husk
+  BossBar:
+    Enabled: true
+    Title: '&eGoku'
+    Range: 50
+    Color: RED
+    Style: SEGMENTED_10
+  Display: '&eGoku'
+  Health: 2000
+  Damage: 50
+  Faction: Boss
+  Disguise: "player Steve setSkin Goku setCustomName '&eGoku' setCustomNameVisible true" 
+  Skills:
+  - skill{s=GenerousSensuBean} ~onDamaged @PlayersInRadius{r=20} =90%
+  
+  - skill{s=MonologueBeginGoku} ~onEnterCombat @Target
+  - skill{s=MonologueGokuHalfHealth} ~onDamaged @Target =50%
+  - skill{s=MonologueGoku10PercentHealth} ~onDamaged @Target =10%
+  
+  - skill{s=BackStep} ~onTimer:150 @Target
+  - skill{s=GokuSkills} ~onTimer:200 @Target
+  - skill{s=GokuRapidEnergyAttack} @Target  ~onTimer:150
+#  - skill{s=AirborneCombo} ~onTimer:300
+  Drops:
+  - money 150-250 1
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 32
+    Despawn: true
+    KnockbackResistance: 0
+    PreventMobKillDrops: true
+    Silent: true

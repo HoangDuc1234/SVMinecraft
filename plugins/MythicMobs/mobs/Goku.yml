@@ -1,0 +1,186 @@
+######   GOKU IN MYTHICMOBS   ######
+###   Created by Awesome_Dante   ###
+##    Get him at Mythicmobs.net   ##
+## V1.4 - MM 2.3-4.6+ - 1.9-1.16+ ##
+Goku:
+  Mobtype: Husk
+  Display: '&eGoku'
+  Health: 2000
+  Damage: 10
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: '&eGoku'
+    Range: 25
+    Color: RED
+    Style: SEGMENTED_10
+  Disguise: "player Steve setSkin Goku setCustomName '&eGoku' setCustomNameVisible true" 
+
+
+  Skills:
+##### Stancing, very sensitive, do not adjust unless tick rate is becoming an issue ######
+  - skill{s=ReturnToNormal} ~onTimer:40
+  - skill{s=Over10DistanceStance} ~onTimer:40
+##################
+
+  - skill{s=GenerousSensuBean} ~onDamaged @PlayersInRadius{r=20} =90%
+  
+  - skill{s=MonologueBeginGoku} ~onEnterCombat @Target
+  - skill{s=MonologueGokuHalfHealth} ~onDamaged @Target =50%
+  - skill{s=MonologueGoku10PercentHealth} ~onDamaged @Target =10%
+  
+  - skill{s=BackStep} ~onTimer:150 @Target
+  
+     ### Fixes Skin bug when teleporting away from mob (Such as Dying) Then returning ###
+  - skill{s=KaioKen-Goku} @Self ~onTimer:100 1 <20%    
+  - skill{s=GokuSkills} ~onTimer:200 @Target
+  - skill{s=GokuRapidEnergyAttack} @Target  ~onTimer:150
+#  - skill{s=AirborneCombo} ~onTimer:300
+  Drops:
+  - emerald 32
+  - experience 1000
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 32
+    Despawn: true
+    KnockbackResistance: 0
+    PreventMobKillDrops: true
+    Silent: true
+    PreventEquipment: true
+KaioKenGoku:
+  Mobtype: Husk
+  BossBar:
+    Enabled: true
+    Title: '&4KK Goku'
+    Range: 50
+    Color: RED
+    Style: SEGMENTED_20
+  Display: '&4Goku'
+  Health: 2000
+  Damage: 100
+  Disguise: "player Steve setSkin Goku setCustomName '&eGoku' setCustomNameVisible true" 
+  Faction: Boss
+  Equipment:
+#  - leather_helmet:4
+  Skills:
+##### Stancing, very sensitive, do not adjust unless tick rate is becoming an issue ######
+  - skill{s=ReturnToNormal} ~onTimer:40
+  - skill{s=Over10DistanceStance} ~onTimer:40
+##################
+  - skill{s=GoSuperSaiyan} ~onDeath
+  
+  - skill{s=MonologueBeginGoku} ~onEnterCombat @Target
+  - skill{s=MonologueGokuHalfHealth} ~onDamaged @Target =50%
+  - skill{s=MonologueGoku10PercentHealth} ~onDamaged @Target =10%
+  
+  - skill{s=BackStep} ~onTimer:150 @Target
+  
+     ### Fixes Skin bug when teleporting away from mob (Such as Dying) Then returning ###
+  - skill{s=KKGokuSkills} ~onTimer:200 @Target
+  - skill{s=GokuRapidEnergyAttack} @Target  ~onTimer:150
+#  - skill{s=AirborneCombo} ~onTimer:300
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 32
+    Despawn: true
+    KnockbackResistance: 0
+    PreventMobKillDrops: true
+    Silent: true
+SSJGoku:
+  Mobtype: Blaze
+  BossBar:
+    Enabled: true
+    Title: '&eSuper Saiyan Goku'
+    Range: 50
+    Color: RED
+    Style: SEGMENTED_20
+  Display: '&eSS &6Goku'
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  - 3 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Health: 2000
+  Damage: 150
+  Disguise: "player Steve setSkin GokuSSJ setCustomName '&eGoku' setCustomNameVisible true" 
+  Faction: Boss
+  Equipment:
+#  - leather_helmet:4
+  Skills:
+##### Stancing, very sensitive, do not adjust unless tick rate is becoming an issue ######
+  - skill{s=ReturnToNormal} ~onTimer:40
+  - skill{s=Over10DistanceStance} ~onTimer:40
+##################
+  - skill{s=Regenerate} @Self  ~onTimer:140
+      ### Fixes Skin bug when teleporting away from mob (Such as Dying) Then returning ###
+  
+  - skill{s=GoSuperSaiyan2} ~onDeath
+  
+  - skill{s=MonologueBeginSSJGoku} ~onEnterCombat
+  - skill{s=MonologueSSJGokuHalfHealth} ~onDamaged 1 =50%
+  - skill{s=MonologueSSJGoku10PercentHealth} ~onDamaged 1 =10%
+  
+  - skill{s=SSJGokuSkills} @target ~onTimer:140 
+  - skill{s=SSJGokuRapidEnergyAttack} @Target  ~onTimer:140 
+#  - skill{s=AirborneCombo} ~onTimer:300
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 32
+    Despawn: true
+    KnockbackResistance: 0
+    PreventMobKillDrops: true
+    Silent: true
+    MovementSpeed: 0.3
+SSJ2Goku:
+  Mobtype: Husk
+  BossBar:
+    Enabled: true
+    Title: '&7Super Saiyan 2 Goku'
+    Range: 50
+    Color: RED
+    Style: SEGMENTED_20
+  Display: '&eSuper Saiyan 2 Goku'
+  Health: 2000
+  Damage: 200
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  - 3 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Disguise: "player Steve setSkin GokuSSJ2 setCustomName '&eGoku' setCustomNameVisible true" 
+  Faction: Boss
+  Skills:
+##### Stancing, very sensitive, do not adjust unless tick rate is becoming an issue ######
+  - skill{s=ReturnToNormal} @self ~onTimer:40
+  - skill{s=Over10DistanceStance} @self ~onTimer:40
+##################
+
+  - skill{s=MonologueSSJ2BeginGoku} ~onEnterCombat
+  - skill{s=MonologueSSJ2GokuHalfHealth} ~onDamaged 1 =50%
+  - skill{s=MonologueSSJ2Goku10PercentHealth} ~onDamaged 1 =10%
+  
+  - skill{s=Regenerate} @Self  ~onTimer:120
+  
+      ### Fixes Skin bug when teleporting away from mob (Such as Dying) Then returning ###
+  
+  - skill{s=SSJ2GokuSkills} @target ~onTimer:150
+  - skill{s=SSJ2GokuRapidEnergyAttack} @target  ~onTimer:120
+#  - skill{s=AirborneCombo} ~onTimer:300
+  Drops:
+  - money 150-250 1
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 32
+    Despawn: true
+    KnockbackResistance: 0
+    PreventMobKillDrops: true
+    Silent: true
+    MovementSpeed: 0.4

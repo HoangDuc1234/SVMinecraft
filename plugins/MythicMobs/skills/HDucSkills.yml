@@ -1,0 +1,738 @@
+###### GOKU IN MYTHICMOBS ######
+### Created by Awesome_Dante ###
+## Get him at Mythicmobs.net ##
+
+  ############# GOKU SKILLS ##########
+
+  ###### Skill list ######
+GokuSkills:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  Skills:
+  - randomskill{skills=EnergyAttack,GokuCombo,GokuCombo,GokuCombo,SpiritBomb} 
+KKGokuSkills:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  Skills:
+  - randomskill{skills=EnergyAttack,GokuCombo,KKGokuCombo,GokuCombo,SpiritBomb} 
+SSJGokuSkills:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  Skills:
+  - randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom, SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch  }  
+SSJ2GokuSkills:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  Skills:
+  - randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack     } 
+      
+
+1000Punch:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - sendtitle{title="";subtitle="&6&lTuyệt Kĩ -&e&l 1000 Đấm!";d=20} @PlayersInRadius{r=20}
+  - delay 50
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6&l100 Đấm Đầu Tiên!!!";d=20} @PIR{r=3}
+  - throw{velocity=2;velocityY=10} @Target
+  - damage{a=10} @PIR{r=3}
+  - delay 20
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6&l250 Đấm Lần 2!!!";d=20} @PIR{r=3}
+  - throw{velocity=2;velocityY=10} @Target
+  - damage{a=10} @PIR{r=3}
+  - delay 20
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6&l500 Đấm Lần 3!!!";d=20} @PIR{r=3}
+  - throw{velocity=2;velocityY=10} @Target
+  - damage{a=10} @PIR{r=3}
+  - delay 20
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6&l750 Cú Đấm Tiếp Theo";d=20} @PIR{r=3}
+  - throw{velocity=2;velocityY=10} @Target
+  - damage{a=10} @@PIR{r=3}
+  - delay 20
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6&l900 Cú Đấm Chí Mạng!!!";d=20} @PIR{r=3}
+  - throw{velocity=2;velocityY=10} @Target
+  - damage{a=10} @PIR{r=3}
+  - delay 20
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6&l1000 Đấm Cuối Cùng!!!";d=20} @PIR{r=3}
+  - throw{velocity=2;velocityY=10} @Target
+  - damage{a=10} @PIR{r=3}
+  - delay 60
+  
+  
+GokuCombo:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - sendtitle{title="";subtitle="&6Goku readys a combo!";d=20} @PlayersInRadius{r=20}
+  - delay 50
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6Blast Fist! &eCombo &fx1";d=20} @PIR{r=3}
+  - damage{a=4} @PIR{r=3}
+  - throw{velocity=2;velocityY=6} @PIR{r=3}
+  - delay 20
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport{spreadh=1;spreadv=5} @PIR{r=3}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6Smackdown! &eCombo &fx2";d=20} @PIR{r=3}
+  - velocity{m=set;x=0;y=-10;z=0} @PIR{r=3}
+  - damage{a=4} @PIR{r=3}
+  - delay 40
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+  - effect:explosion @Self
+  - delay 20
+  - sendtitle{title="";subtitle="&6Roundhouse kick! &eCombo &fx3";d=20} @PIR{r=3}
+  - damage{a=6} @PIR{r=3}
+  - throw{velocity=2;velocityY=1} @PIR{r=3}
+  - velocity{m=set;x=2;y=1;z=0} @PIR{r=3}
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6Quick Punch! &eCombo &fx4";d=10} @PIR{r=3}
+  - damage{a=3} @PIR{r=3}
+  - delay 10
+  - teleport @Target
+  - delay 5
+  - sendtitle{title="";subtitle="&6Quick Punch! &eCombo &fx5";d=10} @PIR{r=3}
+  - damage{a=4} @PIR{r=3}
+  - delay 10
+  - teleport @Target
+  - delay 5
+  - sendtitle{title="";subtitle="&6Quick Punch! &eCombo &fx6";d=10} @PIR{r=3}
+  - damage{a=5} @PIR{r=3}
+  - delay 20
+  - teleport @Target
+  - delay 5
+  - sendtitle{title="";subtitle="&6Super PUNCH! &eCombo &fx7";d=20} @PIR{r=3}
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+  - effect:explosion @Self
+  - damage{a=15} @PIR{r=3}
+  - throw{velocity=5;velocityY=1} @PIR{r=3}
+  - velocity{m=set;x=5;y=1;z=0} @PIR{r=3}
+  
+KKGokuCombo:
+  Cooldown: 0
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - sendtitle{title="";subtitle="&6Goku readys a charged combo!";d=20} @PlayersInRadius{r=20}
+  - delay 50
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6Toss! &eCombo &fx1";d=20} @PIR{r=3}
+  - damage{a=7} @PIR{r=3}
+  - throw{velocity=4;velocityY=10} @PIR{r=3}
+  - delay 20
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport{spreadh=1;spreadv=5} @PIR{r=3}
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6Huge uppercut! &eCombo &fx2";d=20} @PIR{r=3}
+  - velocity{m=set;x=0;y=10;z=0} @PIR{r=3}
+  - damage{a=7} @PIR{r=3}
+  - delay 40
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+  - effect:explosion @Self
+  - delay 20
+  - sendtitle{title="";subtitle="&6Drop Kick! &eCombo &fx3";d=20} @PIR{r=3}
+  - damage{a=6} @PIR{r=3}
+  - throw{velocity=5;velocityY=-1} @PIR{r=3}
+  - velocity{m=set;x=2;y=1;z=0} @PIR{r=3}
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+  - effect:explosion @Self
+  - sendtitle{title="";subtitle="&6Strong Punch! &eCombo &fx4";d=10} @PIR{r=3}
+  - damage{a=6} @PIR{r=3}
+  - delay 10
+  - teleport @Target
+  - delay 5
+  - sendtitle{title="";subtitle="&6Quick Punch! &eCombo &fx5";d=10} @PIR{r=3}
+  - damage{a=4} @PIR{r=3}
+  - delay 10
+  - teleport @Target
+  - delay 5
+  - sendtitle{title="";subtitle="&6Strong kick! &eCombo &fx6";d=10} @PIR{r=3}
+  - damage{a=5} @PIR{r=3}
+  - delay 20
+  - teleport @Target
+  - delay 5
+  - sendtitle{title="";subtitle="&6Dragon PUNCH! &eCombo &fx7";d=20} @PIR{r=3}
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+  - effect:explosion @Self
+  - damage{a=15} @PIR{r=3}
+  - throw{velocity=5;velocityY=4} @PIR{r=3}
+  - velocity{m=set;x=5;y=4;z=0} @PIR{r=3}
+  
+  ###### SPIRIT BOMB #####
+
+SpiritBomb:
+  Cooldown: 60
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - potion{type=SLOW;duration=200;level=7} @Self
+  - effect:particlering{particle=reddust;color=#00FFFF;radius=1;points=32;amount=1;hS=1;vS=0;yOffset=1} @Self
+  - sendtitle{title="";subtitle="&6Goku is gathering energy!";d=20} @PlayersInRadius{r=50} 
+  - delay 60
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=40;radius=2;yOffset=3} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=40;radius=2;yOffset=3} @self  
+  - delay 20
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=80;radius=3;yOffset=3} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=80;radius=3;yOffset=3} @self
+  - delay 20
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self  
+  - delay 10
+  - sendtitle{title="";subtitle="&bSPIRIT BOMB!";d=20} @PlayersInRadius{r=50} 
+  - effect:particlesphere{particle=reddust;color=#FFFFFF;amount=400;radius=4;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self
+  - delay 10
+  - effect:particlesphere{particle=reddust;color=#FFFFFF;amount=400;radius=4;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self
+  - skill{s=ThrowSpiritBomb} @Target
+  
+  
+###### UlTIMATE SPIRIT BOMB ######
+UltimateSpiritBomb:
+  Cooldown: 10
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - potion{type=SLOW;duration=200;level=7} @Self
+  - effect:particlering{particle=reddust;color=#00FFFF;radius=1;points=32;amount=1;hS=1;vS=0;yOffset=1} @Self
+  - sendtitle{title="";subtitle="&6Goku is gathering &cMASSIVE &6energy!";d=20} @PlayersInRadius{r=50} 
+  - delay 60
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=40;radius=2;yOffset=3} @self
+  - delay 5
+  - effect:particlesphere{p=explode;amount=100;hSpread=1;vSpread=0;speed=0.1;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=40;radius=2;yOffset=3} @self  
+  - delay 20
+  - effect:particlesphere{p=explode;amount=100;hSpread=2;vSpread=0;speed=0.1;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=80;radius=3;yOffset=3} @self
+  - delay 5
+  - effect:particlesphere{p=explode;amount=100;hSpread=2;vSpread=0;speed=0.1;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=80;radius=3;yOffset=3} @self
+  - delay 20
+  - effect:particlesphere{p=hugeexplosion;amount=5;hSpread=1;vSpread=0;speed=2;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self
+  - delay 5
+  - effect:particlesphere{p=hugeexplosion;amount=5;hSpread=1;vSpread=0;speed=2;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self  
+  - delay 10
+  - sendtitle{title="";subtitle="&bULTIMATE SPIRIT BOMB!";d=20} @PlayersInRadius{r=50} 
+  - effect:particlesphere{p=hugeexplosion;amount=5;hSpread=1;vSpread=0;speed=2;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self
+  - delay 10
+  - effect:particlesphere{p=hugeexplosion;amount=5;hSpread=1;vSpread=0;speed=2;yOffset=3} @Self
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=400;radius=4;yOffset=3} @self
+  - skill{s=ThrowUltimateSpiritBomb} @Target
+###### SPIRIT BOMB PROJECTILE #######
+  
+ThrowSpiritBomb:
+  Conditions:
+#  - incombat true
+#  - stance{stance=DistanceOver10}
+  Skills:
+  - projectile{onTick=SpiritBomb-Tick;onEnd=SpiritBomb-End;v=12;i=1;hR=1;vR=1;g=0.1;hp=false;syo=3} @target
+SpiritBomb-Tick:
+  Skills:
+  - effect:particlesphere{particle=reddust;color=#00FFFF;amount=80;radius=4;yOffset=0} @origin
+  - effect:particlesphere{particle=reddust;color=#FFFFFF;amount=200;radius=3;yOffset=0} @Self @origin
+SpiritBomb-End:
+  Skills:
+  - effect:particlesphere{p=hugeexplosion;amount=10;hSpread=4;vSpread=2;speed=2;yOffset=0} @origin
+  - effect:blockmask{m=barrier;r=6;d=80;} @origin
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - sendtitle{title="HIT";subtitle="&6You were hit by a spirit bomb!";d=20} @PlayersNearOrigin{r=6} 
+  - damage{a=10} @PlayersNearOrigin{r=6}
+
+###### Ultimate Spirit Bomb projectile ######
+ThrowUltimateSpiritBomb:
+  Conditions:
+#  - incombat true
+#  - stance{stance=DistanceOver10}
+  Skills:
+  - projectile{onTick=UltimateSpiritBomb-Tick;onEnd=UltimateSpiritBomb-End;v=12;i=1;hR=1;vR=1;g=0.1;hp=false;syo=3} @target
+UltimateSpiritBomb-Tick:
+  Skills:
+  - effect:particlesphere{p=hugeexplosion;amount=3;radius:1;yOffset=2} @origin
+  - effect:particlesphere{particle=flame;amount=80;radius=3;yOffset=2} @origin
+  - effect:blockmask{m=barrier;r=3;d=80;} @origin
+UltimateSpiritBomb-End:
+  Skills:
+  - effect:particlesphere{p=hugeexplosion;amount=10;hSpread=4;vSpread=2;speed=2;yOffset=0} @origin
+  - effect:blockmask{m=barrier;r=6;d=80;} @origin
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - delay 1
+  - effect:explosion @origin
+  - sendtitle{title="HIT";subtitle="&6You were hit by a spirit bomb!";d=20} @PlayersNearOrigin{r=6} 
+  - damage{a=10} @PlayersNearOrigin{r=6}
+###### Energy Attack Projectile ######
+
+EnergyAttack:
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - potion{type=SLOW;duration=200;level=7} @Self
+  - projectile{onTick=EnergyAttack-Tick;onHit=EnergyAttack-Hit;v=13;i=1;hR=1;vR=1} @target
+EnergyAttack-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=20;hSpread=0.2;vSpread=0.2;speed=0.1;yOffset=0} @origin
+EnergyAttack-Hit:
+  Skills:
+  - sendtitle{title="HIT";subtitle="&6You were hit by an energy attack!";d=30} @PlayersNearOrigin{r=5} 
+  - damage{a=2} @PlayersNearOrigin
+ 
+ 
+FaceMelter:
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - potion{type=SLOW;duration=200;level=7} @Self
+  - sendtitle{title="";subtitle="&6FaceMelter";d=20} @Target
+  - projectile{onTick=FaceMelter-Tick;onHit=Face Melter-Hit;v=15;i=1;hR=1;vR=1}
+FaceMelter-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=40;hSpread=0.4;vSpread=0.4;speed=0.1;yOffset=0} @origin
+FaceMelter-Hit:
+  Skills:
+  - sendtitle{title="HIT";subtitle="&6You were hit by an energy attack!";d=30} @PlayersInRadius{r=5} 
+  - damage{a=5} @Target
+###### Rapid Energy Attack Projectiles (Used in distance stances)######
+
+GokuRapidEnergyAttack:
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - potion{type=SLOW;duration=220;level=7} @Self
+  - projectile{onTick=GokuRapidEnergyAttack-Tick;onHit=GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 20
+  - projectile{onTick=GokuRapidEnergyAttack-Tick;onHit=GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 20
+  - projectile{onTick=GokuRapidEnergyAttack-Tick;onHit=GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 20
+  - projectile{onTick=GokuRapidEnergyAttack-Tick;onHit=GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 20
+  - projectile{onTick=GokuRapidEnergyAttack-Tick;onHit=GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - skill{s=DenyEscape} @Target
+  - delay 60
+  - effect:particlesphere{p=explode;amount=200;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+GokuRapidEnergyAttack-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=5;hSpread=0;vSpread=0;speed=0.1;yOffset=0} @origin
+GokuRapidEnergyAttack-Hit:
+  Skills:
+  - sendtitle{title="";subtitle="&6You were hit by a weak energy attack!";d=30} @Target 
+  - damage{a=2} @Target
+  
+SSJGokuRapidEnergyAttack:
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - potion{type=SLOW;duration=220;level=7} @Self
+  - projectile{onTick=SSJGokuRapidEnergyAttack-Tick;onHit=SSJGokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 15
+  - projectile{onTick=SSJGokuRapidEnergyAttack-Tick;onHit=SSJGokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 15
+  - projectile{onTick=SSJGokuRapidEnergyAttack-Tick;onHit=SSJGokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 15
+  - projectile{onTick=SSJGokuRapidEnergyAttack-Tick;onHit=SSJGokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 15
+  - projectile{onTick=SSJGokuRapidEnergyAttack-Tick;onHit=SSJGokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - skill{s=DenyEscape} @Target
+  - delay 60
+  - effect:particlesphere{p=explode;amount=200;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+SSJGokuRapidEnergyAttack-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=5;hSpread=0;vSpread=0;speed=0.1;yOffset=0} @origin
+SSJGokuRapidEnergyAttack-Hit:
+  Skills:
+  - sendtitle{title="";subtitle="&6You were hit by a weak energy attack!";d=30} @Target 
+  - damage{a=3} @Target
+
+SSJ2GokuRapidEnergyAttack:
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - projectile{onTick=SSJ2GokuRapidEnergyAttack-Tick;onHit=SSJ2GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 10
+  - projectile{onTick=SSJ2GokuRapidEnergyAttack-Tick;onHit=SSJ2GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 10
+  - projectile{onTick=SSJ2GokuRapidEnergyAttack-Tick;onHit=SSJ2GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 10
+  - projectile{onTick=SSJ2GokuRapidEnergyAttack-Tick;onHit=SSJ2GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - delay 10
+  - projectile{onTick=SSJ2GokuRapidEnergyAttack-Tick;onHit=SSJ2GokuRapidEnergyAttack-Hit;v=15;i=1;hR=1;vR=1}
+  - skill{s=DenyEscape} @Target
+  - delay 60
+  - effect:particlesphere{p=explode;amount=200;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - teleport @Target
+SSJ2GokuRapidEnergyAttack-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=5;hSpread=0;vSpread=0;speed=0.1;yOffset=0} @origin
+SSJ2GokuRapidEnergyAttack-Hit:
+  Skills:
+  - sendtitle{title="";subtitle="&6You were hit by a weak energy attack!";d=30} @Target 
+  - damage{a=4} @Target
+###### Kamehameha Wave ######
+
+Kamehameha:
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - projectile{onTick=Kamehameha-Tick;onHit=Kamehameha-Hit;v=10;i=1;hR=1;vR=1}
+Kamehameha-Tick:
+  Skills:
+  - effect:particles{p=magicCrit;amount=50;hSpread=0.2;vSpread=0.2;speed=0.1;yOffset=0} @origin
+Kamehameha-Hit:
+  Skills:
+  - sendtitle{title="HIT";subtitle="&6You were hit by a Kamehameha Wave!";d=30} @Target
+  - damage{a=15} @Target
+  
+###### Super Kamehameha Wave ######
+
+SuperKamehameha:
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - potion{type=SLOW;duration=100;level=7} @Self
+  - sendtitle{title="";subtitle="&9KAAAAA";d=20} @Target
+  - effect:particlesphere{particle=magicCrit;amount=80;radius=1;yOffset=0} @origin
+  - delay 20
+  - sendtitle{title="";subtitle="&9MEEEEE";d=20} @Target
+  - effect:particlesphere{particle=magicCrit;amount=160;radius=2;yOffset=0} @origin
+  - delay 20
+  - sendtitle{title="";subtitle="&9HAAAAA";d=20} @Target
+  - effect:particlesphere{particle=magicCrit;amount=240;radius=3;yOffset=0} @origin
+  - delay 20
+  - sendtitle{title="";subtitle="&9MEEEEEEEEEEE";d=20} @Target
+  - projectile{onTick=SuperKamehameha-Tick;onHit=SuperKamehameha-Hit;onEnd=SuperKamehameha-End;v=7;i=1;hR=1;vR=1}
+  - delay 10
+  - sendtitle{title="";subtitle="&9HAAAAAAAAAAAAA!!!!!!";d=20} @Target
+SuperKamehameha-Tick:
+  Skills:
+  - effect:particlesphere{particle=magicCrit;amount=240;radius=3;yOffset=0} @origin
+SuperKamehameha-Hit:
+  Skills:
+  - sendtitle{title="HIT";subtitle="&6If this was real. You'd be a puddle!";d=30} @Target
+  - damage{a=40} @Target
+SuperKamehameha-End:
+  Skills:
+  - effect:blockmask{m=barrier;r=2;d=80;} @origin
+  - damage{a=40} @PlayersNearOrigin{r=3}
+
+KaioKen-Goku:
+  Cooldown: 10
+  Skills:
+  - effect:particles{p=flame;amount=20;hSpread=15;vSpread=1;speed=0;yOffset=0.5} @Self
+  - delay 10
+  - effect:particles{p=flame;amount=20;hSpread=15;vSpread=1;speed=0;yOffset=0.5} @Self
+  - sendtitle{title="";subtitle="&eI'm not finished yet!";d=40} @PIR{r=30}
+  - remove @Self
+  - summon{type=KaioKenGoku;amount=1;radius=1} @Self
+###### Go Super Saiyan 1 ######
+GoSuperSaiyan:
+  Cooldown: 10
+  Skills:
+  - effect:particles{p=flame;amount=20;hSpread=15;vSpread=1;speed=0;yOffset=0.5} @Self
+  - effect:particlesphere{p=explode;amount=200;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - sendtitle{title="";subtitle="&eI'm not finished yet!";d=40} @Target
+  - summon{type=SSJGoku;amount=1;radius=1} @Self
+###### Go Super Saiyan 2 ######
+GoSuperSaiyan2:
+  Cooldown: 10
+  Skills:
+  - effect:particles{p=flame;amount=20;hSpread=15;vSpread=1;speed=0;yOffset=0.5} @Self
+  - effect:particlesphere{p=explode;amount=200;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - sendtitle{title="";subtitle="&eI will not let my friends down!";d=40} @Target
+  - summon{type=SSJ2Goku;amount=1;radius=1} @Self
+###### Recover Health ######
+Regenerate:
+  Skills:
+  - heal{amount=100} <100% 1
+  - effect:particles{p=heart;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+
+###### Destructo Disk ######
+DestructoDiskChargeUp:
+  Cooldown: 10
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - potion{type=SLOW;duration=250;level=7} @Self
+  - effect:particlering{particle=flame;radius=1;points=6;amount=1;hS=1;vS=0;yOffset=1} @Self
+  - sendtitle{title="";subtitle="Destructo Disk attack charging!";d=30} @PlayersInRadius{r=20} 
+  - delay 60
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 5
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 20
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 5
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.2;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 20
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 5
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=1} @Self 
+  - effect:particles{p=flame;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=0.5;vSpread=0.1;speed=0.1;yOffset=1} @Self 
+  - delay 10
+  - sendtitle{title="";subtitle="&bDestructo Disk!";d=20} @PlayersInRadius{r=20} 
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 10
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=0} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - skill{s=DestructoDisk} @Target
+  
+DestructoDisk:
+  Conditions:
+#  - incombat true
+#  - stance{stance=DistanceOver10}
+  Skills:
+  - projectile{onTick=DestructoDisk-Tick;onHit=DestructoDisk-Hit;v=10;i=1;hR=1;vR=1}
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 10
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 10
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 10
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
+  - delay 10
+  - projectile{onTick=DestructoDisk-Tick;onHit=DestructoDisk-Hit;v=10;i=1;hR=1;vR=1}
+DestructoDisk-Tick:
+  Skills:
+  - effect:particles{p=sweepAttack;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=0} @origin
+  - effect:particles{p=flame;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=0} @origin
+DestructoDisk-Hit:
+  Skills:
+  - damage{a=2000} @Target
+  - command{c="tellraw @a <&lb><&dq><&dq><&cm> <&lc><&dq>text<&dq><&co><&dq><&lb>Deaths<&rb> <target.name> was cut in half by Goku.<&dq><&rc><&rb>"} @Server
+  
+###### Backstep ##### Causes mob to jump back from player
+
+BackStep:
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - effect:particlesphere{p=explode;amount=10;hSpread=1;vSpread=0;speed=0.1;yOffset=0} @Self
+  - leap{velocity=-400} @target
+  
+###### SolarFlare ######
+SolarFlare:
+  Conditions:
+#  - incombat true
+  - stance{s=normal} true
+  Skills:
+  - effect:particlesphere{p=explode;amount=20;radius=1;speed=0.1;yOffset=0} @Self
+  - effect:particlesphere{p=explode;amount=40;radius = 2;speed=0.1;yOffset=0} @Self
+  - sendtitle{title="";subtitle="&fSOLAR FLARE!";d=40} @Target
+  - potion{type=BLINDNESS;duration=200;level=1} @PlayersInRadius{r=20}
+  
+###### Sonic Boom ######
+SonicBoom:
+  Conditions:
+#  - incombat true
+  - stance{s=normal}
+  Skills:
+  - throw{velocity=15;velocityY=10} @LivingEntitiesInRadius{r=7}	
+  - effect:particlesphere{p=crit;;amount=200;radius=3;speed=0.1;yOffset=0} @Self
+  - sendtitle{title="";subtitle="&fSonic Boom!";d=40} @Target
+
+
+###### Stances ######
+ReturnToNormal:
+  Conditions:
+  - targetwithin{d=10} true
+  Skills:
+#  - sendtitle{title="";subtitle="&eStance normal debug message";d=40} @Target
+  - setstance{stance=normal} @self
+Over10DistanceStance:
+  Conditions:
+  - stance{s=normal} true
+  - targetnotwithin{d=10} true
+  Skills:
+#  - sendtitle{title="";subtitle="&eStance distance debug message";d=40} @Target
+  - setstance{stance=DistanceOver10} @self
+  
+###### Generous Sensu Bean ######
+
+GenerousSensuBean:
+  Skills:
+  - delay 20
+  - message{m="[&eGoku&f]If we are going to fight. Lets make it even. Have this &eSensu Bean"} @PlayersInRadius{r=20}
+  - sendtitle{title="";subtitle="&aYou feel like fighting!";d=40} @PlayersInRadius{r=20}
+  - potion{type=REGENERATION;duration=400;level=2} @PlayersInRadius{r=20}
+  
+###### Skin Correction Codes GIVE THEM SOME TIME TO KICK IN. This is for the sake of FPS ######
+FixGokuSkin:
+  Conditions:
+#  - incombat true
+  Skills:
+  - disguise{d=player:&fGoku:Elstevo} @Self
+FixKaioKenGokuSkin:
+  Conditions:
+#  - incombat true
+  Skills:
+  - disguise{d=player:&fKK Goku:goku16} @Self
+FixSSJGokuSkin:
+  Conditions:
+#  - incombat true
+  Skills:
+  - disguise{d=player:&fSS Goku:SSJGoku} @Self
+FixSSJ2GokuSkin:
+  Conditions:
+#  - incombat true
+  Skills:
+  - disguise{d=player:&fSS2 Goku:SSJ2Goku} @Self
+#################################### Monologues #############################################
+
+MonologueBeginGoku:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+MonologueGokuHalfHealth:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+MonologueGoku10PercentHealth:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+
+## KEEP IN MIND: Super Saiyans regenerate health. This means your monologue can be triggered more than once if he heals enough ##
+  
+MonologueBeginSSJGoku:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+MonologueSSJGokuHalfHealth:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+MonologueSSJGoku10PercentHealth:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+  
+MonologueSSJ2BeginGoku:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+MonologueSSJ2GokuHalfHealth:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+MonologueSSJ2Goku10PercentHealth:
+  Conditions:
+#  - incombat true
+  Skills:
+  - message{m="[&eGoku&f](Begin Monologue) Configure battle monologues under the monlogues section of my skills sheet!"} @Target
+  
+
+  
+###### Random Dialogue Lists ######
+
+DenyEscape:
+  Conditions:
+#  - incombat true
+  - stance{s=DistanceOver10} true
+  Skills:
+  - randommessage{m="[&eGoku&f] I wont let you get away!","[&eGoku&f] Come here and fight!","[&eGoku&f] Don't think you can outrun me!","[&eGoku&f] Get back over here!";} @Target

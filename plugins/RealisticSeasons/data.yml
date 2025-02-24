@@ -13,12 +13,12 @@ players:
   - 10a8fc32-3fe1-3ff5-b158-d4bfd92989a8
   fahrenheit-mode: []
 worlds:
-  world: SUMMER
+  world: WINTER
 dates:
   world:
     day: 1
-    month: 8
-    year: 75
+    month: 1
+    year: 77
 temperature:
   world: true
 time-paused: []
@@ -363,6 +363,7 @@ placedeggs:
   - -1578,83,847,world
   - -256,24,-7871,world
   - -1536,37,918,world
+  - -1558,93,826,world
   - -1552,32,835,world
   - -1570,116,913,world
   - -1561,114,851,world
@@ -379,5 +380,6 @@ placedeggs:
   - -1513,111,854,world
   - -1512,-39,925,world
   - -1554,115,908,world
+  - -1541,112,881,world
   - -165,18,-7841,world
   - -1513,-51,854,world

@@ -1,0 +1,63 @@
+Sasuke:
+    Type: Husk
+    Health: 2000
+    Damage: 10
+    Armor: 10
+    Display: '&bSasuke'
+    BossBar:
+        Enabled: true
+        Title: '&bSasuke'
+        Range: 25
+        Color: RED
+        Style: SEGMENTED_10
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+        PreventEquipment: true
+    Disguise: "player Steve setSkin Sasuke setCustomName '&bSasuke' setCustomNameVisible true" 
+    Skills:
+        - skill{delay=200;s=Kirin} @target
+        - skill{s=Amaterasu} @target
+        - skill{delay=200;s=DragonAgua} @target
+        - skill{delay=100;s=Raikiri} @target
+        #- command{c="weather world storm"} @self ~onSpawn
+    Drops:
+    - emerald 32
+    - experience 1000
+Hashirama:
+    Type: Husk
+    Health: 2000
+    Damage: 10
+    Armor: 10
+    BossBar:
+        Enabled: true
+        Title: '&aHashirama'
+        Range: 25
+        Color: RED
+        Style: SEGMENTED_10
+    Display: '&aHashirama'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+        PreventEquipment: true
+    Disguise: "player Steve setSkin Hashirama setCustomName '&aHashirama' setCustomNameVisible true" 
+    Skills:
+        - skill{delay=200;s=MaderaAtaque} @target
+        - skill{delay=400;s=ClonMadera} @self
+        - skill{delay=100;s=ProyectilClon} @target
+        - skill{delay=200;s=IAClon} @self
+        - explosion{yield=6;fire=true;bd=true} @target ~onDeath
+        - message{m="<mob.name>&f<&co> &6Boom!"} @PlayersInRadius{r=30} ~onDeath
+    Drops:
+    - emerald 32
+    - experience 1000

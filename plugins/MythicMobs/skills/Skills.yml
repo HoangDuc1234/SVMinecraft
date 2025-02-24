@@ -1,0 +1,259 @@
+####Skills####
+DragonAgua:
+    Cooldown: 20
+    Skills: 
+        - message{m="<mob.name>&f<&co> &9Thủy độn!"} @PlayersInRadius{r=30}
+        - effect:particlesphere{particle=reddust;color=#3872fd;amount=200;radius=4;repeat=20;repeatInterval=10} @self
+        - effect:particlesphere{particle=reddust;color=#3872fd;amount=200;radius=6;repeat=20;repeatInterval=10} @self
+        - effect:particleorbital{r=2;points=64;t=100;i=1;vy=20;particle=reddust;color=#3872fd} @self
+        - effect:particleorbital{v=2;r=5;points=64;t=100;i=1;vy=20;particle=reddust;color=#3872fd;vs=3} @self
+        #- effect:blockmask{m=WATER;r=3;d=200} @self
+        #- effect:blockmask{m=WATER;r=10;d=200} @target
+        - delay 20
+        - message{m="<mob.name>&f<&co> &9&lThủy long thuật!"} @PlayersInRadius{r=30}
+        - skill{s=MetaDragon} @target
+        - delay 40
+        - teleport @target
+        - damage{a=20} @target
+        - lightning{d=5;repeat=3;repeatInterval=15} @EntitiesInRadius{r=100} 
+MetaDragon: 
+    Skills:
+        - disengage @self
+        - delay 20
+        - disengage @self
+        - delay 10
+        - skill{s=Shuriken} @target 
+        - delay 40
+        - skill{s=Shuriken} @target
+Raikiri:
+    Cooldown: 10
+    Skills:
+        - effect:particleorbital{r=2;points=16;t=140;i=1;vy=20;particle=reddust;color=#1689d2;reverse=true} @self
+        - effect:particleorbital{r=2;points=24;t=140;i=1;vy=20;particle=reddust;color=#1689d2;s=0.1;rotX=10} @self
+        - effect:particleorbital{r=2;points=24;t=140;i=1;vy=20;particle=reddust;color=#1689d2;s=0.1;rotX=10;reversed=true} @self
+        - effect:particleorbital{r=2;points=16;t=140;i=1;vy=20;particle=reddust;color=#89cff0;reverse=true} @self
+        - effect:particleorbital{r=2;points=24;t=140;i=1;vy=20;particle=reddust;color=#89cff0;s=0.1;rotX=10} @self
+        - effect:particleorbital{r=2;points=24;t=140;i=1;vy=20;particle=reddust;color=#89cff0;s=0.1;rotX=10;reversed=true} @self
+        - aura{i=1;d=100;oT=AuraRa} @self
+        - delay 40
+        - stun{t=40} @target
+        - delay 20
+        - message{m="<mob.name>&f<&co> &bRaikiri!"} @PlayersInRadius{r=30}
+        - teleport @target
+        - lightning{d=5;repeat=3;repeatInterval=15} @EntitiesInRadius{r=100}
+        - damage{a=20;pkb=true;ignorearmor=true} @target
+        - throw{velocity=18;velocityY=6} @target
+        - explosion{yield=3;fire=true;bd=true} @target
+        - effect:bloodyScreen{d=200} @PIR{r=15}
+AuraRa:
+    Skills:
+        - effect:particleorbital{r=0;points=16;t=100;i=1;vy=20;particle=reddust;color=#1689d2;reverse=true} @origin
+        - effect:particleorbital{r=0;points=24;t=100;i=1;vy=20;particle=reddust;color=#1689d2;s=0.1;rotX=10} @origin
+        - effect:particleorbital{r=0;points=24;t=100;i=1;vy=20;particle=reddust;color=#1689d2;s=0.1;rotX=10;reversed=true} @origin
+        - effect:particleorbital{r=0;points=16;t=100;i=1;vy=20;particle=reddust;color=#89cff0;reverse=true} @origin
+        - effect:particleorbital{r=0;points=24;t=100;i=1;vy=20;particle=reddust;color=#89cff0;s=0.1;rotX=10} @origin
+        - effect:particleorbital{r=0;points=24;t=100;i=1;vy=20;particle=reddust;color=#89cff0;s=0.1;rotX=10;reversed=true} @origin
+RasenShuriken:
+    Cooldown: 25
+    Skills:
+        - message{m="<mob.name>&f<&co> &f&lRasen Shuriken!"} @PlayersInRadius{r=30}
+        - delay 40
+        - skill{s=Shuriken} @target 
+        - delay 40
+        - skill{s=Shuriken} @target 
+Shuriken:
+    #TargetConditions:
+     #- distance{d=<4}
+    Skills:
+        - projectile{i=1;d=100;oT=ShurTick;oH=ShurHit;mr=20;sE=true;hp=true;StopAtBlock=true} @target
+ShurTick:
+    Skills:
+        - effect:particles{particle=reddust;color=#1689d2;a=20;s=0.06;hs=0.3;vs=0.1} @origin
+        - effect:particles{particle=reddust;color=#89cff0;a=20;s=0.06;hs=0.3;vs=0.1} @origin
+        - effect:particles{particle=reddust;color=#2f00ff;a=20;s=0.06;hs=0.3;vs=0.1} @origin
+ShurHit:
+    Skills:
+        - damage{a=20;ignorearmor=true;pkb=true} @target
+        - ignite{t=200} @target  
+        - effect:bloodyScreen{d=200} @PIR{r=15}
+        - throw{velocity=18;velocityY=6} @target
+        - explosion{yield=3;fire=true;bd=true} @target
+        #- effect:particleorbital{r=3;points=16;t=100;i=1;vy=20;particle=flame;reverse=true} @target
+        #- effect:particleorbital{r=3;points=24;t=100;i=1;vy=20;particle=flame;s=0.1;rotX=10} @target
+        #- effect:particleorbital{r=3;points=24;t=100;i=1;vy=20;particle=flame;s=0.1;rotX=10;reversed=true} @target
+Rasengan:
+    Cooldown: 10
+    Skills:
+        - message{m="<mob.name>&f<&co> &fChou Chou Odama Rasengan!"} @PlayersInRadius{r=30}
+        - delay 30
+        - effect:particlesphere{particle=reddust;color=#1689d2;amount=200;radius=2;y=2.5;repeat=6;repeatInterval=15} @self
+        - effect:particlesphere{particle=reddust;color=#1689d2;amount=200;radius=2;y=2.5;repeat=6;repeatInterval=15} @self
+        - effect:particlesphere{particle=reddust;color=#89cff0;amount=200;radius=1.9;y=2.5;repeat=6;repeatInterval=15} @self
+        - effect:particlesphere{particle=reddust;color=#2f00ff ;amount=200;radius=1.8;y=2.5;repeat=6;repeatInterval=15} @self
+        - effect:particleorbital{r=3;points=16;t=110;i=1;vy=20;particle=reddust;color=#ffffff;reverse=true;vs=1.5} @self
+        - effect:particleorbital{r=3;points=24;t=110;i=1;vy=20;particle=reddust;color=#ffffff;s=0.1;rotX=10;vs=1.5} @self
+        - effect:particleorbital{r=3;points=24;t=110;i=1;vy=20;particle=reddust;color=#ffffff;s=0.1;rotX=10;reversed=true;vs=1.5} @self
+        - delay 40
+        - teleport @target
+        - delay 20
+        - message{m="<mob.name>&f<&co> &f&lRasengan!"} @PlayersInRadius{r=30} ~onAttack
+        - damage{a=20;pkb=true;ignorearmor=false} @target
+        - damage{a=20;pkb=true;ignorearmor=true} @target ~onAttack1
+        - throw{velocity=18;velocityY=6} @PlayersInRadius{r=30}
+        - throw{velocity=18;velocityY=6} @target
+        - effect:bloodyScreen{d=120} @PIR{r=15}  
+MaderaAtaque:
+    Cooldown: 10
+    Skills:
+        - message{m="<mob.name>&f<&co> &fMộc độn!"} @PlayersInRadius{r=30}
+        - message{m="<mob.name>&f<&co> &6La sinh môn!"} @PlayersInRadius{r=30}
+        - disengage @self
+        - delay 10
+        - disengage @self
+        - delay 10 
+        - disengage @self
+        - delay 10
+        - effect:particleorbital{r=5;points=16;t=100;i=1;vy=20;particle=TOTEM;reverse=true} @target
+        - effect:particleorbital{r=6;points=24;t=100;i=1;vy=20;particle=TOTEM;s=0.1;rotX=10} @self
+        - effect:particleorbital{r=6;points=24;t=100;i=1;vy=20;particle=TOTEM;s=0.1;rotX=10;reversed=true} @self
+        - blockwave{duration=60;material=oak_log;radius=5;radiusY=5;velocity=10;shape=sphere} @target
+        - delay 20
+        - stun{d=60;f=true} @target
+        - delay 20
+        - damage{a=20;pkb=true;ignorearmor=true} @target
+        - damage{a=20;pkb=true;ignorearmor=false} @target
+        - delay 20
+        - explosion{yield=6;fire=true;bd=true} @target
+ClonMadera:
+    Cooldown: 20
+    Skills:
+        - message{m="<mob.name>&f<&co> &fMộc độn!"} @PlayersInRadius{r=30}
+        - delay 20
+        - message{m="<mob.name>&f<&co> &6Mộc phân thân!"} @PlayersInRadius{r=30}
+        - summon{type=Hashirama2;amount=4;radius=4} @self
+        - effect:particleorbital{r=6;points=24;t=100;i=1;vy=20;particle=reddust;color=#000000;s=0.1;rotX=10} @self
+ProyectilClon:
+    Cooldown: 10
+    Skills:
+        - message{m="<mob.name>&f<&co> &fMộc độn!"} @PlayersInRadius{r=30}
+        - delay 30
+        - message{m="<mob.name>&f<&co> &fMộc long đạn thuật!"} @PlayersInRadius{r=30}
+        - delay 30
+        - projectile{bulletType=BLOCK;material=oak_log;v=15;i=1;hnp=true;oT=MaderaTickHashirama2;oH=MaderaDamageHashirama2;g=2;hfs=15} @target
+        - delay 20
+        - projectile{bulletType=BLOCK;material=oak_log;v=15;i=1;hnp=true;oT=MaderaTickHashirama2;oH=MaderaDamageHashirama2;g=2;hfs=15} @target
+MaderaTickHashirama2:
+    Skills:
+        - effect:particleorbital{r=1;points=24;t=40;i=1;vy=20;particle=totem;s=0.2;rotX=10} @origin
+        - effect:particleorbital{r=1;points=24;t=40;i=1;vy=20;particle=totem;s=0.2;rotX=10;reversed=true} @origin
+MaderaDamageHashirama2:
+    Skills:
+        - damage{a=20;pkb=true;ignorearmor=true} @target
+        - explosion{yield=3;fire=true;bd=false} @target
+        - ignite{ticks=100} @target 
+BolaFuego:
+#IA Clon Hashirama
+IAClon:
+    Cooldown: 10
+    Skills:
+        - SetAI{ia=false} @self
+MeteoritoMadara:
+    Cooldown: 20
+    Skills:
+        - message{m="<mob.name>&f<&co> &fĐây là kết thúc rồi!"} @PlayersInRadius{r=30}
+        - delay 30
+        - projectile{bulletType=BLOCK;material=BEDROCK;v=15;i=1;hnp=true;oT=ProjectilesTick;oH=ProjectilesHit;type=METEOR;g=2;hfs=15} @target
+        - delay 20
+        - projectile{bulletType=BLOCK;material=BEDROCK;v=15;i=1;hnp=true;oT=ProjectilesTick;oH=ProjectilesHit;type=METEOR;g=2;hfs=15} @target
+        - delay 20 
+ProjectilesTick:
+    Skills:
+        - effect:particleorbital{r=1;points=24;t=40;i=1;vy=20;particle=flame;s=0.2;rotX=10} @origin
+        - effect:particleorbital{r=1;points=24;t=40;i=1;vy=20;particle=flame;s=0.2;rotX=10;reversed=true} @origin
+ProjectilesHit:
+    Skills:
+        - damage{a=20;pkb=true;ignorearmor=true} @target
+        - explosion{yield=3;fire=true;bd=true} @target
+        - ignite{ticks=100} @target 
+BolaFuego:
+    Cooldown: 10
+    Skills:
+        - disengage @self
+        - delay 10
+        - disengage @self
+        - delay 10
+        - SetAI{ai=false} @self
+        - message{m="<mob.name>&f<&co> &fHỏa độn!"} @PlayersInRadius{r=30}
+        - delay 20
+        - message{m="<mob.name>&f<&co> &6Đại hỏa cầu!"} @PlayersInRadius{r=30}
+        - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=flame} @target
+        - delay 5
+        - effect:particleorbital{r=3;points=16;t=100;i=1;vy=20;particle=flame;reverse=true} @target
+        - delay 5
+        - effect:particleorbital{r=4;points=16;t=100;i=1;vy=20;particle=flame} @target
+        - delay 5
+        - effect:particleorbital{r=5;points=16;t=100;i=1;vy=20;particle=flame;reverse=true} @target
+        - effect:particleorbital{r=6;points=24;t=100;i=1;vy=20;particle=flame;s=0.1;rotX=10} @self
+        - effect:particleorbital{r=6;points=24;t=100;i=1;vy=20;particle=flame;s=0.1;rotX=10;reversed=true} @self
+        - skill{s=Fire} @target
+        - delay 30
+        - SetAI{ai=true} @self
+Fire:
+    #TargetConditions:
+     #- distance{d=<4}
+    Skills:
+        - projectile{i=1;d=100;oT=FTTick;oH=FHit;mr=20;sE=true;hp=true;StopAtBlock=true} @target
+FTTick:
+    Skills:
+        - effect:particles{particle=flame;a=20;s=0.06;hs=0.3;vs=0.1} @origin
+FHit:
+    Skills:
+        - damage{a=20;ignorearmor=true;pkb=true} @target
+        - ignite{t=200} @target  
+        - effect:bloodyScreen{d=200} @PIR{r=15}
+        - effect:particleorbital{r=3;points=16;t=100;i=1;vy=20;particle=flame;reverse=true} @target
+        - effect:particleorbital{r=3;points=24;t=100;i=1;vy=20;particle=flame;s=0.1;rotX=10} @target
+        - effect:particleorbital{r=3;points=24;t=100;i=1;vy=20;particle=flame;s=0.1;rotX=10;reversed=true} @target
+Kirin: 
+    Cooldown: 20
+    Skills:                                                                                  
+        - command{c="weather world storm"} @self   #Ambiente del mob, tienes que poner el nombre del mundo en "world"
+        - SetAI{ai=false} @self #ia deshabilitada  
+        - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=reddust;color=#000000} @self
+        - delay 20
+        - effect:particleorbital{r=3;points=16;t=100;i=1;vy=20;particle=reddust;color=#000000;reverse=true} @self
+        - delay 20
+        - effect:particleorbital{r=4;points=16;t=100;i=1;vy=20;particle=reddust;color=#000000} @self
+        - effect:lightning{repeat=5;repeatInterval=20} @selflocation
+        - delay 40
+        - SetAI{ai=true} @self
+        - stun{d=120;f=true} @target
+        - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=reddust;color=#000000} @target
+        - delay 5
+        - effect:particleorbital{r=3;points=16;t=100;i=1;vy=20;particle=reddust;color=#000000;reverse=true} @target
+        - delay 5
+        - effect:particleorbital{r=4;points=16;t=100;i=1;vy=20;particle=reddust;color=#000000} @target
+        - delay 5
+        - message{m="<mob.name>&f<&co> &b&lKirin!"} @PlayersInRadius{r=30}
+        - delay 20
+        - message{m="<mob.name>&f<&co> Thiên lôi địa chấn!"} @PlayersInRadius{r=30}
+        - delay 25
+        #- teleport @target
+        - lightning{d=5;repeat=6;repeatInterval=15} @EntitiesInRadius{r=100}
+        - explosion{yield=6;fire=true;bd=true} @target
+        - blackscreen{d=40} @PlayersInRadius{r=100} 
+        #- command{c="weather world storm"} @self 
+Amaterasu:
+    Cooldown: 15
+    Skills:
+        - message{m="<mob.name>&f<&co> Amaterasu!"} @PlayersInRadius{r=30}
+        - delay 20
+        - effect:bloodyScreen{d=120} @PIR{r=15} 
+        - ignite{ticks=100} @target 
+        - effect:particleorbital{r=2;points=16;t=100;i=1;vy=20;particle=flame} @target
+        - delay 5
+        - effect:particleorbital{r=3;points=16;t=100;i=1;vy=20;particle=flame;reverse=true} @target
+        - delay 5
+        - effect:particleorbital{r=4;points=16;t=100;i=1;vy=20;particle=flame} @target
+        - effect:blockmask{m=NETHERRACK;r=3;d=200} @target
+        - effect:blockmask{m=NETHERRACK;r=3;d=200} @self

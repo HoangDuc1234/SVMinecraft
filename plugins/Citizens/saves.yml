@@ -42,16 +42,16 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: -104.632
+        bodyYaw: -79.19914
         world: world
         x: -1533.8204
         y: 116.0
         z: 867.7217
-        yaw: -104.632
-        pitch: 23.3621
+        yaw: -79.1991
+        pitch: 22.9697
       gravity:
         enabled: true
-    traitnames: type,owner,mounttrait,rotationtrait,commandtrait,skintrait,lookclose,gravity,spawned,inventory,location,scoreboardtrait
+    traitnames: rotationtrait,location,scoreboardtrait,mounttrait,skintrait,type,commandtrait,spawned,gravity,inventory,lookclose,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -98,13 +98,13 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: -116.97348
+        bodyYaw: -92.040405
         world: world
         x: -1533.8562
         y: 116.0
         z: 870.2828
-        yaw: -116.9735
-        pitch: 21.6276
+        yaw: -92.0404
+        pitch: 23.261
       gravity:
         enabled: true
       lookclose:
@@ -116,7 +116,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,owner,rotationtrait,commandtrait,skintrait,lookclose,gravity,spawned,inventory,location,scoreboardtrait
+    traitnames: rotationtrait,location,scoreboardtrait,skintrait,type,commandtrait,spawned,gravity,inventory,lookclose,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -165,7 +165,7 @@ npc:
         '0':
           type_key: netherite_sword
           amount: 1
-    traitnames: type,owner,rotationtrait,skintrait,lookclose,spawned,inventory,location,scoreboardtrait,controllable,equipment
+    traitnames: rotationtrait,location,scoreboardtrait,skintrait,controllable,equipment,type,spawned,inventory,lookclose,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
