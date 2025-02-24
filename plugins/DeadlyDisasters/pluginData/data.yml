@@ -1,109 +1,109 @@
 data:
   version: 12.1
   timerValueMemory: 120
-  entries: 4
+  entries: 3
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 116435
+  catalogFetchCooldown: 68952
   currentConfig: DEFAULT
-  favored: Acid Storm
+  favored: 'null'
   disliked: 'null'
   catalogVersion: 3
 customentities: {}
 metrics:
   occurred:
-  - 1
-  - 0
-  - 6
   - 0
   - 0
-  - 10
-  - 6
   - 0
-  - 7
   - 0
-  - 10
   - 0
-  - 1
   - 0
-  - 2
   - 0
-  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
   - 0
   spawned:
-  - 1
-  - 0
-  - 6
   - 0
   - 0
-  - 10
-  - 6
   - 0
-  - 7
   - 0
-  - 10
   - 0
-  - 1
   - 0
-  - 2
   - 0
-  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
   - 0
   destroyed:
-  - 1
-  - 0
-  - 6
   - 0
   - 0
-  - 10
-  - 6
   - 0
-  - 7
   - 0
-  - 10
   - 0
-  - 1
   - 0
-  - 2
   - 0
-  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
   - 0
   killed:
-  - 1
-  - 0
-  - 6
   - 0
   - 0
-  - 10
-  - 6
   - 0
-  - 7
   - 0
-  - 10
   - 0
-  - 1
   - 0
-  - 2
   - 0
-  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
   - 0
 timers:
   5ca001c5-481e-41d3-ae03-66d95f939df1:
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 107
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 127
-    43f59985-74e9-3264-a600-e9e49c0843c2: 233
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 320
-  182a85ca-d8ee-4783-acde-2bc1af83f714:
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 73
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 161
-  a247729e-4e99-4903-9b81-b1d41f85d80c:
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 264
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 305
-    43f59985-74e9-3264-a600-e9e49c0843c2: 299
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 6
+    43f59985-74e9-3264-a600-e9e49c0843c2: 160
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 164
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 129
+    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 165
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 129
   68c6649e-95ca-449e-845f-9fdd42053586:
-    43f59985-74e9-3264-a600-e9e49c0843c2: 185
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 96
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 130
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 91
+    43f59985-74e9-3264-a600-e9e49c0843c2: 95
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 0
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 2
+    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 117
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 27
+  a247729e-4e99-4903-9b81-b1d41f85d80c:
+    43f59985-74e9-3264-a600-e9e49c0843c2: 162
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 174
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 127
+    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 165
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 150

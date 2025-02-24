@@ -10,14 +10,15 @@ players:
   - 320f58db-706f-3c41-9d9f-5f96e3c8a2df
   - 48a01d2c-abfb-3ffb-8eb9-d162f11a9856
   - 9bdbd2c8-02d8-3157-a907-d4089ad62ae6
+  - 10a8fc32-3fe1-3ff5-b158-d4bfd92989a8
   fahrenheit-mode: []
 worlds:
-  world: SPRING
+  world: SUMMER
 dates:
   world:
     day: 1
-    month: 3
-    year: 63
+    month: 8
+    year: 75
 temperature:
   world: true
 time-paused: []
@@ -29,7 +30,6 @@ placedblocks:
   - -1520,111,850,world
   - -1513,111,845,world
   - -1508,110,834,world
-  - -1506,110,836,world
   - 11075,112,10981,world
   - -1508,110,836,world
   - -1508,110,835,world
@@ -340,8 +340,8 @@ placedpresents:
 placedeggs:
   world:
   - -165,64,-7841,world
+  - -1492,-13,838,world
   - -1593,98,864,world
-  - -1547,115,896,world
   - -1552,96,835,world
   - -4268,244,-3066,world
   - -1552,-34,835,world
@@ -349,7 +349,6 @@ placedeggs:
   - -165,33,-7841,world
   - -1553,98,835,world
   - -101,89,-7831,world
-  - -1502,110,826,world
   - -1512,84,925,world
   - -1535,-12,901,world
   - -4146,163,-2993,world
@@ -361,6 +360,7 @@ placedeggs:
   - -4082,111,-2989,world
   - -1523,-31,887,world
   - -4083,122,-3085,world
+  - -1578,83,847,world
   - -256,24,-7871,world
   - -1536,37,918,world
   - -1552,32,835,world
@@ -371,13 +371,13 @@ placedeggs:
   - -4210,180,-2985,world
   - -128,88,-7984,world
   - -1574,82,868,world
-  - -1509,110,899,world
-  - -1594,119,924,world
+  - -1559,-3,879,world
   - 8345,71,2115,world
   - -1536,90,837,world
   - -4163,185,-2941,world
   - -1512,104,925,world
   - -1513,111,854,world
   - -1512,-39,925,world
+  - -1554,115,908,world
   - -165,18,-7841,world
   - -1513,-51,854,world

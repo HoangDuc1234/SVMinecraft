@@ -156,7 +156,7 @@ tsunami:
   damage: 3.0
   # If set to true then tsunamis will clear the water shortly after
   remove_water: true
-  min_height: -50
+  min_height: 50
   max_level: 6
   frequency: 1.0
   volume: 1.0
@@ -174,7 +174,7 @@ supernova:
   far_particles: true
   # Controls how fast the crystal falls from the sky
   fall_speed_multiplier: 1.0
-  min_height: -60
+  min_height: 55
   max_level: 6
   frequency: 0.3
   volume: 1.0
@@ -187,7 +187,7 @@ hurricane:
   # Chance of lightning striking a player, every higher level will have a 10 fold higher chance to strike, the higher this value means the less likely lightning will strike
   lightning_frequency: 1.0
   # The minimum force of wind required to break blocks near players
-  block_break_force: 1
+  block_break_force: 0.04
   wind_height: 60
   min_height: 60
   max_level: 6
@@ -198,12 +198,12 @@ purge:
   start_delay: 10
   # How many mobs spawn for each level
   horde_size:
-    level 1: 5
-    level 2: 6
-    level 3: 7
-    level 4: 8
-    level 5: 9
-    level 6: 12
+    level 1: 8
+    level 2: 13
+    level 3: 20
+    level 4: 25
+    level 5: 35
+    level 6: 50
   # Will give the targeted player a progress boss bar and foggy world effects
   boss_bar: true
   # Change the name of the bossbar
@@ -211,10 +211,10 @@ purge:
   # The despawn speed is how fast mobs from the horde clear up in ticks
   despawn_speed: 40
   # Spawn distance is how far away the horde mobs spawn from the player, don't set this too high or the mobs will just despawn
-  spawn_distance: 15
-  min_height: -60
+  spawn_distance: 25
+  min_height: 0
   max_level: 6
-  frequency: 2.0
+  frequency: 0.3
   volume: 1.0
 plague:
   start_delay: 0
@@ -225,8 +225,6 @@ plague:
   - elder_guardian
   - armor_stand
   - warden
-  - iron_golem
-  - villager
   # Max number of entities that can be infected
   max_infected_mobs: 50
   max_level: 6
@@ -262,11 +260,11 @@ sandstorm:
 blizzard:
   start_delay: 5
   time:
-    level 1: 10
-    level 2: 20
-    level 3: 30
-    level 4: 40
-    level 5: 50
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
   # If set to true then entites can freeze into solid ice during blizzards
   freeze_entities: true
   # If set to true then entites frozen in ice will despawn out of render distance
@@ -274,7 +272,7 @@ blizzard:
   # If set to true then players wearing leather armor set pieces will take reduced damage in blizzards
   leather_armor_protection: true
   # The damage done to mobs every storm tick
-  damage: 0
+  damage: 0.75
   # The min freezing height is the minimum Y level entities must be to freeze solid, all entities below this will just die instead
   min_freezing_height: 60
   # Particle max distance means the radius in blocks players can see blizzard particles on the X and Z axis
@@ -291,13 +289,13 @@ blizzard:
 acidstorm:
   start_delay: 5
   time:
-    level 1: 15
-    level 2: 30
-    level 3: 60
-    level 4: 100
-    level 5: 150
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
   # Damage done to entities in acid rain
-  damage: 0.5
+  damage: 1.0
   # If set to true then metal items will melt if left in acid rain such as iron, gold, and chainmail
   melt_dropped_items: true
   # If set to true then entities wearing metal armor such as iron, gold, or chainmail will take extra damage to their armor
@@ -319,7 +317,7 @@ acidstorm:
   # Control what effects are given to entities in acid storms (remove and add, potions must be the vanilla name in game and formatted as follows: POTION_NAME: GAME_TICKS)
   effects:
     blindness: 20
-    poison: 200
+    poison: 10
   # Control what blocks are changed to what in acid rain (remove and add, format is as follows: VANILLA_BLOCK_NAME: NEW_VANILLA_BLOCK_NAME)
   block_changes:
     iron_block: air
@@ -345,17 +343,17 @@ acidstorm:
     deepslate_copper_ore: deepslate
   min_height: 50
   max_level: 5
-  frequency: 0.4
+  frequency: 0.6
   volume: 1.0
   name: '&aAcid Storm'
 soulstorm:
   start_delay: 5
   time:
-    level 1: 10
-    level 2: 20
-    level 3: 30
-    level 4: 40
-    level 5: 50
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
   # If set to true then lost souls will spawn around players in soulstorms
   spawn_souls: true
   min_height: 0
@@ -366,31 +364,31 @@ soulstorm:
 extremewinds:
   start_delay: 5
   time:
-    level 1: 30
-    level 2: 40
-    level 3: 50
-    level 4: 70
-    level 5: 80
-    level 6: 100
+    level 1: 60
+    level 2: 60
+    level 3: 80
+    level 4: 100
+    level 5: 120
+    level 6: 120
   force:
     # The force of the wind for each level. This will have a big impact on performance
-    level 1: 0.05
-    level 2: 0.1
-    level 3: 0.15
-    level 4: 0.2
-    level 5: 0.25
+    level 1: 0.03
+    level 2: 0.06
+    level 3: 0.1
+    level 4: 0.14
+    level 5: 0.18
     level 6: 0.3
   # Max particles displayed for each player
   max_particles: 150
   # Winds have a smart algorithm to determine if you are in a building or not, this value is how many blocks it should check for a roof, the higher a number the more performance heavy it will be especially for big servers
   interior_height_distance: 6
   # How strong winds need to be to rip blocks from buildings
-  block_break_force: 1
+  block_break_force: 0.1
   # This controls the minimum Y level that winds can affect entities
   wind_height: 50
   # Controls if entities are pushed by winds or not
   push_entities: true
-  min_height: -30
+  min_height: 60
   max_level: 6
   frequency: 0.6
   volume: 1.0
@@ -428,7 +426,7 @@ endstorm:
   max_tp_range: 10
   # Max number of void mobs that can exist during an end storm
   max_rift_entities: 15
-  min_height: -100
+  min_height: 0
   max_level: 5
   frequency: 1.0
   volume: 1.0
@@ -436,11 +434,11 @@ endstorm:
 solarstorm:
   start_delay: 5
   time:
-    level 1: 10
-    level 2: 20
-    level 3: 30
-    level 4: 40
-    level 5: 50
+    level 1: 60
+    level 2: 90
+    level 3: 120
+    level 4: 150
+    level 5: 200
   # Will change the time to sunset if set to true
   set_sunset: true
   # Chance of catching fire every storm tick for entities near heat sources
@@ -449,7 +447,7 @@ solarstorm:
   fire_spawn_rate: 1.0
   # Control the size of fireball explosions
   fireball_explosion_size: 3.0
-  min_height: -60
+  min_height: 60
   max_level: 5
   frequency: 1.0
   volume: 1.0

@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 58.186.128.142
+ip-address: 42.114.170.172
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,37 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1740305758693
+  lastteleport: 1740386167050
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740306443721
-  login: 1740296348790
+  logout: 1740388352273
+  login: 1740385899461
 money: '0'
 last-account-name: taqsoimh
 lastlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1565.8857140009202
-  y: 106.0
-  z: 876.402975305401
-  yaw: -86.788330078125
-  pitch: 6.899908065795898
+  x: -1855.1803826990486
+  y: 64.0
+  z: 1057.6190299800585
+  yaw: 72.92138671875
+  pitch: 5.399875640869141
 logoutlocation:
-  world: 68c6649e-95ca-449e-845f-9fdd42053586
-  world-name: world
-  x: -1564.4926175979674
-  y: 106.0
-  z: 873.6630499445704
-  yaw: -136.1810302734375
-  pitch: -3.7499406337738037
+  world: a247729e-4e99-4903-9b81-b1d41f85d80c
+  world-name: world_nether
+  x: 322.18339234233605
+  y: 15.0
+  z: 251.6851226284589
+  yaw: -92.6793212890625
+  pitch: 3.9000115394592285
+homes:
+  home:
+    world: 68c6649e-95ca-449e-845f-9fdd42053586
+    world-name: world
+    x: -1557.4812136052733
+    y: 118.0
+    z: 868.5106126834944
+    yaw: -102.580078125
+    pitch: 3.29988169670105

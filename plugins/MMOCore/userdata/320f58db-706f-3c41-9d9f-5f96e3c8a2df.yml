@@ -1,17 +1,17 @@
 class-points: 1
-skill-points: 26
+skill-points: 50
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 27
-experience: 140.47138049057958
+level: 51
+experience: 1600.6803060659463
 class: ADC
 waypoints: []
 friends: []
-last-login: 1740305891523
+last-login: 1740380488374
 skill-tree-reallocation-points: 0
-health: 70.0
-mana: 108.0
+health: 118.0
+mana: 180.0
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -142,17 +142,21 @@ skill-tree-level:
 times-claimed:
   class_ADC:
     class_exp_table:
-      skill_point: 2
+      skill_point: 26
   class_MARKSMAN:
     class_exp_table:
       skill_point: 24
 attribute:
-  dexterity: 2
+  dexterity: 7
   strength: 0
   intelligence: 0
 profession:
+  enchanting:
+    exp: 70.0
+  smithing:
+    exp: 0.0
   farming:
-    exp: 38.70232044484863
+    exp: 39.72586143745717
     level: 3
   mining:
     exp: 125.0
