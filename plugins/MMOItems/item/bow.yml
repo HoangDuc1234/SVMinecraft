@@ -410,3 +410,19 @@ TEST:
         cooldown: 1.0
     attack-speed: 20.0
     item-cooldown: 0.1
+GANYUBOW:
+  base:
+    material: BOW
+    arrow-particles:
+      particle: GLOW
+      amount: 20
+    attack-damage: 200.0
+    enchants:
+      mending: 1.0
+    safe-fall-distance: 1024.0
+    unbreakable: true
+    skill-critical-strike-chance: 50.0
+    skill-critical-strike-power: 100.0
+    dodge-rating: 100.0
+    dodge-cooldown-reduction: 100.0
+    name: '&bGanyu Bow'

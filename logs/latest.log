@@ -1,729 +1,978 @@
-[03:37:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Linux 6.1.0-31-cloud-amd64 (amd64)
-[03:37:22] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) for Minecraft 1.21
-[03:37:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:37:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 33 plugins
-[03:37:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (33):
- - BloodNight (0.12.0), ChatInjector (1.1), Citizens (2.0.35-SNAPSHOT (build 3545)), CommandToItem (${version}), ConsoleSpamFix (1.10.0), Craftorithm (1.10.17-20250121), DeadlyDisasters (12.1), DecentHolograms (2.8.14), Essentials (2.21.0-dev+171-8313d52), EssentialsSpawn (2.21.0-dev+171-8313d52), HoloMobHealth (2.3.12.1), ItemEdit (3.6.3), LevelledMobs (4.2.0.2 b98), LibsDisguises (10.0.44-SNAPSHOT), LuckPerms (5.4.154), MMOCore (1.13.1-SNAPSHOT), MMOItems (6.10), MultiWorld (5.2.8), MythicLib (1.7), MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0-SNAPSHOT-741), RealisticSeasons (11.6.7), Shopkeepers (2.23.3), SkinsRestorer (15.5.3), SmoothTimber (1.27.3), TAB (5.0.6), TorchLight (1.1.1), TreeCuter (v1.8.8), Vault (1.7.3-b131), WorldEdit (7.3.10-beta-01+cb9fd58), WorldGuard (7.0.12+829a4a4), packetevents (2.7.0)
-[03:37:28] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[03:37:28] [ServerMain/WARN]: resource-pack-id missing, using default of 682c4367-6073-32e0-9ce5-16f58a00af2e
-[03:37:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:37:30] [ServerMain/INFO]: Loaded 1290 recipes
-[03:37:30] [ServerMain/INFO]: Loaded 1399 advancements
-[03:37:30] [Server thread/INFO]: Starting minecraft server version 1.21
-[03:37:30] [Server thread/WARN]: ****************************
-[03:37:30] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[03:37:30] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[03:37:30] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[03:37:30] [Server thread/WARN]: ****************************
-[03:37:30] [Server thread/INFO]: Loading properties
-[03:37:30] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[03:37:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:37:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:37:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:37:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[03:37:33] [Server thread/INFO]: Default game type: SURVIVAL
-[03:37:33] [Server thread/INFO]: Generating keypair
-[03:37:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:37:33] [Server thread/INFO]: Using epoll channel type
-[03:37:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:37:33] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[03:37:33] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[03:37:34] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /home/namzzabc125/SVMinecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loading 13 libraries... please wait
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/core/2.1.9/core-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/updater/2.1.9/updater-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/messaging/2.1.9/messaging-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-minimessage/4.15.0/adventure-text-minimessage-4.15.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-api/4.15.0/adventure-api-4.15.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-key/4.15.0/adventure-key-4.15.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-plain/4.14.0/adventure-text-serializer-plain-4.14.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/commands/2.1.9/commands-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/debugging/2.1.9/debugging-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/localization/2.1.9/localization-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/plugin/2.1.9/plugin-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/configuration/2.1.9/configuration-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/metrics/2.1.9/metrics-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/inventory/2.1.9/inventory-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/items/2.1.9/items-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/conversation/2.1.9/conversation-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/threading/2.1.9/threading-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/crossversion/2.1.9/crossversion-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/entities/2.1.9/entities-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/de/eldoria/util/legacy-serialization/2.1.9/legacy-serialization-2.1.9.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
-[03:37:36] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
-[03:37:36] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[03:37:47] [Server thread/WARN]: Legacy plugin MultiWorld v5.2.8 does not specify an api-version.
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[03:37:47] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/namzzabc125/SVMinecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
-[03:37:49] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.154
-[03:37:49] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[03:37:49] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-741
-[03:37:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[03:37:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@41fac396]
-[03:37:51] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.7.0
-[03:37:54] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[03:37:54] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
-[03:37:54] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.44-SNAPSHOT
-[03:37:54] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[03:37:54] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[03:37:54] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[03:37:54] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.7
-[03:37:54] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-1.7.jar'
-[03:37:54] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_21_R1
-[03:37:54] [Server thread/INFO]: [MythicLib] Hooked onto WorldGuard
-[03:37:54] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.35-SNAPSHOT (build 3545)
-[03:37:54] [Server thread/INFO]: [MMOCore] Loading server plugin MMOCore v1.13.1-SNAPSHOT
-[03:37:54] [Server thread/INFO]: [MMOCore] Plugin file is called 'MMOCore-1.13.1-SNAPSHOT.jar'
-[03:37:54] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.6.7
-[03:37:54] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.3
-[03:37:55] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (951 ms).
-[03:37:55] [Server thread/INFO]: [Shopkeepers] Loading config.
-[03:37:55] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
-[03:37:55] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[03:37:55] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
-[03:37:55] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
-[03:37:55] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
-[03:37:55] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
-[03:37:55] [Server thread/INFO]: [Shopkeepers] Registering defaults.
-[03:37:55] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.10
-[03:37:55] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.10.jar'
-[03:37:55] [Server thread/INFO]: [MMOItems] Hooked onto WorldEdit
-[03:37:55] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:37:56] [Server thread/INFO]: [MMOItems Template Modifiers] Preloading template modifiers, please wait..
-[03:37:56] [Server thread/INFO]: [MMOItems Item Templates] Preloading item templates, please wait..
-[03:37:56] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+171-8313d52
-[03:37:56] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
-[03:37:56] [Server thread/INFO]: [TreeCuter] Loading server plugin TreeCuter vv1.8.8
-[03:37:56] [Server thread/INFO]: [CommandToItem] Loading server plugin CommandToItem v${version}
-[03:37:56] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.6
-[03:37:56] [Server thread/INFO]: [DeadlyDisasters] Loading server plugin DeadlyDisasters v12.1
-[03:37:56] [Server thread/INFO]: [ChatInjector] Loading server plugin ChatInjector v1.1
-[03:37:56] [Server thread/INFO]: [BloodNight] Debug logger initialized. Log Level: INFO
-[03:37:56] [Server thread/INFO]: [BloodNight] Loading server plugin BloodNight v0.12.0
-[03:37:56] [Server thread/INFO]: [ConsoleSpamFix] Loading server plugin ConsoleSpamFix v1.10.0
-[03:37:56] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2.3.12.1
-[03:37:56] [Server thread/INFO]: [HoloMobHealth] Registering WorldGuard State Flags...
-[03:37:56] [Server thread/INFO]: [MultiWorld] Loading server plugin MultiWorld v5.2.8
-[03:37:56] [Server thread/INFO]: [Craftorithm] Loading server plugin Craftorithm v1.10.17-20250121
-[03:37:56] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.3
-[03:37:56] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.14
-[03:37:56] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.6.3
-[03:37:56] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.2 b98
-[03:37:56] [Server thread/INFO]: [LevelledMobs] Loading commands
-[03:37:56] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+171-8313d52
-[03:37:56] [Server thread/INFO]: [TorchLight] Loading server plugin TorchLight v1.1.1
-[03:37:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:37:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.154
-[03:37:57] [Server thread/INFO]:         __    
-[03:37:57] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.154
-[03:37:57] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[03:37:57] [Server thread/INFO]: 
-[03:37:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:37:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:37:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:37:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:37:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1582ms)
-[03:37:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[03:37:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[03:37:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[03:37:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[03:37:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[03:37:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-741
-[03:37:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[03:37:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:37:58] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[03:37:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[03:38:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
-[03:38:00] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[03:38:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[03:38:02] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:38:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.3]
-[03:38:02] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[03:38:02] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.10.0
-[03:38:02] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.21
-[03:38:02] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
-[03:38:02] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
-[03:38:02] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
-[03:38:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:38:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:38:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:38:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:38:02] [Server thread/INFO]: Preparing level "world"
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.3
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 86e796c
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:38:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[03:38:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:38:05] [Server thread/INFO]: Time elapsed: 1775 ms
-[03:38:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:38:05] [Server thread/INFO]: Time elapsed: 356 ms
-[03:38:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:38:05] [Server thread/INFO]: Time elapsed: 132 ms
-[03:38:05] [Server thread/INFO]: [packetevents] Enabling packetevents v2.7.0
-[03:38:05] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[03:38:05] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[03:38:06] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.7.0)
-[03:38:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[03:38:06] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[03:38:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[03:38:06] [Server thread/INFO]: [WorldGuard] Loading region data...
-[03:38:07] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.44-SNAPSHOT
-[03:38:07] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises.jar
-[03:38:07] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: {Not package relocated}) (LD: v1_21_R1) (MC: 1.21)
-[03:38:07] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1535
-[03:38:07] [Server thread/INFO]: [LibsDisguises] Build Date: 24/02/2025 01:18
-[03:38:07] [Server thread/ERROR]: [LibsDisguises] You are running an outdated version of Minecraft, you are currently using 1.21, you should update to a minimum of 1.21.4
-[03:38:09] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[03:38:09] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[03:38:09] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
-[03:38:10] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
-[03:38:10] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
-[03:38:10] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[03:38:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: libsdisguises [1.0.0]
-[03:38:10] [Server thread/INFO]: [LibsDisguises] PlaceholderAPI support enabled
-[03:38:10] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[03:38:11] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.0)...
-[03:38:11] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[03:38:12] [Server thread/INFO]: [MythicMobs] END_SPAWN_POINT
-[03:38:12] [Server thread/INFO]: [MythicMobs] RAIN_DELAY
-[03:38:12] [Server thread/INFO]: [MythicMobs] RAIN_DURATION
-[03:38:12] [Server thread/INFO]: [MythicMobs] THUNDER_DELAY
-[03:38:12] [Server thread/INFO]: [MythicMobs] THUNDER_DURATION
-[03:38:12] [Server thread/INFO]: [MythicMobs] LOGGER
-[03:38:12] [Server thread/INFO]: [MythicMobs] EMPTY_TIME_NO_TICK
-[03:38:12] [Server thread/INFO]: [MythicMobs] MAX_SCHEDULED_TICKS_PER_TICK
-[03:38:12] [Server thread/INFO]: [MythicMobs] players
-[03:38:12] [Server thread/INFO]: [MythicMobs] chunkSource
-[03:38:12] [Server thread/INFO]: [MythicMobs] server
-[03:38:12] [Server thread/INFO]: [MythicMobs] serverLevelData
-[03:38:12] [Server thread/INFO]: [MythicMobs] lastSpawnChunkRadius
-[03:38:12] [Server thread/INFO]: [MythicMobs] entityTickList
-[03:38:12] [Server thread/INFO]: [MythicMobs] gameEventDispatcher
-[03:38:12] [Server thread/INFO]: [MythicMobs] noSave
-[03:38:12] [Server thread/INFO]: [MythicMobs] sleepStatus
-[03:38:12] [Server thread/INFO]: [MythicMobs] emptyTime
-[03:38:12] [Server thread/INFO]: [MythicMobs] portalForcer
-[03:38:12] [Server thread/INFO]: [MythicMobs] blockTicks
-[03:38:12] [Server thread/INFO]: [MythicMobs] fluidTicks
-[03:38:12] [Server thread/INFO]: [MythicMobs] pathTypesByPosCache
-[03:38:12] [Server thread/INFO]: [MythicMobs] navigatingMobs
-[03:38:12] [Server thread/INFO]: [MythicMobs] isUpdatingNavigations
-[03:38:12] [Server thread/INFO]: [MythicMobs] raids
-[03:38:12] [Server thread/INFO]: [MythicMobs] blockEvents
-[03:38:12] [Server thread/INFO]: [MythicMobs] blockEventsToReschedule
-[03:38:12] [Server thread/INFO]: [MythicMobs] handlingTick
-[03:38:12] [Server thread/INFO]: [MythicMobs] customSpawners
-[03:38:12] [Server thread/INFO]: [MythicMobs] dragonFight
-[03:38:12] [Server thread/INFO]: [MythicMobs] dragonParts
-[03:38:12] [Server thread/INFO]: [MythicMobs] structureManager
-[03:38:12] [Server thread/INFO]: [MythicMobs] structureCheck
-[03:38:12] [Server thread/INFO]: [MythicMobs] tickTime
-[03:38:12] [Server thread/INFO]: [MythicMobs] preciseTime
-[03:38:12] [Server thread/INFO]: [MythicMobs] forceTime
-[03:38:12] [Server thread/INFO]: [MythicMobs] randomSequences
-[03:38:12] [Server thread/INFO]: [MythicMobs] convertable
-[03:38:12] [Server thread/INFO]: [MythicMobs] uuid
-[03:38:12] [Server thread/INFO]: [MythicMobs] hasPhysicsEvent
-[03:38:12] [Server thread/INFO]: [MythicMobs] hasEntityMoveEvent
-[03:38:12] [Server thread/INFO]: [MythicMobs] wireHandler
-[03:38:12] [Server thread/INFO]: [MythicMobs] hasRidableMoveEvent
-[03:38:12] [Server thread/INFO]: [MythicMobs] markedClosing
-[03:38:12] [Server thread/INFO]: [MythicMobs] viewDistanceHolder
-[03:38:12] [Server thread/INFO]: [MythicMobs] chunkLoader
-[03:38:12] [Server thread/INFO]: [MythicMobs] entityDataController
-[03:38:12] [Server thread/INFO]: [MythicMobs] poiDataController
-[03:38:12] [Server thread/INFO]: [MythicMobs] chunkDataController
-[03:38:12] [Server thread/INFO]: [MythicMobs] chunkTaskScheduler
-[03:38:12] [Server thread/INFO]: [MythicMobs] lastMidTickFailure
-[03:38:12] [Server thread/INFO]: [MythicMobs] tickedBlocksOrFluids
-[03:38:12] [Server thread/INFO]: [MythicMobs] nearbyPlayers
-[03:38:12] [Server thread/INFO]: [MythicMobs] EMPTY_CHUNK_AND_HOLDERS
-[03:38:12] [Server thread/INFO]: [MythicMobs] loadedChunks
-[03:38:12] [Server thread/INFO]: [MythicMobs] tickingChunks
-[03:38:12] [Server thread/INFO]: [MythicMobs] entityTickingChunks
-[03:38:12] [Server thread/INFO]: [MythicMobs] lagCompensationTick
-[03:38:12] [Server thread/INFO]: [MythicMobs] currentlyTickingEntity
-[03:38:12] [Server thread/INFO]: [MythicMobs] Mythic LibsDisguises Support has been enabled!
-[03:38:12] [Server thread/INFO]: [MythicMobs] Mythic MMOItems Support has been enabled!
-[03:38:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythic [5.0.0]
-[03:38:12] [Server thread/INFO]: [MythicMobs] Mythic PlaceholderAPI Support has been enabled!
-[03:38:12] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
-[03:38:12] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
-[03:38:12] [Server thread/INFO]: [MythicMobs] Mythic WorldGuard Support has been enabled!
-[03:38:12] [Server thread/INFO]: [MythicMobs] Base directory /home/namzzabc125/SVMinecraft/plugins/MythicMobs/data
-[03:38:12] [Server thread/INFO]: [MythicMobs] Module directory /home/namzzabc125/SVMinecraft/plugins/MythicMobs/data/worlds
-[03:38:12] [Server thread/INFO]: [MythicMobs] -- File /home/namzzabc125/SVMinecraft/plugins/MythicMobs/data/worlds/world.txt
-[03:38:15] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[03:38:15] [Server thread/INFO]: [MythicMobs] Loading Items...
-[03:38:16] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[03:38:16] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[03:38:16] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[03:38:16] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[03:38:16] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/GokuSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/GokuSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/GokuSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/GokuSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/HDucSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/HDucSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/HDucSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
-[03:38:16] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: /home/namzzabc125/SVMinecraft/plugins/MythicMobs/skills/HDucSkills.yml
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
-[03:38:16] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 15 mobs.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 vanilla mob overrides.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 92 skills.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 random spawns.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[03:38:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[03:38:16] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[03:38:17] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[03:38:17] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[03:38:17] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.7
-[03:38:17] [Server thread/INFO]: [MythicLib] Hooked onto TextDisplays (holograms)
-[03:38:17] [Server thread/INFO]: [MythicMobs] MMO Plugin Support has been enabled!
-[03:38:17] [Server thread/INFO]: [MythicLib] Hooked onto MythicMobs
-[03:38:17] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
-[03:38:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythiclib [1.7]
-[03:38:17] [Server thread/INFO]: [MythicLib] Hooked onto PlaceholderAPI
-[03:38:17] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3545)
-[03:38:17] [Server thread/INFO]: [Citizens] Loading external libraries
-[03:38:18] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
-[03:38:18] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[03:38:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[03:38:18] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[03:38:18] [Server thread/INFO]: [MMOCore] Enabling MMOCore v1.13.1-SNAPSHOT
-[03:38:18] [Server thread/INFO]: [MMOCore] [Spigotunlocked.com] - Hello
-[03:38:18] [Server thread/INFO]: [MMOCore] Hooked onto Vault
-[03:38:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmocore [1.13.1-SNAPSHOT]
-[03:38:18] [Server thread/INFO]: [MMOCore] Hooked onto PlaceholderAPI
-[03:38:18] [Server thread/INFO]: [MMOCore] Hooked onto Citizens
-[03:38:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.Indyuce.mmocore.comp.region.pvpmode.PvPModeHandler
-[03:38:18] [Server thread/INFO]: [WorldGuard] Registering session handler net.Indyuce.mmocore.comp.region.pvpmode.PvPFlagHandler
-[03:38:18] [Server thread/INFO]: [MMOCore] Hooked onto WorldGuard
-[03:38:18] [Server thread/INFO]: [MMOCore] Hooked onto MythicMobs
-[03:38:19] [Server thread/WARN]: [MMOCore] Could not load loot chest region 'sample-region' from file 'default_loot_chests.yml': Could not find world 'world_name_here'
-[03:38:19] [Server thread/INFO]: [MMOCore] Hooked parties onto MMOCore
-[03:38:19] [Server thread/INFO]: [MMOCore] Hooked guilds onto MMOCore
-[03:38:19] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.6.7
-[03:38:19] [Server thread/INFO]: [RealisticSeasons] [Spigotunlocked.com] - COSMO
-[03:38:19] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.3
-[03:38:19] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
-[03:38:19] [Server thread/INFO]: [Shopkeepers] Loading the data of 8 shopkeepers ...
-[03:38:20] [Server thread/INFO]: [MMOItems] Enabling MMOItems v6.10
-[03:38:20] [Server thread/INFO]: [MMOItems] [Spigotunlocked.com] - COSMO
-[03:38:20] [Server thread/INFO]: [MMOItems] Hooked onto MythicMobs
-[03:38:20] [Server thread/INFO]: [MMOItems] Hooked onto MMOCore
-[03:38:20] [Server thread/INFO]: [MMOItems] Now using MMOCore as RPG core plugin
-[03:38:20] [Server thread/INFO]: [MMOItems ARMOR HAT] Could not load base item data 'item-particles': Particle is missing type or selected particle.
-[03:38:20] [Server thread/INFO]: [MMOItems STAFF ST1] Could not load base item data 'ability': Missing ability trigger type/casting mode
-[03:38:20] [Server thread/INFO]: [MMOItems Template Modifiers] Loading template modifiers, please wait..
-[03:38:20] [Server thread/INFO]: [MMOItems Item Templates] Loading item templates, please wait...
-[03:38:20] [Server thread/INFO]: [MMOItems] Hooked onto Vault
-[03:38:20] [Server thread/INFO]: [MMOItems] Loading crafting stations, please wait..
-[03:38:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmoitems [6.10]
-[03:38:20] [Server thread/INFO]: [MMOItems] Hooked onto PlaceholderAPI
-[03:38:20] [Server thread/INFO]: [MMOItems] Loading recipes, please wait...
-[03:38:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+171-8313d52
-[03:38:21] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[03:38:21] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[03:38:21] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[03:38:21] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[03:38:21] [Server thread/INFO]: [Essentials] Using locale en
-[03:38:22] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[03:38:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[03:38:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[03:38:22] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[03:38:22] [Server thread/INFO]: [TreeCuter] Enabling TreeCuter vv1.8.8
-[03:38:22] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Found server version 1.21.0
-[03:38:22] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Loaded transparent mappings.
-[03:38:22] [Server thread/WARN]: Glowing is not supported on this server version: 1.21-2284-4e55e26 (MC: 1.21)
-[03:38:22] [Server thread/WARN]: Suported ver: [1.17.1, 1.18.2, 1.19.4, 1.20.2, 1.20.4, 1.20.5, 1.20.6, 1.21.1,  1.21.2, 1.21.3, 1.21.4]
-[03:38:22] [Server thread/WARN]: Suported engines: Paper and forks
-[03:38:22] [Server thread/WARN]: 
-[03:38:22] [Server thread/INFO]: 
-[03:38:22] [Server thread/INFO]: TreeCuter by Norbit4!
-[03:38:22] [Server thread/INFO]: 
-[03:38:22] [Server thread/INFO]: Hooked to: WorldGuard
-[03:38:22] [Server thread/INFO]: Hooked to: PlaceholderAPI
-[03:38:22] [Server thread/INFO]: 
-[03:38:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: treecuter [1.8.7]
-[03:38:22] [Server thread/INFO]: [CommandToItem] Enabling CommandToItem v${version}
-[03:38:22] [Server thread/INFO]: [CommandToItem] Metrics started. This can be disabled at /plugins/bStats/config.yml.
-[03:38:22] [Server thread/WARN]: [CommandToItem] Failed to resolve server version - some features will not work!
-[03:38:22] [Server thread/WARN]: [CommandToItem] Unrecognised enchantment: minecraft
-[03:38:22] [Server thread/WARN]: [CommandToItem] Unrecognised material: GOLD_SWORD
-[03:38:22] [Server thread/INFO]: [TAB] Enabling TAB v5.0.6
-[03:38:22] [Server thread/INFO]: [TAB] Loaded NMS hook in 58ms
-[03:38:23] [Server thread/INFO]: [TAB] Enabled in 690ms
-[03:38:23] [Server thread/INFO]: [DeadlyDisasters] Enabling DeadlyDisasters v12.1
-[03:38:23] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into RealisticSeasons
-[03:38:23] [Server thread/INFO]: [DeadlyDisasters] RealisticSeasons is detected but this feature is disabled in the seasons.yml file!
-[03:38:23] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into World Guard
-[03:38:23] [Server thread/INFO]: [DeadlyDisasters]: There is an optional dependency UIFramework, that adds some custom items to DeadlyDisasters such as the plague cure potion, basic coating enchant, and more! Get UIFramework here: https://www.spigotmc.org/resources/uiframework.110768/
-[03:38:24] [Server thread/INFO]: [DeadlyDisasters] Checking for update...
-[03:38:24] [Server thread/INFO]: [ChatInjector] Enabling ChatInjector v1.1
-[03:38:24] [Server thread/INFO]: [BloodNight] Enabling BloodNight v0.12.0
-[03:38:24] [Server thread/INFO]: [BloodNight] Loading config.
-[03:38:24] [Server thread/INFO]: [BloodNight] Locale plugins/BloodNight/messages/messages_zh_CN.properties is up to date.
-[03:38:24] [Server thread/INFO]: [BloodNight] Locale plugins/BloodNight/messages/messages_en_US.properties is up to date.
-[03:38:24] [Server thread/INFO]: [BloodNight] Locale plugins/BloodNight/messages/messages_tr.properties is up to date.
-[03:38:24] [Server thread/INFO]: [BloodNight] Locale plugins/BloodNight/messages/messages_es_ES.properties is up to date.
-[03:38:24] [Server thread/INFO]: [BloodNight] Locale plugins/BloodNight/messages/messages_de_DE.properties is up to date.
-[03:38:24] [Server thread/ERROR]: [BloodNight] Could not load default locale
-[03:38:24] [Server thread/INFO]: [BloodNight] Determining message sender type
-[03:38:24] [Server thread/INFO]: [BloodNight] Using Paper Message Sender
-[03:38:24] [Server thread/INFO]: [BloodNight] §2Metrics enabled. Thank you! (> ^_^ )>
-[03:38:24] [Server thread/INFO]: [BloodNight] Hook into MythicMobs successful.
-[03:38:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bloodnight [0.12.0]
-[03:38:24] [Server thread/INFO]: [BloodNight] Hook into PlaceholderAPI successful.
-[03:38:24] [Server thread/INFO]: [BloodNight] Hook into Multiverse-Core failed. Plugin is not enabled.
-[03:38:24] [Server thread/INFO]: [BloodNight] Hook into Hyperverse failed. Plugin is not enabled.
-[03:38:24] [Server thread/INFO]: [BloodNight] Loading config.
-[03:38:24] [Server thread/INFO]: [BloodNight] BloodNight enabled!
-[03:38:24] [Server thread/INFO]: [BloodNight] Enabled. Required 612 ms.
-[03:38:24] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2.3.12.1
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Hooked into Citizens!
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Hooked into MythicMobs!
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Hooked into Shopkeepers!
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Hooked into PlaceholderAPI!
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Hooked into WorldGuard! (v7)
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
-[03:38:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: holomobhealth [1.0.0]
-[03:38:27] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
-[03:38:27] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.8*
-[03:38:27] [Server thread/INFO]: [MultiWorld] v5.2.8 enabled.
-[03:38:27] [Server thread/INFO]: [Craftorithm] Enabling Craftorithm v1.10.17-20250121
-[03:38:27] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.3
-[03:38:27] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21 (Core v1_20x)
-[03:38:27] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'PlaceholderApi' for plugin 'PlaceholderAPI'...
-[03:38:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: smoothtimber [1.27.3]
-[03:38:28] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'PlaceholderApi' for plugin 'PlaceholderAPI'...
-[03:38:28] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'WorldGuard' for plugin 'WorldGuard'...
-[03:38:28] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'WorldGuard' for plugin 'WorldGuard'...
-[03:38:28] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.14
-[03:38:28] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
-[03:38:28] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[03:38:28] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[03:38:28] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.6.3
-[03:38:28] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
-[03:38:28] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
-[03:38:28] [Server thread/INFO]: [ItemEdit] Hooking into Vault
-[03:38:28] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
-[03:38:28] [Server thread/INFO]: [ItemEdit] placeholders:
-[03:38:28] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
-[03:38:28] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
-[03:38:28] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
-[03:38:28] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
-[03:38:28] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
-[03:38:28] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
-[03:38:28] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
-[03:38:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
-[03:38:28] [Server thread/INFO]: [ItemEdit] Hooking into MythicMobs
-[03:38:28] [Server thread/INFO]: [ItemEdit] # Enabled (took 256 ms)
-[03:38:28] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.2 b98
-[03:38:28] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[03:38:28] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[03:38:28] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
-[03:38:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[03:38:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[03:38:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[03:38:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[03:38:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[03:38:29] [Server thread/INFO]: [LevelledMobs] Current rules hash: ce3a165d87358e63b37eaaafb124331cb90da10cd74b4cf4b734e2ccec4227ea
-[03:38:29] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[03:38:29] [Server thread/WARN]: [LevelledMobs] Invalid number or number range for amount on ALL_MOBS, {1-10=1, 11-20=2, 21-30=3, 31-40=4, 41-50=5, 51-60=6, 61-70=7, 71-80=8, 81-90=9, 91-100=10}
-[03:38:29] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[03:38:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.2.0.2 b98]
-[03:38:29] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[03:38:29] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[03:38:29] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 461ms)
-[03:38:29] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+171-8313d52
-[03:38:29] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[03:38:29] [Server thread/INFO]: [TorchLight] Enabling TorchLight v1.1.1
-[03:38:29] [Server thread/INFO]: [TorchLight] Offhand Torch Light is successfully enabled!
-[03:38:29] [Server thread/INFO]: [spark] Starting background profiler...
-[03:38:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[03:38:30] [Server thread/INFO]: Done preparing level "world" (27.773s)
-[03:38:30] [Server thread/INFO]: Running delayed init tasks
-[03:38:30] [Server thread/INFO]: [RealisticSeasons] [Spigotunlocked.com] - COSMO
-[03:38:30] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
-[03:38:30] [Craft Scheduler Thread - 10 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
-[03:38:30] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
-[03:38:30] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
-[03:38:30] [Craft Scheduler Thread - 9 - Essentials/WARN]: [Essentials] You're 9 EssentialsX dev build(s) out of date!
-[03:38:30] [Craft Scheduler Thread - 9 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[03:38:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
-[03:38:31] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 248
-[03:38:31] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin NeigeItems not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin Nexo not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin AzureFlow not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin EcoItems not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin ExecutableItems not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin ItemsAdder not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Found MMOItems, hooked successfully.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Found MythicMobs, hooked successfully.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin Oraxen not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin PlayerPoints not found.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Found Vault, hooked successfully.
-[03:38:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[03:38:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[03:38:31] [Server thread/INFO]: 2 placeholder hook(s) registered!
-[03:38:31] [Server thread/WARN]: [MythicMobs] ✗ Config Error for Targeter line '@PIR{r=3}': Failed to load custom targeter @PIR
-[03:38:31] [Server thread/WARN]: [MythicMobs] ✗ Config Error for Targeter line '@PIR{r=3}': Failed to load custom targeter @PIR
-[03:38:31] [Server thread/INFO]: [Citizens] Loaded 3 NPCs.
-[03:38:31] [Server thread/INFO]: [BloodNight] Post startup done. Required 0 ms.
-[03:38:31] [Server thread/INFO]: [Craftorithm] Plugin loaded successfully.
-[03:38:31] [Server thread/INFO]: Done (70.585s)! For help, type "help"
-[03:38:31] [Craft Scheduler Thread - 4 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[03:38:32] [Server thread/INFO]: [BloodNight] Executing cleanup task on startup.
-[03:38:32] [Server thread/INFO]: [BloodNight] Removed 0 hanging boss bars.
-[03:38:32] [Server thread/INFO]: [BloodNight] Night manager initialized.
-[03:40:36] [User Authenticator #0/INFO]: UUID of player HDuc is bd3a5fca-83f2-38a9-b281-607c49a1e59b
-[03:40:40] [Server thread/INFO]: HDuc joined the game
-[03:40:40] [Server thread/INFO]: HDuc[/42.1.77.112:10511] logged in with entity id 222 at ([world]-1536.5, 115.0, 868.5)
-[03:40:54] [Server thread/INFO]: HDuc lost connection: Disconnected
-[03:40:54] [Server thread/INFO]: HDuc left the game
-[03:50:07] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:118) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-Caused by: java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
-[03:56:33] [User Authenticator #1/INFO]: UUID of player HDuc is bd3a5fca-83f2-38a9-b281-607c49a1e59b
-[03:56:35] [Server thread/INFO]: HDuc joined the game
-[03:56:35] [Server thread/INFO]: HDuc[/42.1.77.112:3746] logged in with entity id 359 at ([world]-1543.4882820391729, 117.0, 858.8695194528088)
-[03:56:45] [Server thread/INFO]: HDuc issued server command: /stop
-[03:56:45] [Server thread/INFO]: [HDuc: Stopping the server]
-[03:56:45] [Server thread/INFO]: Stopping server
-[03:56:45] [Server thread/INFO]: [TorchLight] Disabling TorchLight v1.1.1
-[03:56:45] [Server thread/INFO]: [TorchLight] Offhand Torch Light is being disabled, cleaning up light blocks...
-[03:56:45] [Server thread/INFO]: [TorchLight] All light blocks have been cleaned up.
-[03:56:45] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+171-8313d52
-[03:56:45] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.2 b98
-[03:56:45] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[03:56:45] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[03:56:45] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 1ms)
-[03:56:45] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.6.3
-[03:56:45] [Craft Scheduler Thread - 12 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[03:56:45] [Craft Scheduler Thread - 6 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[03:56:45] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
-[03:56:45] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
-[03:56:45] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.14
-[03:56:45] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.3
-[03:56:45] [Server thread/INFO]: [Craftorithm] Disabling Craftorithm v1.10.17-20250121
-[03:56:45] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.8
-[03:56:45] [Server thread/INFO]: [MultiWorld] Disabled.
-[03:56:45] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2.3.12.1
-[03:56:45] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion holomobhealth
-[03:56:45] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin HoloMobHealth was disabled.
-[03:56:45] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
-[03:56:45] [Server thread/INFO]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.10.0
-[03:56:45] [Server thread/INFO]: [ConsoleSpamFix] Messages hidden since the server started: 0
-[03:56:45] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
-[03:56:45] [Server thread/INFO]: [BloodNight] Disabling BloodNight v0.12.0
-[03:56:45] [Server thread/INFO]: [BloodNight] Shutting down night manager.
-[03:56:45] [Server thread/INFO]: [BloodNight] Resolving blood nights.
-[03:56:45] [Server thread/INFO]: [BloodNight] Night manager shutdown successful.
-[03:56:45] [Server thread/INFO]: [BloodNight] Hooks shutting down.
-[03:56:45] [Server thread/INFO]: [BloodNight] Blood Night disabled!
-[03:56:45] [Server thread/INFO]: [ChatInjector] Disabling ChatInjector v1.1
-[03:56:45] [Server thread/INFO]: [DeadlyDisasters] Disabling DeadlyDisasters v12.1
-[03:56:45] [Server thread/INFO]: [TAB] Disabling TAB v5.0.6
-[03:56:45] [Server thread/INFO]: [TAB] Disabled in 2ms
-[03:56:45] [Server thread/INFO]: [CommandToItem] Disabling CommandToItem v${version}
-[03:56:45] [Server thread/INFO]: [TreeCuter] Disabling TreeCuter vv1.8.8
-[03:56:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.3
-[03:56:45] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+171-8313d52
-[03:56:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[03:56:45] [Server thread/INFO]: [MMOItems] Disabling MMOItems v6.10
-[03:56:45] [Server thread/INFO]: [MMOItems] Waiting for other threads, please wait...
-[03:56:45] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.3
-[03:56:45] [Server thread/INFO]: [RealisticSeasons] Disabling RealisticSeasons v11.6.7
-[03:56:45] [Server thread/INFO]: [MMOCore] Disabling MMOCore v1.13.1-SNAPSHOT
-[03:56:45] [Server thread/INFO]: [MMOCore] Waiting for other threads, please wait...
-[03:56:45] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.35-SNAPSHOT (build 3545)
-[03:56:45] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.7
-[03:56:45] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[03:56:45] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[03:56:45] [Server thread/INFO]: [MythicMobs] - 
-[03:56:45] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[03:56:45] [Server thread/INFO]: [MythicMobs] - 
-[03:56:45] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[03:56:45] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[03:56:45] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[03:56:45] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[03:56:45] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[03:56:45] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[03:56:45] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[03:56:45] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[03:56:45] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[03:56:45] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[03:56:45] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[03:56:45] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.44-SNAPSHOT
-[03:56:45] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
-[03:56:45] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[03:56:45] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[03:56:45] [Server thread/INFO]: [packetevents] Disabling packetevents v2.7.0
-[03:56:45] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
-[03:56:45] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[03:56:45] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-741
-[03:56:45] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[03:56:45] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.154
-[03:56:45] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:56:45] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:56:45] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:56:45] [Server thread/INFO]: Saving players
-[03:56:45] [Server thread/INFO]: HDuc lost connection: Server closed
-[03:56:45] [Server thread/INFO]: HDuc left the game
-[03:56:45] [Server thread/INFO]: Saving worlds
-[03:56:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 66 entity chunks, 0 poi chunks in world 'world' in 0.08s
-[03:56:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 18 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[03:56:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:56:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[03:56:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:56:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:56:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:56:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:59:44] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[10:59:44] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) for Minecraft 1.21
+[10:59:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:59:45] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\Sentinel-2.9.2-SNAPSHOT-b527.jar'...
+[10:59:45] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Sentinel-2.9.2-SNAPSHOT-b527.jar' in 349ms.
+[10:59:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 34 plugins
+[10:59:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (34):
+ - BloodNight (0.12.0), ChatInjector (1.1), Citizens (2.0.35-SNAPSHOT (build 3545)), CommandToItem (${version}), ConsoleSpamFix (1.10.0), Craftorithm (1.10.17-20250121), DeadlyDisasters (12.1), DecentHolograms (2.8.14), Essentials (2.21.0-dev+171-8313d52), EssentialsSpawn (2.21.0-dev+171-8313d52), HoloMobHealth (2.3.12.1), ItemEdit (3.6.3), LevelledMobs (4.2.0.2 b98), LibsDisguises (10.0.44-SNAPSHOT), LuckPerms (5.4.154), MMOCore (1.13.1-SNAPSHOT), MMOItems (6.10), MultiWorld (5.2.8), MythicLib (1.7), MythicMobs (5.7.2-${CI_COMMIT_SHORT_SHA}), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0-SNAPSHOT-741), RealisticSeasons (11.6.7), Sentinel (2.9.2-SNAPSHOT (build 527)), Shopkeepers (2.23.3), SkinsRestorer (15.5.3), SmoothTimber (1.27.3), TAB (5.0.6), TorchLight (1.1.1), TreeCuter (v1.8.8), Vault (1.7.3-b131), WorldEdit (7.3.10-beta-01+cb9fd58), WorldGuard (7.0.12+829a4a4), packetevents (2.7.0)
+[10:59:49] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[10:59:49] [ServerMain/WARN]: resource-pack-id missing, using default of 682c4367-6073-32e0-9ce5-16f58a00af2e
+[10:59:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:59:51] [ServerMain/INFO]: Loaded 1290 recipes
+[10:59:51] [ServerMain/INFO]: Loaded 1399 advancements
+[10:59:51] [Server thread/INFO]: Starting minecraft server version 1.21
+[10:59:51] [Server thread/INFO]: Loading properties
+[10:59:51] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[10:59:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:59:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:59:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:59:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[10:59:53] [Server thread/INFO]: Default game type: SURVIVAL
+[10:59:53] [Server thread/INFO]: Generating keypair
+[10:59:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:59:53] [Server thread/INFO]: Using default channel type
+[10:59:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:59:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-api\4.16.0\adventure-api-4.16.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-key\4.16.0\adventure-key-4.16.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-minimessage\4.16.0\adventure-text-minimessage-4.16.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-gson\4.16.0\adventure-text-serializer-gson-4.16.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-json\4.16.0\adventure-text-serializer-json-4.16.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\net\kyori\option\1.0.0\option-1.0.0.jar
+[10:59:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library F:\SVMC\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[10:59:55] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:00:01] [Server thread/WARN]: Legacy plugin MultiWorld v5.2.8 does not specify an api-version.
+[11:00:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-api\4.16.0\adventure-api-4.16.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-key\4.16.0\adventure-key-4.16.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-minimessage\4.16.0\adventure-text-minimessage-4.16.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-gson\4.16.0\adventure-text-serializer-gson-4.16.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-json\4.16.0\adventure-text-serializer-json-4.16.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\option\1.0.0\option-1.0.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-legacy\4.16.0\adventure-text-serializer-legacy-4.16.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loading 13 libraries... please wait
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\core\2.1.9\core-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\updater\2.1.9\updater-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\messaging\2.1.9\messaging-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-minimessage\4.15.0\adventure-text-minimessage-4.15.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-api\4.15.0\adventure-api-4.15.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-key\4.15.0\adventure-key-4.15.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-plain\4.14.0\adventure-text-serializer-plain-4.14.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\commands\2.1.9\commands-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\debugging\2.1.9\debugging-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\localization\2.1.9\localization-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\plugin\2.1.9\plugin-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\configuration\2.1.9\configuration-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\metrics\2.1.9\metrics-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\inventory\2.1.9\inventory-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\items\2.1.9\items-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\conversation\2.1.9\conversation-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\threading\2.1.9\threading-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\crossversion\2.1.9\crossversion-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\entities\2.1.9\entities-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\de\eldoria\util\legacy-serialization\2.1.9\legacy-serialization-2.1.9.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-bukkit\4.3.4\adventure-platform-bukkit-4.3.4.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-api\4.3.4\adventure-platform-api-4.3.4.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.4\adventure-text-serializer-bungeecord-4.3.4.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-gson\4.13.1\adventure-text-serializer-gson-4.13.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-facet\4.3.4\adventure-platform-facet-4.3.4.jar
+[11:00:03] [Server thread/INFO]: [SpigotLibraryLoader] [BloodNight] Loaded library F:\SVMC\libraries\net\kyori\adventure-platform-viaversion\4.3.4\adventure-platform-viaversion-4.3.4.jar
+[11:00:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.154
+[11:00:03] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:00:03] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-741
+[11:00:04] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[11:00:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@157ea16d]
+[11:00:05] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.7.0
+[11:00:08] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:00:08] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[11:00:08] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.44-SNAPSHOT
+[11:00:08] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[11:00:08] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[11:00:08] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[11:00:08] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.7
+[11:00:08] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-1.7.jar'
+[11:00:08] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_21_R1
+[11:00:08] [Server thread/INFO]: [MythicLib] Hooked onto WorldGuard
+[11:00:08] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.35-SNAPSHOT (build 3545)
+[11:00:08] [Server thread/INFO]: [MMOCore] Loading server plugin MMOCore v1.13.1-SNAPSHOT
+[11:00:08] [Server thread/INFO]: [MMOCore] Plugin file is called 'MMOCore-1.13.1-SNAPSHOT.jar'
+[11:00:08] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+171-8313d52
+[11:00:08] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.3
+[11:00:09] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (863 ms).
+[11:00:09] [Server thread/INFO]: [Shopkeepers] Loading config.
+[11:00:09] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[11:00:09] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[11:00:09] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[11:00:09] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': CREAKING
+[11:00:09] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[11:00:09] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[11:00:09] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[11:00:09] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.6.7
+[11:00:09] [Server thread/INFO]: [MMOItems] Loading server plugin MMOItems v6.10
+[11:00:09] [Server thread/INFO]: [MMOItems] Plugin file is called 'MMOItems-6.10.jar'
+[11:00:09] [Server thread/INFO]: [MMOItems] Hooked onto WorldEdit
+[11:00:09] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:00:10] [Server thread/INFO]: [MMOItems Template Modifiers] Preloading template modifiers, please wait..
+[11:00:10] [Server thread/INFO]: [MMOItems Item Templates] Preloading item templates, please wait..
+[11:00:10] [Server thread/INFO]: [TreeCuter] Loading server plugin TreeCuter vv1.8.8
+[11:00:10] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.6
+[11:00:10] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.3
+[11:00:10] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
+[11:00:10] [Server thread/INFO]: [Sentinel] Loading server plugin Sentinel v2.9.2-SNAPSHOT (build 527)
+[11:00:10] [Server thread/INFO]: [TorchLight] Loading server plugin TorchLight v1.1.1
+[11:00:10] [Server thread/INFO]: [MultiWorld] Loading server plugin MultiWorld v5.2.8
+[11:00:10] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.2 b98
+[11:00:10] [Server thread/INFO]: [LevelledMobs] Loading commands
+[11:00:10] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.6.3
+[11:00:10] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2.3.12.1
+[11:00:10] [Server thread/INFO]: [HoloMobHealth] Registering WorldGuard State Flags...
+[11:00:10] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+171-8313d52
+[11:00:10] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.14
+[11:00:10] [Server thread/INFO]: [DeadlyDisasters] Loading server plugin DeadlyDisasters v12.1
+[11:00:10] [Server thread/INFO]: [Craftorithm] Loading server plugin Craftorithm v1.10.17-20250121
+[11:00:10] [Server thread/INFO]: [ConsoleSpamFix] Loading server plugin ConsoleSpamFix v1.10.0
+[11:00:10] [Server thread/INFO]: [CommandToItem] Loading server plugin CommandToItem v${version}
+[11:00:10] [Server thread/INFO]: [ChatInjector] Loading server plugin ChatInjector v1.1
+[11:00:10] [Server thread/INFO]: [BloodNight] Debug logger initialized. Log Level: INFO
+[11:00:10] [Server thread/INFO]: [BloodNight] Loading server plugin BloodNight v0.12.0
+[11:00:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:00:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.154
+[11:00:10] [Server thread/INFO]:         __    
+[11:00:10] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.154
+[11:00:10] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[11:00:10] [Server thread/INFO]: 
+[11:00:10] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:00:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:00:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:00:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:00:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1418ms)
+[11:00:11] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:00:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:00:12] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:00:12] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:00:12] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:00:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-741
+[11:00:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[11:00:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:00:12] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:00:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[11:00:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
+[11:00:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[11:00:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[11:00:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:00:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.3]
+[11:00:15] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[11:00:15] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.10.0
+[11:00:15] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.21
+[11:00:15] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
+[11:00:15] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
+[11:00:15] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[11:00:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:00:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:00:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:00:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:00:15] [Server thread/INFO]: Preparing level "world"
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.3
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 86e796c
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:00:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:00:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:00:16] [Server thread/INFO]: Time elapsed: 918 ms
+[11:00:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:00:17] [Server thread/INFO]: Time elapsed: 153 ms
+[11:00:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:00:17] [Server thread/INFO]: Time elapsed: 50 ms
+[11:00:17] [Server thread/INFO]: [packetevents] Enabling packetevents v2.7.0
+[11:00:17] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[11:00:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:00:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:00:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[11:00:17] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.7.0)
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:00:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:00:17] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:00:18] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.44-SNAPSHOT
+[11:00:18] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises.jar
+[11:00:18] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: {Not package relocated}) (LD: v1_21_R1) (MC: 1.21)
+[11:00:18] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1535
+[11:00:18] [Server thread/INFO]: [LibsDisguises] Build Date: 24/02/2025 01:18
+[11:00:18] [Server thread/ERROR]: [LibsDisguises] You are running an outdated version of Minecraft, you are currently using 1.21, you should update to a minimum of 1.21.4
+[11:00:19] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[11:00:19] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[11:00:19] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[11:00:20] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[11:00:20] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[11:00:20] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[11:00:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: libsdisguises [1.0.0]
+[11:00:20] [Server thread/INFO]: [LibsDisguises] PlaceholderAPI support enabled
+[11:00:20] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[11:00:21] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.0)...
+[11:00:21] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[11:00:22] [Server thread/INFO]: [MythicMobs] END_SPAWN_POINT
+[11:00:22] [Server thread/INFO]: [MythicMobs] RAIN_DELAY
+[11:00:22] [Server thread/INFO]: [MythicMobs] RAIN_DURATION
+[11:00:22] [Server thread/INFO]: [MythicMobs] THUNDER_DELAY
+[11:00:22] [Server thread/INFO]: [MythicMobs] THUNDER_DURATION
+[11:00:22] [Server thread/INFO]: [MythicMobs] LOGGER
+[11:00:22] [Server thread/INFO]: [MythicMobs] EMPTY_TIME_NO_TICK
+[11:00:22] [Server thread/INFO]: [MythicMobs] MAX_SCHEDULED_TICKS_PER_TICK
+[11:00:22] [Server thread/INFO]: [MythicMobs] players
+[11:00:22] [Server thread/INFO]: [MythicMobs] chunkSource
+[11:00:22] [Server thread/INFO]: [MythicMobs] server
+[11:00:22] [Server thread/INFO]: [MythicMobs] serverLevelData
+[11:00:22] [Server thread/INFO]: [MythicMobs] lastSpawnChunkRadius
+[11:00:22] [Server thread/INFO]: [MythicMobs] entityTickList
+[11:00:22] [Server thread/INFO]: [MythicMobs] gameEventDispatcher
+[11:00:22] [Server thread/INFO]: [MythicMobs] noSave
+[11:00:22] [Server thread/INFO]: [MythicMobs] sleepStatus
+[11:00:22] [Server thread/INFO]: [MythicMobs] emptyTime
+[11:00:22] [Server thread/INFO]: [MythicMobs] portalForcer
+[11:00:22] [Server thread/INFO]: [MythicMobs] blockTicks
+[11:00:22] [Server thread/INFO]: [MythicMobs] fluidTicks
+[11:00:22] [Server thread/INFO]: [MythicMobs] pathTypesByPosCache
+[11:00:22] [Server thread/INFO]: [MythicMobs] navigatingMobs
+[11:00:22] [Server thread/INFO]: [MythicMobs] isUpdatingNavigations
+[11:00:22] [Server thread/INFO]: [MythicMobs] raids
+[11:00:22] [Server thread/INFO]: [MythicMobs] blockEvents
+[11:00:22] [Server thread/INFO]: [MythicMobs] blockEventsToReschedule
+[11:00:22] [Server thread/INFO]: [MythicMobs] handlingTick
+[11:00:22] [Server thread/INFO]: [MythicMobs] customSpawners
+[11:00:22] [Server thread/INFO]: [MythicMobs] dragonFight
+[11:00:22] [Server thread/INFO]: [MythicMobs] dragonParts
+[11:00:22] [Server thread/INFO]: [MythicMobs] structureManager
+[11:00:22] [Server thread/INFO]: [MythicMobs] structureCheck
+[11:00:22] [Server thread/INFO]: [MythicMobs] tickTime
+[11:00:22] [Server thread/INFO]: [MythicMobs] preciseTime
+[11:00:22] [Server thread/INFO]: [MythicMobs] forceTime
+[11:00:22] [Server thread/INFO]: [MythicMobs] randomSequences
+[11:00:22] [Server thread/INFO]: [MythicMobs] convertable
+[11:00:22] [Server thread/INFO]: [MythicMobs] uuid
+[11:00:22] [Server thread/INFO]: [MythicMobs] hasPhysicsEvent
+[11:00:22] [Server thread/INFO]: [MythicMobs] hasEntityMoveEvent
+[11:00:22] [Server thread/INFO]: [MythicMobs] wireHandler
+[11:00:22] [Server thread/INFO]: [MythicMobs] hasRidableMoveEvent
+[11:00:22] [Server thread/INFO]: [MythicMobs] markedClosing
+[11:00:22] [Server thread/INFO]: [MythicMobs] viewDistanceHolder
+[11:00:22] [Server thread/INFO]: [MythicMobs] chunkLoader
+[11:00:22] [Server thread/INFO]: [MythicMobs] entityDataController
+[11:00:22] [Server thread/INFO]: [MythicMobs] poiDataController
+[11:00:22] [Server thread/INFO]: [MythicMobs] chunkDataController
+[11:00:22] [Server thread/INFO]: [MythicMobs] chunkTaskScheduler
+[11:00:22] [Server thread/INFO]: [MythicMobs] lastMidTickFailure
+[11:00:22] [Server thread/INFO]: [MythicMobs] tickedBlocksOrFluids
+[11:00:22] [Server thread/INFO]: [MythicMobs] nearbyPlayers
+[11:00:22] [Server thread/INFO]: [MythicMobs] EMPTY_CHUNK_AND_HOLDERS
+[11:00:22] [Server thread/INFO]: [MythicMobs] loadedChunks
+[11:00:22] [Server thread/INFO]: [MythicMobs] tickingChunks
+[11:00:22] [Server thread/INFO]: [MythicMobs] entityTickingChunks
+[11:00:22] [Server thread/INFO]: [MythicMobs] lagCompensationTick
+[11:00:22] [Server thread/INFO]: [MythicMobs] currentlyTickingEntity
+[11:00:22] [Server thread/INFO]: [MythicMobs] Mythic LibsDisguises Support has been enabled!
+[11:00:22] [Server thread/INFO]: [MythicMobs] Mythic MMOItems Support has been enabled!
+[11:00:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythic [5.0.0]
+[11:00:23] [Server thread/INFO]: [MythicMobs] Mythic PlaceholderAPI Support has been enabled!
+[11:00:23] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
+[11:00:23] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[11:00:23] [Server thread/INFO]: [MythicMobs] Mythic WorldGuard Support has been enabled!
+[11:00:23] [Server thread/INFO]: [MythicMobs] Base directory F:\SVMC\plugins\MythicMobs\data
+[11:00:23] [Server thread/INFO]: [MythicMobs] Module directory F:\SVMC\plugins\MythicMobs\data\worlds
+[11:00:23] [Server thread/INFO]: [MythicMobs] -- File F:\SVMC\plugins\MythicMobs\data\worlds\world.txt
+[11:00:25] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[11:00:26] [Server thread/INFO]: [MythicMobs] Loading Items...
+[11:00:26] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[11:00:26] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[11:00:26] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[11:00:26] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[11:00:26] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\GokuSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\GokuSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\GokuSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\GokuSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\HDucSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJGokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\HDucSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=Kamehameha,Kamehameha,EnergyAttack,EnergyAttack,EnergyAttack,SpiritBomb,InstantTransmission,InstantTransmission,GokuCombo,SonicBoom,<&csp>SonicBoom,SolarFlare,SolarFlare,FaceMelter,FaceMelter,1000Punch<&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\HDucSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
+[11:00:26] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic randomskill
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Skill: SSJ2GokuSkills | File: F:\SVMC\plugins\MythicMobs\skills\HDucSkills.yml
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Error Message: Could not find MetaSkill InstantTransmission
+[11:00:26] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: randomskill{skills=1000Punch,1000Punch,1000Punch,DestructoDiskChargeUp,SuperKamehameha,SuperKamehameha,Kamehameha,Kamehameha,Kamehameha,InstantTransmission,InstantTransmission,GokuRapidEnergyAttack,GokuRapidEnergyAttack,UltimateSpiritBomb,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack,EnergyAttack<&csp><&csp><&csp><&csp><&csp>}
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 15 mobs.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 vanilla mob overrides.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 92 skills.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 random spawns.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[11:00:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[11:00:26] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[11:00:27] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[11:00:27] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[11:00:27] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.7
+[11:00:27] [Server thread/INFO]: [MythicLib] Hooked onto TextDisplays (holograms)
+[11:00:27] [Server thread/INFO]: [MythicMobs] MMO Plugin Support has been enabled!
+[11:00:27] [Server thread/INFO]: [MythicLib] Hooked onto MythicMobs
+[11:00:27] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
+[11:00:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythiclib [1.7]
+[11:00:27] [Server thread/INFO]: [MythicLib] Hooked onto PlaceholderAPI
+[11:00:27] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3545)
+[11:00:27] [Server thread/INFO]: [Citizens] Loading external libraries
+[11:00:27] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[11:00:28] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[11:00:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[11:00:28] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[11:00:28] [Server thread/INFO]: [MMOCore] Enabling MMOCore v1.13.1-SNAPSHOT
+[11:00:28] [Server thread/INFO]: [MMOCore] [Spigotunlocked.com] - Hello
+[11:00:28] [Server thread/INFO]: [MMOCore] Hooked onto Vault
+[11:00:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmocore [1.13.1-SNAPSHOT]
+[11:00:28] [Server thread/INFO]: [MMOCore] Hooked onto PlaceholderAPI
+[11:00:28] [Server thread/INFO]: [MMOCore] Hooked onto Citizens
+[11:00:28] [Server thread/INFO]: [WorldGuard] Registering session handler net.Indyuce.mmocore.comp.region.pvpmode.PvPModeHandler
+[11:00:28] [Server thread/INFO]: [WorldGuard] Registering session handler net.Indyuce.mmocore.comp.region.pvpmode.PvPFlagHandler
+[11:00:28] [Server thread/INFO]: [MMOCore] Hooked onto WorldGuard
+[11:00:28] [Server thread/INFO]: [MMOCore] Hooked onto MythicMobs
+[11:00:28] [Server thread/WARN]: [MMOCore] Could not load loot chest region 'sample-region' from file 'default_loot_chests.yml': Could not find world 'world_name_here'
+[11:00:29] [Server thread/INFO]: [MMOCore] Hooked parties onto MMOCore
+[11:00:29] [Server thread/INFO]: [MMOCore] Hooked guilds onto MMOCore
+[11:00:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+171-8313d52
+[11:00:29] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:00:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:00:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:00:30] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[11:00:30] [Server thread/INFO]: [Essentials] Using locale en_US
+[11:00:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:00:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:00:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:00:30] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:00:30] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.3
+[11:00:30] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[11:00:30] [Server thread/INFO]: [Shopkeepers] Loading the data of 8 shopkeepers ...
+[11:00:31] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.6.7
+[11:00:31] [Server thread/INFO]: [RealisticSeasons] [Spigotunlocked.com] - COSMO
+[11:00:31] [Server thread/INFO]: [MMOItems] Enabling MMOItems v6.10
+[11:00:31] [Server thread/INFO]: [MMOItems] [Spigotunlocked.com] - COSMO
+[11:00:31] [Server thread/INFO]: [MMOItems] Hooked onto MythicMobs
+[11:00:31] [Server thread/INFO]: [MMOItems] Hooked onto MMOCore
+[11:00:31] [Server thread/INFO]: [MMOItems] Now using MMOCore as RPG core plugin
+[11:00:31] [Server thread/INFO]: [MMOItems ARMOR HAT] Could not load base item data 'item-particles': Particle is missing type or selected particle.
+[11:00:31] [Server thread/INFO]: [MMOItems STAFF ST1] Could not load base item data 'ability': Missing ability trigger type/casting mode
+[11:00:31] [Server thread/INFO]: [MMOItems Template Modifiers] Loading template modifiers, please wait..
+[11:00:31] [Server thread/INFO]: [MMOItems Item Templates] Loading item templates, please wait...
+[11:00:31] [Server thread/INFO]: [MMOItems] Hooked onto Vault
+[11:00:31] [Server thread/INFO]: [MMOItems] Loading crafting stations, please wait..
+[11:00:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mmoitems [6.10]
+[11:00:31] [Server thread/INFO]: [MMOItems] Hooked onto PlaceholderAPI
+[11:00:31] [Server thread/INFO]: [MMOItems] Loading recipes, please wait...
+[11:00:31] [Server thread/INFO]: [TreeCuter] Enabling TreeCuter vv1.8.8
+[11:00:31] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Found server version 1.21.0
+[11:00:31] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Loaded transparent mappings.
+[11:00:31] [Server thread/WARN]: Glowing is not supported on this server version: 1.21-2284-4e55e26 (MC: 1.21)
+[11:00:31] [Server thread/WARN]: Suported ver: [1.17.1, 1.18.2, 1.19.4, 1.20.2, 1.20.4, 1.20.5, 1.20.6, 1.21.1,  1.21.2, 1.21.3, 1.21.4]
+[11:00:31] [Server thread/WARN]: Suported engines: Paper and forks
+[11:00:31] [Server thread/WARN]: 
+[11:00:31] [Server thread/INFO]: 
+[11:00:31] [Server thread/INFO]: TreeCuter by Norbit4!
+[11:00:31] [Server thread/INFO]: 
+[11:00:31] [Server thread/INFO]: Hooked to: WorldGuard
+[11:00:31] [Server thread/INFO]: Hooked to: PlaceholderAPI
+[11:00:31] [Server thread/INFO]: 
+[11:00:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: treecuter [1.8.7]
+[11:00:31] [Server thread/INFO]: [TAB] Enabling TAB v5.0.6
+[11:00:31] [Server thread/INFO]: [TAB] Loaded NMS hook in 49ms
+[11:00:32] [Server thread/INFO]: [TAB] Enabled in 496ms
+[11:00:32] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.3
+[11:00:32] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21 (Core v1_20x)
+[11:00:32] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'PlaceholderApi' for plugin 'PlaceholderAPI'...
+[11:00:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: smoothtimber [1.27.3]
+[11:00:32] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'PlaceholderApi' for plugin 'PlaceholderAPI'...
+[11:00:32] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'WorldGuard' for plugin 'WorldGuard'...
+[11:00:32] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'WorldGuard' for plugin 'WorldGuard'...
+[11:00:32] [Server thread/INFO]: [Sentinel] Enabling Sentinel v2.9.2-SNAPSHOT (build 527)
+[11:00:32] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[11:00:32] [Server thread/INFO]: [Sentinel] Running on java version: 23.0.1
+[11:00:32] [Server thread/INFO]: [Sentinel] Sentinel loaded on a fully supported Minecraft version. If you encounter any issues or need to ask a question, please join our Discord at https://discord.gg/Q6pZGSR and post in the '#sentinel' channel.
+[11:00:32] [Server thread/WARN]: [Sentinel] Sentinel Configuration value 'random.spectral sound' is set to an invalid sound name. This is usually an ignorable issue.
+[11:00:32] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
+[11:00:32] [Server thread/INFO]: [Sentinel] Sentinel found WorldGuard! Adding support for it!
+[11:00:32] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[11:00:32] [Server thread/INFO]: [TorchLight] Enabling TorchLight v1.1.1
+[11:00:32] [Server thread/INFO]: [TorchLight] Offhand Torch Light is successfully enabled!
+[11:00:32] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.8*
+[11:00:32] [Server thread/INFO]: [MultiWorld] v5.2.8 enabled.
+[11:00:32] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.2 b98
+[11:00:32] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[11:00:32] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[11:00:32] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
+[11:00:33] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[11:00:33] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[11:00:33] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[11:00:33] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[11:00:33] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[11:00:33] [Server thread/INFO]: [LevelledMobs] Current rules hash: ce3a165d87358e63b37eaaafb124331cb90da10cd74b4cf4b734e2ccec4227ea
+[11:00:33] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[11:00:33] [Server thread/WARN]: [LevelledMobs] Invalid number or number range for amount on ALL_MOBS, {1-10=1, 11-20=2, 21-30=3, 31-40=4, 41-50=5, 51-60=6, 61-70=7, 71-80=8, 81-90=9, 91-100=10}
+[11:00:33] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[11:00:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.2.0.2 b98]
+[11:00:33] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[11:00:33] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[11:00:33] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 385ms)
+[11:00:33] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.6.3
+[11:00:33] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[11:00:33] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[11:00:33] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[11:00:33] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[11:00:33] [Server thread/INFO]: [ItemEdit] placeholders:
+[11:00:33] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[11:00:33] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[11:00:33] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[11:00:33] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[11:00:33] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[11:00:33] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[11:00:33] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[11:00:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[11:00:33] [Server thread/INFO]: [ItemEdit] Hooking into MythicMobs
+[11:00:33] [Server thread/INFO]: [ItemEdit] # Enabled (took 258 ms)
+[11:00:33] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2.3.12.1
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Loading languages...
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Hooked into Citizens!
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Hooked into MythicMobs!
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Hooked into Shopkeepers!
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Hooked into PlaceholderAPI!
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Hooked into WorldGuard! (v7)
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
+[11:00:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: holomobhealth [1.0.0]
+[11:00:34] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
+[11:00:34] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+171-8313d52
+[11:00:34] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[11:00:34] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.14
+[11:00:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[11:00:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[11:00:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[11:00:35] [Server thread/INFO]: [DeadlyDisasters] Enabling DeadlyDisasters v12.1
+[11:00:35] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into RealisticSeasons
+[11:00:35] [Server thread/INFO]: [DeadlyDisasters] RealisticSeasons is detected but this feature is disabled in the seasons.yml file!
+[11:00:35] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into World Guard
+[11:00:35] [Server thread/INFO]: [DeadlyDisasters]: There is an optional dependency UIFramework, that adds some custom items to DeadlyDisasters such as the plague cure potion, basic coating enchant, and more! Get UIFramework here: https://www.spigotmc.org/resources/uiframework.110768/
+[11:00:35] [Server thread/INFO]: [DeadlyDisasters] Checking for update...
+[11:00:35] [Server thread/INFO]: [Craftorithm] Enabling Craftorithm v1.10.17-20250121
+[11:00:36] [Server thread/INFO]: [CommandToItem] Enabling CommandToItem v${version}
+[11:00:36] [Server thread/INFO]: [CommandToItem] Metrics started. This can be disabled at /plugins/bStats/config.yml.
+[11:00:36] [Server thread/WARN]: [CommandToItem] Failed to resolve server version - some features will not work!
+[11:00:36] [Server thread/WARN]: [CommandToItem] Unrecognised enchantment: minecraft
+[11:00:36] [Server thread/WARN]: [CommandToItem] Unrecognised material: GOLD_SWORD
+[11:00:36] [Server thread/INFO]: [ChatInjector] Enabling ChatInjector v1.1
+[11:00:36] [Server thread/INFO]: [BloodNight] Enabling BloodNight v0.12.0
+[11:00:36] [Server thread/INFO]: [BloodNight] Loading config.
+[11:00:36] [Server thread/INFO]: [BloodNight] Locale plugins\BloodNight\messages\messages_de_DE.properties is up to date.
+[11:00:36] [Server thread/INFO]: [BloodNight] Locale plugins\BloodNight\messages\messages_en_US.properties is up to date.
+[11:00:36] [Server thread/INFO]: [BloodNight] Locale plugins\BloodNight\messages\messages_es_ES.properties is up to date.
+[11:00:36] [Server thread/INFO]: [BloodNight] Locale plugins\BloodNight\messages\messages_tr.properties is up to date.
+[11:00:36] [Server thread/INFO]: [BloodNight] Locale plugins\BloodNight\messages\messages_zh_CN.properties is up to date.
+[11:00:36] [Server thread/ERROR]: [BloodNight] Could not load default locale
+[11:00:36] [Server thread/INFO]: [BloodNight] Determining message sender type
+[11:00:36] [Server thread/INFO]: [BloodNight] Using Paper Message Sender
+[11:00:36] [Server thread/INFO]: [BloodNight] §2Metrics enabled. Thank you! (> ^_^ )>
+[11:00:36] [Server thread/INFO]: [BloodNight] Hook into MythicMobs successful.
+[11:00:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bloodnight [0.12.0]
+[11:00:36] [Server thread/INFO]: [BloodNight] Hook into PlaceholderAPI successful.
+[11:00:36] [Server thread/INFO]: [BloodNight] Hook into Multiverse-Core failed. Plugin is not enabled.
+[11:00:36] [Server thread/INFO]: [BloodNight] Hook into Hyperverse failed. Plugin is not enabled.
+[11:00:36] [Server thread/INFO]: [BloodNight] Loading config.
+[11:00:36] [Server thread/INFO]: [BloodNight] BloodNight enabled!
+[11:00:36] [Server thread/INFO]: [BloodNight] Enabled. Required 589 ms.
+[11:00:37] [Server thread/INFO]: [spark] Starting background profiler...
+[11:00:37] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:00:37] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:00:37] [Server thread/INFO]: Done preparing level "world" (22.095s)
+[11:00:37] [Server thread/INFO]: Running delayed init tasks
+[11:00:37] [Craft Scheduler Thread - 10 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:00:37] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:00:37] [Server thread/INFO]: [RealisticSeasons] [Spigotunlocked.com] - COSMO
+[11:00:37] [Craft Scheduler Thread - 18 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[11:00:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
+[11:00:37] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 248
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin NeigeItems not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin Nexo not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin AzureFlow not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin EcoItems not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin ExecutableItems not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin ItemsAdder not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Found MMOItems, hooked successfully.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Found MythicMobs, hooked successfully.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin Oraxen not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Plugin PlayerPoints not found.
+[11:00:37] [Server thread/INFO]: [Craftorithm] Found Vault, hooked successfully.
+[11:00:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[11:00:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[11:00:37] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[11:00:37] [Server thread/WARN]: [MythicMobs] ✗ Config Error for Targeter line '@PIR{r=3}': Failed to load custom targeter @PIR
+[11:00:37] [Server thread/WARN]: [MythicMobs] ✗ Config Error for Targeter line '@PIR{r=3}': Failed to load custom targeter @PIR
+[11:00:38] [Server thread/INFO]: [Citizens] Loaded 3 NPCs.
+[11:00:38] [Server thread/INFO]: [BloodNight] Post startup done. Required 0 ms.
+[11:00:38] [Server thread/INFO]: [Craftorithm] Plugin loaded successfully.
+[11:00:38] [Server thread/INFO]: Done (55.319s)! For help, type "help"
+[11:00:38] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:00:38] [Server thread/INFO]: [BloodNight] Executing cleanup task on startup.
+[11:00:38] [Server thread/INFO]: [BloodNight] Removed 0 hanging boss bars.
+[11:00:38] [Server thread/INFO]: [BloodNight] Night manager initialized.
+[11:00:38] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[11:00:38] [Craft Scheduler Thread - 10 - Essentials/WARN]: [Essentials] You're 9 EssentialsX dev build(s) out of date!
+[11:00:38] [Craft Scheduler Thread - 10 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[11:00:39] [Craft Scheduler Thread - 16 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
+[11:00:46] [User Authenticator #0/INFO]: UUID of player HDuc is bd3a5fca-83f2-38a9-b281-607c49a1e59b
+[11:00:48] [Server thread/INFO]: HDuc joined the game
+[11:00:49] [Server thread/INFO]: HDuc[/192.168.1.4:57520] logged in with entity id 221 at ([world]-1543.4882820391729, 117.0, 858.8695194528088)
+[11:00:55] [Server thread/INFO]: HDuc issued server command: /spawn
+[11:00:56] [Server thread/INFO]: HDuc issued server command: /gmc
+[11:01:16] [Server thread/INFO]: HDuc issued server command: /npc create GanyuJP
+[11:01:21] [Server thread/INFO]: HDuc issued server command: /npc skin GanyuJP
+[11:01:31] [Server thread/INFO]: HDuc issued server command: /npc rename &bSentinel Ganyu
+[11:02:04] [Server thread/INFO]: HDuc issued server command: /npc inventory
+[11:02:51] [Server thread/INFO]: HDuc issued server command: /mi create bow GanyuBow
+[11:05:33] [Server thread/INFO]: HDuc issued server command: /npc inventory
+[11:05:43] [Server thread/INFO]: HDuc issued server command: /sentinel autoswitch
+[11:05:51] [Server thread/INFO]: HDuc issued server command: /trait sentinel
+[11:05:56] [Server thread/INFO]: HDuc issued server command: /sentinel autoswitch
+[11:06:08] [Server thread/INFO]: HDuc issued server command: /sentinel autoswitch true
+[11:06:23] [Server thread/INFO]: HDuc issued server command: /sentinel range 40
+[11:06:46] [Server thread/INFO]: HDuc issued server command: /sentinel invincible true
+[11:07:16] [Server thread/INFO]: [Essentials] Created a User for Sentinel Ganyu (73aed76a-324d-225a-a401-5dfb5a33221d) for non Bukkit type: net.citizensnpcs.nms.v1_21_R1.entity.EntityHumanNPC$PlayerNPC
+[11:07:23] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[11:07:23] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[11:07:41] [Server thread/INFO]: HDuc issued server command: /sentinel addtarget zombie
+[11:07:58] [Server thread/INFO]: HDuc issued server command: /sentinel damage 150
+[11:08:35] [Server thread/INFO]: HDuc issued server command: /sentinel guarddistance 30 60
+[11:08:47] [Server thread/INFO]: HDuc issued server command: /sentinel guarddistance 30 25
+[11:08:51] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[11:08:51] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[11:08:55] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[11:08:55] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[11:08:58] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[11:08:58] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[11:09:05] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[11:09:05] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[11:09:09] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[11:09:09] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[11:10:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:10:36] [Server thread/INFO]: You set the weather to storm in world.
+[11:10:47] [Server thread/INFO]: HDuc issued server command: /npc attack bow
+[11:10:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:10:57] [Server thread/INFO]: You set the weather to storm in world.
+[11:11:17] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:11:17] [Server thread/INFO]: You set the weather to storm in world.
+[11:11:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:11:38] [Server thread/INFO]: You set the weather to storm in world.
+[11:11:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:11:58] [Server thread/INFO]: You set the weather to storm in world.
+[11:12:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:12:19] [Server thread/INFO]: You set the weather to storm in world.
+[11:12:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[11:12:39] [Server thread/INFO]: You set the weather to storm in world.
+[11:12:55] [Server thread/INFO]: HDuc issued server command: /npc addtarget husk
+[11:13:05] [Server thread/INFO]: HDuc issued server command: /sentinel addtarget husks
+[11:13:33] [Server thread/INFO]: HDuc issued server command: /sentinel range 100
+[11:13:44] [Server thread/INFO]: HDuc issued server command: /sentinel attackrate 100
+[11:15:17] [Server thread/INFO]: HDuc issued server command: /sentinel ignores LOS
+[11:16:03] [Server thread/INFO]: HDuc issued server command: /sentinel damage 200
+[11:16:12] [Server thread/INFO]: HDuc issued server command: /sentinel damage 250
+[11:16:26] [Server thread/INFO]: HDuc issued server command: /sentinel damage 200
+[11:17:13] [Server thread/INFO]: HDuc issued server command: /sentinel chaserange 60
+[11:17:17] [Server thread/INFO]: HDuc issued server command: /npc range 25
+[11:17:28] [Server thread/INFO]: HDuc issued server command: /sentinel range 70
+[11:17:39] [Server thread/INFO]: HDuc issued server command: /npc look
+[11:17:44] [Server thread/INFO]: HDuc issued server command: /npc look
+[11:17:47] [Server thread/INFO]: HDuc issued server command: /npc lookclose
+[11:17:55] [Server thread/INFO]: HDuc issued server command: /npc look false
+[11:18:10] [Server thread/INFO]: HDuc issued server command: /npc look
+[11:18:22] [Server thread/INFO]: HDuc issued server command: /npc lookclose
+[11:18:24] [Server thread/INFO]: HDuc issued server command: /npc lookclose
+[11:18:39] [Server thread/INFO]: HDuc issued server command: /sentinel range 70
+[11:18:55] [Server thread/INFO]: HDuc issued server command: /sentinel invincible false
+[11:19:01] [Server thread/INFO]: HDuc issued server command: /gmc
+[11:19:08] [Server thread/INFO]: HDuc issued server command: /sentinel invincible true
+[11:19:30] [Server thread/INFO]: HDuc issued server command: /sentinel fightback false
+[11:20:13] [Server thread/INFO]: HDuc issued server command: /sentinel projectilerange 20
+[11:20:16] [Server thread/INFO]: HDuc issued server command: /sentinel projectilerange 10
+[11:20:28] [Server thread/INFO]: HDuc issued server command: /sentinel range 70
+[11:20:35] [Server thread/INFO]: HDuc issued server command: /sentinel chaserange 70
+[11:20:50] [Server thread/INFO]: HDuc issued server command: /sentinel projectilerange 30
+[11:21:42] [Server thread/INFO]: HDuc issued server command: /sentinel protectfromrange 60
+[11:22:04] [Server thread/INFO]: HDuc issued server command: /npc activationrange 60
+[11:22:27] [Server thread/INFO]: HDuc issued server command: /sentinel accuracy 100
+[11:22:31] [Server thread/INFO]: HDuc issued server command: /sentinel accuracy 10
+[11:22:42] [Server thread/INFO]: HDuc issued server command: /summon husk
+[11:22:42] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[11:22:58] [Server thread/INFO]: HDuc issued server command: /sentinel accuracy 1
+[11:23:05] [Server thread/INFO]: HDuc issued server command: /sentinel accuracy 0
+[11:24:01] [Server thread/INFO]: HDuc issued server command: /sentinel chaseclose
+[11:24:03] [Server thread/INFO]: HDuc issued server command: /sentinel chaseclose
+[11:24:11] [Server thread/INFO]: HDuc issued server command: /sentinel range 60
+[11:24:22] [Server thread/INFO]: HDuc issued server command: /sentinel chaseranged
+[11:25:02] [Server thread/INFO]: HDuc issued server command: /spawn
+[11:25:02] [Server thread/WARN]: HDuc moved too quickly! -3.199999988079071,12.0,0.19999998807907104
+[11:25:10] [Server thread/INFO]: HDuc issued server command: /sentinel spawnpoint
+[11:25:30] [Server thread/INFO]: HDuc issued server command: /sentinel invincible false
+[11:26:51] [Server thread/INFO]: HDuc issued server command: /npc pathopt timeout 10
+[11:27:50] [Server thread/INFO]: HDuc issued server command: /sentinel respawn
+[11:28:36] [Server thread/INFO]: HDuc issued server command: /sentinel respawntime 1
+[11:29:28] [Server thread/INFO]: HDuc issued server command: /sentinel realistic true
+[11:30:37] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
+[12:00:37] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
+[12:30:37] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
+[12:53:15] [Server thread/INFO]: HDuc issued server command: /npc move
+[12:53:18] [Server thread/INFO]: [Essentials] Created a User for Sentinel Ganyu (73aed76a-324d-225a-a401-5dfb5a33221d) for non Bukkit type: net.citizensnpcs.nms.v1_21_R1.entity.EntityHumanNPC$PlayerNPC
+[12:53:50] [Server thread/INFO]: HDuc issued server command: /mm mobs killall
+[12:54:00] [Server thread/INFO]: HDuc issued server command: /npc move
+[12:55:52] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:55:52] [Server thread/INFO]: You set the weather to storm in world.
+[12:56:05] [Server thread/INFO]: HDuc issued server command: /npc move -1531 116 872
+[12:56:11] [Server thread/INFO]: HDuc issued server command: /npc tphere
+[12:56:38] [Server thread/INFO]: HDuc issued server command: /teleport npc
+[12:56:42] [Server thread/INFO]: HDuc issued server command: /teleport Sentinel Ganyu
+[12:56:53] [Server thread/INFO]: HDuc issued server command: /npc home
+[12:56:56] [Server thread/INFO]: HDuc issued server command: /npc sel
+[12:57:01] [Server thread/INFO]: HDuc issued server command: /npc home
+[12:57:04] [Server thread/INFO]: HDuc issued server command: /npc home --location
+[12:57:09] [Server thread/INFO]: HDuc issued server command: /npc home --location -here
+[12:57:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:57:34] [Server thread/INFO]: You set the weather to storm in world.
+[12:57:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:57:45] [Server thread/INFO]: You set the weather to storm in world.
+[12:57:51] [Server thread/INFO]: HDuc issued server command: /sentinel kill
+[12:57:54] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:57:54] [Server thread/INFO]: You set the weather to storm in world.
+[12:58:01] [Server thread/INFO]: HDuc issued server command: /npc move
+[12:58:05] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:58:05] [Server thread/INFO]: You set the weather to storm in world.
+[12:58:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:58:15] [Server thread/INFO]: You set the weather to storm in world.
+[12:58:23] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[12:58:23] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[12:58:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:58:26] [Server thread/INFO]: You set the weather to storm in world.
+[12:58:28] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[12:58:28] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[12:58:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:58:36] [Server thread/INFO]: You set the weather to storm in world.
+[12:58:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:58:46] [Server thread/INFO]: You set the weather to storm in world.
+[12:58:53] [Server thread/INFO]: HDuc issued server command: /sentinel respawntime 1
+[12:58:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:58:56] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:06] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:17] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:17] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:21] [Server thread/INFO]: HDuc issued server command: /sentinel respawn
+[12:59:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:23] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:27] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:30] [Server thread/INFO]: HDuc issued server command: /npc tp
+[12:59:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:37] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:38] [Server thread/INFO]: HDuc issued server command: /spawn
+[12:59:43] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:43] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:47] [Server thread/INFO]: You set the weather to storm in world.
+[12:59:50] [Server thread/INFO]: HDuc issued server command: /sentinel respawn
+[12:59:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[12:59:57] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:03] [Server thread/INFO]: HDuc issued server command: /sentinel spawnpoint
+[13:00:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:03] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:06] [Server thread/INFO]: HDuc issued server command: /npc kill
+[13:00:08] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:08] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:12] [Server thread/INFO]: HDuc issued server command: /sentinel kill
+[13:00:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:18] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:21] [Server thread/INFO]: HDuc issued server command: /npc move
+[13:00:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:23] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:28] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:37] [Server thread/INFO]: [MMOCore] Autosaving player data, might take a while...
+[13:00:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:38] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:41] [Server thread/INFO]: HDuc issued server command: /sentinel autoswitch
+[13:00:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:00:44] [Server thread/INFO]: You set the weather to storm in world.
+[13:00:48] [Server thread/INFO]: HDuc issued server command: /npc item
+[13:00:54] [Server thread/INFO]: HDuc issued server command: /npc inventory
+[13:00:59] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[13:00:59] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[13:01:03] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[13:01:03] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[13:01:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:01:04] [Server thread/INFO]: You set the weather to storm in world.
+[13:01:08] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[13:01:08] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[13:01:21] [Server thread/INFO]: HDuc issued server command: /sentinel invincible true
+[13:01:25] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:01:25] [Server thread/INFO]: You set the weather to storm in world.
+[13:01:27] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[13:01:27] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[13:01:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:01:45] [Server thread/INFO]: You set the weather to storm in world.
+[13:02:01] [Server thread/INFO]: HDuc issued server command: /disasters give magewand
+[13:02:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:02:06] [Server thread/INFO]: You set the weather to storm in world.
+[13:02:10] [Server thread/INFO]: [Essentials] Created a User for Attributes (99a4e13d-538e-270a-bcc0-bc27550f112b) for non Bukkit type: net.citizensnpcs.nms.v1_21_R1.entity.EntityHumanNPC$PlayerNPC
+[13:02:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:02:26] [Server thread/INFO]: You set the weather to storm in world.
+[13:02:32] [Server thread/INFO]: HDuc issued server command: /npc move
+[13:02:40] [Server thread/INFO]: [Essentials] Created a User for Classes (8a8e2857-9d41-2ac1-b73b-bb67960e5454) for non Bukkit type: net.citizensnpcs.nms.v1_21_R1.entity.EntityHumanNPC$PlayerNPC
+[13:02:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:02:47] [Server thread/INFO]: You set the weather to storm in world.
+[13:02:54] [Server thread/INFO]: HDuc issued server command: /npc gravity
+[13:02:59] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[13:02:59] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[13:03:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:03:07] [Server thread/INFO]: You set the weather to storm in world.
+[13:03:08] [Server thread/INFO]: HDuc issued server command: /npc move
+[13:03:14] [Server thread/INFO]: HDuc issued server command: /summon minecraft:zombie
+[13:03:14] [Server thread/INFO]: [HDuc: Summoned new Zombie]
+[13:03:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:03:28] [Server thread/INFO]: You set the weather to storm in world.
+[13:03:31] [Server thread/INFO]: HDuc issued server command: /npc damage 200
+[13:03:37] [Server thread/INFO]: HDuc issued server command: /sentinel damage 200
+[13:03:39] [Server thread/INFO]: HDuc issued server command: /sentinel reload
+[13:03:39] [Server thread/WARN]: [Sentinel] Sentinel Configuration value 'random.spectral sound' is set to an invalid sound name. This is usually an ignorable issue.
+[13:03:48] [Server thread/INFO]: HDuc issued server command: /mm mobs killall
+[13:03:53] [Server thread/INFO]: HDuc issued server command: /mobkill all
+[13:04:01] [Server thread/INFO]: HDuc issued server command: /summon husk
+[13:04:01] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:04:11] [Server thread/INFO]: HDuc issued server command: /summon husk
+[13:04:11] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:04:27] [Server thread/INFO]: HDuc issued server command: /sentinel range 60
+[13:04:41] [Server thread/INFO]: HDuc issued server command: /sentinel chaserange 60
+[13:04:45] [Server thread/INFO]: HDuc issued server command: /sentinel chaseclose
+[13:04:46] [Server thread/INFO]: HDuc issued server command: /sentinel chaseclose
+[13:04:50] [Server thread/INFO]: HDuc issued server command: /summon husk
+[13:04:50] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:05:04] [Server thread/INFO]: HDuc issued server command: /sentinel projectilerange 30
+[13:05:30] [Server thread/INFO]: HDuc issued server command: /sentinel addtarget skeleton
+[13:05:34] [Server thread/INFO]: HDuc issued server command: /sentinel addtarget skeleton_horse
+[13:05:45] [Server thread/INFO]: HDuc issued server command: /sentinel addtarget ender_man
+[13:05:55] [Server thread/INFO]: HDuc issued server command: /summon minecraft:enderman
+[13:05:55] [Server thread/INFO]: [HDuc: Summoned new Enderman]
+[13:06:00] [Server thread/INFO]: HDuc issued server command: /sun
+[13:06:06] [Server thread/INFO]: HDuc issued server command: /summon minecraft:enderman
+[13:06:06] [Server thread/INFO]: [HDuc: Summoned new Enderman]
+[13:06:21] [Server thread/INFO]: HDuc issued server command: /summon minecraft:enderman
+[13:06:21] [Server thread/INFO]: [HDuc: Summoned new Enderman]
+[13:06:37] [Server thread/INFO]: HDuc issued server command: /sentinel range 60
+[13:06:45] [Server thread/INFO]: HDuc issued server command: /sentinel chaseclose
+[13:07:02] [Server thread/INFO]: HDuc issued server command: /sentinel reach 20
+[13:07:14] [Server thread/INFO]: HDuc issued server command: /sentinel fightback
+[13:07:36] [Server thread/INFO]: HDuc issued server command: /sentinel projectilerange 30
+[13:07:43] [Server thread/INFO]: HDuc issued server command: /summon minecraft:husk
+[13:07:43] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:07:49] [Server thread/INFO]: HDuc issued server command: /summon minecraft:husk
+[13:07:49] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:07:59] [Server thread/INFO]: HDuc issued server command: /npc lookclose --randomlook
+[13:08:04] [Server thread/INFO]: HDuc issued server command: /npc lookrandom
+[13:08:17] [Server thread/INFO]: HDuc issued server command: /mm mobs killall
+[13:08:27] [Server thread/INFO]: HDuc issued server command: /mobkill all
+[13:08:36] [Server thread/INFO]: HDuc issued server command: /summon minecraft:husk
+[13:08:36] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:08:59] [Server thread/INFO]: HDuc issued server command: /mobkill all
+[13:09:02] [Server thread/INFO]: HDuc issued server command: /mobkill all
+[13:09:13] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:09:13] [Server thread/INFO]: You set the weather to storm in world.
+[13:09:13] [Server thread/INFO]: HDuc issued server command: /summon minecraft:husk
+[13:09:13] [Server thread/INFO]: [HDuc: Summoned new Husk]
+[13:09:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather world storm
+[13:09:33] [Server thread/INFO]: You set the weather to storm in world.
+[13:09:33] [Server thread/INFO]: HDuc issued server command: /mm mobs killall
+[13:09:40] [Server thread/INFO]: HDuc issued server command: /stop
+[13:09:40] [Server thread/INFO]: [HDuc: Stopping the server]
+[13:09:40] [Server thread/INFO]: Stopping server
+[13:09:40] [Server thread/INFO]: [BloodNight] Disabling BloodNight v0.12.0
+[13:09:40] [Server thread/INFO]: [BloodNight] Shutting down night manager.
+[13:09:40] [Server thread/INFO]: [BloodNight] Resolving blood nights.
+[13:09:40] [Server thread/INFO]: [BloodNight] Night manager shutdown successful.
+[13:09:40] [Server thread/INFO]: [BloodNight] Hooks shutting down.
+[13:09:40] [Server thread/INFO]: [BloodNight] Blood Night disabled!
+[13:09:40] [Server thread/INFO]: [ChatInjector] Disabling ChatInjector v1.1
+[13:09:40] [Server thread/INFO]: [CommandToItem] Disabling CommandToItem v${version}
+[13:09:40] [Server thread/INFO]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.10.0
+[13:09:40] [Server thread/INFO]: [ConsoleSpamFix] Messages hidden since the server started: 674
+[13:09:40] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
+[13:09:40] [Server thread/INFO]: [Craftorithm] Disabling Craftorithm v1.10.17-20250121
+[13:09:40] [Server thread/INFO]: [DeadlyDisasters] Disabling DeadlyDisasters v12.1
+[13:09:40] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.14
+[13:09:40] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+171-8313d52
+[13:09:40] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2.3.12.1
+[13:09:40] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion holomobhealth
+[13:09:40] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin HoloMobHealth was disabled.
+[13:09:40] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
+[13:09:41] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.6.3
+[13:09:41] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
+[13:09:41] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
+[13:09:41] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.2 b98
+[13:09:41] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[13:09:41] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[13:09:41] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
+[13:09:41] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.8
+[13:09:41] [Server thread/INFO]: [MultiWorld] Disabled.
+[13:09:41] [Server thread/INFO]: [TorchLight] Disabling TorchLight v1.1.1
+[13:09:41] [Server thread/INFO]: [TorchLight] Offhand Torch Light is being disabled, cleaning up light blocks...
+[13:09:41] [Server thread/INFO]: [TorchLight] All light blocks have been cleaned up.
+[13:09:41] [Server thread/INFO]: [Sentinel] Disabling Sentinel v2.9.2-SNAPSHOT (build 527)
+[13:09:41] [Craft Scheduler Thread - 15 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[13:09:41] [Craft Scheduler Thread - 7 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[13:09:41] [Server thread/INFO]: [Sentinel] Sentinel unloading...
+[13:09:41] [Server thread/INFO]: [Sentinel] Sentinel unloaded!
+[13:09:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.3
+[13:09:41] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.3
+[13:09:41] [Server thread/INFO]: [TAB] Disabling TAB v5.0.6
+[13:09:41] [Server thread/INFO]: [TAB] Disabled in 4ms
+[13:09:41] [Server thread/INFO]: [TreeCuter] Disabling TreeCuter vv1.8.8
+[13:09:41] [Server thread/INFO]: [MMOItems] Disabling MMOItems v6.10
+[13:09:41] [Server thread/INFO]: [MMOItems] Waiting for other threads, please wait...
+[13:09:41] [Server thread/INFO]: [RealisticSeasons] Disabling RealisticSeasons v11.6.7
+[13:09:41] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.3
+[13:09:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+171-8313d52
+[13:09:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:09:41] [Server thread/INFO]: [MMOCore] Disabling MMOCore v1.13.1-SNAPSHOT
+[13:09:41] [Server thread/INFO]: [MMOCore] Waiting for other threads, please wait...
+[13:09:41] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.35-SNAPSHOT (build 3545)
+[13:09:41] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.7
+[13:09:41] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[13:09:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[13:09:41] [Server thread/INFO]: [MythicMobs] - 
+[13:09:41] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[13:09:41] [Server thread/INFO]: [MythicMobs] - 
+[13:09:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[13:09:41] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[13:09:41] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[13:09:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[13:09:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[13:09:41] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[13:09:41] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[13:09:41] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[13:09:41] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[13:09:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[13:09:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[13:09:41] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.44-SNAPSHOT
+[13:09:41] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[13:09:41] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[13:09:41] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[13:09:41] [Server thread/INFO]: [packetevents] Disabling packetevents v2.7.0
+[13:09:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
+[13:09:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:09:41] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-741
+[13:09:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:09:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.154
+[13:09:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:09:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:09:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:09:41] [Server thread/INFO]: Saving players
+[13:09:41] [Server thread/INFO]: HDuc lost connection: Server closed
+[13:09:41] [Server thread/INFO]: HDuc left the game
+[13:09:41] [Server thread/INFO]: Saving worlds
+[13:09:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Saved 50 block chunks, 39 entity chunks, 0 poi chunks in world 'world' in 0.22s
+[13:09:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 18 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[13:09:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:09:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[13:09:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:09:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:09:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:09:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -17,8 +17,8 @@ worlds:
 dates:
   world:
     day: 1
-    month: 10
-    year: 83
+    month: 11
+    year: 84
 temperature:
   world: true
 time-paused: []
@@ -364,9 +364,11 @@ placedeggs:
   - -1523,-31,887,world
   - -4083,122,-3085,world
   - -1578,83,847,world
+  - -1444,103,878,world
   - -256,24,-7871,world
   - -1536,37,918,world
   - -1527,-49,831,world
+  - -1587,87,897,world
   - -1558,93,826,world
   - -1552,32,835,world
   - -1570,116,913,world
@@ -377,15 +379,20 @@ placedeggs:
   - -4210,180,-2985,world
   - -128,88,-7984,world
   - -1574,82,868,world
+  - -1587,116,897,world
   - -1559,-3,879,world
   - 8345,71,2115,world
+  - -1520,112,889,world
   - -1540,113,899,world
   - -1527,30,831,world
   - -1536,90,837,world
+  - -1497,75,800,world
   - -4163,185,-2941,world
   - -1512,104,925,world
   - -1513,111,854,world
+  - -1547,112,948,world
   - -1512,-39,925,world
   - -1554,115,908,world
   - -165,18,-7841,world
   - -1513,-51,854,world
+  - -1486,76,959,world
