@@ -1,18 +1,18 @@
 RandomSasuke:
   Type: Sasuke
   Worlds: world
-  Chance: 0.1
+  Chance: 0.2
   Priority: 2
   Action: REPLACE
 RandomGoku:
   Type: Goku
   Worlds: world
-  Chance: 0.1
+  Chance: 0.2
   Priority: 1
   Action: REPLACE
 RandomHashirama:
   Type: Hashirama
   Worlds: world
-  Chance: 0.1
+  Chance: 0.2
   Priority: 3
   Action: REPLACE

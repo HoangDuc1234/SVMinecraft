@@ -336,7 +336,7 @@ EnergyAttack-Tick:
   - effect:particles{p=flame;amount=20;hSpread=0.2;vSpread=0.2;speed=0.1;yOffset=0} @origin
 EnergyAttack-Hit:
   Skills:
-  - sendtitle{title="HIT";subtitle="&6You were hit by an energy attack!";d=30} @PlayersNearOrigin{r=5} 
+  - sendtitle{title="HIT";subtitle="&6You were hit by an energy attack!";d=30} @PlayersNearOrigin{r=20} 
   - damage{a=20} @PlayersNearOrigin
  
  
@@ -382,7 +382,7 @@ GokuRapidEnergyAttack-Tick:
 GokuRapidEnergyAttack-Hit:
   Skills:
   - sendtitle{title="";subtitle="&6You were hit by a weak energy attack!";d=30} @Target 
-  - damage{a=20} @Target
+  - damage{a=20;pkb=true;ignorearmor=true} @target
   
 SSJGokuRapidEnergyAttack:
   Conditions:
@@ -409,7 +409,7 @@ SSJGokuRapidEnergyAttack-Tick:
 SSJGokuRapidEnergyAttack-Hit:
   Skills:
   - sendtitle{title="";subtitle="&6You were hit by a weak energy attack!";d=30} @Target 
-  - damage{a=30} @Target
+  - damage{a=20;pkb=true;ignorearmor=true} @target
 
 SSJ2GokuRapidEnergyAttack:
   Conditions:
@@ -435,7 +435,7 @@ SSJ2GokuRapidEnergyAttack-Tick:
 SSJ2GokuRapidEnergyAttack-Hit:
   Skills:
   - sendtitle{title="";subtitle="&6You were hit by a weak energy attack!";d=30} @Target 
-  - damage{a=25} @Target
+  - damage{a=20;pkb=true;ignorearmor=true} @target
 ###### Kamehameha Wave ######
 
 Kamehameha:
@@ -479,7 +479,7 @@ SuperKamehameha-Tick:
 SuperKamehameha-Hit:
   Skills:
   - sendtitle{title="HIT";subtitle="&6If this was real. You'd be a puddle!";d=30} @Target
-  - damage{a=40} @Target
+  - damage{a=40;pkb=true;ignorearmor=true} @target
 SuperKamehameha-End:
   Skills:
   - effect:blockmask{m=barrier;r=2;d=80;} @origin
@@ -513,7 +513,7 @@ GoSuperSaiyan2:
 ###### Recover Health ######
 Regenerate:
   Skills:
-  - heal{amount=100} <100% 1
+  - heal{amount=500} <100% 1
   - effect:particles{p=heart;amount=20;hSpread=1;vSpread=0.1;speed=0.1;yOffset=1} @Self
 
 ###### Destructo Disk ######
@@ -651,7 +651,6 @@ GenerousSensuBean:
   - delay 20
   - message{m="[&eGoku&f]If we are going to fight. Lets make it even. Have this &eSensu Bean"} @PlayersInRadius{r=20}
   - sendtitle{title="";subtitle="&aYou feel like fighting!";d=40} @PlayersInRadius{r=20}
-  - potion{type=REGENERATION;duration=400;level=2} @PlayersInRadius{r=20}
   
 ###### Skin Correction Codes GIVE THEM SOME TIME TO KICK IN. This is for the sake of FPS ######
 FixGokuSkin:

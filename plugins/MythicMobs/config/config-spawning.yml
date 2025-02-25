@@ -4,8 +4,8 @@ Configuration:
   RandomSpawning:
     DisableVanillaSpawns: false
     GenerateSpawnPoints: false
-    SpawnRadiusPerPlayer: 100
-    SpawnRadiusPerPlayerMin: 30
+    SpawnRadiusPerPlayer: 15
+    SpawnRadiusPerPlayerMin: 15
     SpawnRadiusPerPlayerY: 16
     PlayerClusterDistance: 24.0
     LimitMultiplier: 1.2

@@ -6,7 +6,7 @@ Goku:
   Mobtype: Husk
   Display: '&eGoku'
   Health: 2000
-  Damage: 10
+  Damage: 15
   Faction: Boss
   BossBar:
     Enabled: true
@@ -32,13 +32,13 @@ Goku:
   - skill{s=BackStep} ~onTimer:150 @Target
   
      ### Fixes Skin bug when teleporting away from mob (Such as Dying) Then returning ###
-  - skill{s=KaioKen-Goku} @Self ~onTimer:100 1 <20%    
   - skill{s=GokuSkills} ~onTimer:200 @Target
-  - skill{s=GokuRapidEnergyAttack} @Target  ~onTimer:150
+  - skill{s=GokuRapidEnergyAttack} @Target  ~onTimer:50
 #  - skill{s=AirborneCombo} ~onTimer:300
   Drops:
   - emerald 32
   - experience 1000
+  - netherite_ingot 1
   Options:
     PreventOtherDrops: true
     FollowRange: 32

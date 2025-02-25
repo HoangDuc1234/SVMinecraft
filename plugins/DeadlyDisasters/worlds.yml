@@ -1,13 +1,13 @@
 world:
   general:
     natural_disasters: true
-    min_timer: 180
+    min_timer: 120
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: CUSTOM
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
@@ -46,60 +46,60 @@ world:
   whitelist: []
 world_nether:
   general:
-    natural_disasters: false
-    min_timer: 90
+    natural_disasters: true
+    min_timer: 120
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: CUSTOM
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT
   disasters:
-    SINKHOLE: true
-    CAVEIN: true
+    SINKHOLE: false
+    CAVEIN: false
     TORNADO: false
-    GEYSER: true
-    PLAGUE: true
-    ACIDSTORM: true
-    EXTREMEWINDS: true
-    SOULSTORM: true
-    BLIZZARD: true
-    SANDSTORM: true
-    EARTHQUAKE: true
-    TSUNAMI: true
-    METEORSHOWERS: true
-    ENDSTORM: true
-    SUPERNOVA: true
-    HURRICANE: true
+    GEYSER: false
+    PLAGUE: false
+    ACIDSTORM: false
+    EXTREMEWINDS: false
+    SOULSTORM: false
+    BLIZZARD: false
+    SANDSTORM: false
+    EARTHQUAKE: false
+    TSUNAMI: false
+    METEORSHOWERS: false
+    ENDSTORM: false
+    SUPERNOVA: false
+    HURRICANE: false
     PURGE: true
-    SOLARSTORM: true
-    CUSTOM: true
+    SOLARSTORM: false
+    CUSTOM: false
   external:
     region_plugins:
       region_protection: true
       ignore_weather_effects_in_regions: true
       cure_plague_in_regions: true
   custom_table:
-    level_1: 30
-    level_2: 25
+    level_1: 10
+    level_2: 20
     level_3: 20
-    level_4: 15
-    level_5: 9
-    level_6: 1
+    level_4: 20
+    level_5: 10
+    level_6: 20
   whitelist: []
 world_the_end:
   general:
     natural_disasters: false
-    min_timer: 90
+    min_timer: 120
     level_six: true
     event_broadcast: true
     disaster_offset: 10
     admin_override: true
     pet_warning_time: 0
-    difficulty: NORMAL
+    difficulty: CUSTOM
     minDistanceRadius: 50
     custom_mob_spawning: true
     config: DEFAULT

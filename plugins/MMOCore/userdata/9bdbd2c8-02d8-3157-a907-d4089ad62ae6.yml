@@ -1,17 +1,17 @@
 class-points: 1
-skill-points: 42
+skill-points: 43
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 79
-experience: 3528.2071188000236
+level: 80
+experience: 728.0
 class: ARCANE_MAGE
 waypoints: []
 friends: []
-last-login: 1740388352274
+last-login: 1740417336988
 skill-tree-reallocation-points: 0
-health: 174.0
-mana: 264.0
+health: 176.0
+mana: 267.0
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -142,14 +142,14 @@ skill-tree-level:
 times-claimed:
   class_ARCANE_MAGE:
     class_exp_table:
-      skill_point: 51
+      skill_point: 52
   class_MAGE:
     class_exp_table:
       skill_point: 27
 attribute:
   dexterity: 0
   strength: 0
-  intelligence: 22
+  intelligence: 25
 profession:
   enchanting:
     exp: 140.0

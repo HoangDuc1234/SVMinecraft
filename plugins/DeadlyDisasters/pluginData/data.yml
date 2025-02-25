@@ -5,7 +5,7 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 59579
+  catalogFetchCooldown: 24231
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'
@@ -29,7 +29,7 @@ metrics:
   - 0
   - 0
   - 0
-  - 5
+  - 6
   - 0
   spawned:
   - 0
@@ -48,7 +48,7 @@ metrics:
   - 0
   - 0
   - 0
-  - 5
+  - 6
   - 0
   destroyed:
   - 0
@@ -67,7 +67,7 @@ metrics:
   - 0
   - 0
   - 0
-  - 5
+  - 6
   - 0
   killed:
   - 0
@@ -86,24 +86,24 @@ metrics:
   - 0
   - 0
   - 0
-  - 5
+  - 6
   - 0
 timers:
   5ca001c5-481e-41d3-ae03-66d95f939df1:
-    43f59985-74e9-3264-a600-e9e49c0843c2: 160
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 164
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 129
-    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 165
+    43f59985-74e9-3264-a600-e9e49c0843c2: 167
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 136
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 143
+    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 131
     bd3a5fca-83f2-38a9-b281-607c49a1e59b: 129
   68c6649e-95ca-449e-845f-9fdd42053586:
-    43f59985-74e9-3264-a600-e9e49c0843c2: 95
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 0
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 2
-    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 117
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 5
+    43f59985-74e9-3264-a600-e9e49c0843c2: 120
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 134
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 168
+    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 149
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 152
   a247729e-4e99-4903-9b81-b1d41f85d80c:
-    43f59985-74e9-3264-a600-e9e49c0843c2: 162
-    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 174
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 127
-    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 165
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 150
+    43f59985-74e9-3264-a600-e9e49c0843c2: 153
+    9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 146
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 176
+    10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 136
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 2

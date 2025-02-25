@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1740398174916
+  lastteleport: 1740414935975
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740398277432
-  login: 1740397792775
+  logout: 1740415525441
+  login: 1740414517974
 money: '0'
 last-account-name: minakaze
 lastlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1569.699999988079
-  y: 119.0
-  z: 870.6999999880791
-  yaw: -88.7027587890625
-  pitch: 41.25
+  x: -1534.9355714029743
+  y: 122.56199036899608
+  z: 868.361082725899
+  yaw: 41.98843765258789
+  pitch: 17.699874877929688
 logoutlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1532.699999988079
-  y: 109.0
-  z: 874.4203731020111
-  yaw: 34.63836669921875
-  pitch: 7.949985027313232
+  x: -1523.677472573481
+  y: 115.68296160224735
+  z: 869.5703071218707
+  yaw: -107.48085021972656
+  pitch: 40.776519775390625
 homes:
   home:
     world: 68c6649e-95ca-449e-845f-9fdd42053586
