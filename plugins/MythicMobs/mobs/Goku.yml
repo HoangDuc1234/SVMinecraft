@@ -40,13 +40,18 @@ Goku:
   - experience 1000
   - netherite_ingot 1
   Options:
-    PreventOtherDrops: true
-    FollowRange: 32
+    Collidable: true
     Despawn: true
-    KnockbackResistance: 0
-    PreventMobKillDrops: true
+    AlwaysShowName: true
+    FollowRange: 35
+    KnockbackResistance: 0.5
+    MaxCombatDistance: 25
+    MovementSpeed: 0.25
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
     Silent: true
-    PreventEquipment: true
 KaioKenGoku:
   Mobtype: Husk
   BossBar:

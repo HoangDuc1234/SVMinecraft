@@ -11,14 +11,18 @@ Sasuke:
         Color: RED
         Style: SEGMENTED_10
     Options:
+        Collidable: true
+        Despawn: true
         AlwaysShowName: true
-        PreventOtherDrops: true
-        Silent: true
-        KnockbackResistance: 1
+        FollowRange: 35
+        KnockbackResistance: 0.5
+        MaxCombatDistance: 25
+        MovementSpeed: 0.25
         PreventItemPickup: true
-        PreventMobKillDrops: true
+        PreventOtherDrops: true
+        PreventRandomEquipment: true
         PreventSunburn: true
-        PreventEquipment: true
+    Silent: true
     Disguise: "player Steve setSkin Sasuke setCustomName '&bSasuke' setCustomNameVisible true" 
     Skills:
         - skill{delay=250;s=Kirin} @target
@@ -44,13 +48,17 @@ Hashirama:
     Display: '&aHashirama'
     Options:
         AlwaysShowName: true
-        PreventOtherDrops: true
-        Silent: true
-        KnockbackResistance: 1
+        Collidable: true
+        Despawn: true
+        FollowRange: 35
+        KnockbackResistance: 0.5
+        MaxCombatDistance: 25
+        MovementSpeed: 0.25
         PreventItemPickup: true
-        PreventMobKillDrops: true
+        PreventOtherDrops: true
+        PreventRandomEquipment: true
         PreventSunburn: true
-        PreventEquipment: true
+        Silent: true
     Disguise: "player Steve setSkin Hashirama setCustomName '&aHashirama' setCustomNameVisible true" 
     Skills:
         - skill{delay=50;s=MaderaAtaque} @target
@@ -69,13 +77,18 @@ Hashirama2:
     Armor: 10
     Display: '&aHashirama'
     Options:
+        Collidable: true
+        Despawn: true
         AlwaysShowName: true
-        PreventOtherDrops: true
-        Silent: true
-        KnockbackResistance: 1
+        FollowRange: 35
+        KnockbackResistance: 0.5
+        MaxCombatDistance: 25
+        MovementSpeed: 0.25
         PreventItemPickup: true
-        PreventMobKillDrops: true
+        PreventOtherDrops: true
+        PreventRandomEquipment: true
         PreventSunburn: true
+        Silent: true
     Disguise: "player Steve setSkin Hashirama setCustomName '&aHashirama' setCustomNameVisible true" 
     Skills:
         - skill{delay=100;s=ProyectilClon} @target

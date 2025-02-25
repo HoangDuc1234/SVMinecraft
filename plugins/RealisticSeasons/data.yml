@@ -13,11 +13,11 @@ players:
   - 10a8fc32-3fe1-3ff5-b158-d4bfd92989a8
   fahrenheit-mode: []
 worlds:
-  world: SPRING
+  world: SUMMER
 dates:
   world:
     day: 1
-    month: 3
+    month: 8
     year: 83
 temperature:
   world: true
@@ -354,17 +354,23 @@ placedeggs:
   - -4146,163,-2993,world
   - -1552,87,835,world
   - -4178,153,-3064,world
+  - -1494,109,888,world
   - -1512,74,925,world
+  - -1527,101,831,world
   - -1542,114,921,world
+  - -1527,108,831,world
   - 8201,62,2128,world
   - -4082,111,-2989,world
   - -1523,-31,887,world
+  - -1468,96,808,world
   - -4083,122,-3085,world
   - -1578,83,847,world
   - -256,24,-7871,world
   - -1536,37,918,world
+  - -1527,-49,831,world
   - -1558,93,826,world
   - -1552,32,835,world
+  - -1391,78,926,world
   - -1570,116,913,world
   - -1561,114,851,world
   - -193,84,-7962,world
@@ -376,10 +382,13 @@ placedeggs:
   - -1559,-3,879,world
   - 8345,71,2115,world
   - -1540,113,899,world
+  - -1527,30,831,world
   - -1536,90,837,world
   - -4163,185,-2941,world
   - -1512,104,925,world
+  - -1408,109,801,world
   - -1513,111,854,world
+  - -1456,71,936,world
   - -1512,-39,925,world
   - -1554,115,908,world
   - -165,18,-7841,world
