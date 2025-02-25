@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 192.168.1.4
+ip-address: 42.1.77.112
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740454467790
-  login: 1740451688364
+  logout: 1740455805503
+  login: 1740455795803
 money: '7778.68822720144545'
 last-account-name: HDuc
 logoutlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1536.5
-  y: 115.0
-  z: 868.5
-  yaw: -84.65283203125
-  pitch: 19.3973445892334
+  x: -1543.4882820391729
+  y: 117.0
+  z: 858.8695194528088
+  yaw: 57.90041732788086
+  pitch: 24.7690486907959
 lastlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
