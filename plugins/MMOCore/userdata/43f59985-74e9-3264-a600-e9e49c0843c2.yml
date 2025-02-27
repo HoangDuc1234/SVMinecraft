@@ -1,16 +1,16 @@
 class-points: 1
-skill-points: 28
+skill-points: 29
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 29
-experience: 773.0
+level: 30
+experience: 1450.0
 class: ROGUE
 waypoints: []
 friends: []
-last-login: 1740415525443
+last-login: 1740506060707
 skill-tree-reallocation-points: 0
-health: 204.0
+health: 65.44790649414062
 mana: 20.0
 stellium: 20.0
 stamina: 20.0
@@ -142,7 +142,7 @@ skill-tree-level:
 times-claimed:
   class_ROGUE:
     class_exp_table:
-      skill_point: 28
+      skill_point: 29
 attribute:
   dexterity: 0
   strength: 20

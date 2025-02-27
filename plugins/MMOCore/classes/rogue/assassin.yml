@@ -29,7 +29,7 @@ skill-slots:
         lore: []
 
 # The maximum level players can reach
-max-level: 100
+max-level: 1000
 
 skill-trees:
     - 'general'

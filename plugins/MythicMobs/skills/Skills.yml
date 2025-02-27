@@ -127,7 +127,7 @@ ClonMadera:
         - message{m="<mob.name>&f<&co> &fMộc độn!"} @PlayersInRadius{r=30}
         - delay 20
         - message{m="<mob.name>&f<&co> &6Mộc phân thân!"} @PlayersInRadius{r=30}
-        - summon{type=Hashirama2;amount=4;radius=4} @self
+        - summon{type=Hashirama2;amount=1;radius=5} @self
         - effect:particleorbital{r=6;points=24;t=100;i=1;vy=20;particle=reddust;color=#000000;s=0.1;rotX=10} @self
 ProyectilClon:
     Cooldown: 5

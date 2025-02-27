@@ -62,7 +62,7 @@ Hashirama:
     Disguise: "player Steve setSkin Hashirama setCustomName '&aHashirama' setCustomNameVisible true" 
     Skills:
         - skill{delay=50;s=MaderaAtaque} @target
-        - skill{delay=200;s=ClonMadera} @self
+        - skill{delay=2000;s=ClonMadera} @self
         - skill{delay=50;s=ProyectilClon} @target
         - skill{delay=100;s=IAClon} @self
         - message{m="<mob.name>&f<&co> &6Boom!"} @PlayersInRadius{r=30} ~onDeath
@@ -72,9 +72,9 @@ Hashirama:
     - netherite_ingot 1
 Hashirama2:
     Type: Husk
-    Health: 100
-    Damage: 1
-    Armor: 10
+    Health: 500
+    Damage: 10
+    Armor: 20
     Display: '&aHashirama'
     Options:
         Collidable: true
@@ -92,7 +92,6 @@ Hashirama2:
     Disguise: "player Steve setSkin Hashirama setCustomName '&aHashirama' setCustomNameVisible true" 
     Skills:
         - skill{delay=100;s=ProyectilClon} @target
-        - skill{delay=200;s=IAClon} @self
         - message{m="<mob.name>&f<&co> &6Boom!"} @PlayersInRadius{r=30} ~onDeath
         - damage{a=10} @PlayersNearOrigin{r=10}
         - effect:explosion @origin

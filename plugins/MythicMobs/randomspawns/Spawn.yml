@@ -1,19 +1,19 @@
 RandomSasuke:
   Action: ADD
   Type: Sasuke
-  Chance: 0.00004
+  Chance: 0.00001
   Priority: 1
   Worlds: world,world_nether,world_the_end
 RandomGoku:
   Action: ADD
   Type: Goku
-  Chance: 0.00004
+  Chance: 0.00001
   Priority: 2
   Worlds: world,world_nether,world_the_end
 RandomHashirama:
   Action: ADD
   Type: Hashirama
-  Chance: 0.00004
+  Chance: 0.00001
   Priority: 3
   Worlds: world,world_nether,world_the_end
 

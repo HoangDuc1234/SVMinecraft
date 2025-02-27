@@ -1,7 +1,7 @@
 world:
   general:
     natural_disasters: true
-    min_timer: 120
+    min_timer: 300
     level_six: true
     event_broadcast: true
     disaster_offset: 10
@@ -47,7 +47,7 @@ world:
 world_nether:
   general:
     natural_disasters: true
-    min_timer: 120
+    min_timer: 300
     level_six: true
     event_broadcast: true
     disaster_offset: 10
@@ -93,7 +93,7 @@ world_nether:
 world_the_end:
   general:
     natural_disasters: false
-    min_timer: 120
+    min_timer: 300
     level_six: true
     event_broadcast: true
     disaster_offset: 10

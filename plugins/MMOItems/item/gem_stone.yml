@@ -209,3 +209,11 @@ G21:
 G14:
   base:
     material: EMERALD
+GM1:
+  base:
+    material: EMERALD
+    additional-experience: 30.0
+    pve-damage: 10.0
+    success-rate: 15.0
+    pvp-damage: 10.0
+    name: '&aNgọc siêu cấp'

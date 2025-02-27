@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1740417011330
+  lastteleport: 1740629248977
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740417336987
-  login: 1740417297933
+  logout: 1740630042855
+  login: 1740628043454
 money: '0'
 last-account-name: taqsoimh
 lastlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1540.5120744700168
-  y: 112.0
-  z: 876.6792322625787
-  yaw: 22.9693603515625
-  pitch: 14.099967956542969
+  x: -1427.5512171947444
+  y: 23.0
+  z: -1124.3540638318561
+  yaw: 35.400634765625
+  pitch: 42.15003204345703
 logoutlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1536.1197226219342
-  y: 115.0
-  z: 869.1307902271506
-  yaw: -82.18049621582031
-  pitch: -2.5499844551086426
+  x: -1562.300000011921
+  y: 106.0
+  z: 876.3000000119209
+  yaw: 67.89724731445312
+  pitch: 45.34738540649414
 homes:
   home:
     world: 68c6649e-95ca-449e-845f-9fdd42053586

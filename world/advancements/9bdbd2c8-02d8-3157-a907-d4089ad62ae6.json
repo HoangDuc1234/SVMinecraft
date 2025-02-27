@@ -817,28 +817,32 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2025-02-23 08:40:26 +0000",
       "minecraft:cold_ocean": "2025-02-22 15:01:21 +0000",
-      "minecraft:beach": "2025-02-22 15:00:56 +0000",
       "minecraft:forest": "2025-02-22 14:56:33 +0000",
       "minecraft:taiga": "2025-02-23 08:18:04 +0000",
       "minecraft:deep_ocean": "2025-02-23 06:36:33 +0000",
+      "minecraft:deep_cold_ocean": "2025-02-27 03:40:14 +0000",
+      "minecraft:eroded_badlands": "2025-02-23 08:39:49 +0000",
+      "minecraft:frozen_river": "2025-02-24 02:37:47 +0000",
+      "minecraft:windswept_forest": "2025-02-27 03:41:36 +0000",
+      "minecraft:ocean": "2025-02-23 06:32:20 +0000",
+      "minecraft:cherry_grove": "2025-02-21 15:33:57 +0000",
+      "minecraft:birch_forest": "2025-02-23 06:35:06 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-02-26 09:47:33 +0000",
+      "minecraft:warm_ocean": "2025-02-23 08:37:40 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-02-23 06:36:35 +0000",
+      "minecraft:badlands": "2025-02-23 08:40:26 +0000",
+      "minecraft:beach": "2025-02-22 15:00:56 +0000",
       "minecraft:river": "2025-02-21 14:28:54 +0000",
       "minecraft:lukewarm_ocean": "2025-02-23 06:36:38 +0000",
       "minecraft:snowy_plains": "2025-02-22 14:51:18 +0000",
       "minecraft:stony_shore": "2025-02-23 08:21:28 +0000",
       "minecraft:dripstone_caves": "2025-02-21 14:04:19 +0000",
       "minecraft:old_growth_birch_forest": "2025-02-23 06:35:17 +0000",
-      "minecraft:eroded_badlands": "2025-02-23 08:39:49 +0000",
-      "minecraft:frozen_river": "2025-02-24 02:37:47 +0000",
       "minecraft:deep_dark": "2025-02-22 15:56:53 +0000",
-      "minecraft:ocean": "2025-02-23 06:32:20 +0000",
-      "minecraft:cherry_grove": "2025-02-21 15:33:57 +0000",
+      "minecraft:swamp": "2025-02-27 03:43:05 +0000",
       "minecraft:meadow": "2025-02-21 14:03:47 +0000",
-      "minecraft:birch_forest": "2025-02-23 06:35:06 +0000",
-      "minecraft:plains": "2025-02-21 14:05:58 +0000",
-      "minecraft:warm_ocean": "2025-02-23 08:37:40 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-02-23 06:36:35 +0000"
+      "minecraft:plains": "2025-02-21 14:05:58 +0000"
     },
     "done": false
   },
@@ -1093,27 +1097,30 @@
       "minecraft:pillager": "2025-02-21 14:40:23 +0000",
       "minecraft:blaze": "2025-02-23 14:06:47 +0000",
       "minecraft:skeleton": "2025-02-21 14:30:21 +0000",
-      "minecraft:phantom": "2025-02-21 14:11:53 +0000",
-      "minecraft:zombified_piglin": "2025-02-22 04:11:52 +0000",
-      "minecraft:wither_skeleton": "2025-02-22 14:50:10 +0000",
       "minecraft:ravager": "2025-02-21 15:06:08 +0000",
+      "minecraft:bogged": "2025-02-27 03:55:56 +0000",
       "minecraft:ghast": "2025-02-22 08:26:12 +0000",
       "minecraft:hoglin": "2025-02-22 08:39:35 +0000",
-      "minecraft:shulker": "2025-02-23 16:27:15 +0000",
-      "minecraft:cave_spider": "2025-02-22 02:32:21 +0000",
-      "minecraft:piglin": "2025-02-22 09:03:48 +0000",
       "minecraft:vindicator": "2025-02-21 15:25:02 +0000",
-      "minecraft:enderman": "2025-02-22 03:05:32 +0000",
-      "minecraft:silverfish": "2025-02-23 15:53:17 +0000",
       "minecraft:magma_cube": "2025-02-22 03:57:08 +0000",
       "minecraft:spider": "2025-02-22 02:30:09 +0000",
       "minecraft:piglin_brute": "2025-02-22 09:36:50 +0000",
+      "minecraft:creeper": "2025-02-22 02:31:09 +0000",
+      "minecraft:slime": "2025-02-21 14:30:46 +0000",
+      "minecraft:phantom": "2025-02-21 14:11:53 +0000",
+      "minecraft:zombified_piglin": "2025-02-22 04:11:52 +0000",
+      "minecraft:witch": "2025-02-26 10:11:13 +0000",
+      "minecraft:wither_skeleton": "2025-02-22 14:50:10 +0000",
+      "minecraft:husk": "2025-02-25 15:40:54 +0000",
+      "minecraft:shulker": "2025-02-23 16:27:15 +0000",
+      "minecraft:cave_spider": "2025-02-22 02:32:21 +0000",
+      "minecraft:piglin": "2025-02-22 09:03:48 +0000",
+      "minecraft:enderman": "2025-02-22 03:05:32 +0000",
+      "minecraft:silverfish": "2025-02-23 15:53:17 +0000",
       "minecraft:vex": "2025-02-22 03:59:10 +0000",
       "minecraft:zombie": "2025-02-21 14:39:31 +0000",
-      "minecraft:creeper": "2025-02-22 02:31:09 +0000",
       "minecraft:drowned": "2025-02-24 02:41:18 +0000",
-      "minecraft:zombie_villager": "2025-02-22 15:00:46 +0000",
-      "minecraft:slime": "2025-02-21 14:30:46 +0000"
+      "minecraft:zombie_villager": "2025-02-22 15:00:46 +0000"
     },
     "done": false
   },
@@ -1225,7 +1232,9 @@
       "bread": "2025-02-22 14:43:51 +0000",
       "cooked_rabbit": "2025-02-22 03:24:23 +0000",
       "cooked_chicken": "2025-02-22 02:07:13 +0000",
+      "rotten_flesh": "2025-02-26 09:17:24 +0000",
       "cooked_mutton": "2025-02-21 14:28:15 +0000",
+      "potato": "2025-02-26 11:12:23 +0000",
       "glow_berries": "2025-02-22 12:10:55 +0000",
       "cooked_beef": "2025-02-21 15:06:18 +0000",
       "beetroot": "2025-02-24 06:39:03 +0000",
@@ -3268,6 +3277,120 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2025-02-24 06:35:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-02-25 16:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-02-25 16:22:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2025-02-25 16:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-02-25 16:24:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-02-25 16:24:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-02-25 17:48:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-02-26 10:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-02-26 15:57:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2025-02-27 04:07:03 +0000"
     },
     "done": true
   },

@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 33
+last-created-npc-id: 37
 npc:
   '12':
     metadata:
@@ -42,16 +42,16 @@ npc:
             experienceCost: -1
       type: PLAYER
       location:
-        bodyYaw: 41.459656
+        bodyYaw: 49.32106
         world: world
         x: -1533.8204
         y: 116.0
         z: 867.7217
-        yaw: 41.4597
-        pitch: 18.5777
+        yaw: 49.3211
+        pitch: 5.4975
       gravity:
         enabled: true
-    traitnames: lookclose,owner,mounttrait,gravity,type,rotationtrait,skintrait,commandtrait,scoreboardtrait,inventory,location,spawned
+    traitnames: mounttrait,scoreboardtrait,inventory,rotationtrait,location,type,owner,commandtrait,skintrait,lookclose,spawned,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -98,13 +98,13 @@ npc:
             cost: -1.0
             experienceCost: -1
       location:
-        bodyYaw: 39.098755
+        bodyYaw: 61.93135
         world: world
         x: -1533.8562
         y: 116.0
         z: 870.2828
-        yaw: 39.0988
-        pitch: -25.5202
+        yaw: 61.9314
+        pitch: 6.6805
       gravity:
         enabled: true
       lookclose:
@@ -116,7 +116,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: lookclose,owner,gravity,type,rotationtrait,skintrait,commandtrait,scoreboardtrait,inventory,location,spawned
+    traitnames: scoreboardtrait,inventory,rotationtrait,location,type,owner,commandtrait,skintrait,lookclose,spawned,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -165,7 +165,7 @@ npc:
         '0':
           type_key: netherite_sword
           amount: 1
-    traitnames: lookclose,controllable,owner,type,rotationtrait,skintrait,scoreboardtrait,equipment,inventory,location,spawned
+    traitnames: scoreboardtrait,inventory,rotationtrait,location,type,owner,skintrait,lookclose,equipment,controllable,spawned
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -180,7 +180,8 @@ npc:
     uuid: 73aed76a-324d-425a-a401-5dfb5a33221d
     traits:
       lookclose:
-        range: 10.0
+        range: 4.0
+        enabled: true
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -190,71 +191,36 @@ npc:
       owner:
         uuid: bd3a5fca-83f2-38a9-b281-607c49a1e59b
       sentinel:
-        stats_ticksSpawned: 148497
-        stats_timesSpawned: 4
-        stats_arrowsFired: 482
-        stats_potionsThrow: 0
-        stats_fireballsFired: 0
-        stats_snowballsThrown: 0
-        stats_eggsThrown: 0
-        stats_skullsThrown: 0
-        stats_llamaSpitShot: 0
-        stats_shulkerBulletsShot: 0
-        stats_evokerFangsSpawned: 0
-        stats_pearlsUsed: 0
+        stats_ticksSpawned: 3963674
+        stats_timesSpawned: 5
+        stats_arrowsFired: 12324
         stats_punches: 3
-        stats_attackAttempts: 1751
+        stats_attackAttempts: 53634
         stats_damageTaken: 24.90999984741211
-        stats_damageGiven: 23789.268018484112
-        avoidRange: 10.0
+        stats_damageGiven: 428001.8704643262
         range: 60.0
-        damage: 200.0
-        armor: -1.0
-        health: 20.0
-        ranged_chase: true
+        damage: 500.0
         close_chase: false
         invincible: true
-        protected: true
         protectFromRange: 60.0
-        fightback: true
-        runaway: false
         attackRate: 2000
-        attackRateRanged: 30
-        healRate: 100
-        guardingUpper: 0
-        guardingLower: 0
-        guardedNPC: -1
-        needsAmmo: false
-        safeShot: true
         respawnTime: 20
-        chaseRange: 60.0
-        enemyDrops: false
-        enemyTargetTime: 6000
-        speed: 1.5
-        warning_text: ''
-        greeting_text: ''
-        greet_range: 10.0
-        greet_rate: 100
-        autoswitch: false
-        accuracy: 0.0
+        chaseRange: 0.0
+        greeting_text: Tôi sẽ bảo vệ bạn
         realistic: true
-        ignore_los: false
         reach: 20.0
-        projectileRange: 30.0
+        projectileRange: 40.0
         guard_distance_minimum: 30.0
         guard_selection_range: 25.0
-        retain_target: false
-        disable_teleporting: false
-        reaction_slowdown: 0
-        allow_knockback: true
-        death_xp: 0
         allTargets:
           targets:
-            '0': ENDERMAN
-            '1': ZOMBIE
-            '2': SKELETON
-            '3': SKELETON_HORSE
-            '4': HUSK
+            '0': ZOMBIE
+            '1': SKELETON
+            '2': HUSK
+            '3': ENDERMAN
+            '4': PILLAGER
+            '5': MONSTER
+            '6': SKELETON_HORSE
         allIgnores:
           targets:
             '0': OWNER
@@ -268,33 +234,73 @@ npc:
           type_key: bow
           amount: 1
           meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQACGVuY2hhbnRzdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QAC1VuYnJlYWthYmxldAAGY3VzdG9tdXEAfgAGAAAACXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QASHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiR2FueXUgQm93IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJhcXVhIn1dfXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAIdwQAAAAIdABBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJCb3ciLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InJlZCJ9XX10AIl7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJib2xkIjpmYWxzZX1dfXQAsHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4p64IEF0dGFjayBEYW1hZ2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IjIwMCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19dAC1eyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiIgIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2FxdWEifSx7InRleHQiOiLilqAgU2tpbGwgQ3JpdCBDaGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6Iis1MCUiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXQAtXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4pagIFNraWxsIENyaXQgUG93ZXI6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALF7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBSYXRpbmc6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AL17InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBDb29sZG93biBSZWR1Y3Rpb246ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALd7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBTYWZlIEZhbGwgRGlzdGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDI0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX14c3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABFtaW5lY3JhZnQ6bWVuZGluZ3VxAH4ABgAAAAFzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAHm1pbmVjcmFmdDpnZW5lcmljLmF0dGFja19zcGVlZHNxAH4AFQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAEcQB+AAh0AAZhbW91bnR0AAlvcGVyYXRpb250AANrZXl1cQB+AAYAAAAEdAAmb3JnLmJ1a2tpdC5hdHRyaWJ1dGUuQXR0cmlidXRlTW9kaWZpZXJzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+ACUAAAAAAAAAAHNxAH4AJAAAAAB0AA5tbW9pdGVtczpkZWNveXh4AHNxAH4AFQAAAAJ3BAAAAAJ0AA9ISURFX0FUVFJJQlVURVN0ABBISURFX1VOQlJFQUtBQkxFeHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF0AtxINHNJQUFBQUFBQUEvNFdSUVd2Yk1CaUdGUVlodEhSc2c1WEJMcDVZZDFrWVRyWlJ5Q21xckRnbXRoVnNseERTSUpSRXprd2NlemdPb1lUK2g1MTJITHZsdk52TzJUL1pMNWxjRTZjWlc2dUQwS2YzRmQrajl6c0NvQXhPTFlzYUhyRmNoandQNFE3VGtJVjAwZ3pBN2FxQUo0VWgyNW1oZ1lxTzdQN2xCZTFWd0VraDJzZ2k0UGpOU09mUjlWSzVpRmNWOExRUWlZM2J5UFpjY0RLQWN4Rk5nbWlxMU9Dd0RGNFhGcmRqbUNiRGp1RVpHSm5NOVJ5alExaVg5b2pUN085WVh1eGhIWWYyV0JjNTBtNFNGN1RYc011VE5CaUhBamFnYnRJZXJFSTBqNWRSQ2h0MXRRcXA3eStFUEt2dlpJSGpNRTdFQkRaOEhpNUVGYnFmUlZaSjdhWU1YaFZOTktycGhHRktUWTMyYk9ZUTdSSjdCclgzUUVkdENkclBQNC9XMEUyNWJBR3pVcmFudXB2R3lUVnNETmJ3SUNmMjY4Y2lUYVR4VGx6d1ppaDduejJRUnhZakprMWoxLy9aNFhDOGZwZUFSM0l5SlhCOEdZMFN3V2Q4RklwU0JUek9RWXRCV0FYczd1cC93RHU5Z0I1YzdXZDRCWWM1K01zOU9Hb1Ixa0lTWGpOYzd4YjNTNDViQnMvL2l0WkJubUhyK3pqdjZIMFpsSUdaU1IxU09oM0E3Y2JmYnNaWlR0WHNuTy9ielh0bHV6bi8vZTJuZ3RLVWoyZUt4dWQ4S2hyeTFxK3I2cUhyNjNmRm5RVmhxT0FrU0JYOGlVZmozUG4ybzNwMm43VWJyMFNTTzJ2cVA2eGFQSmtLeGVHcGpPUkJHNDdqY0JLdklzVVJrK1U0RGVMb25pY3U5NFhTNGhKRUN4YnBIcmltMWovQUlmZ0RxRWw2K3NFREFBQT0=
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQACGVuY2hhbnRzdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QAC1VuYnJlYWthYmxldAAGY3VzdG9tdXEAfgAGAAAACXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QASHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiR2FueXUgQm93IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJhcXVhIn1dfXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAIdwQAAAAIdABBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJCb3ciLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InJlZCJ9XX10AIl7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJib2xkIjpmYWxzZX1dfXQAsHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4p64IEF0dGFjayBEYW1hZ2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IjIwMCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19dAC1eyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiIgIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2FxdWEifSx7InRleHQiOiLilqAgU2tpbGwgQ3JpdCBDaGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6Iis1MCUiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXQAtXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4pagIFNraWxsIENyaXQgUG93ZXI6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALF7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBSYXRpbmc6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AL17InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBDb29sZG93biBSZWR1Y3Rpb246ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALd7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBTYWZlIEZhbGwgRGlzdGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDI0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX14c3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABFtaW5lY3JhZnQ6bWVuZGluZ3VxAH4ABgAAAAFzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAHm1pbmVjcmFmdDpnZW5lcmljLmF0dGFja19zcGVlZHNxAH4AFQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAEcQB+AAh0AAZhbW91bnR0AAlvcGVyYXRpb250AANrZXl1cQB+AAYAAAAEdAAmb3JnLmJ1a2tpdC5hdHRyaWJ1dGUuQXR0cmlidXRlTW9kaWZpZXJzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+ACUAAAAAAAAAAHNxAH4AJAAAAAB0AA5tbW9pdGVtczpkZWNveXh4AHNxAH4AFQAAAAJ3BAAAAAJ0AA9ISURFX0FUVFJJQlVURVN0ABBISURFX1VOQlJFQUtBQkxFeHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF0AtxINHNJQUFBQUFBQUEvNFdSUVl2VFFCaUdwd2dsN0xLaWdvdmdKUTZ1RjR1a1ZWbm9xYk9UYVJxYVpFcVNwWlJ1Q2ROMlVrUFRSTktVc3BUOUQ1NDhpcmVldlhtdS84UmY0bVJEMHEzb2JnN0RmUE85azNtZjl6c0NvQXBPVFpQcUxqRWREN2t1d2wxUFJTYlNTQ3NBdDU4RW5wU0NiUFYwRlVnYXNnYVhGN1F2Z1pPeWFTR1RnT00zWTQxRjF5djVJbDVMNE1YKzE3Wk4rMTRQMmE2T0RlS0F6Z2IyV0pJR2s1RERKdFFNMm9jMWlCYnhLa3BoczZIVUlQWDlKUmQ3NVowb2NCekdDWi9DcHMvQ0phOUI1elBQS3RHN3FZTFg1U05PVnpjTUQ5dTZlQVFabnVQYWVwZDRQZG9uZG10UTBEd3Q1Y1RDSFdTNURqZ1p3Z1dQcGtFMGsrdHdKSUdqanJnNnlJSFFCam9wRTBaZ1ZncVRWSFBTT0xtR3plRUdIckI3djM0czAwUUk3MFFBYjBiQzRhdFNwMUpWSXg2bTFGQnAzL0pzb2w1aVY2ZFdZYThLemg2Z3lTeGowdElMbkdlSHczRUhQUUllaWNsVXdQRmxORTQ0bTdOeHlDc1NlSnhEbGRCbUNWWWMvUSt1NkplQXc2dDlYbGR3bEVPKzNCdEhiZUsxa1RDdjZvNTdhL2RMZ2ZmOHJ5aHM1T3FXdHAvT25mNUFoS3BqejZBMnFad080VzdyNzdhVExOTmF0cy9YM2ZhOXZOdWUvLzcyVTBacHlpWnpXV1VMTnVOTmNlbzNGT1ZROWZXNzdNeURNSlJ4RXFReS9zU2lTYTU4KzFFNXUwL2FpOWM4eVpWMTVSOVNOWjdPdUd5elZFVHlvQXpIY1RpTjE1RnM4K2xxa2daeGRNOFZoL2xjYmpOaFJBMlc2ZDV3WFdsOGdDUHdCeU5OdWtYQkF3QUE=
           enchantments:
             mending: 1
       location:
-        bodyYaw: -9.644907
+        bodyYaw: -56.67501
         world: world
-        x: -1534.0485
-        y: 118.8748
-        z: 876.2192
-        yaw: -9.6449
-        pitch: 17.1561
+        x: -1532.3035
+        y: 119.875
+        z: 866.6234
+        yaw: -56.675
+        pitch: 44.0174
       spawned: true
-      hometrait:
-        delay: -1
-        distance: -1.0
-        strategy: TELEPORT
+      hometrait: {}
       equipment:
         hand:
           type_key: bow
           amount: 1
           meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQACGVuY2hhbnRzdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QAC1VuYnJlYWthYmxldAAGY3VzdG9tdXEAfgAGAAAACXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QASHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiR2FueXUgQm93IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJhcXVhIn1dfXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAIdwQAAAAIdABBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJCb3ciLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InJlZCJ9XX10AIl7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJib2xkIjpmYWxzZX1dfXQAsHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4p64IEF0dGFjayBEYW1hZ2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IjIwMCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19dAC1eyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiIgIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2FxdWEifSx7InRleHQiOiLilqAgU2tpbGwgQ3JpdCBDaGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6Iis1MCUiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXQAtXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4pagIFNraWxsIENyaXQgUG93ZXI6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALF7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBSYXRpbmc6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AL17InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBDb29sZG93biBSZWR1Y3Rpb246ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALd7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBTYWZlIEZhbGwgRGlzdGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDI0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX14c3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABFtaW5lY3JhZnQ6bWVuZGluZ3VxAH4ABgAAAAFzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAHm1pbmVjcmFmdDpnZW5lcmljLmF0dGFja19zcGVlZHNxAH4AFQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAEcQB+AAh0AAZhbW91bnR0AAlvcGVyYXRpb250AANrZXl1cQB+AAYAAAAEdAAmb3JnLmJ1a2tpdC5hdHRyaWJ1dGUuQXR0cmlidXRlTW9kaWZpZXJzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+ACUAAAAAAAAAAHNxAH4AJAAAAAB0AA5tbW9pdGVtczpkZWNveXh4AHNxAH4AFQAAAAJ3BAAAAAJ0AA9ISURFX0FUVFJJQlVURVN0ABBISURFX1VOQlJFQUtBQkxFeHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF0AtxINHNJQUFBQUFBQUEvNFdSUVd2Yk1CaUdGUVlodEhSc2c1WEJMcDVZZDFrWVRyWlJ5Q21xckRnbXRoVnNseERTSUpSRXprd2NlemdPb1lUK2g1MTJITHZsdk52TzJUL1pMNWxjRTZjWlc2dUQwS2YzRmQrajl6c0NvQXhPTFlzYUhyRmNoandQNFE3VGtJVjAwZ3pBN2FxQUo0VWgyNW1oZ1lxTzdQN2xCZTFWd0VraDJzZ2k0UGpOU09mUjlWSzVpRmNWOExRUWlZM2J5UFpjY0RLQWN4Rk5nbWlxMU9Dd0RGNFhGcmRqbUNiRGp1RVpHSm5NOVJ5alExaVg5b2pUN085WVh1eGhIWWYyV0JjNTBtNFNGN1RYc011VE5CaUhBamFnYnRJZXJFSTBqNWRSQ2h0MXRRcXA3eStFUEt2dlpJSGpNRTdFQkRaOEhpNUVGYnFmUlZaSjdhWU1YaFZOTktycGhHRktUWTMyYk9ZUTdSSjdCclgzUUVkdENkclBQNC9XMEUyNWJBR3pVcmFudXB2R3lUVnNETmJ3SUNmMjY4Y2lUYVR4VGx6d1ppaDduejJRUnhZakprMWoxLy9aNFhDOGZwZUFSM0l5SlhCOEdZMFN3V2Q4RklwU0JUek9RWXRCV0FYczd1cC93RHU5Z0I1YzdXZDRCWWM1K01zOU9Hb1Ixa0lTWGpOYzd4YjNTNDViQnMvL2l0WkJubUhyK3pqdjZIMFpsSUdaU1IxU09oM0E3Y2JmYnNaWlR0WHNuTy9ielh0bHV6bi8vZTJuZ3RLVWoyZUt4dWQ4S2hyeTFxK3I2cUhyNjNmRm5RVmhxT0FrU0JYOGlVZmozUG4ybzNwMm43VWJyMFNTTzJ2cVA2eGFQSmtLeGVHcGpPUkJHNDdqY0JLdklzVVJrK1U0RGVMb25pY3U5NFhTNGhKRUN4YnBIcmltMWovQUlmZ0RxRWw2K3NFREFBQT0=
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQACGVuY2hhbnRzdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QAC1VuYnJlYWthYmxldAAGY3VzdG9tdXEAfgAGAAAACXQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QASHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiR2FueXUgQm93IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJhcXVhIn1dfXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAIdwQAAAAIdABBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJCb3ciLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InJlZCJ9XX10AIl7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiIsIm9iZnVzY2F0ZWQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJib2xkIjpmYWxzZX1dfXQAsHsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4p64IEF0dGFjayBEYW1hZ2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IjIwMCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19dAC1eyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiIgIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2FxdWEifSx7InRleHQiOiLilqAgU2tpbGwgQ3JpdCBDaGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6Iis1MCUiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXQAtXsidGV4dCI6IiIsImV4dHJhIjpbeyJ0ZXh0IjoiICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZGFya19hcXVhIn0seyJ0ZXh0Ijoi4pagIFNraWxsIENyaXQgUG93ZXI6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALF7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBSYXRpbmc6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10AL17InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBEb2RnZSBDb29sZG93biBSZWR1Y3Rpb246ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDAlIiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX10ALd7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IiAiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSJ9LHsidGV4dCI6IuKWoCBTYWZlIEZhbGwgRGlzdGFuY2U6ICIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSJ9LHsidGV4dCI6IisxMDI0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX14c3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABFtaW5lY3JhZnQ6bWVuZGluZ3VxAH4ABgAAAAFzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAHm1pbmVjcmFmdDpnZW5lcmljLmF0dGFja19zcGVlZHNxAH4AFQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAEcQB+AAh0AAZhbW91bnR0AAlvcGVyYXRpb250AANrZXl1cQB+AAYAAAAEdAAmb3JnLmJ1a2tpdC5hdHRyaWJ1dGUuQXR0cmlidXRlTW9kaWZpZXJzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+ACUAAAAAAAAAAHNxAH4AJAAAAAB0AA5tbW9pdGVtczpkZWNveXh4AHNxAH4AFQAAAAJ3BAAAAAJ0AA9ISURFX0FUVFJJQlVURVN0ABBISURFX1VOQlJFQUtBQkxFeHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF0AtxINHNJQUFBQUFBQUEvNFdSUVl2VFFCaUdwd2dsN0xLaWdvdmdKUTZ1RjR1a1ZWbm9xYk9UYVJxYVpFcVNwWlJ1Q2ROMlVrUFRSTktVc3BUOUQ1NDhpcmVldlhtdS84UmY0bVJEMHEzb2JnN0RmUE85azNtZjl6c0NvQXBPVFpQcUxqRWREN2t1d2wxUFJTYlNTQ3NBdDU4RW5wU0NiUFYwRlVnYXNnYVhGN1F2Z1pPeWFTR1RnT00zWTQxRjF5djVJbDVMNE1YKzE3Wk4rMTRQMmE2T0RlS0F6Z2IyV0pJR2s1RERKdFFNMm9jMWlCYnhLa3BoczZIVUlQWDlKUmQ3NVowb2NCekdDWi9DcHMvQ0phOUI1elBQS3RHN3FZTFg1U05PVnpjTUQ5dTZlQVFabnVQYWVwZDRQZG9uZG10UTBEd3Q1Y1RDSFdTNURqZ1p3Z1dQcGtFMGsrdHdKSUdqanJnNnlJSFFCam9wRTBaZ1ZncVRWSFBTT0xtR3plRUdIckI3djM0czAwUUk3MFFBYjBiQzRhdFNwMUpWSXg2bTFGQnAzL0pzb2w1aVY2ZFdZYThLemg2Z3lTeGowdElMbkdlSHczRUhQUUllaWNsVXdQRmxORTQ0bTdOeHlDc1NlSnhEbGRCbUNWWWMvUSt1NkplQXc2dDlYbGR3bEVPKzNCdEhiZUsxa1RDdjZvNTdhL2RMZ2ZmOHJ5aHM1T3FXdHAvT25mNUFoS3BqejZBMnFad080VzdyNzdhVExOTmF0cy9YM2ZhOXZOdWUvLzcyVTBacHlpWnpXV1VMTnVOTmNlbzNGT1ZROWZXNzdNeURNSlJ4RXFReS9zU2lTYTU4KzFFNXUwL2FpOWM4eVpWMTVSOVNOWjdPdUd5elZFVHlvQXpIY1RpTjE1RnM4K2xxa2daeGRNOFZoL2xjYmpOaFJBMlc2ZDV3WFdsOGdDUHdCeU5OdWtYQkF3QUE=
           enchantments:
             mending: 1
       gravity:
         enabled: true
-    traitnames: lookclose,hometrait,sentinel,type,rotationtrait,equipment,spawned,owner,gravity,skintrait,scoreboardtrait,inventory,location
+    traitnames: location,type,owner,equipment,spawned,gravity,scoreboardtrait,inventory,rotationtrait,hometrait,skintrait,sentinel,lookclose
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '37':
+    metadata:
+      protected: true
+    name: '&aEndermanKiller'
+    uuid: 3c6f5511-51b8-47de-970e-dc06f3e07055
+    traits:
+      location:
+        bodyYaw: 44.438793
+        world: world
+        x: -1530.2654
+        y: 131.6196
+        z: 867.3676
+        yaw: 44.4388
+        pitch: 0.0
+      type: CHICKEN
+      owner:
+        uuid: bd3a5fca-83f2-38a9-b281-607c49a1e59b
+      sentinel:
+        stats_ticksSpawned: 2982341
+        stats_timesSpawned: 2
+        stats_punches: 4
+        stats_attackAttempts: 930
+        stats_damageTaken: 100.5865718126297
+        stats_damageGiven: 1548.8000183105469
+        range: 30.0
+        damage: 400.0
+        close_chase: false
+        invincible: true
+        chaseRange: 0.0
+        allTargets:
+          targets:
+            '0': ENDERMAN
+        allIgnores:
+          targets:
+            '0': OWNER
+      spawned: true
+      gravity:
+        enabled: true
+    traitnames: scoreboardtrait,location,type,owner,sentinel,spawned,gravity
     navigator:
       speedmodifier: 1.0
       avoidwater: false

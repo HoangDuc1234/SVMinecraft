@@ -40,13 +40,13 @@ presets:
     name: 'LVL Strategy - Weighted Random'
     strategies:
       weighted-random:
-        51-100: 50
-        11-50: 100
-        5-10: 50
-        4-8: 40
-        3-6: 30
-        2-4: 20
-        1-2: 10
+        51-100: 70
+        11-50: 60
+        100-150: 50
+        150-200: 40
+        30-60: 40
+        20-40: 40
+        10-20: 40
 
   lvlstrategy-distance-from-origin:
     name: 'LVL Strategy - Distance-from-Origin'
@@ -118,7 +118,7 @@ presets:
     name: 'Vanilla Stat Challenge'
     settings:
       attribute-modifier:
-        merge: false
+        merge: true
         max-health: 0.0
         attack-damage: 0.0
         ranged-attack-damage: 0.0
@@ -140,7 +140,7 @@ presets:
     name: 'Silver Challenge'
     settings:
       attribute-modifier:
-        merge: false
+        merge: true
         max-health: 5.0
         movement-speed: 0.15
         attack-damage: 2.25

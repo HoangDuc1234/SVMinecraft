@@ -409,7 +409,7 @@ SS10:
         type: LIGHTNING_BEAM
         mode: LEFT_CLICK
         damage: 27.0
-        cooldown: 10.0
+        cooldown: 1.0
       ability2:
         type: FIREBOLT
         mode: RIGHT_CLICK

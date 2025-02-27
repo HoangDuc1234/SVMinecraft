@@ -1807,11 +1807,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
           enchants:
@@ -1826,7 +1826,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMgeIWUAPC2J4gIE3GuFwpVgOBi5ImIBN94SHB4iLKyxAcvBwwOIeUFiwMUjC1ePyKweDAGp4ebowMDuaGKKGVQAe/aIIOyKBrvJ0jvfxD3Jl2BqtdGh52qHlyY5FuflFQG8AeRDy0HJjhUPLzR9NW6DgkpibmJ6qEJSaUppckpmfZwWUSNM2VcVQGFDmSoriACIVz1mgAHYeRNZIKZYBAL+NAkijAgAA
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMRC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bTBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkA5RDHyqMCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -1877,11 +1877,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
           enchants:
@@ -1896,7 +1896,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMgcJiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOJkaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0TVUxFAaUuZKiOIBIxXMWKICdB5E1U4plAADCmEwIowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzEQtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN20wVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkA63CWt6MCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -1947,11 +1947,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
           enchants:
@@ -1966,7 +1966,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMphhHAyCGB5g4I1GOFwploOBCxImYNM94eEB4uIKC5AcPBywuAcUFmwMknD1uPzKwSCAGl6eLgzMjibGqGEVgEe/KMKOSKCrPJ3jffyDXBm2RisdWp52aHmyY1FufhHQG0AehDy03Fjh0HLzR9MWKLgk5iampyoEpaaUJpdk5udZASXStE1VMRQGlLmSojiASMVzFiiAnQeVVYplAADl+JpuowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HEZjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMRC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bTBVDYUCZKymKA4hUPGeBAth5EFlTpVjUFOWKx9u8KEHJIIwlDBkAYbNFgKMCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2017,11 +2017,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
           enchants:
@@ -2036,7 +2036,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMvsPEMM4GAQxPMDAG41wuFIsBwMXJEzApnvCwwPExRUWIDl4OGBxDygs2Bgk4epx+ZWDQQA1vDxdGJgdTUxQwyoAj35RhB2RQFd5Osf7+Ae5MmyNVjq0PO3Q8mTHotz8IqA3gDwIeWi5scKh5eaPpi1QcEnMTUxPVQhKTSlNLsnMz7MCSqRpm6piKAwocyVFcQCRiucsUAA7DyILjAoGAGPaEEKjAgAA
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZiVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2mSqGwoAyV1IUBxCpeM4CBbDzILLAoERNUa54vM2LEpQMwljCkAEAHPpHh6MCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2087,11 +2087,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
           enchants:
@@ -2106,7 +2106,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMgcOiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOpoaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0zVQxFAaUuZKiOIBIxXMWKICdB5E1VoplAADP3sXmowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HDpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMVC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bQhVDYUCZKymKA4hUPGeBAth5EFljpVjUFOWKx9u8KEHJIIwlDBkA0TDM0aMCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2124,11 +2124,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+2","italic":false,"color":"white"}]}'
           enchants:
@@ -2143,7 +2143,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMgeIWUAPC2J4gIE3GuFwpVgOBi5ImIBN94SHB4iLKyxAcvBwwOIeUFiwMUjC1ePyKweDAGp4ebowMDuaGKKGVQAe/aIIOyKBrvJ0jvfxD3Jl2BqtdGh52qHlyY5FuflFQG8AeRDy0HJjhUPLzR9NW6DgkpibmJ6qEJSaUppckpmfZwWUSNM2VcVQGFDmSoriACIVz1mgAHYeRNZIKZYBAL+NAkijAgAA
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HBpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMRC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bTBVDYUCZKymKA4hUPGeBAth5EFkjpVjUFOWKx9u8KEHJIIwlDBkA5RDHyqMCAAA=
     '18':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2157,11 +2157,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+8","italic":false,"color":"white"}]}'
           enchants:
@@ -2176,7 +2176,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMgcFiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOpkaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0zVQxFAaUuZKiOIBIxXMWKICdB5G1UIplAABhlLprowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFQtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN20IVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkAEJCnVqMCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2194,39 +2194,6 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
-            Armor: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          - HIDE_UNBREAKABLE
-          Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMgcJiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOJkaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0TVUxFAaUuZKiOIBIxXMWKICdB5E1U4plAADCmEwIowIAAA==
-    '19':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: DIAMOND_LEGGINGS
-        meta:
-          ==: ItemMeta
-          meta-type: ARMOR
-          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv5","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
             Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
             PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
@@ -2246,7 +2213,40 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMphhHAyCGB5g4I1GOFwploOBCxImYNM94eEB4uIKC5AcPBywuAcUFmwMknD1uPzKwSCAGl6eLgzMjqbGqGEVgEe/KMKOSKCrPJ3jffyDXBm2RisdWp52aHmyY1FufhHQG0AehDy03Fjh0HLzR9MWKLgk5iampyoEpaaUJpdk5udZASXStM1UMRQGlLmSojiASMVzFiiAnQeVVYplAAAxLSxbowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzEQtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN20wVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkA63CWt6MCAAA=
+    '19':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"Giáp ","italic":false,"color":"green"},{"text":"[","italic":false,"color":"white"},{"text":"Lv5","italic":false,"color":"red"},{"text":"]","italic":false,"color":"white"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
+            Armor: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
+          enchants:
+            minecraft:mending: 1
+          attribute-modifiers:
+            minecraft:generic.attack_speed:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              operation: 0
+              key: mmoitems:decoy
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HCZjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMVC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bQhVDYUCZKymKA4hUPGeBAth5EFkzpVjUFOWKx9u8KEHJIIwlDBkALbVBzqMCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2264,11 +2264,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+5","italic":false,"color":"white"}]}'
           enchants:
@@ -2283,7 +2283,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMphhHAyCGB5g4I1GOFwploOBCxImYNM94eEB4uIKC5AcPBywuAcUFmwMknD1uPzKwSCAGl6eLgzMjibGqGEVgEe/KMKOSKCrPJ3jffyDXBm2RisdWp52aHmyY1FufhHQG0AehDy03Fjh0HLzR9MWKLgk5iampyoEpaaUJpdk5udZASXStE1VMRQGlLmSojiASMVzFiiAnQeVVYplAADl+JpuowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HEZjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMRC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bTBVDYUCZKymKA4hUPGeBAth5EFlTpVjUFOWKx9u8KEHJIIwlDBkAYbNFgKMCAAA=
     '20':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2297,11 +2297,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
           enchants:
@@ -2316,7 +2316,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMgcOiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOpiaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0zVQxFAaUuZKiOIBIxXMWKICdB5E1VoplAACXtYJeowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HDpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMVC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bQhVDYUCZKymKA4hUPGeBAth5EFljpVjUFOWKx9u8KEHJIIwlDBkAX9qOi6MCAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2334,11 +2334,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+1","italic":false,"color":"white"}]}'
           enchants:
@@ -2353,7 +2353,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4iDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mJWlosGwMfXBHYMvsPEMM4GAQxPMDAG41wuFIsBwMXJEzApnvCwwPExRUWIDl4OGBxDygs2Bgk4epx+ZWDQQA1vDxdGJgdTUxQwyoAj35RhB2RQFd5Osf7+Ae5MmyNVjq0PO3Q8mTHotz8IqA3gDwIeWi5scKh5eaPpi1QcEnMTUxPVQhKTSlNLsnMz7MCSqRpm6piKAwocyVFcQCRiucsUAA7DyILjAoGAGPaEEKjAgAA
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c5BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGLCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C77DzC3C2IYxMAbjTBAKZaDgQviNj9HX1cGT7i7QFxcbgLJwd2jluieeXhhgYJaWrRask+ZiVoa1E2ScPW4g1YUoSYSaKqnc7yPf5Arw9ZopUPL0w4tT3Ysys0vAjoDyIOQh5YbKxxabv5o2gIFl8TcxPRUhaDUlNLkksz8PCugRJq2mSqGwoAyV1IUBxCpeM4CBbDzILLAoERNUa54vM2LEpQMwljCkAEAHPpHh6MCAAA=
     '21':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2367,11 +2367,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
@@ -2390,7 +2390,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/62STUvDMBjHnyFKURRf8CAoxIC76EUUBzutrKEW7AtNFUYdpZvZGK7t6KIgw6sfQS8e9LSzX2F+Ez+J6eaiQwcK5pCQ5/knz+/5J/MACqybpm14xKSBVrFU0ygHJ7ZLcts+HvQbg35dTaMkxXvZbjQP+gdo0C+83T8hLYzCJkMuu7iq81YSF0WisVvY+SZ0rslfxM4vxY9PaIg3yh5MUoZvD3eIRB1+g2rtK4Z0FiGa1C8Z/xdFdQ62pHXOmRNoqqnqJHCJdlr2DNsqbcJwKLAsddkcGBrMqEf7CizKuDCewFo+1Fuvzx2Ub/j5+sn1Ub5RVWBNinRxlnq2RSgc9vCQirYT3sVFH2d0AvrrUt3DArfLk5hlkurtHCzJu1TXtN2SMiZckQlilY9Vy6Ow6OOIxRetuIn2seCYP6aeWxmRGj1MechxEWdbUdDWKU/SG1GmhyeaCl5fujwVwh96w7cZ08bn/5tq4OqkgV7FITA7bCEHC6dxLWXhZVhrs5wCSyNM2YYpUcehabjjvET2zz8dOMcfuF/fnExFhnfCzdfXWwMAAA==
+          custom: H4sIAAAAAAAA/62SzUrrQBSATxElKIpeceFCGAbtRhcWL17oqqEZYsD8kIlCiSGkdSrFJpF0FKR06yPoxoWuuvYV6pv4JE5SOlr8QeFmMWFyvjPznZMzD6DAmmnahkdMGmoNSzWNenhou6S06ePRsD0attQsTjO8k+/G62i4h0bDfy+3D0iL4uiMIZedXrZ4J02qItDeruxufSCdK/Ir2vkpff+ACsNxeG9aNHq5u0EkvuDXqNm9ZEhnMaJp65zx/0IEc7Ahu+ccO6GmmqpOQpdoR3XPsK3aJhSPAsuSy9fQ0GBG3a9M55Nv8hclJ/4RgdVypHeeHy9Que2XW4dX++W2kFmSkOqatltTJtkrMkCs+oFqeRQWfRyz5LSTnKEKDhSYP6Ce2xifbvQx5RHHVZxvRSNsnfI0u8ZVv4+nRMLnpx7PBPiJDx4EgzlYfxuvL4v7M90cr+EQmC1KKMHCUdLMWHQeNbuspMDSWFOWYUrVyaevdCdxqeyfvHXgBBe6CqxKXhcm1LMtQuFvHxcDQLsp74lTcT4I4p73r2AHi8no8TRhORIM4BWk3RluXgMAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2408,11 +2408,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
           enchants:
@@ -2427,7 +2427,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMgcOiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOpoaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0zVQxFAaUuZKiOIBIxXMWKICdB5E1VoplAADP3sXmowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrIyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HDpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMVC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bQhVDYUCZKymKA4hUPGeBAth5EFljpVjUFOWKx9u8KEHJIIwlDBkA0TDM0aMCAAA=
     '22':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2441,11 +2441,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+8","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
@@ -2464,7 +2464,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/62STUvDMBjHnyFKURRf8CAoxIC76MUXVHayrKEW7AtNFUYdpZuZDNdWujgYw6sfQS8e9LSzX2F+Ez+J6eaiQwcK5pCQ5/knz+/5J9MACiybpm14xKSBVrJU0ygGJ7ZLcus+7nVrvW5VTaMkxVvZbjD3uruo1z14u39CWhiFlwy57OKmyutJXBCJ2ubBxjeh0yJ/ETu/FD8+oT7eIHs4Shm+PdwhEl3zNqo0bhjSWYRoUr1i/F8U5SlYk9Y5Z06gqaaqk8Al2mnRM2zraBX6Q4F5qcvmwNBgQt3fUWBWxoXxBJbyoV5/fb5G+Zqfr5609vO1sgJLUqSLs9SzLUJhr4P7VLSR8CYu+DijE9Bfl/IWFrhNnsQsk5Rvp2BO3qW6pu0eoSHhgkwQq3isWh6FWR9HLL6ox5doGwuO6WPquaUBqdHBlIccF3C2FQVtnfIkbYsyHTzSVPD60uSpEP7QG77NmFY+/99YAxdHDfRKDoHJfgs5mDmNKykLr8JKg+UUmBtgyjZMiToMjcMd5iWyf/7pwDn+wP365mQsMrwD36JiTVsDAAA=
+          custom: H4sIAAAAAAAA/62ST0vjQBTAX5GVoFRcxcMehGHQXvSw/kGXngzNkAbMHzJxocQQ0jqVYpOUdCpI6XU/wu7Fg5569ivUb+IncZLS0bKrrGAOEybv92Z+7+UtASiwYZq24RGThlrDUk2jFp7aLilt+Xgybk/GLTWL0wzv5rvpOhkfoMn4+On3HdKiOLpkyGUXgxbvpElVBNo7e9+3/yKda/Ih2vlf+vYOFYbT8I950ejpzy9E4h6/Qc3ugCGdxYimrSvGP4UIFmFTds/56YSaaqo6CV2indU8w7ZOtqB4FFiVXL6GhgYL6tH+fD55J78sOfGPCKxXIr3zeN9DlbZfaZ1eH1XaQmZFQqpr2u4JmmV/lQFi1eqq5VEo+zhmyUUnuUR7OFBgqU49tzE93RhiyiOOqzjfikbYOuVpdoOr/hDPiYSPD32eCfAfPngUjBbh28t4vVnc2nxzvIZD4EtRQgmWz5JmxqKrqNllJQVWppqyDFOqzj69pTuLS2X//KUD57jQVWBd8rowoZ5tEQqHQ1wMAO2mvC9OxfkgiHtev4JdLCajz9OE5UgwgmfycsdbXgMAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2482,11 +2482,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+8","italic":false,"color":"white"}]}'
           enchants:
@@ -2501,7 +2501,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMgcFiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOpkaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0zVQxFAaUuZKiOIBIxXMWKICdB5G1UIplAABhlLprowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrEyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C6E2wUxDGLgjUYYoBTLwcAFcZufo68rgyfcXSAuLjeB5ODuUUt0zzy8sEBBLS1aLdmnzFQtDeomSbh63EErilATCTTV0znexz/IlWFrtNKh5WmHlic7FuXmFwGdAeRByEPLjRUOLTd/NG2BgktibmJ6qkJQakppcklmfp4VUCJN20IVQ2FAmSspigOIVDxngQLYeVBZpVjUFOWKx9u8KEHJIIwlDBkAEJCnVqMCAAA=
     '23':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2515,11 +2515,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
@@ -2538,7 +2538,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/62S3UrDMBTHzxClKBM/EBQUYsDd6I0oE3ZlWUMt2A+aKow6SjczGa6tdFGQsVsfQW+80Ktd+wrzTXwS081Fhw4UzEVCzvkn53f+ySyAAiumaRseMWmgVSzVNMrBse2S3KaP+71Gv1dX0yhJ8U62G8793h7q9w7e7p+QFkbhBUMuO7+u82YSl0SisX2w9U3o3JC/iJ1fih+f0ABvmC2OU4ZvD3eIRFf8FtVa1wzpLEI0qV8y/i+K6gxsSOucUyfQVFPVSeAS7aTsGbZ1uA6DocCC1GVzYGgwpRb3FMjLuDCewHIh1Juvz1eo0PAL9eObYqFRVWBZinRxlnq2RSjsd/CAirYS3sYlH2d0AvrrUt3BArfNk5hlkmp3BublXapr2u7h6ohwUSaIVT5SLY9C3scRi8+b8QXaxYJj9oh6bmVIanQw5SHHJZxtRUFbpzxJb0WZDh5rKnh9afNUCH/oDXczprXP/zfRwKVxA72KQ2B60EIO5k7iWsrCy7DWYjkF5oeYsg1Too5Ck3BHeYnsn306cIY/cL++OZmIDO9nylayWwMAAA==
+          custom: H4sIAAAAAAAA/62SzUrrQBSATxEleKlcrwi6uDAM3m50cUWp0JWhGdKA+SEThRJDSOtUik0i6ShI6dZH0I0LXXV9X6G+iU9yJykdLf6gYBYTJuc7M985OYsACqyapm14xKSh1rRU06iHB7ZLShs+Ho8641FbzeI0w1v5brKORztoPNp7urlHWhRHpwy57OSizbtpUhOBzub23z+vSOeSfIl2Pkvf3aPCcBKuzopGT7fXiMTn/Aq1ehcM6SxGNG2fMf4tRLAAv2X3nCMn1FRT1UnoEu2w7hm2tb8BxaPAT8nla2hoMKdWd2bzyQf5ZcmJf0RgpRLp3ceHc1Tp+JX2wWW10hEySxJSXdN299em2csyQKx6Q7U8CmUfxyw56SanaBsHCiw2qOc2J6cbA0x5xHEN51vRCFunPM2ucM0f4BmR8PFfn2cCfMMHD4PhAqw/j9e7xf2abY7XdAjMFyWU4Mdh0spYdBa1eqykwNJEU5ZhStXpp/d0p3Gp7B8/d+AYF7oKrEheFybUsy1CYXeAiwGgvZT3xak4HwRxz8tXsIXFZPR5mrAcCYbwHzqkEyBeAwAA
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2556,11 +2556,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+6","italic":false,"color":"white"}]}'
           enchants:
@@ -2575,7 +2575,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMphhHAyCGB5g4I1GOFwploOBCxImYNM94eEB4uIKC5AcPBywuAcUFmwMknD1uPzKwSCAGl6eLgzMjqbGqGEVgEe/KMKOSKCrPJ3jffyDXBm2RisdWp52aHmyY1FufhHQG0AehDy03Fjh0HLzR9MWKLgk5iampyoEpaaUJpdk5udZASXStM1UMRQGlLmSojiASMVzFiiAnQeVVYplAAAxLSxbowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrMyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HCZjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMVC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bQhVDYUCZKymKA4hUPGeBAth5EFkzpVjUFOWKx9u8KEHJIIwlDBkALbVBzqMCAAA=
     '24':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
@@ -2589,11 +2589,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+7%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
@@ -2612,7 +2612,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/62STUvDMBjHnyFKmSi+4EFQiAF30YsoDnayrKEW7AtNFUYdpZvZGFtb6aIgw6sfQS8e9LSzX2F+Ez+J6eaiQwcK5pCQ5/knz+/5J3kABdZM0zY8YtJAq1iqaZSDE9sluS0fD/qNQb+uplGS4t1sN5oH/X006Bff7p+QFkZhkyGXXVzVeSuJSyLR2ClufxM61+QvYueX4scnNMQbZfcnKcO3hztEokt+g2qdK4Z0FiGa1NuM/4uiOgeb0jrnzAk01VR1ErhEOy17hm0dbcBwKLAkddkcGBrMqIcHCizIuDCewGoh1Fuvz5eo0PAL9ZPrw0KjqsCqFOniLPVsi1A46OEhFe0kvItLPs7oBPTXpbqLBW6XJzHLJNXbOViUd6muabtHyphwWSaIVT5WLY/Cgo8jFl+04ibaw4Ijf0w9tzIiNXqY8pDjEs62oqCtU56kN6JMD080Fby+dHkqhD/0hm8zpvXP/zfVwJVJA72KQ2B22EIO5k/jWsrCdljrsJwCiyNM2YYpUcehabjjvET2zz8dOMcfuF/fnExFhnezK1QBWwMAAA==
+          custom: H4sIAAAAAAAA/62SzUrDQBCAp4gSFMUfPHgQlkV70YOiKPRkaJYYMD9ko1BiCGndSrFJJF0FKb36CHrxoKeefYX6Jj6Jm5SuFn9QMIcNm/lm95vJTAMosGyatuERk4ZazVJNoxoe2S4prfl40G8O+g01i9MMb+a74Tro76BBf//17hFpURydM+Sys6sGb6VJRQSaG9tb659I55r8iXZ+Sz88osJwGN4ZF41e728RiS/5Daq3rxjSWYxo2rhg/F+IYApWZfecEyfUVFPVSegS7bjqGbZ1sAbFo8C85PI1NDSYUPd2x/PJD/mzkhP/iMBSOdJbL0+XqNz0y42j671yU8jMSUh1Tds9UEbZCzJArOqhankUZn0cs+SslZyjbRwoMH1IPbc2PN3oYsojjis434pG2DrlaXaDK34Xj4mEL88dngnwCx/cC3pTsPI+Xt8WtzjeHK/mEJgsSijBzHFSz1h0EdXbrKTA3FBTlmFK1dGn73RHcansn7534BQXugosSV4XJtSzLUJht4uLAaDtlHfEqTgfBHHPx1ewicVkdHiasBwJevAG1TuauF4DAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -2630,11 +2630,11 @@ data-version: 3|2|3953
           - '{"text":"","extra":[{"text":"Armor","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvE Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+6%","italic":false,"color":"white"}]}'
+            PvP Damage Reduction: ","italic":false,"color":"gray"},{"text":"+8%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"✠
             Armor: ","italic":false,"color":"gray"},{"text":"+3","italic":false,"color":"white"}]}'
           enchants:
@@ -2649,7 +2649,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/+NiYOBg4PMIDgmKjHf1c/Zw9AsJZvCtVgouSSxRslKCCSnpKPm7B5fkF1UqWUVXK/n6+nuGuPoGw7XEH95YXFIE1BAdo5SbmpeSmZeuYBijFKtUG1vLwSAEVw8i40MiA1wZWB2DfP2D2Bhk4XIBYa7xLo6+ju6u8UGuLqHOIZ7+fg4SDGDAyMAdmpdUlJqYnZiUk8rIwcAL1+bn6OvKIKyW6J55eGGBglpatFqyT5mpWlosGwMfXBHYMgcOiGEcDIIYHmDgjUY4XCmWg4ELEiZg0z3h4QHi4goLkBw8HLC4BxQWbAyScPW4/MrBIIAaXp4uDMyOpiaoYRWAR78owo5IoKs8neN9/INcGbZGKx1annZoebJjUW5+EdAbQB6EPLTcWOHQcvNH0xYouCTmJqanKgSlppQml2Tm51kBJdK0zVQxFAaUuZKiOIBIxXMWKICdB5E1VoplAACXtYJeowIAAA==
+          custom: H4sIAAAAAAAA/+NiYGBjkPX19fcMcfUNjg8IC4h3cfR1dHeND3J1CXUO8fT3c1BgAAMOBiG4OhAZHxIZ4MrA6hjk6x/EwSCAKufpwsDsaGrCyMAdmpdUlJqYnZiUk8rIwcDnERwSFBnv6ufs4egXEszgW60UXJJYomSlBBNS0lHydw8uyS+qVLKKrlaCGwuTjz+8sbikCKghOkYpNzUvJTMvXcEwRilWqTa2lo2BD64e7C4HDpjbBTEMYuCNRhigFMvBwAVxm5+jryuDJ9xdIC4uN4Hk4O5RS3TPPLywQEEtLVot2afMVC0N6iZJuHrcQSuKUBMJNNXTOd7HP8iVYWu00qHlaYeWJzsW5eYXAZ0B5EHIQ8uNFQ4tN380bYGCS2JuYnqqQlBqSmlySWZ+nhVQIk3bQhVDYUCZKymKA4hUPGeBAth5EFljpVjUFOWKx9u8KEHJIIwlDBkAX9qOi6MCAAA=
   snapshots: []
 '6':
   uniqueId: bb58e404-a0c9-4279-9f55-a5fde7a68d4d
@@ -3223,7 +3223,7 @@ data-version: 3|2|3953
             ","italic":false,"color":"gray","bold":false},{"text":"Damage","italic":false,"color":"gray"},{"text":":
             ","italic":false,"color":"dark_gray"},{"text":"27 ","italic":false,"color":"white"},{"text":"|","italic":false,"color":"dark_gray","bold":true},{"text":"
             ","italic":false,"color":"gray","bold":false},{"text":"Cooldown","italic":false,"color":"gray"},{"text":":
-            ","italic":false,"color":"dark_gray"},{"text":"10","italic":false,"color":"white"}]}'
+            ","italic":false,"color":"dark_gray"},{"text":"1","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":"| ","italic":false,"color":"dark_gray"},{"text":"Right
             Click ","italic":false,"color":"gray"},{"text":"|","italic":false,"color":"dark_gray"},{"text":"|","italic":false,"color":"yellow"},{"text":"|
@@ -3248,7 +3248,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/71Uy2rbQBSdQgomkNIHpdDVMAuvTJDjhYt3sjyWh0pyqlEXxjFCtUaOiC0Ze0gxjrf9hX6C6KKL0l27U76k/ZLe8UPBab0olG4G5p5zzzlzddExQiX03La7zKM291s9R7eZ4Vtdlz743id5FuXZkMsgikhF3TZnntVwntXtYCQwk2Kyj726UaAlIomNcTy8wqqUZ+JmB+XZ2IpHlzKJkxFuimDbr3gAAa2uWK1gAvpQa8AtOqvfg400HYfp+2RHqGp/SuEqn8Mx2vFMvEvH8l8EqO37Bz8/fsB0MpULPBMhNsUE83R4JeT/IAxK6GnxUdXpe71zih5yT2+3S+jxPsZa6IjzqlZCJwUAe0DRy3Jg/vj2eYGnl7efprgc9ctD67qqlSMweFZwTdDgXtehHNWXZB2Ij1M5J40+gWAQ9/45qBBIO5dpIhRrsCqhRx3uuT2fOkZHdzyO7CWBvZOkQXYl6O2aXKazBbQsSWG/w/3bL3M5g4b+BZmIJFTbVb0gA7JS+k9+46OT/h1Pjex4E2H99PPCXl0PWSussD08rE2Cu6nrTWYxr4e+ghYLodViZsdzmGP6Tarb4GYEc2mnoVAYbXu+YTHjNdShFkexmMHUliRcLyhpnNVPtQoZbveRNKraqbZaVbbabebSZtfy9lVd5fh3sjWlCmN6UbzDpW/egnoLdHTO0ZH6IaBf31sUllMEAAA=
+          custom: H4sIAAAAAAAA/71Uy2rbQBSdQgoikNIHpdDVMAuvTLDihYt3sjyWh0pyqlEXxjFCtUaOiG0Ze0gxjrf9hX6C6KKLdpml8iXtl/SOHwpO60WhdDMw95x7zpmri44R0tBLx+kwnzo8aHZdw2FmYHc8+ui2R/IszrMBl2Eck7K6bc48q+I8qznhUGAmxXgfe3OjQFvEEpujZHCFVSnPxM0OyrORnQwv5SSZDHFDhNt+xQMIaDXFaoZj0IdaHW7xWe0BbKbpKEo/TnYE/U8hPGVzOEUrmYkP6Uj+C//qvn/48/MnTMdTucAzEWFLjDFPB1dC/g9CX0PPi2+qzsDvnlP0mPtGq6Whp/sYa6IjzvWKhk4KANaAotel0Ppx+3WBp5d3X6a4FPdKA/tar5RiMHhRcC3Q4H7HpRzVlmQdiI9SOSf1HoFgEPfh2S8TSDuX6UQoVn+loSdt7nvdgLpm23B9jpwlgbWTpE52JejtWFymswW0LElhv8ODu29zOYOG3gUZi0mklku/IH2yUvrPfuOjk949T43seBNh/fTzwl5dD1krrLA9PKxNgvupGw1mM7+LvoMWi6DVZlbbd5lrBQ1qOOBmhnPppJFQGG35gWkz8y3UoZbEiZjB1JYkWi8oqZ/VTitlMtjuI6nrp5XVqryVbjGPNjq2vy/qKcO/U60qVZjSq+IZHn33HtSboGNwjo7U7wD9AhcjrVZRBAAA
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3345,7 +3345,7 @@ data-version: 3|2|3953
           - HIDE_ATTRIBUTES
           - HIDE_UNBREAKABLE
           Unbreakable: true
-          custom: H4sIAAAAAAAA/71TTW/TQBTcSjSKior4EHDgslqJXFpVdoG2yqnGXpxV7CT1ulRRGlluvEmtJjFKllZVmis/AW6IW87cEBekcONf0F/Cc4zdpBSO+LCS38y+mdm3u4JQHj207Spzqc09o17RbKZ7VtWhSz8aZDppTyctfhYNArIe/yXrdPIMTyfbTtR5KzCToncDePnxC9ak9Fsn2PB7fkcUodreUhZJ7z/h2imdZ6xtKk//4BhR0BHY8WXY7ySsFzewrLAthlL43ZjSWlOVlJMydy5mtsPOscR6NwRrcW06ERcpNp10S9Ag2RCjUABwO8b0KOoG0VkfqjMPqnKNEO/MwJ1Faf/ywztMe2/kOR6IAJuih3nUOhHyfxCaeXQ3m3G8esxAt/iBuplHqxkAo6foScEvhz+/fuvhZLqFdqPQsk5VpdCGLg8ysglNuFutUI62R2SmyruRHJJig4A6eLq+NtcJWBrKqC9iVnOcm2tXe009Q7M1k+4+R7Mvj+5lKK3oJa3icrTaID3RD+AWYDVOtVLirlNPnO+NCJe+JEUS/4Jo1eQyGpyD1ogshPS+fx7KARD/kZWMm+M8epztc+jePnOo4emWxjlanu3Io/uLx+rWaxQt84OqYyyh2/v9o4HwT/yjrljKzVEt9opyl2rWbj3NeicJkgW1szBp6W+BUjwL1Ti8OqNDMguSm3/iVcOknqO5rGLuslT/6npoL5nF3DpyQIQF0K8ERkFc94fSjgIBFYeZJRcOgullAKAYtkMxgKGOSOv3GyFFVdlQ1slx/JiK6s6GMh43c+jRlYzrano5nXkl8YF+ATIfXVaPBAAA
+          custom: H4sIAAAAAAAA/71TTW/TQBTcSrSKior4EHDgslqJXFpVdoGmyinGXpxV7ST1ulRRGlluvEmtJjFKllZVmis/AW6IW87cEBekcONf0F/Cc4zdpBSO+LCS38y+mdl9u4pQDj207Spzqc09o17RbKZ7VtWhSz8aZDppTyctfhYNArIR/yXrdPIMTycFJ+q8FZhJ0bsBvPz4BWtS+q0TbPg9vyOKUG1vK4uk959w7ZTOM9a3lKd/cIwo6Ajs+DLsdxLWixtYVtgWQyn8bkxpratKykmZOxcz22HnWGK9G4K1uDadiIsUm066ZWiQbIhRKABYiDE9irpBdNaH6syDqlwjxDszcGdR2r/88A7T3ht5jgciwKboYR61ToT8H4RmDt3N7jhePWagW/xA3cqhBxlgQp271QrlqDAis0a8G8khKTYINASZ62tzg4DKUEZ9EbOa4xxay9rBJFH0JO/vhj+/fuvhZFjy7Ua+ZZ2qSr7dXJnTrr2mnqHZmklLz9Hsy6F7GUorelmruBytNUhP9AOYAqzGqVbL3HXqidTeiHDpS1Ik8S84rJpcRoNzMDYiC66875+HcgDEf5gj4zjN42yfQ/f2mUMNT7c0ztHybEcO3V88Vrdeo2iZH1QdYwnd3u8fDYR/4h91xdLKHNViryh3qWaV6mnWO0mQLKidhUlLfwuU4lmoxuHVGR2SWZCV+SdeNUzqOZrLKmaJpfpX46G9ZBZz68gBERZAvzIYBXHdH0o7CgRUHGaWXTgIpu8CAMWwHYoBTMCItH6/EVJUlU1lgxzHj6mo7mwq4zFc+KMrGdfV9N30ziuJD/QLDt6jmI8EAAA=
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953
@@ -3845,15 +3845,19 @@ data-version: 3|2|3953
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Gem ATK","italic":false,"color":"green"}]}'
+          display-name: '{"text":"","extra":[{"text":"Ngọc siêu cấp","italic":false,"color":"green"}]}'
           lore:
-          - '{"text":"","extra":[{"text":"red Gem Socket","italic":false,"color":"red"}]}'
+          - '{"text":"","extra":[{"text":"Gem Stone","italic":false,"color":"red"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Success Rate: ","italic":false,"color":"gray"},{"text":"30%","italic":false,"color":"green","bold":true}]}'
+            Success Rate: ","italic":false,"color":"gray"},{"text":"15%","italic":false,"color":"green","bold":true}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Weapon Damage: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
+            PvP Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            PvE Damage: ","italic":false,"color":"gray"},{"text":"+10%","italic":false,"color":"white"}]}'
+          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
+            Additional Experience: ","italic":false,"color":"gray"},{"text":"+30%","italic":false,"color":"white"}]}'
           - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
           - '{"text":"","extra":[{"text":"[","italic":false,"color":"dark_gray","bold":true},{"text":"*","italic":false,"color":"dark_green","bold":true},{"text":"]
             ","italic":false,"color":"dark_gray","bold":true},{"text":"Drag onto an
@@ -3866,58 +3870,7 @@ data-version: 3|2|3953
               key: mmoitems:decoy
           ItemFlags:
           - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3VRTUvDQBAdeiixoKj4cZN1QQ/qQS2i9KBdkiUNNknJRkoIJSwxFbFtSroeSunf8OwtZw/+gfhP/CVuGohWcQ+zO2/fvp03UwNQYNs0bcOlJgs0zyKmoQZt26Hw7uMs7WdpmET3SI+GiMXhUyTwSQ4XMUvrKEsvP19eEXsOw2gyQQ4XUUOCPEsH9dODf9jdiI/jEdL4kD8s6P3ji1/cKyngZ+m53I6KrJfLagl/QPFIxIiP0KOQZUnJPBuPB9N93FNgs7STx8D1OhRWdHlirm1RBdaX7w0NKvqZAqslLHsgXxzy3DNxbxWotZjreAV+M8NMcIEbOE9lsbbORJxMccOf4SWJ4ONtIhJJLJXwvDevwk7J6lLSsa1AIybRaXMLFkuBjZJALbVFLJdBxZfGdr/nZLBOm3hUK9ytLU9Igb2/LQgcKk0YqmvYFlSLn6s/Rs/uVJUyFjjEpc3rohT4Akglkv4fAgAA
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: STONE
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Đổi ĐỒ ","italic":false,"color":"green","bold":true},{"text":"Lv10","italic":false,"color":"red","bold":true}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"Accessory","italic":false,"color":"red"}]}'
-          enchants:
-            minecraft:mending: 1
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmUQjlY6tDzt0PJkx+Tk1OLi/KJKpVgOBiG4YhAZHxIZ4MrA6ejs7Boc7B8UycEggCrv6cLA7OluyMHACxcHWuHKIKmWqJZzZMLD3VMzFUDUJAW1ZLUcnzJDAw4GPo/gkKDIeFc/Zw9Hv5BgBt9qpeCSxBIlKyWYkJKOkr97cAnISVbR1Upwo2Hy8Yc3FpcUATVExyjlpualZOalKxjGKMUq1cbWcjAIYqhn4I1GqAP5kgviBLBT/eHWg7i4rAbJwa3F6TmQAxgAoek51nUBAAA=
-    '8':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3953
-        type: EMERALD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"text":"","extra":[{"text":"Gem Mage","italic":false,"color":"green"}]}'
-          lore:
-          - '{"text":"","extra":[{"text":"red Gem Socket","italic":false,"color":"red"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Success Rate: ","italic":false,"color":"gray"},{"text":"30%","italic":false,"color":"green","bold":true}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":" ","italic":false,"color":"dark_aqua"},{"text":"■
-            Magic Damage: ","italic":false,"color":"gray"},{"text":"+5%","italic":false,"color":"white"}]}'
-          - '{"text":"","extra":[{"text":"","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
-          - '{"text":"","extra":[{"text":"[","italic":false,"color":"dark_gray","bold":true},{"text":"*","italic":false,"color":"dark_green","bold":true},{"text":"]
-            ","italic":false,"color":"dark_gray","bold":true},{"text":"Drag onto an
-            item ","italic":false,"color":"green","bold":false},{"text":"to apply!","italic":false,"color":"gray"}]}'
-          attribute-modifiers:
-            minecraft:generic.attack_speed:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              operation: 0
-              key: mmoitems:decoy
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          custom: H4sIAAAAAAAA/3VRTUvDQBAdFEosKCqKN1kX9KAerEWUHkqXZEkDTVKyEQmhhCWmpdg2JV0PpfRvePaWs+AviP/EX+KmgX4o7mFmZ+bt482+MoACx6ZpGy41WaB5FjENNWjZDoVPH2dpN0vDJHpGejRELA5fIoGv83YRs7SKsvT+++0dsdcwjCYT5HAR1WSTZ+mgenP+D9rkvX6IND7kvQW6e3X3C/og3/tZeivTZVF1clYt4T0Uj0SM+Aj1hVQlGfNqPB5Mz3BHgcPlNnkMXK9NYUeXN+baFlVgf3NuaLCtVyoK7C778g8olC94vrMUGilQbjLX8YpBY4aZ4ALXcF5KubbORJxMcc2f4Q2O4OtjIhIJXFHheWeuwMESRi21SSyXwZYvpZ+sjDBYu0U8qhX69zYtUOD075KBQ6VIQ3UN24LSEyVt2yqtecseVZUyFjjEpY06LM763CS6dF4jMtPGUTGHH+CgpkQgAgAA
+          custom: H4sIAAAAAAAA/4WSTUvDMBjHM4VRB4KvV4nBeVCRzSHKDrLShq6yvtBUcYxRQu1GYevG1olj7CN49exFCt686q37JPOTmG5atjExhyd5/vmR/J8nSQHAgV1F0WQTK8QSyyqvyIJV0gycSFRQGNTCwJacJiR+y3PQSaRMYxjkYBhcfD2/QNKzbafbhQb1nTwTaRg0sufpP2j9QYcibdL6hK0dZzPpJQz+l+Hv713fbXm0AfFj2+m4jmf/4LnMwuWXzFElDM7YdDTNqpFPsUPrsOX5LUg96PqsTHZ2lLXbjf4+qnJgK25NFC2zrGOwJrEVMTUVc2Bjfl8WwaqkZDmwHuusoRjsHFK1Pv58smHXHb31oD3+eG0nwXZM6bfYEnmFl3DhAExGEuzFu7woyqasqXzJwnc6NmSsCrhwNQU5sBmDTC/yqknASoWZTxWJaZSnDq4HiPjUR3kUpawvmsSetNNH+coAzZm1Ru9dv8PAZZ7RsDpMznwYciMImBDL4E1cOP11PluXvlAX+AYnHj/ZcwIAAA==
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3953

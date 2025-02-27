@@ -1437,9 +1437,9 @@ A41:
     name: '&aGiáp &f[&cLv4&f]'
     enchants:
       mending: 1.0
-    damage-reduction: 5.0
-    pve-damage-reduction: 5.0
-    pvp-damage-reduction: 5.0
+    damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
     armor: 2.0
     unbreakable: true
 AXIT:
@@ -1454,9 +1454,9 @@ A42:
     name: '&aGiáp &f[&cLv4&f]'
     enchants:
       mending: 1.0
-    pve-damage-reduction: 5.0
-    pvp-damage-reduction: 5.0
-    damage-reduction: 5.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
+    damage-reduction: 6.0
     armor: 6.0
     unbreakable: true
 GIAYLONGVU:
@@ -1469,9 +1469,9 @@ A43:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv4&f]'
-    damage-reduction: 5.0
-    pve-damage-reduction: 5.0
-    pvp-damage-reduction: 5.0
+    damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
     unbreakable: true
     armor: 5.0
 A44:
@@ -1480,9 +1480,9 @@ A44:
     name: '&aGiáp &f[&cLv4&f]'
     enchants:
       mending: 1.0
-    pve-damage-reduction: 5.0
-    pvp-damage-reduction: 5.0
-    damage-reduction: 5.0
+    pve-damage-reduction: 6.0
+    pvp-damage-reduction: 6.0
+    damage-reduction: 6.0
     unbreakable: true
     armor: 1.0
 THIS:
@@ -1495,9 +1495,9 @@ A51:
       mending: 1.0
     name: '&aGiáp &f[&cLv5&f]'
     unbreakable: true
-    damage-reduction: 6.0
-    pve-damage-reduction: 6.0
-    pvp-damage-reduction: 6.0
+    damage-reduction: 8.0
+    pve-damage-reduction: 8.0
+    pvp-damage-reduction: 8.0
     armor: 3.0
 A52:
   base:
@@ -1505,9 +1505,9 @@ A52:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv5&f]'
-    damage-reduction: 6.0
-    pve-damage-reduction: 6.0
-    pvp-damage-reduction: 6.0
+    damage-reduction: 8.0
+    pve-damage-reduction: 8.0
+    pvp-damage-reduction: 8.0
     armor: 8.0
     unbreakable: true
 A53:
@@ -1516,9 +1516,9 @@ A53:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv5&f]'
-    damage-reduction: 6.0
-    pve-damage-reduction: 6.0
-    pvp-damage-reduction: 6.0
+    damage-reduction: 8.0
+    pve-damage-reduction: 8.0
+    pvp-damage-reduction: 8.0
     unbreakable: true
     armor: 6.0
 A54:
@@ -1527,9 +1527,9 @@ A54:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv5&f]'
-    damage-reduction: 6.0
-    pve-damage-reduction: 6.0
-    pvp-damage-reduction: 6.0
+    damage-reduction: 8.0
+    pve-damage-reduction: 8.0
+    pvp-damage-reduction: 8.0
     armor: 3.0
     unbreakable: true
 A61:
@@ -1538,9 +1538,9 @@ A61:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv6&f]'
-    damage-reduction: 7.0
-    pve-damage-reduction: 7.0
-    pvp-damage-reduction: 7.0
+    damage-reduction: 10.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
     unbreakable: true
     armor: 3.0
     gem-sockets:
@@ -1553,9 +1553,9 @@ A62:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv6&f]'
-    damage-reduction: 7.0
-    pve-damage-reduction: 7.0
-    pvp-damage-reduction: 7.0
+    damage-reduction: 10.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
     unbreakable: true
     armor: 8.0
     gem-sockets:
@@ -1568,9 +1568,9 @@ A63:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv6&f]'
-    damage-reduction: 7.0
-    pve-damage-reduction: 7.0
-    pvp-damage-reduction: 7.0
+    damage-reduction: 10.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
     unbreakable: true
     armor: 6.0
     gem-sockets:
@@ -1583,9 +1583,9 @@ A64:
     enchants:
       mending: 1.0
     name: '&aGiáp &f[&cLv6&f]'
-    damage-reduction: 7.0
-    pve-damage-reduction: 7.0
-    pvp-damage-reduction: 7.0
+    damage-reduction: 10.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
     unbreakable: true
     armor: 3.0
     gem-sockets:
