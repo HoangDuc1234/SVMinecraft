@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 113.185.55.206
+ip-address: 27.76.206.220
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1740645225820
+  lastteleport: 1740678390466
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740645272804
-  login: 1740643760651
+  logout: 1740678467485
+  login: 1740678259565
 money: '0'
 last-account-name: YeuDuy
 lastlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1483.759613766238
-  y: 110.0
-  z: 862.3229956610242
-  yaw: 76.4613037109375
-  pitch: 50.556949615478516
+  x: -1526.5915117753002
+  y: 112.0
+  z: 869.7203062782053
+  yaw: -154.35064697265625
+  pitch: 21.253299713134766
 logoutlocation:
   world: 68c6649e-95ca-449e-845f-9fdd42053586
   world-name: world
-  x: -1538.9733256338106
-  y: 115.0
-  z: 864.4616323109333
-  yaw: 23.653839111328125
-  pitch: 20.418140411376953
+  x: -1534.0583052254929
+  y: 118.0
+  z: 863.8598381637577
+  yaw: 16.5068359375
+  pitch: 27.00748634338379
 homes:
   home:
     world: 68c6649e-95ca-449e-845f-9fdd42053586

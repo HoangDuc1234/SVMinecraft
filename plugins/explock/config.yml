@@ -1,0 +1,8 @@
+enable: true
+sendCancelMessage: false
+updateChecker: true
+cancelExplosionDamage: true
+keepItemsOnExplosion: false
+enable-world-filter: false
+lockBlocks: false
+updateInfoToPlayer: true

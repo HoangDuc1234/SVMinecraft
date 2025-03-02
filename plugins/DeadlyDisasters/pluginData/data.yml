@@ -5,7 +5,7 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 109834
+  catalogFetchCooldown: 20091
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'
@@ -98,9 +98,9 @@ timers:
   68c6649e-95ca-449e-845f-9fdd42053586:
     43f59985-74e9-3264-a600-e9e49c0843c2: 225
     9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 343
-    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 309
+    320f58db-706f-3c41-9d9f-5f96e3c8a2df: 101
     10a8fc32-3fe1-3ff5-b158-d4bfd92989a8: 415
-    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 93
+    bd3a5fca-83f2-38a9-b281-607c49a1e59b: 310
   a247729e-4e99-4903-9b81-b1d41f85d80c:
     43f59985-74e9-3264-a600-e9e49c0843c2: 304
     9bdbd2c8-02d8-3157-a907-d4089ad62ae6: 254

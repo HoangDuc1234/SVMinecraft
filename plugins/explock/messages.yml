@@ -1,0 +1,55 @@
+Prefix: ' &8»&r '
+None: None
+All: All
+Disabled: '&cDisabled'
+Config:
+  reload: Loading config...
+  loaded: '&aSuccessfully reloaded'
+Sender:
+  noPermission: '&cYou don''t have permission to this.'
+explosionLockOff: '&7Explosion lock is &coff.'
+explosionLockOn: '&7Explosion lock is &aon.'
+cancelMessages:
+  'Off': '&7Messages about explode cancel are &coff&7.'
+  'On': '&7Messages about explode cancel are &aon&7.'
+explosionLockEnabled: '&7Successfully &aenabled &7explosion lock.'
+explosionLockDisabled: '&7Successfully &cdisabled &7explosion lock.'
+cancelExplosionDamage:
+  'Off': '&7Explosion damage cancel is &coff&7.'
+  'On': '&7Explosion damage cancel is &aon&7.'
+updateChecker:
+  'Off': '&7Update checker is &coff&7.'
+  'On': '&7Update checker is &aon&7.'
+explosionCancelMessage: '&4Explosion canceled.'
+lockedEntities: '&7Locked entities: '
+wrongCommand: '&cWrong command! Type /explock help to get command list.'
+blockExplosionLockInfo:
+  'Off': '&7Blocks explosion lock is &coff'
+  'On': '&7Blocks explosion lock is &aon'
+updateInfoToPlayer:
+  'Off': '&7Update info to player on join is &coff'
+  'On': '&7Update info to player on join is &aon'
+worldFilter:
+  'Off': '&7World filter is &cdisabled'
+  'On': '&7World filter is &aenabled'
+  List: '&7Explosion lock in worlds: '
+keepItemsOnExplosion:
+  'Off': '&7Keeping items on explosion is &cdisabled'
+  'On': '&7Keeping items on explosion is &aenabled'
+modules:
+  gui:
+    explosionDamageDisabled: '&7Successfully &cdisabled &7explosion damage lock'
+    explosionDamageEnabled: '&7Successfully &aenabled &7explosion damage lock'
+    updateCheckerDisabled: '&7Successfully &cdisabled &7update checker'
+    updateCheckerEnabled: '&7Successfully &aenabled &7update checker'
+    blockExplosionDisabled: '&7Successfully &cdisabled &7block explosion lock'
+    blockExplosionEnabled: '&7Successfully &aenabled &7block explosion lock'
+    sendUpdateInfoToPlayerDisabled: '&7Successfully &cdisabled &7update messages to
+      players'
+    sendUpdateInfoToPlayerEnabled: '&7Successfully &aenabled &7update messages to
+      players'
+    worldFilterDisabled: '&7Successfully &cdisabled &7world filter'
+    worldFilterEnabled: '&7Successfully &aenabled &7world filter'
+    keepingItemsDisabled: '&7Successfully &cdisabled &7keeping items on explosion'
+    keepingItemsEnabled: '&7Successfully &aenabled &7keeping items on explosion'
+    savedSettings: '&7Config saved!'
